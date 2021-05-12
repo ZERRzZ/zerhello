@@ -1,0 +1,264 @@
+< JavaScript Advance >
+
+1.数据类型
+  分类：
+    基本类型：String, Number, Boolean, Undefined, Null
+    引用类型：Object, Function, Array
+
+  判断：
+    typeof: 返回类型字符串，不能区别 null 与 object，object 与 array
+    instanceof：返回布尔值
+    ===：null/undefined
+
+  undefined 与 null：
+    undefined: 定义却未赋值
+    null: 赋值为 null, 表明某变量要赋值为对象 | 将对象变为垃圾对象
+
+
+2.数据、变量、内存 (硬盘)
+  定义：
+    数据：存储在内存中，表示某信息，本质上是 010101...
+    变量：由变量名与变量值组成的可变化的量，占内存空间，变量名查找内存，变量值即为储存的数据
+    内存：
+      内存条(电路板) - 通电 - 产生内存空间 - 存储与处理数据 - 断电 - 内存与数据消失
+      一块内存存储两个值，包括所存储的数据与所对应的地址，内存分为堆(存对象) 与 栈(存普通)
+
+  var a = xxx, a 中保存的是什么：
+    xxx 为基本数据时：保存的是值
+    xxx 为引用数据时：保存的是地址
+    xxx 为变量时：保存的是变量值(值 | 地址值)
+
+  赋值问题：
+    引用变量传递的是地址，共同指向同一个对象，修改影响所有
+    基本变量传递的是值，相互间互不干扰
+
+  实参传递形参是值传递还是引用传递：
+    理解1：都是值(基本 / 地址值) 传递
+    理解2：可能是值传递，也可能是引用传递(地址值)
+
+  JS 引擎如何管理内存：
+    内存生命周期：分配一块内存 - 存储、操作数据 - 释放内存空间
+    释放内存：
+      局部变量：函数执行完自动释放
+      对象：成为垃圾对象 - 垃圾回收器回收
+
+3.对象
+  什么是对象：多个数据的封装体
+  为什么用对象: 便于对多个数据进行管理
+  对象组成：属性，方法
+  如何访问对象：*.属性名,*[属性名]。
+
+4.函数
+  函数的定义：
+    函数声明：function name()
+    表达式：var name = function()
+  函数的调用：
+    直接调用：name()
+    通过对象调用：obj.name()
+    new 调用：new name()
+    任意调用：name.call/apply(obj)
+  回调函数：
+    定义：没有主动去调却能执行的函数
+  立即执行函数(IIFE)：
+    (匿名函数) ()
+    作用：不会污染全局命名空间，隐藏内部实现
+  this 问题
+
+5.分号问题
+  没有应不应该，只有喜不喜欢
+  比用分号的情况：
+    小括号开头前的一条语句
+    中方括号开头的前的一条语句
+
+6.原型与原型链
+  prototype:
+    每个函数都有一个属性 prototype, 指向一个 Object 空对象（原型对象）
+    空对象指没有我们的属性
+    原型对象中有一个属性 constructor，指向函数对象
+    添加属性：xxx.prototype.xxx = xxxxxx,
+  显式原型与隐式原型：
+    函数的 prototype 属性：在定义函数时自动添加，显式原型
+    实例对象的 __proto__属性：创建对象时自动添加，隐式原型
+    对象隐式原型值为其构造函数显式原型的值，由于是引用类型，值是地址
+    所有 function 也有隐式原型，指向 Function 的显式原型
+    Function 也有隐式原型，指向自身的显示原型
+  原型链：
+    访问一个对象的属性时：
+      现在自身的属性里找，找到返回
+      如果没有，再沿着__proto__这条链向上查找，找到返回
+      如果最终没有，返回 undefined
+  new 一个对象的隐含操作：
+    创建一个空对象
+    this.__proto__ = Fn.prototype
+    执行函数
+
+7.instanceof
+  表达式：A instanceof B
+  如果 B 函数的显式原型在 A 对象的原型链上，则 true
+
+8.变量提升与函数提升
+  var 声明的变量，会提升到当前作用域的顶部，但并不赋值
+  function 声明的函数，会提升到当前作用域顶部，可在函数声明之前调用
+  先执行变量提升，在执行函数提升
+
+9.执行上下文
+  全局执行上下文：
+    * 在执行全局代码前将 window 确定为全局执行上下文
+    * 对全局数据进行预处理
+      * var 定义的全局变量 ==> undefined, 添加为 window 属性
+      * function 声明的全局函数 ==> 赋值(函数定义)，添加为 window 方法
+      * this ==> 赋值为 window
+    * 开始执行全局代码
+  函数执行上下文
+    * 调用函数，准备执行函数之前，创建对应的函数执行上下文对象(虚拟，存在于栈中)
+    * 对局部函数进行预处理
+      * 形参变量 ==> 赋值实参 ==> 添加为执行上下文的属性
+      * arguments ==> 赋值实参列表，添加为执行上下文属性
+      * var 定义的局部变量 ==> undefined，添加为...
+      * function 声明的函数 ==> 赋值 (fun), 添加为...
+      * this ==> 赋值调用函数的对象
+    *开始执行函数体代码
+  执行上下文栈：window 永远在栈底，函数会依次压栈，然后出栈
+
+10.作用域与作用域链
+  全局作用域
+  函数作用域
+  块作用域（ES6）
+
+11.闭包
+  如何产生闭包：
+    当一个嵌套的内部函数引用了嵌套的外部函数的变量时，就产生了闭包
+  什么是闭包：
+    * 闭包是嵌套的内部函数
+    * 闭包是包含被引用变量的对象
+  产生闭包的条件：
+    * 函数嵌套
+    * 内部函数引用了外部函数的数据（变量/函数）
+    * 函数定义时才有闭包
+  闭包的作用：
+    * 闭包里的变量在函数执行完后，仍然存活在内存中(延长了局部变量的生命周期)
+    * 让函数外部可以操作到函数内部的数据
+  闭包的生命周期：
+    产生：在嵌套的内部函数定义执行完成时就产生了
+    死亡：在嵌套的内部函数成为垃圾对象时
+  必报的缺点：
+    * 函数执行完后，函数内部的局部变量没有释放，占用内存时间会变长
+    * 造成内存泄露
+    解决：
+      * 能不用闭包就不用闭包
+      * 及时释放
+
+12.内存溢出与内存泄漏
+  内存溢出: 程序所需内存超过了剩余内存
+  内存泄漏：
+    占用的内存没有及时释放
+    * 闭包
+    * 没有及时清理的计时器或回调函数
+    * 意外的全局变量
+
+13.线程与进程
+  进程：程序执行所占有的一个独立的内存空间
+  线程：进程内一个独立的执行单元，cpu 最小调度单元
+
+14.硬核原理
+  执行栈：所有代码都在此空间内执行
+
+  浏览器内核：
+    js 引擎，html/css 文档解析，DOM/css 模块，布局与渲染 ---主线程
+    定时器模块，事件响应模块，网络请求模块... ---分线程
+
+  js 引擎：先执行初始化代码，最后执行回调代码
+
+  回调对列：包括任务队列，事件队列，消息队列等，从回调队列中一次取出回调代码到执行栈中执行
+
+15.H5 Web Workers 多线程
+  可以将大计算的代码交给 web workers 运行而不冻结用户界面
+
+  操作：创建一个分线程的 JS 文件，在主线程发消息并设置回调
+
+  web workers 提供一构造函数：
+    Worker  -- var worker = new Worker("worker.js")
+    事件：worker.onmessage
+    数据：event.data
+    方法：worker.postMessage() -- 发送数据
+
+  在分线程 JS 中，全局对象并非 window，而是 worker 本身
+
+16.JS中的预编译
+  1.创建一个AO对象，供js引擎自己去访问
+  2.找形参和变量的声明，作为ao对象的属性名，值是undefined
+  3.实参和形参相统一
+  4.找函数声明，会覆盖变量声明
+
+  预编译结束后，就是js的逐行执行
+
+17.JS中的深浅拷贝
+  浅拷贝：
+    创建一个新对象，当属性是基本类型则拷贝基本类型的值
+    当属性是引用类型，拷贝的是内存地址
+    实现： 
+      function shallowCopy(obj) {
+        let target = {}
+        for (let i in obj) {
+          if (obj.hasOwnProperty(i)) {
+            target[i] = obj[i]
+          }
+        }
+        return target
+      }
+    其他实现方式：
+      // 用于对象的合并，将源对象（source）的所有可枚举属性，复制到目标对象
+      Object.assign(target, source1,source2,...)
+      拓展运算符：...
+      数组：concat
+  深拷贝：
+    将一个对象从内存中完整拷贝一份出来，从堆内存中开辟一个新的区域存放新对象
+    function deepClone(obj) {
+      // let target = {}
+      // 返回构造器函数，当是对象是构造对象，是数组时构造数组
+      let target = new obj.constructor()
+      if (typeof obj !== 'object') return obj
+      if (obj === null) return obj
+      if (obj instanceof Date) return new Date(obj)
+      if (obj instanceof RegExp) return new RegExp(obj)
+      for (let i in obj) {
+        if (obj.hasOwnProperty(i)) {
+          target[i] = deepClone(obj[i])
+        }
+      }
+      return target
+    }
+    其他实现方法：
+      JSNO.parse(JSON.stringify())
+      递归
+  赋值： 包对象赋值给一个变量时，赋的是栈中的地址，而不是堆中的数据，即指向同一个存储空间
+
+18.JS防抖函数
+  是闭包的实际引用
+
+19.JS节流函数
+  是闭包的实际引用
+
+20.JS的 event-loop 事件循环
+  js语言的特点：单线程，解释型语言
+  事件循环的组成：调用栈，微任务队列，消息队列
+  执行代码流程：
+    1.代码开始执行时，会从全局一行一行的执行代码，遇到函数调用，会压入调用栈，当函数返回时则从调用栈弹出
+    2.js中的异步操作如fetch，setTimeout，setInterval压入调用栈后里面的消息会进入消息队列，等调用栈清空后再执行
+    3.promise,async,await的异步操作会加入到微任务中，在调用栈清空时立即执行，调入栈中加入的微任务会立即执行
+
+21.JS 加载时间线
+  1. 创建 document 对象，开始解析，document.readyState = 'loading'
+  2. 遇到 link, script, img 的 src 外部文件，会创建一个新的线程，异步去加载，主线程会继续解析
+  3. 当页面解析完成时，document.readyState = 'interactive'
+  4. 此时，document 的 DOMContentLoaded 事件生效
+  5. 当所有的异步操作执行完成之后，document.readyState = 'complete', 触发 load 事件
+  例：
+    <script>
+      console.log(document.readyState);
+      document.onreadystatechange = () => {
+        console.log(document.readyState);
+      }
+      document.addEventListener('DOMContentLoaded', () => console.log('111'))
+      window.addEventListener('load', () => console.log('222'))
+    </script>

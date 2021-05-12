@@ -1,0 +1,31 @@
+缓存
+客户端可以自动保存以访问过的文档的副本
+优点:
+与缓存相关的消息头:
+	Cache-Control:缓存文档的新鲜秒数(0/no-cache)
+	Expires:明确指定缓存过期时间,格林尼治时间格
+
+
+在网页中设置消息头
+在meta标记中完成消息头的设定:
+	http-equiv:消息头名称
+	content:消息头对应内容
+		<head>
+			<meta http-equiv="Content-Type" content="text/html">
+		</head>
+
+
+--DOM操作--
+全称:document object model,文档对象模型,让JS有能力操作页面的元素
+获取页面的元素:为元素增加ID属性,在JS中用ID获取页面元素
+	var elem = document.getElementById("元素ID");
+		.innerHTML:修改/获取标记内的内容
+		.value:修改/获取表单控件的数据
+简化document.getElementById():封装
+	function $(id){return document.getElementById(id);}
+HTML中的事件:
+	onclick:
+	onblur:文本框与密码框的事件,鼠标失去焦点时
+	onfocus:文本框与密码框的事件,鼠标获取焦点时
+	onload:<body>事件,在网页加载时执行
+	onchange:<select>标签中
