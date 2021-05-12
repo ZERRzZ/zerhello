@@ -1,2 +1,2 @@
 # note-repository
-write and learn
+note and learn
