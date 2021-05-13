@@ -282,7 +282,7 @@ export class AppComponent {
 
 ```html
 <div>
-  <!-- #input 表示为这个元素起一个名字，该名字就是元素对象本身 -->
+  <!-- #input 表示为这个元素起一个名字，该名字就是元素对象本身, 临时变量 -->
   <p><input type="text" #input></p> 
   <p><input type="button" value="点击" (click)="getContent(input.value)"></p>
 </div>
@@ -292,3 +292,11 @@ public getContent(input:string|object):void {
   console.log(input);
 }
 ```
+
+# Angular 管道
+
+- `|` 管道符号，前面是想要改变的值，后面是管道函数, 如 `{{abcd | uppercase}}`
+- 管道可以用链式的写法
+- 常见管道：`| json` 将 js 对象转换为 json 字符串
+- 常见管道：`| data: '格式'` 例：`Date.now() | data: 'YYYY-MM-DD'` 有问题，不能显示 DD
+- 管道可以自定义
