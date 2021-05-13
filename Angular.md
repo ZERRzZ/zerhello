@@ -292,4 +292,3 @@ public getContent(input:string|object):void {
   console.log(input);
 }
 ```
-
