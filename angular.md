@@ -293,6 +293,8 @@ public getContent(input:string|object):void {
 }
 ```
 
+- 在表单标签这一特殊的标签下, 可以用 `ngForm` 来获取表单对象
+
 # Angular 管道
 
 - `|` 管道符号，前面是想要改变的值，后面是管道函数, 如 `{{abcd | uppercase}}`
