@@ -278,7 +278,7 @@ export class AppComponent {
 
 - 双向绑定：`[(ngModel)]` 需要引入内置的表单模块 `FormsModule`
 - 不用内置表单模块：直接在标签内部定义临时元素 `#name` 表示元素对象本身
-- 在标签内定义的变量优先级比在 ts 中定义的变量优先级高
+- 在标签内定义的变量优先级比在 ts 中定义的变量优先级高, 且不可以赋值
 
 ```html
 <div>
@@ -294,6 +294,14 @@ public getContent(input:string|object):void {
 ```
 
 - 在表单标签这一特殊的标签下, 可以用 `ngForm` 来获取表单对象
+- 为表单的临时变量赋值 ngForm , 此时该临时变量是表单对象, 而未赋值时临时变量是表单元素
+
+```html
+<form #form='ngForm'>
+  <input type="text" name="text" id="text" placeholder="put your name">
+  <input type="button" value="click me" (click)="show(form)">
+</form>
+```
 
 # Angular 管道
 
@@ -301,4 +309,7 @@ public getContent(input:string|object):void {
 - 管道可以用链式的写法
 - 常见管道：`| json` 将 js 对象转换为 json 字符串
 - 常见管道：`| data: '格式'` 例：`Date.now() | data: 'YYYY-MM-DD'` 有问题，不能显示 DD
-- 管道可以自定义
+- 管道可以被自定义：生成管道文件 - 在管道文件中的 transform 中写内容
+
+```ts
+```
