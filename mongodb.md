@@ -105,6 +105,15 @@ mongooose.connection.on('error', (err) => console.log(err))
 // 断开连接时
 mongooose.connection.on('disconnected', () => console.log('disconnnected'))
 ```
+## mongoose 中的异步
+
+- connect 方法返回异步的 promise 对象, 可以用 then 与 catch 来判断是否连接成功
+- disconnect 方法同上
+
+```js
+mongoose.disconnect().then(() => console.log("succeed")).catch((err) => console.log(err))
+```
+
 ## 定义schema与model
 - schema：映射 MongoDB 中的集合，并定义集合中文档的结构
 - model：由 schema 生成的模型，负责查询，修改，删除文档
