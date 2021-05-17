@@ -1,53 +1,51 @@
 # angular/cli 的使用
 
 - 全局安装脚手架 `npm i @angular/cli -g`
-- 生成项目 `ng new <project-name>` 可指定不生成测试文件 `--skip-tests`
-- 运行项目 `ng serve` 可指定是否自动在浏览器中打开 `--open` 可指定端口 `--port <port>` 在项目根目录下运行即可
+- 生成项目 `ng new <project-name>` 不生成测试文件 `--skip-tests`
+- 运行项目 `ng serve` 是否自动在浏览器中打开 `--open` 指定端口 `--port <port>` 在项目根目录下运行
 - 生成组件 `ng generate component filename` 默认在 `/src/app/` 下生成文件，可自定义生成位置
 - 生成管道 `ng generate pipe` 
 - 生成指令 `ng generate directive`
 
-# angular 文件结构
-
-- 模块 Module.ts 的基本结构
-- 导入所有用到的组件并声明
+# angular 组件结构
 
 ```ts
-// 导入核心模块
+// 导入核心 Component
+import { Component } from '@angular/core'
+// 装饰器定义元数据
+@Component({
+  // selector 组件名称, css 选择器
+  selector: 'app-root', 
+  // template 组件模板, templateUrl 模板地址
+  templateUrl: './app.component.html', 
+  // style 组件样式, styleUrls 多个样式地址
+  styleUrls: ['./app.component.css'] 
+})
+// 导出该组件类, 处理数据和功能
+export class AppComponent {}
+```
+
+# angular 模块结构
+
+```ts
+// 导入核心模块 NgModule, BrowserMoudle
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 // 导入要用的所有组件
 import { AppComponent } from './app.component';
-
+// NgModule 装饰器
 @NgModule({
-  declarations: [ // 在此声明要用的组件
-    AppComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent] // 首页需要挂载的组件, 首页中其他组件无效
+  // declarations 声明要使用的组件
+  declarations: [AppComponent],
+  // imports 引入要使用的模块
+  imports: [BrowserModule], 
+  // providers
+  providers: [], 
+  // bootstrap 指定首页需要挂载的组件, 首页中其他组件无效
+  bootstrap: [AppComponent] 
 })
-export class AppModule { }
-```
-
-- 组件 component.ts 的基本结构
-- 组件由三个文件组成 `css, html, ts`，表示样式，模板，代码
-
-```ts
-// 导入核心模块 Component 组件
-import { Component } from '@angular/core';
-// angular 核心模块里导入组件装饰器
-// 装饰器定义元数据
-@Component({
-  selector: 'app-root', // selector 组件名称，
-  templateUrl: './app.component.html', // template 组件模板或模板地址
-  styleUrls: ['./app.component.css'] // style 组件样式或样式文件
-})
-export class AppComponent {
-  title = 'my-app';
-}
+// 导出该模块类
+export class AppModule {}
 ```
 
 # angular 样式简介
