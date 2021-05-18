@@ -1,19 +1,22 @@
 # angular/cli 的使用
 
-- 全局安装脚手架 `npm i @angular/cli -g`
-- 生成项目 `ng new <project-name>` 不生成测试文件 `--skip-tests`
-- 运行项目 `ng serve` 是否自动在浏览器中打开 `--open` 指定端口 `--port <port>` 在项目根目录下运行
-- 生成组件 `ng generate component filename` 默认在 `/src/app/` 下生成文件，可自定义生成位置
-- 生成管道 `ng generate pipe` 
-- 生成指令 `ng generate directive`
-- 生成服务 `ng generate service`
+- `npm i @angular/cli -g` 全局安装脚手架
+- `ng new <project-name>` 生成项目，选项 `--skip-tests` 指定不生成测试文件 
+- `ng serve` 在项目根目录下执行，运行项目，选项 `--open` 指定是否自动在浏览器中打开，选项 `--port <port>` 指定端口
+ 
+# angular 组件
 
-# angular 组件结构
+## 组件概述
+
+- 组件由 HTML 模版, Typescript 类, CSS 选择器, CSS 样式组成
+- `ng generate component <name>` 用脚手架创建组件，可指定生成的位置，默认在 `src/app/` 下生成
+
+## 组件类结构
 
 ```ts
 // 导入核心 Component
 import { Component } from '@angular/core'
-// 装饰器定义元数据
+// 装饰器定义组件元数据
 @Component({
   // selector 组件名称, css 选择器
   selector: 'app-root', 
@@ -25,6 +28,99 @@ import { Component } from '@angular/core'
 // 导出该组件类, 处理数据和功能
 export class AppComponent {}
 ```
+
+## 组件生命周期
+
+- 当实例化组件类并渲染组件视图及其子视图时，组件实例的生命周期就开始了
+- 生命周期一直伴随着变更检测，Angular 会检查数据绑定属性何时发生变化，并按需更新视图和组件实例
+- 当销毁组件实例并从 DOM 中移除它渲染的模板时，生命周期就结束了
+
+```ts
+// 可以使用生命周期钩子方法来触发组件或指令生命周期中的关键事件
+// 生命周期钩子是一种接口，它允许你监听指令和组件的生命周期，比如创建、更新和销毁
+// 每个接口只有一个钩子方法，方法名是接口名加前缀 ng, 要添加方法需先实施该接口
+// Angular 中生命周期钩子方法的顺序：
+// 在输入属性 (input)/输出属性 (output)的绑定值发生变化时调用，当没有时不调用
+ngOnChanges()
+// 在第一次 ngOnChanges 完成后调用
+ngOnInit()
+// 开发者自定义变更检测
+ngDoCheck()
+// 在组件内容初始化后调用
+ngAfterContentInit()
+// 在组件内容每次检查后调用
+ngAfterContentChecked()
+// 在组件视图初始化后调用
+ngAfterViewInit()
+// 在组件视图每次检查后调用
+ngAfterViewChecked()
+// 在指令销毁前调用
+ngOnDestroy()
+```
+
+## 组件视图包装
+
+- 组件的 CSS 样式被封装进了自己的视图中，而不会影响到应用程序的其它部分
+- `encapsulation: ViewEncapsulation.Emulated` 通过在组件的元数据上设置视图封装模式，你可以分别控制每个组件的封装模式
+
+```ts
+// 视图封装模式
+- "ShadowDom: 使用原生 Shadow DOM 实现, 来为组件的宿主元素附加一个 Shadow DOM (组件样式出不去, 没有样式能进来)"
+- "Emulated(默认值): 通过预处理并改名 CSS 代码来模拟 Shadow DOM 的行为 (全局样式能进来，组件样式出不去)"
+- "None: 不使用视图封装, 把 CSS 添加到全局样式中, 而不会应用上前面讨论过的那些作用域规则、隔离和保护"
+// Emulated 模式下生成的 CSS 代码
+- "当元素属于宿主元素时会被添加一个 _nghost 属性，后面的值随机"
+- "组件中其他元素会被添加一个 _ngcontent 属性，标记出该元素属于那个宿主元素"
+- "每个选择器都加上 _nghost 或 _ngcontent 属性选择器, 用来提供作用域规则"
+```
+
+## 组件的交互
+
+### 父传子
+
+- 利用 `[]` 属性绑定与 `@Input()` 来实现
+- 在父组件中定义数据，父组件模板里引用子组件并为其绑定 DOM 属性并赋值为要传递的值 `[name]='value'`
+- 在子组件中用 `@Input()` 声明输入属性，即可在子组件中模板中使用
+- `@Input()` 将某个类字段标记为输入属性，括号内可传值来指定别名
+
+### 用 setter 截取输入数据
+
+```ts
+// Input() 装饰器，后面是一个整体
+@Input() 
+// get 与 set 被称作 setter , 用来截获输入的数据, 可在此作处理
+get name():string { return this._name; }
+// 本例中将名字两边空格去掉了
+set name(name:string) { this._name = (name && name.trim()) || '<no name set>' }
+// 这条语句必须放在后面
+private _name = ''
+```
+
+### 用 ngOnChanges() 截取输入数据
+
+- 当监视多个输入属性的时候，本方法比用属性的 setter 更合适
+- 当频繁地更改输入属性时，可以每次更改都截取
+
+```ts
+// 会自动引入 OnChanges, SimpleChangs
+import { OnChanges, SimpleChanges } from '@angular/core';
+// 实施接口 OnChanges
+export class NotifyBtnComponent implements OnChanges {
+  // changes 类似于依赖注入，放着改变相关的属性
+  ngOnChanges(changes:SimpleChanges):void {
+    console.log(changes);
+    // 实现上面 name 空格的去除
+    this.name = (this.name && this.name.trim()) || '<no name set>'
+  }
+}
+```
+
+### 子传父
+
+- 利用 `EventEmitter` 自定义事件与 `@Output` 来实现
+- 在在子组件中用 `@Output()` 声明一个自定义事件，该事件是 `EventEmitter` 的实例
+- 在子组件模板中绑定触发事件，在此用自定义事件的 `emit` 方法发射数据
+- 在父组件模板中绑定子组件自定义事件的事件函数，该事件函数的 `$event` 事件参数即 `emit` 发射的数据
 
 # angular 模块结构
 
@@ -49,17 +145,17 @@ import { AppComponent } from './app.component';
 export class AppModule {}
 ```
 
-# angular 样式简介
-
-- `.component.html` 中写模板，在 `.component.css` 中写样式
-- `.component.css` 中样式是只对该组件起作用，会带一个独一无二的属性选择器- 根目录下 `style.css` 中样式是全局的
-- `.component.html` 中可以不像 vue，react 那样必须写在根标签里，因为 angular 自动帮你写了
-
 # angular 框架模式
 
 - angular 是 MVVM 模式，该模式起源于 MVC
 - `M -> model`: 数据，`V -> view`: 视图， `C -> control`: 控制器
 - `VM -> 数据和视图的双向绑定`：只要修改数据，VM 就会自动的改变视图，视图的交互又改变了数据
+
+# angular 样式相关
+
+- 组件的样式是只对该组件起作用, 编译后会带一个独一无二的属性选择器, 而根目录下 `style.css` 中样式是全局的
+- 模版中可以不像 vue，react 那样必须写在根标签里，因为 angular 自动会生成根标签
+- 在 angular 生成的标签上可以直接写样式，但路由输出 `<router-outlet>` 不能在上面写样式
 
 # angular 基础插值语法
 
@@ -123,8 +219,11 @@ public getContent(input:string|object):void {
 
 # angular 管道
 
-- `|` 管道符号，前面是模板变量，想要改变的值，后面是管道函数, 如 `{{abcd | uppercase: xxxx}}`
-- 常见管道：`json` 将 js 对象转换为 json 字符串, `data: '格式'` 例：`Date.now() | data: 'YYYY-MM-DD'` 有问题，不能显示 DD
+- `|` 管道符号，前面是模板变量，想要改变的值，后面是管道函数, 管道函数允许接受参数，紧跟 `:` 来实现
+- `json` 将 js 对象转换为 json 字符串
+- `data` 转变日期格式，例：`Date.now() | data: 'YYYY-MM-DD'` 有问题，不能显示 DD
+- `async` 管道从数据流中返回最新值
+- `currency` 管道把数据转换为货币格式
 - 用 `ng generate pipe <dir/filename>` 在指定位置生成管道，管道应在 `module` 文件的 `declarations` 中声明
 - 在管道文件中的 `transform` 函数中写操作，该函数有两个参数，`value` 指 `|` 前的模板变量，`args` 指 `:` 后的参数, 多个参数间用 `:` 隔开
 - 管道可以用链式的写法，`{{abcd | uppercase | lowercase}}`
@@ -143,65 +242,6 @@ export class TransformRMBPipe implements PipeTransform {
   }
 }
 ```
-
-# angular 组件传值
-
-## 父传子
-
-- 利用 `[]` 属性绑定与 `@Input()` 来实现
-- 在父组件中定义数据，父组件模板里引用子组件并为其绑定 DOM 属性并赋值为传递的值 `[name]='value'`
-- 在子组件中用 `@Input()` 定义输入属性，即可在子组件中模板中使用
-- `@Input()` 将某个类字段标记为输入属性，括号内可传值来指定输入属性绑定到 DOM 属性的名字，无值则名字与原始名字一致
-
-```ts
-// 父模板中为子组件输入属性绑定父组件 DOM 属性
-<app-child [child-name]='name' [age]='age'></app-child> // child-name 为指定的名字，age 为默认名
-// 子组件中定义, 不知为什么需要赋初始值
-@Input('child-name') public name:string = 'default'  // 指定了默认的名字
-@Input() public age:number = 0
-// 子组件模板, 只能使用默认的名字，不能使用指定的名字
-<h1>{{name}}</h1>
-<h1>{{age}}</h1>
-```
-
-## 子传父
-
-- 利用 `EventEmitter` 自定义事件与 `@Output` 来实现
-- 在在子组件中用 `@Output()` 定义自定义事件，该事件是 `EventEmitter` 的实例
-- 在子组件模板中绑定默认事件函数，在事件函数里用自定义事件的 `emit` 方法发射数据
-- 在父组件模板中绑定子组件自定义事件的事件函数，该事件函数的 `$event` 事件参数即 `emit` 发射的数据
-
-```ts
-// 子组件
-@Output() public childEvent:EventEmitter<string> = new EventEmitter<string>() // 定义子组件的事件 childEvent
-<input type="button" value="send" (click)='sentEvent("I am child mssg")'> // 绑定 click 事件
-public sentEvent(value:any):void { // 定义 sentEvent 方法
-  this.childEvent.emit(value)
-}
-// 父组件
-<app-child [child-name]='name' [age]='age' (childEvent)='requireMsg($event)'></app-child> // 绑定子组件事件，用 $event 接收数据
-```
-
-# angular 生命周期
-
-## constructor 构造函数
-
-- 虽然不归入生命周期函数里，但它是在组件初始化时调用, 最先调用
-
-## ngOnChanges() 
-
-- 当数据发生改变之时，就会调用此函数
-- 在 ngOnInit() 之前以及所绑定的一个或多个输入属性的值发生变化时都会调用。注意，如果你的组件没有输入就不会调用 ngOnChanges()
-
-## 其他生命周期
-
-- `ngOnInit()` 第一次显示数据绑定和设置指令/组件的输入属性之后，初始化指令/组件, 在第一轮 ngOnChanges() 完成之后调用，只调用一次
-- `ngDoCheck()` 检测，并在无法或不愿意自己检测的变化时作出反应, 紧跟在每次执行变更检测时的 ngOnChanges() 和 首次执行变更检测时的 ngOnInit() 后调用
-- `ngAfterContentInit()` 把外部内容投影进组件视图或指令所在的视图之后调用。第一次 ngDoCheck() 之后调用，只调用一次
-- `ngAfterContentChecked()` 检查完被投影到组件或指令中的内容之后调用。ngAfterContentInit() 和每次 ngDoCheck() 之后调用
-- `ngAfterViewInit()` 初始化完组件视图及其子视图或包含该指令的视图之后调用, 第一次 ngAfterContentChecked() 之后调用，只调用一次
-- `ngAfterViewChecked()` 做完组件视图和子视图或包含该指令的视图的变更检测之后调用。ngAfterViewInit() 和每次 ngAfterContentChecked() 之后调用
-- `ngOnDestroy()` 每次销毁指令/组件之前调用并清扫, 在这儿反订阅可观察对象和分离事件处理器，以防内存泄漏, 在 angular 销毁指令或组件之前立即调用
 
 # angular 自定义指令
 
@@ -227,7 +267,7 @@ export class AddClassnameDirective {
 }
 ```
 
-# angular 服务
+# angular 服务与依赖注入
 
 - 公用的功能一般封装进服务里, 然后用依赖注入的方式重复利用
 - 依赖注入实际就是类的实例化
@@ -244,5 +284,14 @@ export class FirstServiceService {
 }
 ```
 
+- 服务即时类的一个实例，依赖注入只是一种简写，相当于实例化一个类
+
 # angular 路由
 
+- `RouterLink` 指令用来自定义 a 元素，用来实现单页面跳转，而 href 属性则不是单页面复用
+- `<router-oulet>` 路由的占位标签
+- `ActivatedRoute` 中包含有关路由和路由参数的信息, 通过导入并注入以使用服务
+
+# angular HTTP 客户端
+
+- 在模块中导入并引入 `HttpClientModule`
