@@ -6,6 +6,7 @@
 - 生成组件 `ng generate component filename` 默认在 `/src/app/` 下生成文件，可自定义生成位置
 - 生成管道 `ng generate pipe` 
 - 生成指令 `ng generate directive`
+- 生成服务 `ng generate service`
 
 # angular 组件结构
 
@@ -225,3 +226,23 @@ export class AddClassnameDirective {
   }
 }
 ```
+
+# angular 服务
+
+- 公用的功能一般封装进服务里, 然后用依赖注入的方式重复利用
+- 依赖注入实际就是类的实例化
+
+```ts
+import { Injectable } from '@angular/core';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class FirstServiceService {
+
+  constructor() { }
+}
+```
+
+# angular 路由
+
