@@ -118,8 +118,8 @@ export class NotifyBtnComponent implements OnChanges {
 ### 子传父
 
 - 利用 `EventEmitter` 自定义事件与 `@Output` 来实现
-- 在在子组件中用 `@Output()` 声明一个自定义事件，该事件是 `EventEmitter` 的实例
-- 在子组件模板中绑定触发事件，在此用自定义事件的 `emit` 方法发射数据
+- 在在子组件中用 `@Output()` 输出一个属性, 该属性是 `EventEmitter` 的实例
+- 在子组件中利用该属性的 `emit` 方法发射事件, 可带参数
 - 在父组件模板中绑定子组件自定义事件的事件函数，该事件函数的 `$event` 事件参数即 `emit` 发射的数据
 
 # angular 模块结构
@@ -291,6 +291,11 @@ export class FirstServiceService {
 - `RouterLink` 指令用来自定义 a 元素，用来实现单页面跳转，而 href 属性则不是单页面复用
 - `<router-oulet>` 路由的占位标签
 - `ActivatedRoute` 中包含有关路由和路由参数的信息, 通过导入并注入以使用服务
+- 路由模块中设置 `{path: '', component: , children: [{...}]}` children 表示子路由
+- 兜底路由: `path: '**'`
+
+- 编程时导航: 导入并注入 Router 服务, 利用 `navigate` 方法进行导航
+- 第一个参数是数组形式: `['url', params]`, 第二个参数是对象: `{queryParams, fragment, replaceUrl}`
 
 # angular HTTP 客户端
 
