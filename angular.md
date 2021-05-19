@@ -10,6 +10,7 @@
 
 - 组件由 HTML 模版, Typescript 类, CSS 选择器, CSS 样式组成
 - `ng generate component <name>` 用脚手架创建组件，可指定生成的位置，默认在 `src/app/` 下生成
+- `--inline-style` 选项在元数据处生成 `styles` 数组，而代替默认的样式文件和 `styleUrls`
 
 ## 组件类结构
 
@@ -74,7 +75,7 @@ ngOnDestroy()
 - "每个选择器都加上 _nghost 或 _ngcontent 属性选择器, 用来提供作用域规则"
 ```
 
-## 组件的交互
+## 组件交互
 
 ### 父传子
 
@@ -121,6 +122,86 @@ export class NotifyBtnComponent implements OnChanges {
 - 在在子组件中用 `@Output()` 输出一个属性, 该属性是 `EventEmitter` 的实例
 - 在子组件中利用该属性的 `emit` 方法发射事件, 可带参数
 - 在父组件模板中绑定子组件自定义事件的事件函数，该事件函数的 `$event` 事件参数即 `emit` 发射的数据
+
+### 在父组件中使用子组件属性方法
+
+- 父组件不能直接读取子组件的属性或调用子组件的方法
+- 但可以在父组件模板里新建一个本地变量来代表子组件，利用该变量调用子组件属性方法
+- 本地变量即：`<child-component #child>` 在子组件标签中用 `#` 定义
+
+```html
+<!-- 定义了本地变量 -->
+<app-children #timer></app-children>
+<!-- 利用本地变量来调用子组件的方法 start() stop() -->
+<input type="button" value="start" (click)='timer.start()'>
+<input type="button" value="stop" (click)='timer.stop()'>
+```
+
+### 父组件调用 @ViewChild
+
+- 导入装饰器 `ViewChild` 和生命周期钩子 `AfterViewInit`，也可用 `AfterViewChecked`
+- 通过 `@ViewChild` 注入要调用的子组件, 这样就可以调用子组件方法了
+- 被注入的子组件只有在显示了父组件视图之后才能访问, 所以属性或某些功能得在 `ngAfterViewInit` 中操作
+- 在调用 `ngAfterViewInit` 之后就不能再更新父组件视图，单向数据流规则会阻止在同一个周期内更新父组件视图, 会被迫再等一轮
+- 可使用 `setTimeout()` 来等待下一轮
+
+```ts 
+// 导入 ViewChild AfterViewInit 和子组件
+import { AfterViewInit, ViewChild } from '@angular/core';
+import { ChildrenComponent } from './children.component';
+// 利用 ViewChild 注入子组件，() 里可能要传两个值
+@ViewChild(ChildrenComponent) private childrenComponent: ChildrenComponent;
+// 在 ngAfterViewInit 中处理单项数据流规则而导致的问题
+ngAfterViewInit() {
+  // 利用 setTimeout() 等待
+  setTimeout(() => this.seconds = () => this.timerComponent.seconds, 0);
+}
+```
+
+### 组件间通过服务来通讯
+
+- 新建一个服务，若只想在父子组件中使用，则在父组件元数据中用 `providers` 提供服务
+- 如果想再整个模块中使用，则在模块的 `providers` 中提供服务
+- 导入完成后在组件的构造函数里注入服务，之后即可使用服务中的属性方法 
+
+## 组件样式
+
+- 在 `@Component` 的元数据中指定的样式只会对该组件的模板生效
+- 可以直接在元数据中设置 `styles` 并在此写样式, 也可用 `styleUrls` 指定外部样式
+- 可以直接在组件的模板中用 `<style>` 标签来内嵌 CSS 样式，也可以使用 `<link>` 标签引入样式文件
+- 全局样式：在 `angular.json` 的 `styles` 区注册全局样式文件，默认会有一个预先配置的全局 `styles.css` 文件
+
+### 特殊的样式
+
+- `:host()` 表示宿主元素，是把宿主元素作为目标的唯一方式，因为宿主元素是父组件模版的一部分，可以在后面的括号里设置条件
+- `:host-context()` 从当前组件宿主元素的祖先节点中查找 CSS 类，直到文档的根节点，配合其他选择器使用
+- `::ng-deep` 带有该伪类的样式都会变成全局样式，`:host ::ng-deep` 这样使用会将样式限制在当前组件
+
+```css
+/* 宿主元素只有带 active 类时才应用该样式 */
+:host(.active) { background: #fff };
+/* 当某个祖先元素有 theme-light 类时，才会应用 background 样式到组件内部的 <h2> 元素中 */
+:host-context(.theme-light) h2 { background: #fff }
+/* 不指定应用样式的元素时，会把样式加在 :host 上 */
+:host-context(.theme-light) { background: #fff }
+```
+
+##  组件内容投影
+
+- 单插槽内容投影，即在组件内部预留插槽 `<ng-content></ng-content>`，只是一个占位符
+- 多插槽内容投影，利用 `<ng-content>` 的 `select` 属性指定为独有的插槽
+
+```html
+<!-- 定义独特的插槽 -->
+<ng-content select='a'></ng-content>
+<!-- 匹配上面的插槽 -->
+<h1 a>aaa</h1>
+```
+
+- 有条件的内容投影 `<ng-container>` `<ng-template>` `@ContentChild`
+- 复杂的投影 `ngProjectAs` 属性
+
+
 
 # angular 模块结构
 
