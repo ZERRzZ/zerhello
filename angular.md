@@ -204,6 +204,9 @@ ngAfterViewInit() {
 ## 动态组件
 
 
+
+
+
 # angular 模块结构
 
 ```ts
