@@ -201,6 +201,7 @@ ngAfterViewInit() {
 - 有条件的内容投影 `<ng-container>` `<ng-template>` `@ContentChild`
 - 复杂的投影 `ngProjectAs` 属性
 
+## 动态组件
 
 
 # angular 模块结构
@@ -374,9 +375,15 @@ export class FirstServiceService {
 - `ActivatedRoute` 中包含有关路由和路由参数的信息, 通过导入并注入以使用服务
 - 路由模块中设置 `{path: '', component: , children: [{...}]}` children 表示子路由
 - 兜底路由: `path: '**'`
-
 - 编程时导航: 导入并注入 Router 服务, 利用 `navigate` 方法进行导航
 - 第一个参数是数组形式: `['url', params]`, 第二个参数是对象: `{queryParams, fragment, replaceUrl}`
+
+## 创建路由
+
+- 把单独的路由模块导入到要使用路由的模块里并把它添加到 `imports` 数组中
+- 把 `RouterModule` 和 `Routes` 导入到你的路由模块中，定义 `Routes` 数组: `const routes:Routes = []`
+- 在 Routes 数组中定义你的路由, 每个路由都包含两个属性, `path` 定义了该路由的 URL 路径, `component` 定义了要用作相应路径的组件
+
 
 # angular HTTP 客户端
 
