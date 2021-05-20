@@ -188,18 +188,30 @@ ngAfterViewInit() {
 
 ##  组件内容投影
 
-- 单插槽内容投影，即在组件内部预留插槽 `<ng-content></ng-content>`，只是一个占位符
+- 单插槽内容投影，即在组件内部预留插槽 `<ng-content>`，只是一个占位符, 不允许在标签内写内容
 - 多插槽内容投影，利用 `<ng-content>` 的 `select` 属性指定为独有的插槽
+- 也可利用 `<ng-container>`, 设置 `ngProjectAs` 将多个标签一起匹配，该标签并不会被渲染到页面中
 
 ```html
 <!-- 定义独特的插槽 -->
-<ng-content select='a'></ng-content>
-<!-- 匹配上面的插槽 -->
+<ng-content select='[a]'></ng-content>
+<!-- 匹配上面的插槽, 这种写法是筛选属性，而非指令 -->
 <h1 a>aaa</h1>
+<!-- 一次性匹配多个标签，不知为什么要这样用 -->
+<ng-container ngProjectAs='[a]'>
+  <h1>aaa</h1>
+</ng-container>
 ```
 
+
+### 有条件的内容投影
+
+- `<ng-template` 不会直接显示出来, 在渲染视图之前, 会把其内容替换为一个注释, 需要被特殊处理后才能渲染, 主要用 `TemplateRef` 和 `ViewContainerRef` 实现
+- 
+
+
 - 有条件的内容投影 `<ng-container>` `<ng-template>` `@ContentChild`
-- 复杂的投影 `ngProjectAs` 属性
+
 
 ## 动态组件
 

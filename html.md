@@ -298,6 +298,20 @@
 # 表单元素标签
 
 
+
+
+
+# template 模版标签
+
+- `<template>` 中的内容加载页面时不渲染，但可以通过 JavaScript 进行实例化
+- 用 `template.content` 获取标签内的内容
+- 具体是利用 `document.importNode(content, boolean)` 方法来实例化, 第一个为标签内容，第二个表示是否获取子节点
+
+
+
+
+
+
 # Web前端存储Cookie
 
 - 主要用来辨别用户身份
