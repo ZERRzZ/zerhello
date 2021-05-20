@@ -288,30 +288,29 @@ css 过渡?
   transition-timing-function	规定过渡效果的时间曲线。默认是 "ease"
   transition-delay	规定过渡效果何时开始。默认是 0
 
+# css 动画
 
-css 动画?
+- 用 `@keyframes` 定义 `@keyframes name { }`
+- 花括号里类似于健值对的写法，表示动画的各个时间段的样式，健值间不用标点符号
+- 健表示动画时间段，简单的可用 `from` `to` 表示开始与结束，也可用 `%` 来指定更多时间点
+- 值表示样式，当动画播放到该时间点时的样式
 
-  @keyframes
-    @keyframes animationname {keyframes-selector {css-styles;}}
-    keyframes-selector: from - to, %
-  animation
-    animation	所有动画属性的简写属性，除了 animation-play-state 属性
-    animation-name	规定 @keyframes 动画的名称
-    animation-duration	规定动画完成一个周期所花费的秒或毫秒。默认是 0
-    animation-timing-function	规定动画的速度曲线。默认是 "ease"
-    animation-delay	规定动画何时开始。默认是 0
-    animation-iteration-count	规定动画被播放的次数。默认是 1
-      n|infinite
-    animation-direction	规定动画是否在下一周期逆向地播放。默认是 "normal"
-      normal|alternate
-    animation-play-state	规定动画是否正在运行或暂停。默认是 "running"
-      paused|running
-    animation-fill-mode	规定对象动画时间之外的状态
-      none	不改变默认行为
-      forwards	当动画完成后，保持最后一个属性值（在最后一个关键帧中定义）
-      backwards  在应用开始属性值（在第一个关键帧中定义)
-      both	向前和向后填充模式都被应用。
+```css
+@keyframes shrink {
+	from { height: 100px }
+	to { height: 10px }
+}
+```
 
+- 使用时 `animation` 所有动画属性的简写属性
+- `name` 动画的名字
+- `duration` 规定动画完成一个周期所花费的秒或毫秒, 默认是 `0`
+- `timing-function`	规定动画的速度曲线, 默认是 `ease`
+- `delay`	规定动画延迟到何时开始, 默认是 `0`
+- `iteration-count`	规定动画被播放的次数, 默认是 `1`, 值 `n|infinite`
+- `direction`	规定动画是否在下一周期逆向地播放, 默认是 `normal`, 值 `normal|alternate`
+- `fill-mode`	规定对象动画时间之外的状态, 常用值 `forwards` 动画完成之后保持最后一个关键帧的样式, 值 `none|forwards|backwards|both`
+- `play-state` 规定动画是否正在运行或暂停, 值 `paused|running` 不能写在 `animation` 中
 
 css 多列?
 

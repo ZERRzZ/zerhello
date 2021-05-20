@@ -166,9 +166,11 @@ ngAfterViewInit() {
 
 ## 组件样式
 
-- 在 `@Component` 的元数据中指定的样式只会对该组件的模板生效
+# angular 样式相关
+
 - 可以直接在元数据中设置 `styles` 并在此写样式, 也可用 `styleUrls` 指定外部样式
 - 可以直接在组件的模板中用 `<style>` 标签来内嵌 CSS 样式，也可以使用 `<link>` 标签引入样式文件
+- 组件的样式是只对该组件起作用, 编译后会带一个独一无二的属性选择器, 而根目录下 `style.css` 中样式是全局的
 - 全局样式：在 `angular.json` 的 `styles` 区注册全局样式文件，默认会有一个预先配置的全局 `styles.css` 文件
 
 ### 特殊的样式
@@ -203,61 +205,47 @@ ngAfterViewInit() {
 </ng-container>
 ```
 
-
 ### 有条件的内容投影
 
-- `<ng-template` 不会直接显示出来, 在渲染视图之前, 会把其内容替换为一个注释, 需要被特殊处理后才能渲染, 主要用 `TemplateRef` 和 `ViewContainerRef` 实现
-- 
-
-
+- `<ng-template>` 不会直接显示出来, 在渲染视图之前, 会把其内容替换为一个注释, 需要被特殊处理后才能渲染, 主要用 `TemplateRef` 和 `ViewContainerRef` 实现
+- `TemplateRef` 表示内嵌的 template 模板元素
+- `ViewContainerRef` 用于表示一个视图容器, 主要作用是创建和管理内嵌视图或组件视图
 - 有条件的内容投影 `<ng-container>` `<ng-template>` `@ContentChild`
-
 
 ## 动态组件
 
+## 组件自定义元素
 
+# angular 模版
 
+- 模板就是一块 HTML, 在模板中，你可以通过一种特殊语法来使用 Angular 的许多功能
 
+## 文本插值
 
-# angular 模块结构
+- 插值是指将模版表达式嵌入到被标记的文本中，插值使用双花括号 `{{ }}` 作为定界符
+- 插值也可以应用于属性中 `<img src='{{url}}'>`
+- 可通过组件元数据中的 `interpolation` 选项来自定义插值分隔符
 
 ```ts
-// 导入核心模块 NgModule, BrowserMoudle
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-// 导入要用的所有组件
-import { AppComponent } from './app.component';
-// NgModule 装饰器
-@NgModule({
-  // declarations 声明要使用的组件
-  declarations: [AppComponent],
-  // imports 引入要使用的模块
-  imports: [BrowserModule], 
-  // providers
-  providers: [], 
-  // bootstrap 指定首页需要挂载的组件, 首页中其他组件无效
-  bootstrap: [AppComponent] 
-})
-// 导出该模块类
-export class AppModule {}
+// 你不能使用那些具有或可能引发副作用的 JavaScript 表达式，包括：
+- '赋值 (=, +=, -=, ...)'
+- '运算符，比如 new、typeof 或 instanceof 等'
+- '使用 ; 或 , 串联起来的表达式'
+- '自增和自减运算符：++ 和 --'
+- '一些 ES2015+ 版本的运算符'
 ```
 
-# angular 框架模式
+## 模版语句
 
-- angular 是 MVVM 模式，该模式起源于 MVC
-- `M -> model`: 数据，`V -> view`: 视图， `C -> control`: 控制器
-- `VM -> 数据和视图的双向绑定`：只要修改数据，VM 就会自动的改变视图，视图的交互又改变了数据
+- 模板语句语法类似于 JS, 但模板语句的解析器与模板表达式的解析器有所不同，并且模板语句解析器特别支持基本赋值 `=` 和带有分号 `;` 的串联表达式
+- 语句能引用组件实例的属性也可引用模板自身的上下文属性，且模板上下文中的名称优先于组件上下文中的名称
 
-# angular 样式相关
+## 管道
 
-- 组件的样式是只对该组件起作用, 编译后会带一个独一无二的属性选择器, 而根目录下 `style.css` 中样式是全局的
-- 模版中可以不像 vue，react 那样必须写在根标签里，因为 angular 自动会生成根标签
-- 在 angular 生成的标签上可以直接写样式，但路由输出 `<router-outlet>` 不能在上面写样式
+- 管道用来对字符串、货币金额、日期和其他显示数据进行转换和格式化
+- 管道是一些简单的函数，可以在模板表达式中用来接受输入值并返回一个转换后的值
 
-# angular 基础插值语法
-
-- `{{}}` 可以在里面放变量，表达式等，须在 `.component.ts` 的导出类中定义
-- `{{}}` 插值可以应用应用于内容里，也可以用于属性中
+# OLD
 - 绑定自定义属性：`<p [attr.<name>]="value"></p>`
 - 绑定已有属性：`<p [name]="value"></p>`
 - `{{}}` 不会将 html 形式的文本进行转义
@@ -312,6 +300,29 @@ public getContent(input:string|object):void {
   <input type="text" name="text" id="text" placeholder="put your name">
   <input type="button" value="click me" (click)="show(form)">
 </form>
+```
+
+# angular 模块结构
+
+```ts
+// 导入核心模块 NgModule, BrowserMoudle
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+// 导入要用的所有组件
+import { AppComponent } from './app.component';
+// NgModule 装饰器
+@NgModule({
+  // declarations 声明要使用的组件
+  declarations: [AppComponent],
+  // imports 引入要使用的模块
+  imports: [BrowserModule], 
+  // providers
+  providers: [], 
+  // bootstrap 指定首页需要挂载的组件, 首页中其他组件无效
+  bootstrap: [AppComponent] 
+})
+// 导出该模块类
+export class AppModule {}
 ```
 
 # angular 管道
