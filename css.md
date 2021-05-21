@@ -68,19 +68,16 @@ css文本 ?
 	white-space  normal | pre | nowrap
 	direction  ltr | rtl
 
+# css 字体
 
-css字体 ?
-
-	font  简写
-	font-family
-	font-style  nomal | italic | oblique
-	font-variant  normal | small-caps
-	font-weight  normal | bold | 100~900
-	font-size
-
-	em 单位:
-		1em 等于当前的字体尺寸,浏览器中默认的文本大小是 16px,即 1em 的默认为 16px
-
+- 简写: `font`, 顺序: `font: style variant weight size/line-height family`
+- 至少要指定字体大小和字体系列, 否则样式不生效
+- `em` 单位，等于当前的字体尺寸,浏览器中默认的文本大小是 16px,即 1em 的默认为 16px
+- `style` 字体样式, `italic|oblique` 斜体|倾斜
+- `variant` 字体异体 `small-caps` 小型大写字母
+- `font-weight` 字体粗细 `bold|bolder|lighter|数值` 粗体|更粗|更细|数值的话 400 等同于 normal，而 700 等同于 bold
+- `font-size/line-height` 字体尺寸和行高
+- `font-family` 字体系列, 可以写多个字体名称, 如果浏览器不支持第一个字体, 则会尝试下一个, 使用逗号分割每个值
 
 css链接 ?
 

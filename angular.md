@@ -166,8 +166,6 @@ ngAfterViewInit() {
 
 ## 组件样式
 
-# angular 样式相关
-
 - 可以直接在元数据中设置 `styles` 并在此写样式, 也可用 `styleUrls` 指定外部样式
 - 可以直接在组件的模板中用 `<style>` 标签来内嵌 CSS 样式，也可以使用 `<link>` 标签引入样式文件
 - 组件的样式是只对该组件起作用, 编译后会带一个独一无二的属性选择器, 而根目录下 `style.css` 中样式是全局的
@@ -205,16 +203,16 @@ ngAfterViewInit() {
 </ng-container>
 ```
 
-### 有条件的内容投影
+### ? 有条件的内容投影
 
 - `<ng-template>` 不会直接显示出来, 在渲染视图之前, 会把其内容替换为一个注释, 需要被特殊处理后才能渲染, 主要用 `TemplateRef` 和 `ViewContainerRef` 实现
 - `TemplateRef` 表示内嵌的 template 模板元素
 - `ViewContainerRef` 用于表示一个视图容器, 主要作用是创建和管理内嵌视图或组件视图
 - 有条件的内容投影 `<ng-container>` `<ng-template>` `@ContentChild`
 
-## 动态组件
+## ? 动态组件
 
-## 组件自定义元素
+## ? 组件自定义元素
 
 # angular 模版
 
@@ -244,17 +242,110 @@ ngAfterViewInit() {
 
 - 管道用来对字符串、货币金额、日期和其他显示数据进行转换和格式化
 - 管道是一些简单的函数，可以在模板表达式中用来接受输入值并返回一个转换后的值
+- 管道操作符: `|` 之前放数据，之后紧跟管道名, 管道可以串联，无限套娃
+- 管道可接收参数微调管道的输出，用 `:` 紧跟参数，如果参数有多个，可以用 `:` 分隔
+
+```ts
+// 数据格式化常用管道
+// 根据本地环境中的规则格式化日期值 {{ data }}
+DatePipe()
+// 把文本全部转换成大写 {{ uppercase }}
+UpperCasePipe()
+// 把文本全部转换成小写
+LowerCasePipe()
+// 把数字转换成货币字符串，根据本地环境中的规则进行格式化 {{ currency: 'EUR' }}
+CurrencyPipe() 
+// 把数字转换成带小数点的字符串，根据本地环境中的规则进行格式化
+DecimalPipe()
+// 把数字转换成百分比字符串，根据本地环境中的规则进行格式化
+PercentPipe()
+// 其他
+// 将 js 对象转换为 json 字符串
+`json`
+// 接受一个可观察对象作为输入，并自动订阅输入
+`async`
+```
+
+- 可以自定义管道，把类标记为管道并提供配置元数据即可，即把 `@Pipe` 装饰器应用到这个类上
+- 再把管道包含在 `NgModule` 元数据的 `declarations` 字段中以便它能用于模板
+- 在脚手架里用 `ng generate pipe` 自动创建管道并注册到模块里
+
+```ts
+// 导入管道的两个核心类
+import { Pipe, PipeTransform } from '@angular/core';
+// @Pipe 装饰器设置元数据
+@Pipe({
+  name: 'test'
+})
+// 在自定义管道类中实现 PipeTransform 接口
+export class TestPipe implements PipeTransform {
+  // 调用 transform 方法, 第一个参数为绑定的值，第二个参数表示其他任何形式的参数，并返回转换后的值
+  transform(value: any, ...args: any[]): any {
+    return null;
+  }
+}
+```
+
+- 管道的数据变更检测，每当数据更改时，管道都会重新运行
+- 一般管道会被定义成纯管道，只有检测到数据纯变更时才执行，此时会忽略复合对象中的变化(数组，对象)
+- 非纯管道：在元数据中设置 `pure: false` 把管道变成非纯管道，每当按键或鼠标移动时，都会检测到一次变更从而执行一个非纯管道
+
+## 属性绑定
+
+- 属性绑定数据流：属性绑定在单一方向上将值从组件的属性送到目标元素的属性
+- 用 `[]` 绑定要进行赋值的目标属性，有方括号时将等号的右侧看作动态表达式，没有方括号则视为字符串字面量
+- 安全性：`angular` 不允许带有 `<script>` 标签的文本，既不能用于插值也不能用于属性绑定
+- `[innerHtml]` 绑定该属性会将内容放进 `innerHtml` 里，会自动屏蔽 script 标签
+- 一般插值和属性绑定可以达到相同的结果
+
+```html
+<!-- 属性绑定常用场合：切换按钮功能(绑定为布尔值)，设置指令属性(绑定指令)，在组件之间绑定值(绑定输入属性) -->
+<!-- 下面两者一致 -->
+<div class={{name}}></div>
+<div [ngclass]='name'></div>
+<!-- 下面两者一致 -->
+<p>{{msg}}</p> 
+<p [innerHtml]='msg'></p>
+```
+
+- 另一种属性绑定 `attribute`, 类似于 `property`, 需在属性前面加 `attr` 前缀 `[attr.xxx]`
+- 当表达式解析为 `null` 或 `undefined` 时会完全删除该 `Attribute`
+- 该绑定的主要用例：设置 `aria` 属性，绑定 `colspan` 属性
+
+### class 属性绑定
+
+- 绑定到单个类：`[class.on]='true|false'` 当为真时添加该类, 为假时删除该类
+- 绑定到多个类：`[class]='value']` 值可以为空格分隔的类名字符串，类名的数组，以类名作为键名并将真或假表达式作为值的对象
+
+### style 属性绑定
+
+- 绑定单一样式：使用前缀 `style` 后跟一个点和 `CSS style Attribute` 的名称: `[style.width]='10px']`
+- 绑定多个样式：`[style]='value'` 值可以为样式的字符串列表，一个对象，其键名是样式名，其值是样式值, 不支持绑定到数组
+
+### 注入属性值
+
+- 可通过装饰器 `@Attribute` 用依赖注入的方式将 HTML 属性的值传递给组件或指令的构造函数, 此方法不会追踪更新关联的值
+
+```ts
+// 引用该组件时设置了 type 属性
+`<my-component type='number'></my-component>`
+// 在组件类中导入 Attribute 装饰器
+import { Attribute } from '@angular/core';
+export class MyComponent {
+  // 依赖注入, 并将该组件上的 type 属性值赋给本地的 type
+  constructor(@Attribute('type') public type: string) { }
+}
+```
+
+## 事件绑定
+
+
+
+
+
 
 # OLD
-- 绑定自定义属性：`<p [attr.<name>]="value"></p>`
-- 绑定已有属性：`<p [name]="value"></p>`
-- `{{}}` 不会将 html 形式的文本进行转义
-- 转义 HTML: `[innerHtml]='htmlValue'` 会将内容以 html 形式来转义，会自动屏蔽 script 标签
 
-- 绑定 class 属性的方式：`class={{name}}`, `[class]="name"`, `[attr.class]="name"`
-- 对象模式绑定：`[class]="{name1: boolean, name2: boolean}"`
-- 数组模式绑定：`[class]="[name1, name2]"`
-- angular 特有的方式绑定：`[class.<name>]="boolean"`
 
 - 绑定事件：`(click)="func()"` 左侧写事件名称，右侧写事件函数
 - 传递事件对象参数：`(click)="func($event)"`
@@ -325,31 +416,7 @@ import { AppComponent } from './app.component';
 export class AppModule {}
 ```
 
-# angular 管道
 
-- `|` 管道符号，前面是模板变量，想要改变的值，后面是管道函数, 管道函数允许接受参数，紧跟 `:` 来实现
-- `json` 将 js 对象转换为 json 字符串
-- `data` 转变日期格式，例：`Date.now() | data: 'YYYY-MM-DD'` 有问题，不能显示 DD
-- `async` 管道从数据流中返回最新值
-- `currency` 管道把数据转换为货币格式
-- 用 `ng generate pipe <dir/filename>` 在指定位置生成管道，管道应在 `module` 文件的 `declarations` 中声明
-- 在管道文件中的 `transform` 函数中写操作，该函数有两个参数，`value` 指 `|` 前的模板变量，`args` 指 `:` 后的参数, 多个参数间用 `:` 隔开
-- 管道可以用链式的写法，`{{abcd | uppercase | lowercase}}`
-
-```ts
-// 导入管道的两个核心类
-import { Pipe, PipeTransform } from '@angular/core';
-// pipe 装饰器 @Pipe()
-@Pipe({
-  name: 'transformRMB' // name 管道的名字
-})
-export class TransformRMBPipe implements PipeTransform {
-  // transform 即转换函数，再此定义操作
-  transform(value: number, ...args: number[]): number { // value 是 | 前的参数，args 是 pipe:xxx 中的参数
-    return '￥' + value.toFixed(2)
-  }
-}
-```
 
 # angular 自定义指令
 
