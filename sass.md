@@ -126,9 +126,9 @@ p {
       width: 500px; } }
 ```
 
-## @extend
+## @extend 继承
 
-- `@extend` 使用 `@extend` 告诉 Sass 将一个选择器下的所有样式继承给另一个选择器
+- `@extend` 将一个选择器下的所有样式继承给另一个选择器
 
 ```scss
 .error {
