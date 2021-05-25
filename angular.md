@@ -426,10 +426,17 @@ export class MyComponent {
 
 
 
+
+
+
+
+
+
+
+
+
 # OLD
-
 循环渲染：`*ngFor = "let item of xxx; let i = index"` 获取数组中的值和索引
-
 条件分支：`ngSwich` , `*ngSwitchCase` , `*ngSwitchDefault`
 
 ```html
@@ -439,33 +446,6 @@ export class MyComponent {
   <div *ngSwitchCase="3">发货</div>
   <div *ngSwitchDefault>丢失</div>
 </div>
-```
-
-双向绑定：`[(ngModel)]` 需要引入内置的表单模块 `FormsModule`
-不用内置表单模块：直接在标签内部定义临时元素 `#name` 表示元素对象本身
-在标签内定义的变量优先级比在 ts 中定义的变量优先级高, 且不可以赋值
-
-```html
-<div>
-  <!-- #input 表示为这个元素起一个名字，该名字就是元素对象本身, 临时变量 -->
-  <p><input type="text" #input></p> 
-  <p><input type="button" value="点击" (click)="getContent(input.value)"></p>
-</div>
-```
-```ts
-public getContent(input:string|object):void {
-  console.log(input);
-}
-```
-
-在表单标签这一特殊的标签下, 可以用 `ngForm` 来获取表单对象
-为表单的临时变量赋值 ngForm , 此时该临时变量是表单对象, 而未赋值时临时变量是表单元素
-
-```html
-<form #form='ngForm'>
-  <input type="text" name="text" id="text" placeholder="put your name">
-  <input type="button" value="click me" (click)="show(form)">
-</form>
 ```
 
 # angular 模块结构
