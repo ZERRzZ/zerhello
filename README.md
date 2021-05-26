@@ -1,8 +1,8 @@
-## note-repository
+## **note-repository**
 
 noting and learning
 
-## my naming conventions
+## **my naming conventions**
 
 the dir or filename are named aaa-bbb
 
