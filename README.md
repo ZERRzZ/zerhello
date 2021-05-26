@@ -1,8 +1,9 @@
-# note-repository
+## note-repository
 
-- noting and learning
+noting and learning
 
-# my naming conventions
+## my naming conventions
 
-- the dir and filename are named aaa-bbb
-- the function and variable are named aaaBbb
+the dir or filename are named aaa-bbb
+
+the function or variable are named aaaBbb
