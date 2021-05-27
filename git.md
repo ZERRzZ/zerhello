@@ -1,10 +1,10 @@
-## **git 简介**
+## git 简介
 
 `git` 是世界上最先进的分布式版本控制系统  
 `git` 是 `linux` 创始人 `linus` 用 `c` 写的  
 注: 所有的版本控制系统, 其实只能跟踪文本文件的改动, 二进制文件如图片, 视频, word 格式文档都无法知道改了啥
 
-## **git 安装**
+## git 安装
 
 `linux`: 在 `debian` 或 `ubuntu` 版本上安装用 `sudo apt-get install git`, 其他版本可用源码安装  
 `mac`: 可安装 `xcode`, 集成了 `git`, `xcode` 是Apple官方IDE，功能非常强大  
@@ -16,7 +16,7 @@
 	git config --global user.email 'email@example.com'
 	当然也可以对某个仓库指定不同的用户名和 email 地址
 
-## **本地版本库**
+## 本地版本库
 
 版本库: `repository` 又名仓库, 里面的所有文件都可以被 git 管理起来, 每个文件的修改, 删除, git 都能跟踪  
 创建: `git init` 即可把目录变为 git 可以管理的版本库  
@@ -24,3 +24,9 @@
 提交: `git commit -m <message>` 将文件提交到仓库, 一次提交多个文件  
 查看仓库状态: `git status`  
 查看修改内容: `git diff <file>` 前提是该文件已被 git 跟踪  
+查看提交日志: `git log` 从上到下, 由近到远 `--pretty=oneline` 一次提交只显示一行, 长串乱码表示提交 id
+
+## 版本回退
+
+版本号: 用 `HEAD` 表示当前版本, `HEAD^` 表示上个版本, 在往上可以加多个 `^` 或用 `HEAD~n` 表示  
+回退: `git reset --hard HEAD^` 回退上个版本
