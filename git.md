@@ -41,4 +41,4 @@
 添加与提交: `git add` 实质是把文件添加到暂存区, `git commmit` 实质是把暂存区所有内容提交到当前分支  
 撤销工作区修改: `git checkout -- file` 让文件回到最近一次提交或添加的状态, 必须加 `--`  
 撤销暂存区修改: `git reset HEAD file` 把暂存区修改回退到工作区, `git reset` 的另一个功能  
-删除文件: 删除也是一次修改 `git rm file` 删除文件, 其他操作与修改类似
+删除文件: 删除也是一次修改 `git rm <file_name>` 将删除改动添加到暂存区, 同 `git add <file_name>`
