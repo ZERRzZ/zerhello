@@ -31,7 +31,7 @@
 版本号: 即 `commit_id`, 一般用 `HEAD` 表示当前版本, `HEAD^` 表示上个版本, 再往上可以加多个 `^` 或用 `HEAD~n` 表示  
 回退: `git reset --hard commit_id`  
 查看命令日志: `git reflog` 可以看到每次命令对应的 `commit_id`, 版本号并没有显示完全, 可再用回退命令撤销上次回退  
-版本回退实质: git 在内部有个指向当前版本的 HEAD 指针, 回退版本时仅仅是把 HEAD 指向移动一位而已
+版本回退实质: git 在内部有个指向当前分支的 HEAD 指针, 回退版本时仅仅是把 HEAD 指向移动一位而已
 
 ## 工作区与暂存区
 
@@ -42,3 +42,26 @@
 撤销工作区修改: `git checkout -- file` 让文件回到最近一次提交或添加的状态, 必须加 `--`  
 撤销暂存区修改: `git reset HEAD file` 把暂存区修改回退到工作区, `git reset` 的另一个功能  
 删除文件: 删除也是一次修改 `git rm <file_name>` 将删除改动添加到暂存区, 同 `git add <file_name>`
+
+## 远程仓库
+
+可以从远程仓库克隆出新的仓库, 现有远程仓库
+也可以让本地仓库与远程仓库关联, 远程仓库名字默认 `origin`, 现有本地仓库  
+关联: `git remote add` 远程仓库名字和地址  
+取消关联: `git remote rm` 远程仓库名字  
+克隆: `git clone` 远程仓库地址, 一般用克隆, 关联略  
+
+## 分支管理
+
+原理: 版本库中 HEAD 指针指向当前分支, 而当前分支指向提交, git 中分支切换都是指针的指向变动  
+
+创建并切换分支: `git checkout -b name`  
+创建 `git branch name`  
+切换 `git checkout name`  
+实质是为当前提交新建一个分支指针
+
+查看分支: `git branch`  
+合并分支: `git merge name` 将指定分支合并到当前分支, 合并模式 `fast-forward` 快进模式, 直接把当前分支指向目标分支的提交  
+删除分支: `git branch -d name`
+
+冲突: 合并分支时 git 有时会无法解决, 需要我们自行解决, 然后再合并
