@@ -16,11 +16,11 @@
 	git config --global user.email 'email@example.com'
 	当然也可以对某个仓库指定不同的用户名和 email 地址
 
-## **创建版本库**
+## **本地版本库**
 
 版本库: `repository` 又名仓库, 里面的所有文件都可以被 git 管理起来, 每个文件的修改, 删除, git 都能跟踪  
 创建: `git init` 即可把目录变为 git 可以管理的版本库  
 添加: `git add <file>` 将文件添加到仓库, 可以添加某一个文件  
 提交: `git commit -m <message>` 将文件提交到仓库, 一次提交多个文件  
 查看仓库状态: `git status`  
-查看修改内容: `git diff <file>`
+查看修改内容: `git diff <file>` 前提是该文件已被 git 跟踪  
