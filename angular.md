@@ -536,8 +536,27 @@ export class HeroService {
 使用依赖注入: 在构造函数中指定依赖类型的参数即可
 
 ```ts
+// HeroService 就是 DI 令牌
 constructor(heroService: HeroService)
 ```
+
+类提供者语法是一种简写形式
+
+```ts
+// 简写形式
+providers: [Logger]
+// provide 属性存有令牌, 它作为一个 key, 在定位依赖值和配置注入器时使用
+// useClass 是一个提供者定义对象, 告诉注入器要如何创建依赖值
+// 可以使用服务类来配置注入器，也可以提供一个替代类、一个对象或一个工厂函数
+[{provide: Logger, useClass: Logger}]
+// 可以指定替代性的类支持者
+// 当组件使用 Logger 令牌请求一个 logger 时，给它返回一个 BetterLogger
+[{provide: Logger, useClass: BetterLogger}]
+```
+
+## angular 路由与导航
+
+在单页应用中, 可以通过显示或隐藏与特定组件相对应的部分来更改用户看到的内容, 而不用去服务器获取新页面  
 
 
 
