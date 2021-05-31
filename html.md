@@ -431,3 +431,170 @@ res.jsonp({name: 'xxx'})
 // 前端，在 scripit 标签里发送请求，并定义 callback 函数来接收
 <script src="https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd= "></script>
 ```
+
+
+浮动框架?
+
+  <iframe></iframe> 将其他页面导入到当前页来
+    src:要引入页面的url
+    frameborder：指定边框，默认为1
+
+
+音频和视频标签?
+
+	<video> 标签定义视频
+		src						url				要播放的视频的 URL
+		controls			controls	如果出现该属性，则向用户显示控件，比如播放按钮
+		height width	pixels		设置视频播放器的高度和宽度
+		poster				URL				规定视频下载时显示的图像，或者在用户点击播放按钮前显示的图像
+		autoplay			autoplay	如果出现该属性，则视频在就绪后马上播放。
+		loop					loop			如果出现该属性，则当媒介文件完成播放后再次开始播放。
+		muted					muted			规定视频的音频输出应该被静音。
+		preload				preload		如果出现该属性,则视频在页面加载时进行加载,并预备播放,如果使用 "autoplay",则忽略该属性。
+
+  <audio> 标签定义声音
+    src           url       要播放的音频的 url
+    controls      controls  如果出现该属性，则向用户显示控件，比如播放按钮。
+    autoplay
+    loop
+    muted
+    preload
+
+	<source /> 标签
+		video,audio 元素允许多个 source 元素,source 元素可以链接不同的视频文件
+
+
+html 5 拖放 ?
+
+		draggable 属性设置为 true  设置元素可拖拽
+	ondragstart 属性  规定当元素拖拽时,会发生什么
+		setData() 方法  dataTransfer.setData(type, value) 设置被拖数据的数据类型和值
+	ondragover 事件  规定在何处放置被拖动的数据
+		event.preventDefault() 方法  默认无法将数据/元素放置到其他元素中,需阻止对元素的默认处理方式
+	ondrop 属性  放置元素
+		调用 preventDefault() 来避免浏览器对数据的默认处理(drop 事件的默认行为是以链接形式打开)
+		通过 dataTransfer.getData("Text") 方法获得被拖的数据,该方法将返回在 setData() 方法中设置为相同类型的任何数据
+		target.appendChild() 被拖数据是被拖元素的 id ("drag1"),把被拖元素追加到放置元素（目标元素）中
+
+
+html object插件 ?
+
+	浏览器插件是一种扩展浏览器标准功能的小型计算机程序。
+	插件有很多用途：播放音乐、显示地图、验证银行账号，控制输入等等。
+  可使用 <object> 或 <embed> 标签来将插件添加到 HTML 页面
+	<embed> 标签定义外部(非 HTML)内容的容器
+	辅助程序可用于播放音频和视频(或其他),辅助程序是使用 <object> 标签来加载的
+
+	加载视频...
+	<object classid="">
+		<param name="src" value="" />
+		<param name="controller" value="" />
+	</object>
+	... ...
+
+	显示音频:
+	<embed height="100" width="100" src="song.mp3" />
+	<object height="100" width="100" data="song.mp3"></object>
+
+
+html5 canvas 与 svg ?
+
+	画布的创建: <canvas></canvas>
+	用javascript绘制:
+		获取  var element=document.
+		创建context对象用以绘制  var object=element.getContext("2d")
+		染色  object.fillStyle=color
+		绘制矩形  object.fillRect(x,y,width,height)
+		绘制线
+			object.moveTo(x,y)  移动到,起点
+			object.lineTo(x,y)	划线到
+			object.stroke()  结束
+		绘制圆形
+			object.beginPath();
+			object.arc(x, y, r, ..., Math*PI*2, true);
+			object.closePath();
+			object.fill();
+		渐变
+			var name=object.createLinearGradient(x0,y0,x0,y0)
+			name.addColorStop(0, "color")
+			name.addColorStop(1, "color")
+			object.fillStyle=name
+		贴图
+			var img=new Image()
+			img.src="flower.png"
+			object.drawImage(img,0,0);
+
+	可伸缩矢量图形: <svg></svg>
+	SVG 文件可通过以下标签嵌入 HTML 文档：
+		<embed>:
+			<embed src="rect.svg" width height type="image/svg+xml" />
+		<object> 或者 <iframe>
+
+
+html5 API 存储与缓存 ?
+
+	存储: 本地存储 > cookies
+	通过本地存储(logcal storage),web 应用程序能够在用户浏览器中对数据进行本地的存储
+
+	缓存 cache: HTML5 引入了应用程序缓存(Application Cache)这意味着可对 web 应用进行缓存,并可在没有因特网连接时进行访问
+
+
+
+
+
+
+HTML表单?
+
+	http表单元素:
+		<input> 元素根据不同的 type 属性，可以变化为多种形态
+		<select> 元素定义下拉列表,<option> 元素定义待选择的选项,添加 selected 属性来定义预定义选项
+		<textarea> 元素定义多行输入字段(文本域),cols,rows
+		<button> 元素定义可点击的按钮
+		<datalist> 元素为 <input list="..."> 元素规定预定义选项列表,<input> 元素的 list 属性必须引用 <datalist> 元素的 id 属性
+	inupt元素:
+		<input type="text"> 定义供文本输入的单行输入字段
+		<input type="password"> 定义密码字段
+		<input type="submit"> 定义提交表单数据至表单处理程序的按钮
+		<input type="radio"> 定义单选按钮,name须相同
+		<input type="checkbox"> 定义复选框,name需相同
+		<input type="button> 定义按钮
+		<input list="id"> 定义下拉列表,配合 <datalist> 使用
+		h5新类型: color date datetime datetime-local email month number range search tel time url week img
+		一些限制属性:
+			disabled	规定输入字段应该被禁用
+			readonly	规定输入字段为只读（无法修改）
+			value		规定输入字段的默认值
+			size		规定输入字段的宽度（以字符计）
+			maxlength	规定输入字段的最大字符数
+			placeholder 规定用以描述输入字段预期值的提示(样本值或有关格式的简短描述)
+			required    属性是布尔属性,规定在提交表单之前必须填写输入字段
+			autocomplete规定表单或输入字段是否应该自动完成,on | off)
+			novalidate  规定在提交表单时不对表单数据进行验证
+			autofocus   属性是布尔属性,规定当页面加载时 <input> 元素应该自动获得焦点
+			max min		规定输入字段的最大值,最小值
+			width height规定 <input> 元素的高度和宽度,仅用于 <input type="image">
+			multiple    属性是布尔属性,则规定允许用户在 <input> 元素中输入一个以上的值
+			pattern		规定通过其检查输入值的正则表达式
+			step		规定输入字段的合法数字间隔
+			form formaction formenctype formmethod formnovalidate formtarget
+	重要属性:
+		name
+
+表单标签?
+	<input>：
+		type：类型，value：值，name：名称
+		<input type="text"> 文本框
+		<input type="password"> 密码框
+		<input type="radio">单选按钮
+		<input type="checkbox">复选框
+		<input type="submit"> 提交按钮
+		<input type="reset"> 重置按钮
+		<input type="button"> 普通按钮
+		<input type="hidden">隐藏域
+		<input type="file">文件选择框
+	其他相关标签：
+		<button></button>
+		<textarea></textarea>	多行的文本域
+		<select></select>		下拉列表,<option></option>列表内容。
+		<label></label>	关联文本与表单控件，点击文本如同点击控件一样,for:指定要关联的表单控件的id值
+		<fieldset> <legend>分组标题</legend> 分组中的内容 </fieldset>	为控件分组
