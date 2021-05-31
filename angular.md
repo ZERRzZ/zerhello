@@ -557,6 +557,8 @@ providers: [Logger]
 ## angular 路由与导航
 
 在单页应用中, 可以通过显示或隐藏与特定组件相对应的部分来更改用户看到的内容, 而不用去服务器获取新页面  
+脚手架生成一个支持路由的项目: `ng new <project-name> --routing`  
+
 
 
 
@@ -591,25 +593,6 @@ import { AppComponent } from './app.component';
 // 导出该模块类
 export class AppModule {}
 ```
-
-# angular 服务与依赖注入
-
-公用的功能一般封装进服务里, 然后用依赖注入的方式重复利用
-依赖注入实际就是类的实例化
-
-```ts
-import { Injectable } from '@angular/core';
-
-@Injectable({
-	providedIn: 'root'
-})
-export class FirstServiceService {
-
-	constructor() { }
-}
-```
-
-服务即时类的一个实例，依赖注入只是一种简写，相当于实例化一个类
 
 # angular 路由
 
