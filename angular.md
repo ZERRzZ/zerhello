@@ -558,11 +558,72 @@ providers: [Logger]
 
 在单页应用中, 可以通过显示或隐藏与特定组件相对应的部分来更改用户看到的内容, 而不用去服务器获取新页面  
 脚手架生成一个支持路由的项目: `ng new <project-name> --routing`  
+在 angular 中需配置 `<base href='/'>` 作为基础路径  
 
+创建路由模块, 并在根模块中导入: 导入 `AppRoutingModule` 到跟模块并在 `imports` 里声明  
+路由模块结构如下:
 
+```ts
+import { NgModule } from '@angular/core'
+import { Routes, RouterModule } from '@angular/router'
+// routes 数组里定义路由, { path: '路由 URL 路径', component: 要在该路由使用的组件 }
+const routes: Routes = []
+// configures NgModule imports and exports
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
+```
 
+添加路由到应用中: 用 `routerLink` 指令指定链接, 并在模版里用 `<router-outlet>` 标签预留位置  
+可以把 `routerLink` 指令绑定到一个数组上 `[routerLink]=['/index', id]`
 
+路由顺序: 路由匹配时采用先到先得的策略, 所以通配符路由需在最下边 `{ path: **, component: }`  
 
+获取路由信息: 通过 `ActivatedRoute` api 来获取
+
+```ts
+// 导入相关 api
+import { Router, ActivatedRoute, ParamMap } from '@angular/router';
+// ActivatedRoute 是一个服务, 提供的 queryParams 方法可获取路径上的 param
+constructor(private route: ActivatedRoute) { }
+this.route.queryParams.subscribe(params => console.log(params))
+```
+
+设置重定向: 使用 routes 数组里的属性 `redirectTo` 指向一个新的链接
+
+```ts
+{ path: '', redirectTo: '/index', pathMatch: 'full'}
+```
+
+嵌套路由: 将子路由写在 routes 数组里的 `children` 数组里
+
+```ts
+const routes: Routes = [{
+	path: 'first-component',
+	component: FirstComponent, // this is the component with the <router-outlet> in the template
+	children: [{
+		path: 'child-a', // child route path
+		component: ChildAComponent, // child route component that the router renders
+	}]}]
+```
+
+惰性加载: ...  
+路由守卫: 创建路由守卫 `ng generate guard <guard-name>`
+
+```ts
+// Angular 中的守卫 CanActivate, CanActivateChild, CanDeactivate, Resolve, CanLoad
+export class YourGuard implements CanActivate {
+  canActivate(
+    next: ActivatedRouteSnapshot,
+    state: RouterStateSnapshot): boolean {
+      // your  logic goes here
+  }
+}
+// 在路由模块这样配置
+{ path: '/your-path', component: YourComponent, canActivate: [YourGuard] }
+```
 
 
 
