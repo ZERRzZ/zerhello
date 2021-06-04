@@ -59,3 +59,11 @@ mac 中点 `.` 表示当前目录, 两个点 `..` 表示上一级目录, 星号 
 `ln`	为文件创建联接	`ln -s file1 file2` s 表示软联接  
 `paste` 横向拼接文件内容	`paste file1 file2`  
 `grep` 通过简单正则表达式搜索文件  
+
+## 远程交互
+
+`ssh username@origin` 利用 ssh 连接到远程的服务器
+`scp -r /path/to/local/dir usrname@orgname.edu:/path/to/remote/dir` 利用 ssh 中的 scp 来复制文件
+`-r` 递归操作, 单文件的话不用, 文件夹需要
+`-v` 查看进度
+`-p` 选择端口
