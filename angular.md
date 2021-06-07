@@ -512,7 +512,9 @@ constructor(
 </ng-template>
 ```
 
-## angular 依赖注入
+## ? angular 依赖注入
+
+? 初识注入模式
 
 依赖注入(DI)是一种设计模式, 表现为类会从外部源中请求获取依赖, 而不是自己去创建它们  
 创建一个可以注入的服务类: `ng generate service`  
@@ -554,16 +556,28 @@ providers: [Logger]
 [{provide: Logger, useClass: BetterLogger}]
 ```
 
-## angular 路由与导航
+## ? angular 路由与导航
+
+? 路由的基本使用
+
+? 路由参数
+
+? 路由守卫
+
+? 懒加载模块
+
 
 在单页应用中, 可以通过显示或隐藏与特定组件相对应的部分来更改用户看到的内容, 而不用去服务器获取新页面  
 脚手架生成一个支持路由的项目: `ng new <project-name> --routing`  
 在 angular 中需配置 `<base href='/'>` 作为基础路径  
 
-创建路由模块, 并在根模块中导入: 导入 `AppRoutingModule` 到跟模块并在 `imports` 里声明  
-路由模块结构如下:
+创建路由模块, 并在根模块中导入: 导入 `AppRoutingModule` 到根模块并在 `imports` 里声明  
+当应用复杂时需创建单独的路由模块  
+生成一个带路由的模块: `ng generate module <module-name> --routing`  
+另一个命令: `ng generate module <module-name> --module app --flat --routing` 每个指令都有它的作用  
+路由调试: 把 `enableTracing: true` 选项作为第二个参数传给 `RouterModule.forRoot()` 方法以在控制台打印
 
-```ts
+```ts 	
 import { NgModule } from '@angular/core'
 import { Routes, RouterModule } from '@angular/router'
 // routes 数组里定义路由, { path: '路由 URL 路径', component: 要在该路由使用的组件 }
@@ -577,11 +591,14 @@ export class AppRoutingModule { }
 ```
 
 添加路由到应用中: 用 `routerLink` 指令指定链接, 并在模版里用 `<router-outlet>` 标签预留位置  
-可以把 `routerLink` 指令绑定到一个数组上 `[routerLink]=['/index', id]`
+也可以把 `routerLink` 指令绑定到一个数组上 `[routerLink]=['/index', id]`  
+另一个指令: `routerLinkActive`, 用它来把一个特定的样式添加到活动的路由中  
 
 路由顺序: 路由匹配时采用先到先得的策略, 所以通配符路由需在最下边 `{ path: **, component: }`  
 
-获取路由信息: 通过 `ActivatedRoute` api 来获取
+获取路由信息: 通过 `ActivatedRoute` api 来获取  
+一般参数的获取需配合 `Observable` 一起使用, 为了监测参数的变化  
+可以不用可观察对象, 直接获取 `snapshot`, 返回参数的初始值  
 
 ```ts
 // 导入相关 api
@@ -609,8 +626,20 @@ const routes: Routes = [{
 	}]}]
 ```
 
-惰性加载: ...  
-路由守卫: 创建路由守卫 `ng generate guard <guard-name>`
+惰性加载
+
+`loadChildren: () => import('./crisis-center/crisis-center.module').then(m => m.CrisisCenterModule)`  
+
+路由守卫
+
+创建路由守卫 `ng generate guard <guard-name>`  
+
+	路由器可以支持多种守卫接口
+	用 CanActivate 来处理导航到某路由的情况
+	用 CanActivateChild 来处理导航到某子路由的情况
+	用 CanDeactivate 来处理从当前路由离开的情况
+	用 Resolve 在路由激活之前获取路由数据
+	用 CanLoad 来处理异步导航到某特性模块的情况
 
 ```ts
 // Angular 中的守卫 CanActivate, CanActivateChild, CanDeactivate, Resolve, CanLoad
@@ -625,53 +654,15 @@ export class YourGuard implements CanActivate {
 { path: '/your-path', component: YourComponent, canActivate: [YourGuard] }
 ```
 
+浏览器网址样式
 
+浏览器 LocationStrategy 有两种风格, 默认的 Path... 支持 HTML5 pushState 风格, 老式的 Hash... 支持 hash URL 风格  
+HTML5 pushState: 改变浏览器的当前地址和历史, 却又不会触发服务端页面请求的技术  
+老旧的浏览器在当前地址的 URL 变化时总会往服务器发送页面请求, 但当这些变化位于 # 后面时不会发送  
+在 angular 里通过 RouterModule.forRoot() 函数设置浏览器网址风格, 设置第二个参数 `{ useHash: true }`  
+由于使用 pushState 风格, 所以你必须用一个 `<base href>` 来配置该策略, 浏览器用该值为引用 CSS, 脚本和图片文件时使用的相对 URL 添加前缀  
 
+单页面应用 SPA - `Single Page Application`
 
-
-
-
-
-# angular 模块结构
-
-```ts
-// 导入核心模块 NgModule, BrowserMoudle
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-// 导入要用的所有组件
-import { AppComponent } from './app.component';
-// NgModule 装饰器
-@NgModule({
-	// declarations 声明要使用的组件
-	declarations: [AppComponent],
-	// imports 引入要使用的模块
-	imports: [BrowserModule], 
-	// providers
-	providers: [], 
-	// bootstrap 指定首页需要挂载的组件, 首页中其他组件无效
-	bootstrap: [AppComponent] 
-})
-// 导出该模块类
-export class AppModule {}
-```
-
-# angular 路由
-
-`RouterLink` 指令用来自定义 a 元素，用来实现单页面跳转，而 href 属性则不是单页面复用
-`<router-oulet>` 路由的占位标签
-`ActivatedRoute` 中包含有关路由和路由参数的信息, 通过导入并注入以使用服务
-路由模块中设置 `{path: '', component: , children: [{...}]}` children 表示子路由
-兜底路由: `path: ''`
-编程时导航: 导入并注入 Router 服务, 利用 `navigate` 方法进行导航
-第一个参数是数组形式: `['url', params]`, 第二个参数是对象: `{queryParams, fragment, replaceUrl}`
-
-## 创建路由
-
-把单独的路由模块导入到要使用路由的模块里并把它添加到 `imports` 数组中
-把 `RouterModule` 和 `Routes` 导入到你的路由模块中，定义 `Routes` 数组: `const routes:Routes = []`
-在 Routes 数组中定义你的路由, 每个路由都包含两个属性, `path` 定义了该路由的 URL 路径, `component` 定义了要用作相应路径的组件
-
-
-# angular HTTP 客户端
-
-在模块中导入并引入 `HttpClientModule`
+所有应用的所有功能都存在于同一个 HTML 页面中  
+浏览器只需渲染那些用户需要关心的部分, 而不用重新加载页面, 这种模式可以显著改善应用的用户体验  
