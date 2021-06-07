@@ -1,31 +1,64 @@
-# TS 的使用
+## 安装与使用
 
-- 全局安装：`npm install typescript -g`
-- 编译文件：`tsc test.ts`
-- 查看版本：`tsc -v`
+安装: `npm install typescript -g`  
+编译: `tsc test.ts`  
+版本: `tsc -v`  
 
-# TS 类型注解
+配置编译器
 
-## 数据类型
+```json
+// tsconfig.json 文件
+{
+  "include": [ "./src/**/*" ], // 读取所有可识别的 src 目录下的文件
+  "compileOnSave": true, // 在保存时编译
+  "compilerOptions": { // 编译选项
+    "allowJs": true, // 接受 javascript 作为输入
+    "outDir": "./built", // 生成的所有文件放在 built 目录下
+    "target": "es5", // 将 JavaScript 代码降级到低版本比如 ECMAScript 5
+    "noEmitOnError": true, // 不想在发生错误的时候 ypeScript 还会被编译成 JavaScript
+    "noImplicitAny": true, // 不想让 TypeScript 将没有明确指定的类型默默地推断为 any 类型
+    "noImplicitReturns": true, // 防止你忘记在函数末尾返回值
+    "noImplicitThis": true, // 当没有明确指定类型（或通过类型推断）的 this 被使用时 TypeScript 会产生一个错误
+    "noFallthroughCasesInSwitch": true, // 会防止在 switch 代码块里的两个 case 之间忘记添加 break 语句
+    "strictNullChecks": true, // null 和 undefined 获得了它们自己各自的类型 null 和 undefined
+  }
+}
+```
+ 
+## 类型注解
 
-- 原始数据类型：`boolean`, `number`, `string`,` null`, `undefined`
-- `null` 和 `undefined` 是一切类型的子类型
+基础类型
 
-## 一般类型的注解
-
-- 定义变量时可以指定数据类型，用冒号 `:` 来指定
+布尔值: `boolean`, false/true  
+数字: `number`, 支持十进制和十六进制字面量, 二进制和八进制字面量  
+字符串: `string`, 可以使用双引号或单引号表示字符串  
+数组: 可以在元素类型后面接上 `[]`, 也可以使用数组泛型 `Array<元素类型>` 来定义数组  
+元组: 表示一个已知元素数量和类型的数组, 各元素的类型不必相同, 访问一个越界的元素会使用联合类型替代  
+枚举: 使用 `enum` 定义, 默认情况下从 0 开始为元素编号, 也可以手动为其赋值, 可以由枚举的值得到它的名字, 反之亦然  
+any: 任意类型, 与 Object 相比, Object 类型的变量只是允许你给它赋任意值但是却不能够在它上面调用任意的方法  
+void: 
 
 ```ts
-// boolean 类型的定义
-let isTrue:boolean = true
-let isTrue:boolean = Boolean(1)
-// number 类型的定义
-let num:number = 1
-let num16:number = 0xff
-let notNum:number = NaN
-let infNum:number = Infinity
-// string 类型定义略，null,undefined 类型定义略
+let isTrue: boolean = true
+
+let decLiteral: number = 6
+let hexLiteral: number = 0xf00d
+let binaryLiteral: number = 0b1010
+let octalLiteral: number = 0o744
+
+let name: string = "bob"
+
+let list: number[] = [1, 2, 3]
+let list: Array<number> = [1, 2, 3]
+
+let x: [string, number] // declare a tuple type
+
+enum Color { red, green, blue }
+let color: Color = Color.green
+let colorName: string = Color[1]
 ```
+
+
 
 - TS 中还有空值类型 void, 一般用于函数无返回值 `function test():void { }`
 - TS 中还有任意值类型 any, 可以赋任意类型的值
