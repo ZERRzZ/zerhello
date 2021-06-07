@@ -36,8 +36,11 @@
 元组: 表示一个已知元素数量和类型的数组, 各元素的类型不必相同, 访问一个越界的元素会使用联合类型替代  
 枚举: 使用 `enum` 定义, 默认情况下从 0 开始为元素编号, 也可以手动为其赋值, 可以由枚举的值得到它的名字, 反之亦然  
 any: 任意类型, 与 Object 相比, Object 类型的变量只是允许你给它赋任意值但是却不能够在它上面调用任意的方法  
-void: 
-
+void: 没有任何类型, 常用于函数没有返回值的情况, 声明一个 void 类型的变量只能为其赋值 null 与 undefined  
+null 和 undefined: 是所有类型的子类型, 而在 `strictNullChecks` 模式下, 只能赋给他们本身和 void  
+never: 表示的是那些永不存在的值的类型, 是任何类型的子类型但没有类型是 never 的子类型  
+object: 表示非原始类型, 也就是除 number, string, boolean, symbol, null 或 undefined 之外的类型  
+ 
 ```ts
 let isTrue: boolean = true
 
@@ -56,36 +59,29 @@ let x: [string, number] // declare a tuple type
 enum Color { red, green, blue }
 let color: Color = Color.green
 let colorName: string = Color[1]
+
+// 返回never的函数必须存在无法达到的终点
+function error(message: string): never { throw new Error(message) }
+function infiniteLoop(): never { while (true) { }}
 ```
 
+类型断言
 
-
-- TS 中还有空值类型 void, 一般用于函数无返回值 `function test():void { }`
-- TS 中还有任意值类型 any, 可以赋任意类型的值
-- 当定义变量时未定义类型，也未赋值，则会被定义为任意值类型
-- 类型推断：定义变量时未定义类型但赋了值，则 TS 推断类型为所赋的值的类型
+告诉 TypeScript 我比你更了解这个变量的类型, 所以你就不用再进行类型检查了  
+尖括号写法: `<数据类型>变量`  
+as 语法: `变量 as 数据类型`  
 
 ```ts
-let test1
-test1 = 123 // 不报错
-let test2 = '123'
-test2 = 123 // 报错
+let value: any = 'this is a string'
+let length: number = (<string>value).length
+let length2: number = (value as string).length
 ```
 
-- 联合类型：用 | 分个多个类型 `let test:string|number`
-- 对象类型：`let obj:object = { }`
-- 规范对象类型的属性：`let obj:{p1:string,p2:number}`
-- 类型断言：`<string>name` 强制指定类型
+## 接口
 
-# 数组类型
 
-- TS 中可以为数组中的元素限定类型
 
-```ts
-// 数据类型后跟一个 []
-let arr:number[] = [1, 2, 3]
-// 数组的泛型写法
-let arr2:Array<number> = [1, 2, 3]
+
 ``` 
 
 # TS 接口
