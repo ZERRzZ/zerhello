@@ -79,26 +79,45 @@ let length2: number = (value as string).length
 
 ## 接口
 
+TypeScript 的核心原则之一是对值所具有的结构进行类型检查, 接口的作用就是为这些类型命名和为你的代码或第三方代码定义契约  
+接口使用 interface 关键字定义  
+可选属性: 属性名后加一个 `?` 即可  
+只读属性: 属性名前加一个 `readonly` 即可, `ReadonlyArray<T>` 类型同理, 不可以改变的数组  
 
+额外的属性检查
 
-
-``` 
-
-# TS 接口
-
-- 用 interface 定义一个对象，再约束属性，只定义属性的类型，但不会去赋值
-- 调用该接口时 `let teacher:Teacher = { }` 属性必须与约束的一致
-- 带 `?` 表示该属性可以不带, `[propName:string]:any` 表示可以多写一个属性
+直接使用接口中不存在的属性会报错  
+绕开检查的方法之一是使用类型断言: `as`  
+还可以添加一个字符串索引签名: `[propName: string]: any` 表示接口可以拥有任意数量的属并且类型任意  
+还可以将这个对象赋值给另一个对象  
 
 ```ts
-interface Teacher {
-  name:string
-  age?:number
-  [propName:string]:any
-}
+interface Dog { name: string, color: string }
+// 报错, gender 不存在在 Dog 接口中
+let dog: Dog = { name: 'sadanya', color: 'black', gender: '女' }
+// 使用类型断言
+let dog: Dog = { name: 'sadanya', color: 'black', gender: '女' } as Dog
+// 增加字符串索引签名
+interface Dog { name: string, color: string, [prop: string]: any }
+// 赋值给另一个对象
+let dog1 = { name: 'sadanya', color: 'black', gender: '女' }
+let dog: Dog = dog1
 ```
 
-- 只读属性：用 `readonly` 修饰，在进行一次赋值后就不可以修改了
+函数类型接口
+
+定义函数接口: 只有参数列表和返回值类型的函数定义  
+
+```ts
+interface funcInterface { 
+  (soure: string, substring: string): boolean
+}
+// 使用时貌似只可以用函数变量形式使用
+```
+
+接口索引签名
+
+
 
 ```ts
 // 根据接口创建对象
