@@ -117,15 +117,52 @@ interface funcInterface {
 
 接口索引签名
 
-
+TypeScript 支持两种索引签名: 字符串和数字, 数字索引的返回值必须是字符串索引返回值类型的子类型  
+使用数字索引签名时, JavaScript 会将它转换成 string 然后再去索引对象  
+可以将索引签名设置为只读, 相当于给所有属性设置只读  
 
 ```ts
-// 根据接口创建对象
-let t1:Teacher = { }
-// 根据接口创建类
-// 实施 implements 类实现接口的关键字
-class T2 implements Teacher { }
+interface arrstirng {
+  name: number // 报错
+  age: number // 报错
+  [index: string]: string
+}
+// 数字索引签名的使用
+interface arr { [index: number]: string }
+let arr: Arr = [ '1', '1']
 ```
+
+类类型接口
+
+实现接口: TypeScript 也能够用它来明确的强制一个类去符合某种契约, 关键字: `implements`  
+接口描述了类的公有部分, 它不会检查类是否具有某些私有成员  
+接口之间也可以相互继承  
+接口继承类: 会继承类的成员但不包括其实现, 还得注意类的 private 与 protected 成员  
+? 类的静态部分与实例部分的区别  
+? 混合类型: 一个对象可以同时做为函数和对象使用, 并带有额外的属性  
+
+```ts
+interface Shape { color: string }
+class S implements Shape {  // 类实现接口
+  constructor() { }
+  color: string
+}
+interface Square extends Shape { sideLength: number } // 继承
+
+// 定义一个类和接口, 类中有私有字段, 接口继承类
+class Control { private state: any }
+interface SelectableControl extends Control { select(): void }
+// Button 类继承了 Control 所以能实现接口
+class Button extends Control implements SelectableControl { select() { } }
+// 错误：“Image”类型缺少“state”属性。
+class Image implements SelectableControl { select() { } }
+```
+
+
+
+
+
+
 
 # TS 函数
 
