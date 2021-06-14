@@ -158,8 +158,93 @@ class Button extends Control implements SelectableControl { select() { } }
 class Image implements SelectableControl { select() { } }
 ```
 
+## 类
 
+基本例子
 
+```ts
+class Greeter { // 声明一个 greeter 类, 该类有三个成员, 属性 greeting, 构造函数, 方法 greet
+  greeting: string;
+  constructor(message: string) { this.greeting = message; } // 用 this 表示访问的是类的成员
+  greet() { return "Hello, " + this.greeting; }
+}
+// 使用 new 构造 Greeter 类的一个实例, 它会调用构造函数来创建一个 Greeter 类型的新对象并执行构造函数初始化它
+let greeter = new Greeter("world");
+```
+
+类的继承
+
+使用 `extends` 关键字来实现继承, 派生类叫子类, 基类叫超类, 子类会继承超类的方法与属性  
+派生类中有构造函数时, 需调用 `super()` 会执行基类的构造函数, `super` 即代表基类, 类似于 this 一个代理  
+
+```ts
+class Animal {
+  name: string;
+  constructor(theName: string) { this.name = theName; }
+  move(distanceInMeters: number = 0) {
+    console.log(`${this.name} moved ${distanceInMeters}m.`);
+  }
+}
+class Snake extends Animal {
+  constructor(name: string) { super(name); }
+  move(distanceInMeters = 5) {
+    console.log("Slithering...");
+    super.move(distanceInMeters);
+  }
+}
+```
+
+修饰符
+
+修饰符: `public` 默认, 公有, `private` 私有, 不能在该类的外面使用, `protected` 保护, 允许在子类中使用  
+可使用 `readonly` 关键字将属性设置为只读, 只读属性必须在声明时或构造函数里被初始化  
+参数属性: 通过在构造函数参数前面添加一个访问限定符来在一个地方定义并初始化一个成员  
+
+```ts
+class Octopus {
+  readonly name: string;
+  readonly numberOfLegs: number = 8;
+  constructor (theName: string) { this.name = theName }
+}
+class Octopus {
+  readonly numberOfLegs: number = 8;
+  constructor(readonly name: string) { } // 使用参数属性, public, private, protected 类似
+}
+```
+
+存取器
+
+通过 getters/setters 来截取对对象成员的访问, 能有效的控制对对象成员的访问  
+只带有 `get` 不带有 `set` 的存取器自动被推断为 `readonly`  
+
+```ts
+class Employee {
+  private _fullName: string;
+  get fullName(): string { return this._fullName; }
+  set fullName(newName: string) { // 当密码正确时才允许修改, 控制对 fullName 属性的访问
+    if (password && password == "123456") { this._fullName = newName; }
+    else { console.log("Error: Unauthorized update of employee!"); }
+  }
+}
+```
+
+静态属性
+
+静态属性存在于类本身上面而不是类的实例上, 使用 `static` 来定义  
+
+抽象类
+
+抽象类做为其它派生类的基类使用且一般不会直接被实例化, 类似接口, 但它可以包含成员实现的细节  
+使用 `abstract` 定义一个抽象类和抽象类中的抽象方法  
+
+```ts
+abstract class Animal {
+  abstract makeSound(): void // 抽象方法必须在派生类中实现细节
+  move(): void { console.log('roaming the earch...') } // 包含了实现细节的方法
+}
+```
+
+## 函数
 
 
 
