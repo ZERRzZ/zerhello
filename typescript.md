@@ -246,105 +246,44 @@ abstract class Animal {
 
 ## 函数
 
+函数类型
 
-
-
-# TS 函数
-
-- TS 中对函数的输入和输出有约束
+类似于 JavaScript, Typescript 中可以创建带有名字的函数和匿名函数, 即函数声明式与函数表达式  
+按上下文归类: 当在赋值语句的一边指定了类型但是另一边没有类型的话, TypeScript 编译器会自动识别出类型  
 
 ```ts
-// 函数声明式写法
-function func(x:number, y:number):number {
-  return x + y
-}
-// 函数表达式写法
-// 这种写法实质上只将右侧函数进行了类型的定义，对左边变量没有定义
-let func = function(x:number, y:number):number {
-  return x + y
-}
-// 对左边参数的限制，限制其为函数类型
-// => 在 TS 中用于函数的定义，左边输入类型，右边输出类型
-let func:(x:nubmer, y:number) => number = function(x:number, y:number):number {
-  return x + y
-}
+// TypeScript 能够根据返回语句自动推断出返回值类型, 因此我们通常省略它
+function func(x: number, y: number): number { return x + y }
+let func = function(x: number, y: number): number { return x + y }
+// 完整的函数类型写法, 此处的 => 并非箭头函数
+let func: (x: number, y: number) => number = function(x: number, y: number): number { return x + y }
 ```
 
-- TS 中函数的参数并不能随意传任意值，定义多少穿传多少
-- TS 中可以设置可选参数，同接口，用 `?` 表示
-- 必选参数不能放在可选参数后面
+函数参数
+
+传递给一个函数的参数个数必须与函数期望的参数个数一致, 这一点与 JavaScript 不同  
+可选参数: 在参数名后跟一个 `?` 表示, 可选参数必须放在必选参数列表后  
+默认参数: 在参数列表中直接为参数赋值即可, 当调用时不传该参数或该参数的值为 undefined 时取默认值  
+剩余参数: 可以把所有参数收集到一个变量里, 以便同时操作多个参数 `...rest: any[]`  
+
+
+this
+
+JavaScript 中, this 的值在函数被调用时才会指定  
+ECMAScript 6 中, 箭头函数能保存函数创建时的 this 值, 而不是调用时的值  
+每调用一次箭头函数都会创建一个箭头函数, 而方法只会被创建一次, 会添加到原型链上, 在不同实例间是共享的  
+设置 `--noImplicitThis` 时, 需显示指定 this 的类型, 不然会时不时的报错, 应放在参数列表的最前面  
+
+重载
+
+为同一个函数提供多个函数类型定义即可进行函数重载  
+查找重载列表时, 从上到下, 所以需将最精确的放在前面  
 
 ```ts
-// y 即是可选参数
-function func(x:number, y?:number):number { return x + y }
-```
-
-- TS 中可以为参数设置默认值 `function func(x:number=3, y:number=4):number { return x + y }`
-- TS 中的剩余参数 `function func(...values:any[]):void { }`
-
-- 函数的重载：同一个函数，但接收不同数量或类型的参数，用 `|` 联合类型实现
-
-```ts
-// 重载的另一种实现
-// 多种参数形式用分号隔开，在最终的函数体内做判断
 function func(x:number):number;
 function func(x:string):string;
 function func(x:number, y:number):number {
   if (typeof x === 'number') { }
   if (y) { }
-}
-```
-
-# TS 类
-
-- 定义静态方法，关键字：`static`
-
-```ts
-class Animal {
-  static age = 20
-  static isAnimal(a) {
-    return a instanceof Animal
-  }
-}
-// 使用时直接用类名来调用
-let dog = new Animal()
-Animal.isAnimal(dog)
-console.log(Animal.age)
-```
-
-- 定义类的属性，TS 中直接定义在类里，构造器中只做修改
-
-```ts
-class Abc {
-  // 定义属性
-  a:number = 1
-  b:number = 2
-  constructor() {
-    // 修改
-    this.a = 2
-    this.b = 3
-  }
-}
-```
-
-- 属性可以有三种访问的修饰词：`public/private/protect`
-- `public`: 默认，任何地方都可以访问
-- `private`: 私有的，只能在此类中使用，不能在类外面访问
-- `protected`: 受保护的，只可以在此类或子类使用
-- 抽象类：关键字 `abstract`, 不允许实例化，一般用与继承实现
-- 抽象方法：只定义，不实现，通过继承实现
-
-```ts
-abstract class Pig {
-  name
-  constructor(name) {
-    this.name = name
-  }
-  abstract sayHi()   // 只定义，不实现
-}
-class SmallPig extends Pig {
-  sayHi() {
-    console.log('hello smallpig');
-  }
 }
 ```
