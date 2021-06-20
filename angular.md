@@ -102,7 +102,6 @@ export class AppComponent {}
 get name():string { return this._name; }
 // 本例中将名字两边空格去掉了
 set name(name:string) { this._name = name.trim() }
-// 这条语句必须放在后面
 private _name = ''
 ```
 
