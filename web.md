@@ -64,3 +64,123 @@ HTTP 报文分为请求报文, 响应报文, 再次细分可分为请求行, 请
 
 响应头主要是对服务器和响应信息的描述  
 响应体是返回个服务器的内容  
+
+## Web 前端存储 Cookie
+
+主要用来辨别用户身份  
+cookie 会自动带在路径上, 发送到服务器  
+不能跨域和跨浏览器  
+由键值对 key=value 组成, 之间用分号与空格隔开  
+
+属性
+
+	expires：有效期
+	domain, path：限制能被哪些URL访问
+	secure：限制 https 传输
+	httponly：限制 JS 操作
+
+操作
+
+```js
+// 设置键值对: 直接赋值给 documnet.cookie
+documnet.cookie = 'name = xxx'
+document.cookie = 'age = 18; expires = xxx'
+// 获取 cookie 值, 直接打印即可
+console.log(documnet.cookie)
+// cookie会自动带在路径上，后端获取
+console.log(req.cookies)
+// 需要中间件
+// npm i cookie-parser
+app.use(cookieParser())
+```
+
+## Web 前端存储 Session Stroage
+
+不会随着客户端自动向服务器发送请求  
+临时会话, 关闭浏览器将不存在且不同页面不能共享, 是 H5 新特性  
+本质是挂在 window 上的一个对象  
+
+api
+
+```js
+sessionStorage.setItem(key, value) // 设置
+sessionStorage.getItem(key, value) // 读取
+sessionStorage.removeItem(key) // 删除单个
+sessionStorage.clear() // 删除所有
+sessionStorage.key(index) // 根据索引查找
+```
+
+## Web 前端存储 Local Stroage
+
+不会随着客户端自动向服务器发送请求  
+永久存在，除非手动删除  
+同一域下可以访问， 是 H5 新特性  
+本质是挂在 window 上的一个对象  
+api 同上  
+
+## HTTPS协议
+
+即 HTTP 内容向下传输时加了一层TLS/SSL加密  
+HTTPS 利用非对称加密传输一个随机数，作为后面对称加密的钥匙  
+HTTPS 协议默认端口号 443  
+
+```js
+// 固定代码
+const fs = require('fs')
+const http = require('http')
+const https = require('https')
+let privateKey = fs.readFileSync('sslcert/server.key', 'utf-8')
+let certificate = fs.readFileSync('sslcert/server.crt', 'utf-8')
+let credentials = { key: privateKey, cert: certficate }
+const express = require('express')
+const app = express()
+// your express configuration here
+let httpServer = http.createServer(app)
+let httpsServer = https.createServer(credentials, app)
+httpServer.listen(80)
+httpsServer.listen(443)
+```
+
+## Web安全
+
+- 主要有：信息泄露，XSS，CSRF，SQL注入，不完善身份注入，不完善的访问控制等
+- 信息泄露：数据传输过程中需经过很多节点，如果明文传输可能会在这些节点泄露
+- 解决：HTTPS协议，加密
+- 加密算法：分为单向散列函数，非对称加密，对称加密
+
+## Base64
+
+- 用与传输 8bit 字节代码的编码方式之一
+- node 上的 Base64
+
+```js
+// 安装 npm i js-base64
+const Base64 = require('js-base64').Base64
+// 编码
+Base64.encode(str)
+// 解码
+Base64.decode(str)
+```
+- 在前端中也可以通过标签引入，还可以定义相关函数
+
+## 同源策略
+
+- 限制了 DOM 操作，限制了cookie 操作，限制了发送请求
+- 同源策略并非绝对，一般跨域的写操作允许，而读操作不允许
+- 带有src属性的标签也可以跨域加载
+
+```js
+// 使用CROS实现跨域访问
+// 加一个响应头即可
+res.append('Access-Control-Allow-Origin', '*')
+```
+```js
+// 使用JSONP实现跨域访问
+// 原理：利用<script>标签可以进行跨域访问来操作
+// 后端，用express框架
+res.jsonp({name: 'xxx'})
+// 传输的数据是：'callback({"name": "xxx"})'
+// 默认的JSONP回调函数名称是 callback,想改变名字可以在路径上带参数
+// 前端，在 scripit 标签里发送请求，并定义 callback 函数来接收
+<script src="https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd= "></script>
+```
