@@ -266,7 +266,6 @@ let func: (x: number, y: number) => number = function(x: number, y: number): num
 默认参数: 在参数列表中直接为参数赋值即可, 当调用时不传该参数或该参数的值为 undefined 时取默认值  
 剩余参数: 可以把所有参数收集到一个变量里, 以便同时操作多个参数 `...rest: any[]`  
 
-
 this
 
 JavaScript 中, this 的值在函数被调用时才会指定  
@@ -287,3 +286,29 @@ function func(x:number, y:number):number {
   if (y) { }
 }
 ```
+
+## 泛型
+
+举个栗子
+
+```ts
+// 虽然这样可以传入任意类型值并返回它们, 但不能保证返回值的类型与传入的参数类型相同
+function identity(arg: any): any { return arg }
+// 使用类型变量, 它是一种特殊的变量, 用于表示类型而不是值
+// T 捕获使用者传入的类型, 这样不会丢失信息, 确保准确性
+function identity<T>(arg: T): T { return arg }
+// 使用泛型函数, 可以明确指定 T 的类型, 也可以使用类型推论
+identity<string>("myString")
+identity("myString") // 型推论帮助我们保持代码精简和高可读性
+```
+
+? 泛型接口
+
+理解何时把参数放在调用签名里和何时放在接口上是很有帮助的
+
+```ts
+interface Func { <T>(arg: T): T }
+interface Func<T> { (arg: T): T }
+```
+
+泛型类
