@@ -312,3 +312,47 @@ interface Func<T> { (arg: T): T }
 ```
 
 泛型类
+
+与泛型接口类似, 使用 `<>` 括起泛型类型跟在类名后面  
+泛型类指的是实例部分的类型, 所以类的静态属性不能使用这个泛型类型  
+
+```ts
+class Add<T> {
+  zeroValue: T
+  add: (x: T, y: T) => T
+}
+let add = new Add<number>()
+```
+
+泛型约束
+
+约束带有某些属性的特定类型
+
+```ts
+// 定义一个接口, 带有 length 属性
+interface Length { length: number } 
+// 只要是包含属性 length 的类型 T, 都可以被传入该函数, 约束了一类类型
+function logLen<T extends Length>(arg: T) { console.log(arg.length) }
+```
+
+? 在泛型里使用类类型
+
+## ? 枚举
+
+## 类型推论
+
+基础
+
+在有些没有明确指出类型的地方, 类型推论会帮助提供类型  
+推断发生在初始化变量和成员，设置默认参数值和决定函数返回值时  
+
+```ts
+let x = 3 // x 推论为 number
+function func(x = 3) { } // x 推论为 number
+function func() { return true } // 函数返回值推论为 boolean
+```
+
+上下文类型
+
+类型推论也可能按照相反的方向进行, 这被叫做按上下文归类, 会发生在表达式的类型与所处的位置相关时  
+上下文归类通常包含函数的参数, 赋值表达式的右边, 类型断言, 对象成员和数组字面量和返回值语句  
