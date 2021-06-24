@@ -356,3 +356,36 @@ function func() { return true } // 函数返回值推论为 boolean
 
 类型推论也可能按照相反的方向进行, 这被叫做按上下文归类, 会发生在表达式的类型与所处的位置相关时  
 上下文归类通常包含函数的参数, 赋值表达式的右边, 类型断言, 对象成员和数组字面量和返回值语句  
+
+## 类型兼容性
+
+结构类型与名义类型
+
+结构类型系统中, 数据类型的兼容性或等价性是基于类型的组成结构, 且不要求明确地声明  
+名义类型系统中, 数据类型的兼容性或等价性是通过明确的声明和/或类型的名称来决定的  
+
+```ts
+interface Named { name: string; }
+class Person { name: string; }
+let p: Named;
+// OK, because of structural typing
+// 在使用基于名义类型的语言, 比如 C# 或 Java 中, 这段代码会报错, 因为 Person 类没有明确说明其实现了 Named 接口
+p = new Person(); 
+```
+
+基本规则
+
+如果 x 要兼容 y, 那么 y 至少具有与 x 相同的属性
+
+```ts
+interface Named { name: string; }
+let x: Named
+let y = { name: 'Alice', location: 'Seattle' }
+// 检查 y 是否能赋值给 x 时, 编译器检查 x 中的每个属性, 看是否能在 y 中也找到对应属性
+// y 有个额外的 location 属性, 但这不会引发错误, 只有目标类型的成员会被一一检查是否兼容, 递归检查
+x = y
+```
+
+? 函数, 类, 接口, 枚举, 泛型的类型兼容
+
+## 
