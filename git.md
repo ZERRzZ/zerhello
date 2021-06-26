@@ -47,6 +47,8 @@ windows: 从官网直接下载安装程序, 然后按默认选项安装即可
 回退到最新提交: `git reset --hard HEAD`  
 回退到某次提交: `git reset --hard <commit-id>`  
 
+重新提交: `git commit --amend` 代替上一次的提交  
+
 查看命令日志: `git reflog`  
 可从该日志里获得版本号来撤销回退
 
