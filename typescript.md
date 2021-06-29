@@ -388,4 +388,56 @@ x = y
 
 ? 函数, 类, 接口, 枚举, 泛型的类型兼容
 
-## 
+## 高级类型
+
+? 交叉类型
+
+将多个类型合并为一个类型  
+
+联合类型
+
+表示一个值可以是几种类型之一, 用竖线 `|` 分隔每个类型  
+如果一个值是联合类型，我们只能访问此联合类型的所有类型里共有的成员  
+
+类型保护
+
+可使用类型断言来确切的判断类型, 缺点是需多次使用  
+也可使用自定义的类型保护 `parameterName is Type` 这种形式  
+推荐使用 `typeof x === 'type'` 类型保护  
+使用 `instanceof` 类型保护, 通过构造函数来细化类型  
+常用类型保护来筛选 null 和 undefined, 如果编译器不能去除, 可手动添加 `!` 后缀去除  
+
+```ts
+interface Bird { fly(); layEggs(); }
+interface Fish { swim(); layEggs(); }
+let pet: Bird | Fish
+pet.layEggs(); // okay
+pet.swim();    // errors
+
+// 每一个成员访问都会报错
+if (pet.swim) { pet.swim(); }
+else if (pet.fly) { pet.fly(); }
+
+// 使用类型断言
+if ((<Fish>pet).swim) { (<Fish>pet).swim(); }
+else { (<Bird>pet).fly(); }
+```
+
+类型别名
+
+类型别名会给一个类型起个新名字, 与接口类似  
+类型别名不能被 `extends` 和 `implement`, 这是应该使用接口  
+如果你无法通过接口来描述一个类型并且需要使用联合类型或元组类型, 这时通常会使用类型别名  
+
+```ts
+type Name = string; // 使用 type 定义一个名字
+type Container<T> = { value: T }; // 类型别名也可以是泛型
+```
+
+字符串字面量类型
+
+字符串字面量类型允许你指定字符串必须的固定值, 可以与联合类型, 类型保护和类型别名很好的配合  
+
+? 映射类型 ...
+
+## symbols
