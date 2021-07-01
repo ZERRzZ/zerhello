@@ -426,7 +426,7 @@ else { (<Bird>pet).fly(); }
 类型别名
 
 类型别名会给一个类型起个新名字, 与接口类似  
-类型别名不能被 `extends` 和 `implement`, 这是应该使用接口  
+类型别名不能被 `extends` 和 `implement`, 这时应该使用接口  
 如果你无法通过接口来描述一个类型并且需要使用联合类型或元组类型, 这时通常会使用类型别名  
 
 ```ts
@@ -441,3 +441,36 @@ type Container<T> = { value: T }; // 类型别名也可以是泛型
 ? 映射类型 ...
 
 ## symbols
+
+自 ECMAScript 2015 起, symbol 成为了一种新的原生类型, 类似 number 和 string  
+
+使用
+
+symbol 类型的值是通过 Symbol 构造函数创建的  
+Symbols 是不可改变且唯一的  
+
+
+```ts
+let sym1 = Symbol();
+let sym2 = Symbol("key"); // 可选的字符串key
+```
+
+? 未完待续...
+
+## ? 迭代器和生成器
+
+可迭代性
+
+当一个对象实现了 Symbol.iterator 属性时, 我们认为它是可迭代的  
+
+## 模块
+
+简介
+
+从 ECMAScript 2015 开始, JavaScript 引入了模块的概念, TypeScript 也沿用这个概念  
+模块在其自身的作用域里执行, 而不是在全局作用域里, 即模块内部内容在外部是不可见的  
+模块是自声明的, 两个模块之间的关系是通过在文件级别上使用 imports 和 exports 建立的  
+任何包含顶级 import 或 export 的文件都被当成一个模块, 反之则它的内容被视为全局可见的, 对模块也是可见的  
+
+导出
+
