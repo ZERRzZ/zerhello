@@ -1,20 +1,24 @@
-	JavaScript 位置
-		HTML 事件中: <button onclick="..."></button>
-		<a> 标签中: <a href="javascript:..."></a>
-			在 <a> 的 href 属性中设置"javascript:;"来防止其跳转, 或在响应函数中return false取消浏览器默认行为
-		<script> 标签中:
-			1.把脚本置于 <body> 元素的底部可改善显示速度, 因为脚本编译会拖慢显示
-			2.外部 JS 文件中: 使用外部脚本, 请在 <script> 标签的 src 属性中设置脚本的名称
-	>
-JavaScript 骨灰级用句
-  写入警告框：window.alert()
-  写入body中：document.write()
-  写入控制台：console.log()
-  写入HTML元素：innerHTML
-  单行注释：//
-  多行注释：/* */
-  注：confirm()  比 alert() 功能要强大
->
+## 遇见
+
+JS 位置
+
+DOM 事件中: `<input type='button' onclick='...'>`  
+a 标签中: `<a href='javascript:...'></a>` 设置 `javascript:;` 防止跳转  
+script 标签中: 可以直接在标签中书写也可用 `src` 属性引用外部脚本文件  
+把脚本放在 `<body>` 元素的底部可改善页面显示速度, 因为脚本编译会拖慢显示  
+
+调试
+
+打印: `console.log()`, `console.warn()`, `console.error()`  
+警告框: `window.alert()`, `window.confirm()`  
+写入 body 中: `document.write()`  
+写入 HTML 元素: `element.innerHTML`  
+
+注释
+
+单行注释：`//`  
+多行注释：`/* */`  
+
 JavaScript 基础语法
   字面量与变量: 字面量类型即为数据类型, 变量是存储字面量的容器, 使用 var 关键词来声明变量
   标识符: 包含字母、数字、下划线和美元符号 $, 不能以数字开头, 区分大小写
@@ -743,17 +747,13 @@ JavaScript DOM 事件
 事件的冒泡: 当子元素事件被触发时, 其祖先元素相同事件也会被触发, 用 `event.cancelBubble = true` 来禁止  
 事件的委派: 利用冒泡将事件绑定到祖先元素上, 再用 `event.target` 来获取真正触发事件的元素  
 
-实现拖拽排序
-
-获取元素的位置: `el.getBoundingClientRect()` 提供元素大小和相对于**视口**的位置  
-在某元素之前插入元素: `insertBefore(new, old)` 在旧元素前插入新元素  
-
 拖拽事件
 
-设置 draggable = true 来让元素可拖动, 链接和图片默认即可拖动  
+设置 `draggable = true` 来让元素可拖动, 链接和图片默认即可拖动  
+注意 `ondragenter` 会 enter 自己  
 
 ```js
-// 源元素上的事件 
+// 源元素上的事件
 ondragstart() // 开始拖动元素
 ondrag() // 正在拖动元素
 ondragend() // 完成元素的拖动
@@ -764,6 +764,12 @@ ondragleave() // 拖动对象离开其容器范围时触发
 ondrop() // 拖动对象在其容器内释放鼠标键时触发
 // 在拖动元素时，每隔 350 毫秒会触发 ondragover 事件
 ```
+
+实现拖拽排序
+
+获取元素的位置: `el.getBoundingClientRect()` 提供元素大小和相对于**视口**的位置  
+在某元素之前插入元素: `insertBefore(new, old)` 在旧元素前插入新元素  
+使用 `el.offsetWidth` 或者 `setTimeout` 来使触发页面的重绘, 实现 `css animation` 效果  
 
 JavaScript DOM 事件案例
 
