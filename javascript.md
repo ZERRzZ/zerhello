@@ -1,11 +1,11 @@
-JavaScript 位置
-  HTML 事件中: <button onclick="..."></button>
-  <a> 标签中: <a href="javascript:..."></a>
-    在 <a> 的 href 属性中设置"javascript:;"来防止其跳转, 或在响应函数中return false取消浏览器默认行为
-  <script> 标签中:
-    1.把脚本置于 <body> 元素的底部可改善显示速度, 因为脚本编译会拖慢显示
-    2.外部 JS 文件中: 使用外部脚本, 请在 <script> 标签的 src 属性中设置脚本的名称
->
+	JavaScript 位置
+		HTML 事件中: <button onclick="..."></button>
+		<a> 标签中: <a href="javascript:..."></a>
+			在 <a> 的 href 属性中设置"javascript:;"来防止其跳转, 或在响应函数中return false取消浏览器默认行为
+		<script> 标签中:
+			1.把脚本置于 <body> 元素的底部可改善显示速度, 因为脚本编译会拖慢显示
+			2.外部 JS 文件中: 使用外部脚本, 请在 <script> 标签的 src 属性中设置脚本的名称
+	>
 JavaScript 骨灰级用句
   写入警告框：window.alert()
   写入body中：document.write()
@@ -722,14 +722,6 @@ JavaScript DOM 事件
   元素相对鼠标移动：
     可用 clientY 减去 scrollTop 来计算出鼠标相对于整个页面的位置，直接用 page 不兼容
 
-  事件的冒泡：
-    当后代事件被触发时，其祖先的相同事件也会被触发
-    取消冒泡：(event|window.event).cancelBubble = true;
-
-  事件的委派：
-    可利用冒泡将事件绑定到祖先元素上，这样只需绑定一次且即使后添加的元素也会自动绑定事件
-    此时应判断是否是期望的元素响应事件，用 事件对象.target 来判断
-
   事件的绑定：
     1.对象.事件 = 函数 ：只能绑定一个，可用 return false 来取消浏览器默认行为
     2.addEventListener()方法  可绑定多个，不兼容 IE8
@@ -743,6 +735,35 @@ JavaScript DOM 事件
     第二阶段：目标阶段
     第三阶段：冒泡阶段，从目标元素向祖先元素传递并依次触发事件
 >
+
+## JS 拖拽
+
+前置知识
+
+事件的冒泡: 当子元素事件被触发时, 其祖先元素相同事件也会被触发, 用 `event.cancelBubble = true` 来禁止  
+事件的委派: 利用冒泡将事件绑定到祖先元素上, 再用 `event.target` 来获取真正触发事件的元素  
+
+实现拖拽排序
+
+获取元素的位置: `el.getBoundingClientRect()` 提供元素大小和相对于**视口**的位置  
+在某元素之前插入元素: `insertBefore(new, old)` 在旧元素前插入新元素  
+
+拖拽事件
+
+设置 draggable = true 来让元素可拖动, 链接和图片默认即可拖动  
+
+```js
+// 源元素上的事件 
+ondragstart() // 开始拖动元素
+ondrag() // 正在拖动元素
+ondragend() // 完成元素的拖动
+// 目标元素上的事件
+ondragenter() // 拖动对象进入其容器范围时触发
+ondragover() // 拖动对象在其容器范围内拖动时触发
+ondragleave() // 拖动对象离开其容器范围时触发
+ondrop() // 拖动对象在其容器内释放鼠标键时触发
+// 在拖动元素时，每隔 350 毫秒会触发 ondragover 事件
+```
 
 JavaScript DOM 事件案例
 

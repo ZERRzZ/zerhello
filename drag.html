@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>drag</title>
+  <style>
+    ul {
+      list-style: none;
+      margin: 200px;
+    }
+
+    li {
+      width: 500px;
+      height: 50px;
+      margin: 10px 0;
+      line-height: 50px;
+      padding-left: 50px;
+      background: lightblue;
+      border: 1px solid #000;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <ul id="ul">
+    <li draggable="true">1</li>
+    <li draggable="true">2</li>
+    <li draggable="true">3</li>
+    <li draggable="true">4</li>
+    <li draggable="true">5</li>
+  </ul>
+  <script>
+    let ul = document.getElementById('ul')
+    let start = null
+
+    // 使用事件委托, 把 li 事件委托给 ul
+    ul.addEventListener('dragstart', e => {
+      // console.log('start', e)
+      // e.dataTransfer.setData("li", event.target.innerText) // firefox设置了setData后元素才能拖动！！！！
+      start = e.target
+    })
+
+    ul.addEventListener('dragenter', e => {
+      // 因为 dragover 事件会发生在 ul 上, 所以筛选一下
+      if (e.target.nodeName != 'LI') return
+      // console.log('enter', e)
+
+      // 获取源元素与目标元素初始位置
+      let startTopP = start.getBoundingClientRect().top
+      let targetTopP = e.target.getBoundingClientRect().top
+
+      // 改变元素位置
+      if (_index(start) < _index(e.target)) e.target.parentNode.insertBefore(start, e.target.nextElementSibling)
+      else e.target.parentNode.insertBefore(start, e.target)
+
+      // 获取改变位置之后的元素位置
+      let startTopC = start.getBoundingClientRect().top
+      let targetTopC = e.target.getBoundingClientRect().top
+
+      // 让元素瞬间回到初始位置
+      start.style.transition = 'none'
+      e.target.style.transition = 'none'
+      start.style.transform = `translateY(${startTopP - startTopC}px)`
+      e.target.style.transform = `translateY(${targetTopP - targetTopC}px)`
+
+      e.target.offsetWidth // 触发重绘
+      // setTimeout(() => { // 也可用 setTimeout
+      // }, 0)
+
+      // 元素移动动画
+      start.style.transition = 'all .3s'
+      e.target.style.transition = 'all .3s'
+      start.style.transform = `translateY(0)`
+      e.target.style.transform = `translateY(0)`
+    })
+
+    // 获取同一层级的元素下标
+    function _index(el) {
+      let index = 0
+      while (el && (el = el.previousElementSibling)) index++
+      return index
+    }
+  </script>
+</body>
+
+</html>
