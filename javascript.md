@@ -774,7 +774,7 @@ ondrop() // 拖动对象在其容器内释放鼠标键时触发
 JavaScript DOM 事件案例
 
   拖拽：
-    所用事件：onmousedown, onmouseover, onmouseup
+    所用事件：onmousedown, onmousemove, onmouseup
     注意全选时拖拽浏览器默认会用内容去搜索，应注意取消默认行为
     IE 8 中应用 元素.setCapture() 方法， 元素.releaseCapture() 方法
     将下一次事件强制捕获到该元素上，释放强制捕获
