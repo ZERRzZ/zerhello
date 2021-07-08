@@ -694,21 +694,9 @@ JavaScript DOM 样式操作
       只支持 IEs
     用这类方法时应注意兼容性问题
 
-  其他样式操作 (只读):
-    元素.clientWidth | clientHeight  可见宽高, 包括内容区与内边距
-    元素.offsetWidth | offsetHeight  包括内容区, 内边距, 边框
-    元素.scrollWidth | scrollHeight  整个滚动区域的宽高
-
-    元素.offsetParent             当前元素的定位父元素
-    元素.offsetLeft | offsetTop   当前元素的定位偏移量
-    元素.scrollLeft | scrollTop   当前元素滚动条的偏移量
-
-    应用: 满足 scrollHeight - scrollTop == clientHeight 时表示滚动条到底
-
   用类的方法批量操作样式：
     新建一个类存放新的样式，然后替换类
     添加一个类，判断一个类有没有，删除一个类，切换一个类
->
 
 JavaScript DOM 事件
 
@@ -740,7 +728,42 @@ JavaScript DOM 事件
     第三阶段：冒泡阶段，从目标元素向祖先元素传递并依次触发事件
 >
 
-## JS 拖拽
+## 位置与偏移量
+
+viewport
+
+视口代表当前可见的计算机图形区域, 在 Web 浏览器术语中, 通常与浏览器窗口相同, 但不包括浏览器的 UI, 菜单栏等, 即指你正在浏览的文档的那一部分  
+
+window
+
+`outerHeight/outerWidth` 整个浏览器窗口的宽高  
+`innerHeight/innerWidth` 浏览器窗口的**视口**宽高, 如果有滚动条, 也包括滚动条宽高  
+`window.screen` 实现了 Screen 接口, 它是个特殊的对象, 返回当前渲染窗口中和屏幕有关的属性  
+
+client
+
+`el.clientWidth/clientHeight` 元素内部宽高, 包括内边距, 但不包括边框和外边距, 以及滚动条  
+`el.clientLeft/clientTop`  元素左边框/上边框的宽度, 如果有滚动条则包括滚动条  
+
+offset
+
+`el.offsetWidht/offsetHeight` 元素 `border + padding + width` 三者的总宽高  
+`el.offsetParent` 返回一个当前元素最近的定位父元素  
+`el.offsetLeft/offsetTop` 返回当前元素左上角相对于 `offsetParent` 节点的左边界/上边界偏移的像素值  
+
+scroll
+
+`el.scrollWidth/scrollHeight` 当没有 overflow 时等于视口宽高, 内容超出时表示整个滚动区的宽高  
+`el.scrollLeft/scrollTop` 元素滚动条到元素左边/上边的距离, 可以设置  
+满足 scrollHeight - scrollTop == clientHeight 时表示滚动条到底  
+
+el.getBoundingClientRect()
+
+返回元素的大小及其相对于**视口**的位置, 一个 `DOMRect` 对象  
+标准盒模型时大小为 `width/height + padding + border` 的总和, `border-box` 时大小为 `width/height`  
+`left, top, right, bottom, x, y` 都是相对于视口的左上角来计算的  
+
+## 拖拽
 
 前置知识
 
@@ -770,6 +793,11 @@ ondrop() // 拖动对象在其容器内释放鼠标键时触发
 获取元素的位置: `el.getBoundingClientRect()` 提供元素大小和相对于**视口**的位置  
 在某元素之前插入元素: `insertBefore(new, old)` 在旧元素前插入新元素  
 使用 `el.offsetWidth` 或者 `setTimeout` 来使触发页面的重绘, 实现 `css animation` 效果  
+
+实现拖拽移动
+
+实际上使用 `onmousedown, onmousemove, onmouseup` 三个鼠标事件实现的  
+`onmusemove` 时默认会全选内容, 应取消默认事件  
 
 JavaScript DOM 事件案例
 
