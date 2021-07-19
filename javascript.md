@@ -1,6 +1,6 @@
 ## 遇见
 
-JS 位置
+引入
 
 DOM 事件中: `<input type='button' onclick='...'>`  
 a 标签中: `<a href='javascript:...'></a>` 设置 `javascript:;` 防止跳转  
@@ -10,7 +10,8 @@ script 标签中: 可以直接在标签中书写也可用 `src` 属性引用外�
 调试
 
 打印: `console.log()`, `console.warn()`, `console.error()`  
-警告框: `window.alert()`, `window.confirm()`  
+警告框: `window.alert()`, `window.confirm()`, `window.prompt()` 区别在于返回值 `undefined/布尔值/用户输入值`  
+测试性能: `console.time()`, `console.timeEnd()` 开启与关闭计时器  
 写入 body 中: `document.write()`  
 写入 HTML 元素: `element.innerHTML`  
 
@@ -19,6 +20,8 @@ script 标签中: 可以直接在标签中书写也可用 `src` 属性引用外�
 单行注释：`//`  
 多行注释：`/* */`  
 
+
+
 JavaScript 基础语法
   字面量与变量: 字面量类型即为数据类型, 变量是存储字面量的容器, 使用 var 关键词来声明变量
   标识符: 包含字母、数字、下划线和美元符号 $, 不能以数字开头, 区分大小写
@@ -26,8 +29,6 @@ JavaScript 基础语法
     1.JS 使用 Unicode 字符集
     2.JS 中用 \u 转义字符来输出 Unicode 码, "\u字符集"
     3.HTML 中用 "&#编码;" 来输出, 或者用 "&名字;" 输出
-  可输出的警告框: prompt()  返回用户输入的内容, 参数为提示文字
-  测试性能: console.time(), console.timeEnd()  开启与关闭计时器, 参数为名字
 >
 JavaScript 数据类型
   数据类型即字面量类型：
