@@ -34,11 +34,38 @@ Map 对象代表页面上的地图, 可以创建 Map 并通过指定的 containe
 
 new Map(options: Object)
 
-`options.container`: 地图渲染的 HTML 元素或该元素的字符串 id, 该指定元素不能有子元素  
-`options.minZoom`: 地图最小缩放级别(0-24), 默认为 0  
-`options.maxZoom`: 地图最小缩放级别(0-24), 默认为 22  
-`option.style`: 地图的配置样式, 必须是一个符合 `Mapbox 样式规范` 的 JSON 对象, 或者是一个指向该 JSON 的 URL 地址  
+`container`: 地图渲染的 HTML 元素或该元素的字符串 id, 该指定元素不能有子元素  
+`minZoom`: 地图最小缩放级别(0-24), 默认为 0  
+`maxZoom`: 地图最小缩放级别(0-24), 默认为 22  
+`style`: 地图的配置样式, 必须是一个符合 `Mapbox 样式规范` 的 JSON 对象, 或者是一个指向该 JSON 的 URL 地址  
+... ...
 
+## Popup 弹窗组件
+
+例子
+
+```ts
+var popup = new mapboxgl.Popup({ closeOnClick: false })
+.setLngLat([-96, 37.8])
+.setHTML('<h1>Hello World!</h1>')
+.addTo(map);
+```
+
+new Popup(options: Object)
+
+`closeButton`: 为 true 则弹窗右上角将出现关闭按钮  
+`closeOnClick`: 为 true 则点击地图时弹窗将关闭  
+`anchor`: 表示弹窗位置  
+`offset`: 对应到弹窗位置的像素偏移  
+`className`: 添加到弹窗容器的以空格分隔的CSS类名  
+`maxWidth`: 设置弹窗CSS属性中最大宽度的字符串, 为确保弹窗在缩放后能容纳内容, 应设置此属性为 'none'  
+
+方法
+
+`addTo(map)`: 在地图上添加弹窗  
+`remove()`: 从添加地图中移除弹窗  
+`setLngLat(lnglat)`: 设置弹窗的锚的地理位置  
+`setHTML(html)`: 将弹窗内容设置为以字符串形式提供的 HTML  
 
 ## Mapbox 样式规范
 
