@@ -47,6 +47,8 @@ body 里的标签
 
 ## 特殊文本
 
+HTML 中可以使用实体的方式来显示 `&quot;`, 如果没有可以用十进制 `&#34;` 或十六进制 `&#x0022;` 来引用  
+
 `&nbsp;`: 空格  
 `&lt;`: <  
 `&gt;`: >  
@@ -56,10 +58,6 @@ body 里的标签
 `&reg;` `&trade;`: 注册商标, ™ 商标  
 `&times;` `&divide;`: 乘号, 除号  
 `&cent;` `&pound;` `&yen;` `&euro;`: 分, 镑, 元, 欧元  
-
-```html
-<p>我&nbsp;们,&lt;p&gt;,&copy;,&reg;</p>
-```
 
 ## HTML 文档基本结构
 
@@ -259,20 +257,6 @@ content 属性：作为 name 与 http-equiv 的值, 与它们搭配使用
 	<source /> 标签
 		video,audio 元素允许多个 source 元素,source 元素可以链接不同的视频文件
 
-
-html 5 拖放 ?
-
-	draggable 属性设置为 true  设置元素可拖拽
-	ondragstart 属性  规定当元素拖拽时,会发生什么
-		setData() 方法  dataTransfer.setData(type, value) 设置被拖数据的数据类型和值
-	ondragover 事件  规定在何处放置被拖动的数据
-		event.preventDefault() 方法  默认无法将数据/元素放置到其他元素中,需阻止对元素的默认处理方式
-	ondrop 属性  放置元素
-		调用 preventDefault() 来避免浏览器对数据的默认处理(drop 事件的默认行为是以链接形式打开)
-		通过 dataTransfer.getData("Text") 方法获得被拖的数据,该方法将返回在 setData() 方法中设置为相同类型的任何数据
-		target.appendChild() 被拖数据是被拖元素的 id ("drag1"),把被拖元素追加到放置元素（目标元素）中
-
-
 html object插件 ?
 
 	浏览器插件是一种扩展浏览器标准功能的小型计算机程序。
@@ -291,7 +275,6 @@ html object插件 ?
 	显示音频:
 	<embed height="100" width="100" src="song.mp3" />
 	<object height="100" width="100" data="song.mp3"></object>
-
 
 html5 canvas 与 svg ?
 
