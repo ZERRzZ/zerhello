@@ -25,3 +25,18 @@
 
 值
 
+分类: 变量可存在两种类型的值, 即原始值和引用值  
+原始值: 存储在栈(stack)中的简单数据段, 直接存储在变量访问的位置  
+引用值: 存储在堆(heap)中的对象, 存储在变量处的值是一个指针, 指向存储对象的内存处  
+
+原始类型
+
+五种原始类型: `Undefined, Null, Boolean, Number, String`  
+typeof: 该运算符有一个参数, 即要检查的变量, 返回值有 `undefined, boolean, number, string, object`, 注意 `null` 类型返回值是 `object`  
+Undefined: 只有一个值 `undefined`, 当声明的变量未初始化时或函数无明确返回值时, 都默认值是 `undefined`  
+Null: 只有一个值 `null`, 值 undefined 实际上是从值 null 派生来的, 即 `undefined == null`, 但两者意义不同, null 表示尚未存在的对象  
+Boolean: 两个值 `true/false`, false 不等于零但零可以在必要时转成 false  
+Number: 既可以表示 32 位的整数, 也可以表示 64 位的浮点数  
+
+	整数: 八进制首数字须是 0, 十六进制首数字须是 0, 并且其后接 x, 例 070, 0x1b
+	注: 尽管所有整数都可以表示为八进制或十六进制的字面量, 但所有数学运算返回的都是十进制结果
