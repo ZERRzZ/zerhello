@@ -33,10 +33,43 @@
 
 五种原始类型: `Undefined, Null, Boolean, Number, String`  
 typeof: 该运算符有一个参数, 即要检查的变量, 返回值有 `undefined, boolean, number, string, object`, 注意 `null` 类型返回值是 `object`  
-Undefined: 只有一个值 `undefined`, 当声明的变量未初始化时或函数无明确返回值时, 都默认值是 `undefined`  
-Null: 只有一个值 `null`, 值 undefined 实际上是从值 null 派生来的, 即 `undefined == null`, 但两者意义不同, null 表示尚未存在的对象  
-Boolean: 两个值 `true/false`, false 不等于零但零可以在必要时转成 false  
 Number: 既可以表示 32 位的整数, 也可以表示 64 位的浮点数  
 
-	整数: 八进制首数字须是 0, 十六进制首数字须是 0, 并且其后接 x, 例 070, 0x1b
-	注: 尽管所有整数都可以表示为八进制或十六进制的字面量, 但所有数学运算返回的都是十进制结果
+	整数: 
+		八进制首数字须是 0, 十六进制首数字须是 0, 并且其后接 x, 例 070, 0x1b
+		注: 尽管所有整数都可以表示为八进制或十六进制的字面量, 但所有数学运算返回的都是十进制结果
+	浮点数: 
+		包括小数点和小数点后的一位数字, 在进行计算前, 真正存储的是字符串
+	科学计数法: 
+		把一个数表示为数字加 e (或 E), 后面加乘以 10 的倍数
+	特殊的 Number 值: 
+		Number.MAX_VALUE 和 Number.MIN_VALUE, 定义 Number 值集合的边界, 但计算生成的数值可以超出
+		Number.POSITIVE_INFINITY 和 Number.NEGATIVE_INFINITY, 计算生成的数值超出范围后被赋予的值, 意味着不再有数字值
+		Infinity 与 -Infinity, 专门表示无穷大的值, 是 Number.POSITIVE_INFINITY 与 Number.NEGATIVE_INFINITY 的值, 不能用与其他计算
+		ifFinite(), 可对任何数使用, 判断该数是否无穷大
+		NaN, 表示非数(Not a Number), 发生在类型转换失败时, 不能用于计算, 它与自身不相等, 推荐使用函数 isNaN()
+
+String: 没有固定大小的原始类型, 用 `'' 或 ""` 声明
+
+	字符串中每个字符都有特定的位置，首字符从位置 0 开始，第二个字符在位置 1，依此类推
+	String 类型还包括几种字符字面量:
+		\n	换行
+		\t	制表符
+		\b	空格
+		\r	回车
+		\f	换页符
+		\\	反斜杠
+		\'	单引号
+		\"	双引号
+		\0nnn	八进制代码 nnn 表示的字符（n 是 0 到 7 中的一个八进制数字）
+		\xnn	十六进制代码 nn 表示的字符（n 是 0 到 F 中的一个十六进制数字）
+		\unnnn	十六进制代码 nnnn 表示的 Unicode 字符（n 是 0 到 F 中的一个十六进制数字）
+
+Boolean: 两个值 `true/false`, false 不等于零但零可以在必要时转成 false  
+Undefined: 只有一个值 `undefined`, 当声明的变量未初始化时或函数无明确返回值时, 都默认值是 `undefined`  
+Null: 只有一个值 `null`, 值 undefined 实际上是从值 null 派生来的, 即 `undefined == null`, 但两者意义不同, null 表示尚未存在的对象  
+
+类型转换
+
+所有程序设计语言最重要的特征之一是具有进行类型转换的能力  
+转换成字符串: 
