@@ -92,3 +92,33 @@ Number(): 转换的是整个值, 当整个字符串值不能转换成数字时, 
 		日期对象转换为毫秒
 
 String(): 可把任何值转换成字符串, 包括 null 与 undefined, 而 null 与 undefined 没有 toString() 方法  
+
+引用类型
+
+引用类型通常叫做类(class), 即遇到引用值, 所处理的就是对象  
+ECMAScript 定义了对象定义, 并不真正具有类, 逻辑上等价于其他程序设计语言中的类  
+对象是由 new 运算符加上要实例化的对象的名字创建的 `var o = new Object()` 没有参数时可省略括号  
+Object 对象, 所有对象都由这个对象继承而来, 每种属性和方法都会被其他对象覆盖  
+
+```js
+// 属性
+constructor // 对创建对象的函数的引用(指针), 对于 Object 对象, 该指针指向原始的 Object() 函数
+Prototype // 对该对象的对象原型的引用, 对于所有的对象, 它默认返回 Object 对象的一个实例
+// 方法
+hasOwnProperty(property) // 判断对象是否有某个特定的属性。必须用字符串指定该属性
+isPrototypeOf(object) // 判断该对象是否为另一个对象的原型
+propertyIsEnumerable() // 判断给定的属性是否可以用 for...in 语句进行枚举
+toString() // 返回对象的原始字符串表示
+valueOf() // 返回最适合该对象的原始值。对于许多对象，该方法返回的值都与 ToString() 的返回值相同
+```
+
+Boolean 对象, 是 Boolean 原始类型的引用类型 `var bool = new Boolean(true)`  
+
+	Boolean 对象将覆盖 Object 对象的 ValueOf() 方法, 返回原始值, 即 true 和 false
+	ToString() 方法也会被覆盖, 返回字符串 "true" 或 "false"
+	虽然你应该了解 Boolean 对象的可用性, 不过最好还是使用 Boolean 原始值
+
+Number 对象, 是 Number 原始类型的引用类型 `var number = new Number(68)`  
+
+	数值类型的所有特殊值都是 Number 对象的静态属性
+	用 number.valueOf() 来得到数值对象的原始值
