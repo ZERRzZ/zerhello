@@ -122,3 +122,30 @@ Number 对象, 是 Number 原始类型的引用类型 `var number = new Number(6
 
 	数值类型的所有特殊值都是 Number 对象的静态属性
 	用 number.valueOf() 来得到数值对象的原始值
+	Number 类也有 toString() 方法, 以及从 Object 对象继承的标准方法
+	toFixed() 返回的是具有指定位数小数的数字的字符串表示, 能表示具有 0 到 20 位小数的数字, 参数为小数位数
+	toExponential() 返回的是用科学计数法表示的数字的字符串形式, 参数为小数位数
+	toPrecision() 根据最有意义的形式来返回数字的预定形式或指数形式, 参数为数的数字总数 (试试就懂了)
+
+String 对象, 是 String 原始类型的对象表示法 `var string = new String('hello world')`  
+String 对象的所有属性和方法都可应用于 String 原始值上，因为它们是伪对象  
+
+	String 对象的 valueOf() 方法和 toString() 方法都会返回 String 类型的原始值
+	length 属性, 字符串中的字符个数
+	charAt()/charCodeAt(), 参数为位置, 返回在该位置上的字符/字符代码
+	indexOf()/lastIndexOf(), 参数为字符, 返回字符在字符串上的位置, 从前到后/从后到前, 找不到返回 -1
+	concat(), 参数为字符串, 返回连接后的字符串, 不改变原数组
+	localeCompare(), 参数为字符串, 返回正数/0/负数, 表示按字母表排序在参数之前/相等/之后
+	slice() 第一个参数是起始位置, 第二个参数是终止位置且默认为字符串长度, 返回截取后的字符串, 参数中有负数时会用字符串长度加上参数
+	substring() 第一个参数是起始位置, 第二个参数是终止位置且默认为字符串长度, 返回截取后的字符串, 参数有负数时会无视负数且总把较小的数字作为起始位
+	toLowerCase(), toUpperCase(), toLocaleLowerCase(), toLocaleUpperCase() 大小写转换
+
+instanceof 运算符, 弥补 typeof 对引用类型都返回 object 的问题, 判断变量是否是某对象的实例 `xxx instanceof xxxObject`
+
+## 运算符
+
+一元运算符
+
+delete: 删除开发者自己定义的对象属性或方法的引用, 意味着强制解除对它的引用, 将其设置为 undefined `delete obj.name`  
+void: 对任何值返回 undefined  
+++/--: 前增量和前减量, 后增量和后减量  
