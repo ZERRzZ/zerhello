@@ -7,3 +7,7 @@ anonymous 匿名的 `əˈnänəməs`
 ## 2020-08-02
 
 percision 精确 `prəˈsiZHən`
+
+## 2020-08-04
+
+humidity 湿度 `(h)yo͞oˈmidədē`
