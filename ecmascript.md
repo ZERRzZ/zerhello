@@ -149,3 +149,28 @@ instanceof 运算符, 弥补 typeof 对引用类型都返回 object 的问题, �
 delete: 删除开发者自己定义的对象属性或方法的引用, 意味着强制解除对它的引用, 将其设置为 undefined `delete obj.name`  
 void: 对任何值返回 undefined  
 ++/--: 前增量和前减量, 后增量和后减量  
++/-: 一元加法与一元减法, 即数学上的正负号, 会把字符串转换为数值  
+
+位运算符
+
+位运算符是在数字底层(即表示数字的 32 个数位)进行操作的  
+NOT(`~`): 把运算数转换成 32 位数字, 把二进制数转换成它的二进制反码, 把二进制数转换成浮点数  
+AND(`&`): ...  
+OR(`|`): ...  
+XOR(`^`): ...  
+移动: `<<` 左移, `>>` 右移, `>>>` 无符号右移  
+
+逻辑运算符
+
+Boolean 运算符有三种: NOT, AND 和 OR  
+
+	抽象操作 ToBoolean 将其参数按照下表中的规则转换为逻辑值:
+		Undefined	false
+		Null	false
+		Boolean	结果等于输入的参数(不转换)
+		Number	如果参数为 +0, -0 或 NaN, 则结果为 false; 否则为 true
+		String	如果参数为空字符串, 则结果为 false; 否则为 true
+		Object	true	
+
+NOT(`!`): 逻辑 NOT 运算符返回的一定是 Boolean 值, 取逻辑反, 大体规则如上, 但遇 undefined 报错  
+AND(`&&`): 且, 逻辑短路  
