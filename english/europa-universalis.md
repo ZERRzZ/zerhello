@@ -25,3 +25,11 @@ unrest 动荡 `ˌənˈrest`
 loyalty 忠诚 `ˈloiəltē`
 
 rival 对手 `ˈrīvəl`
+
+## 2021-08-12
+
+grain 粮食 `ɡrān`
+
+mercenary 雇佣兵 `ˈmərsəˌnerē`
+
+divert 转移 `dəˈvərt`
