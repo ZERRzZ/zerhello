@@ -33,3 +33,13 @@ grain 粮食 `ɡrān`
 mercenary 雇佣兵 `ˈmərsəˌnerē`
 
 divert 转移 `dəˈvərt`
+
+## 2021-08-13
+
+alliance 联盟 `əˈlīəns`
+
+inflation 通货膨胀 `inˈflāSH(ə)n`
+
+raputation 名声 `ˌrepyəˈtāSH(ə)n`
+
+prosperity 繁荣 `präˈsperədē` 
