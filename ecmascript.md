@@ -256,3 +256,12 @@ switch (expression)
 
 ## 函数
 
+概述
+
+函数是一组可以随时随地运行的语句, 是 ECMAScript 的核心, 基本语法 `function functionName(arg0, arg1, ... argN) { statements }`  
+函数调用时用函数名加上括号中的参数来进行调用  
+函数返回值用 return 运算符后跟要返回的值即可, 如果函数无明确的返回值，或调用了没有参数的 return 语句，那么它真正返回的值是 undefined  
+函数在执行过 return 语句后立即停止代码  
+
+arguments
+
