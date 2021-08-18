@@ -144,25 +144,25 @@ instanceof 运算符, 弥补 typeof 对引用类型都返回 object 的问题, �
 
 ## 运算符
 
-一元运算符
+一元
 
-delete: 删除开发者自己定义的对象属性或方法的引用, 意味着强制解除对它的引用, 将其设置为 undefined `delete obj.name`  
-void: 对任何值返回 undefined  
-++/--: 前增量和前减量, 后增量和后减量  
-+/-: 一元加法与一元减法, 即数学上的正负号, 会把字符串转换为数值  
+`delete`, 删除自定义的对象属性或方法的引用, 意味着强制解除对它的引用, 将其设置为 undefined `delete obj.name`  
+`void`, 对任何值返回 undefined  
+`++/--`, 前增量和前减量, 后增量和后减量  
+`+/-`, 一元加法与一元减法, 即数学上的正负号, 会把字符串转换为数值  
 
-位运算符
+位
 
 位运算符是在数字底层(即表示数字的 32 个数位)进行操作的  
-NOT(`~`): 把运算数转换成 32 位数字, 把二进制数转换成它的二进制反码, 把二进制数转换成浮点数  
-AND(`&`): ...  
-OR(`|`): ...  
-XOR(`^`): ...  
-移动: `<<` 左移, `>>` 右移, `>>>` 无符号右移  
+`~`, NOT, 把运算数转换成 32 位数字, 把二进制数转换成它的二进制反码, 把二进制数转换成浮点数  
+`&`, AND, ...  
+`|`, OR, ...  
+`^`, XOR ...  
+`<<` 左移, `>>` 右移, `>>>` 无符号右移  
 
-逻辑运算符
+逻辑
 
-Boolean 运算符有三种: NOT, AND 和 OR  
+`!`, 非, 逻辑 NOT 运算符返回的一定是 Boolean 值, 取逻辑反, 大体规则如上, 但遇 undefined 报错  
 
 	抽象操作 ToBoolean 将其参数按照下表中的规则转换为逻辑值:
 		Undefined	false
@@ -172,5 +172,87 @@ Boolean 运算符有三种: NOT, AND 和 OR
 		String	如果参数为空字符串, 则结果为 false; 否则为 true
 		Object	true	
 
-NOT(`!`): 逻辑 NOT 运算符返回的一定是 Boolean 值, 取逻辑反, 大体规则如上, 但遇 undefined 报错  
-AND(`&&`): 且, 逻辑短路  
+`&&`, 且, 存在逻辑短路  
+
+	如果某个运算数不是原始的 Boolean 型值, 逻辑 AND 运算并不一定返回 Boolean 值:
+	如果一个运算数是对象，另一个是 Boolean 值，返回该对象。
+	如果两个运算数都是对象，返回第二个对象。
+	如果某个运算数是 null，返回 null。
+	如果某个运算数是 NaN，返回 NaN。
+	如果某个运算数是 undefined，发生错误。
+
+`||`, 或, 存在逻辑短路, 返回的结果也不一定是 Boolean 值, 与 && 对立  
+
+乘性
+
+`*` 乘, `/` 除, `%` 取模, 运算数为数字时执行正常的数学运算, 特殊值运算如 NaN, Infinity, 0 视情况而定  
+
+加性
+
+`+` 加, `-` 减, 运算数为数字时执行正常的数学运算, 处理特殊值时视情况而定, 当运算数有字符串时 + 会用字符串形式来处理  
+
+关系
+
+关系运算符执行的是比较运算, 每个关系运算符都返回一个布尔值, 有 `>`, `<`, `>=`, `<=` 这几个关系运算符  
+数值的比较与算术比较运算相同, 字符串的比较会依次比较对应位置上的字符的 unicode 码, 注意大写字母的码比小写字母小  
+数值与字符串比较时, 会把字符串转换为数值, 注意任何包含 NaN 的关系运算符都要返回 false  
+
+等性
+
+`==` 等, `!=` 非等, 比较时会对运算数进行类型转换, 即不区分数据类型, 转换规则视情况而定  
+`===` 全等, `!==` 非全等, 比较时不会对运算数进行类型转换, 即区分数据类型  
+Boolean => Number, String/Number => Number, Object/String => String, Object/Number => Number  
+null == undefined, NaN != NaN, 对象的相等会判断它们的引用值, 如果指向同一对象则相等  
+
+条件
+
+`variable = boolean_expression ? true_value : false_value`
+
+赋值
+
+`=` 一般赋值, `*=`, `/=`, `%=`, `+=`, `-=` 等
+
+逗号	
+
+`,` 可以在一条语句中执行多个运算, 常用变量声明中
+
+## 语句
+
+if
+
+`if (condition) statement1 else statement2`, 条件可以是任何表达式, 语句可以是单行代码也可以是代码块  
+
+迭代
+
+`do {statement} while (expression)`, 后测试循环, 即退出条件在执行循环内部的代码之后计算  
+`while (expression) statement`, 前测试循环, 退出条件在执行循环内部代码之前计算  
+`for (initialization; expression; post-loop-expression) statement`, 前测试循环, 而且在进入循环之前能够初始化变量并定义循环后要执行的代码  
+`for (property in expression) statement`, 严格的迭代语句, 用于枚举对象的属性, PropertyIsEnumerable() 可用于说明属性是否可以用 for-in 迭代  
+
+标签
+
+`label: statement`, 可用下列语句给语句加标签, 以便以后调用  
+
+break 与 continue
+
+break 可以立即退出循环而 continue 只是退出当前循环  
+break 与 continue 可以配合标签使用  
+
+with 
+
+`with (expression) statement`, 用于设置代码在特定对象中的作用域
+
+switch
+
+```js
+switch (expression)
+  case value: statement;
+    break;
+  case value: statement;
+    break;
+	...
+  default: statement;
+```
+
+## 函数
+
