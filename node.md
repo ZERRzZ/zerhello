@@ -452,22 +452,6 @@ npm init -y
 // 即初始化一个包
 ```
 
-# Node.js Package Manager
-
-* npm 是一个包管理工具D
-* [常见的命令](./img/包相关命令.png)
-* 全局安装包：加 -g 即可，一般命令行操作的包安装到全局中
-* 本地安装包：不加 -g 即可，若安装到开发环境中，则加上 -D, 在安装本地包之前应初始化 npm init
-
-# npm 被墙了的三种方法
-
-```
-下载安装 cnpm： npm install cnpm
-指定源：npm install xxx --registry https://registry.npm.taobao.org
-全局切换源：npm config set registry https://registry.npm.taobao.org
-npm config set registry https://registry.npmjs.org
-```
-
 # JSON
 
 - 服务器与客户端传输的数据格式：xml, html, json
