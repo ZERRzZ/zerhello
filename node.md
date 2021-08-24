@@ -429,29 +429,6 @@ const server = http.createServer((req, res) => {
 server.listen(8888, () => console.log("成功"))
 ```
 
-# 包-package
-
-* 包就是一个目录，包含一个 JSON 格式的包说明文件 package.json
-* common.js 中的包规范：
-
-```
-1.package.json 必须在包的顶层目录下
-2.二进制文件在 bin 目录下
-3.JS 代码在 lib 目录下
-4.文档在 doc 目录下
-5.单元测试在 test 目录下
-... ...
-```
-
-* 调用包时，会检查 package.json 中 main 字段, 将作为包的入口文件
-* [package.json文件信息](./img/package文件信息.png)
-
-```
-npm init -y
-// 此命令可以得到一个 package.json 文件
-// 即初始化一个包
-```
-
 # JSON
 
 - 服务器与客户端传输的数据格式：xml, html, json
