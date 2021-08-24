@@ -26,8 +26,9 @@ CLI 创建: 使用命令 `npm init [-y]` 创建, `-y` 表示使用默认值
 
 **属性**
 
-`name`: 必备, 全部小写, 一个字且没有空格, 允许使用破折号和下划线  
-`version`: 必备, 以形式 x.x.x, 遵循 semver 规范  
+`name`: 必备, 全部小写, 一个字且没有空格, 允许使用破折号和下划线, 包的名称  
+`version`: 必备, 以形式 x.x.x, 遵循 semver 规范, 包的版本  
+`main`: 重要, 入口文件, 默认为 index.js  
 
 **依赖**
 
@@ -54,17 +55,16 @@ CLI 创建: 使用命令 `npm init [-y]` 创建, `-y` 表示使用默认值
 更新: `npm update [-g] [<pkg>][@version]`  
 检查: `npm outdated` 检查包是否过时  
 
+## 卸载包
 
+命令: `npm uninstall <pkg> [-g]`  
 
+## 查看包
 
+命令: `npm list [-g] [<pkg>]`
 
-* [常见的命令](./img/包相关命令.png)
+## Node.js 模块
 
-# npm 被墙了的三种方法
-
-```
-下载安装 cnpm： npm install cnpm
-指定源：npm install xxx --registry https://registry.npm.taobao.org
-全局切换源：npm config set registry https://registry.npm.taobao.org
-npm config set registry https://registry.npmjs.org
-```
+介绍: Node.js 模块是一种可以发布到 npm 的包  
+核心: 创建 package.json 文件是第一步, 可使用 `npm init` 创建  
+入口: 还需一个入口文件, 名称与 main 中一致  
