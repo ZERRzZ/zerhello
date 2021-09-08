@@ -1,8 +1,9 @@
 ## angular/cli 的使用
 
 全局安装脚手架 `npm install @angular/cli --global`  
-生成新项目 `ng new <name>` 指定不生成测试文件 `--skip-tests` 不包含测试 `--minimal`
-运行项目 `ng serve` 指定是否自动在浏览器中打开 `--open` 指定端口 `--port <port>`
+生成新项目 `ng new <name>` 指定不生成测试文件 `--skip-tests` 不包含测试 `--minimal`  
+运行项目 `ng serve` 指定是否自动在浏览器中打开 `--open` 指定端口 `--port <port>`  
+堆栈溢出处理: `node --max_old_space_size=5048 ./node_modules/@angular/cli/bin/ng`  
  
 ## angular 组件
 
