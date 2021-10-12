@@ -265,3 +265,49 @@ switch (expression)
 
 arguments
 
+`arguments` 特殊对象, 使开发者无需指定参数名就能访问他们, 是一个参数数组  
+`arguments.length` 检测函数的参数个数  
+注: ECMAScript 不会验证传递给函数的参数个数是否等于函数定义的参数个数, 任何遗漏的参数都会以 undefined 传递给函数，多余的函数将忽略  
+
+函数对象
+
+ECMAScript 中函数实际上是功能完善的对象, `Function` 类可表示任何定义的函数  
+用类创建函数语法 `var fname = new Function(arg1, arg2, ..., function_body)`, 每个参数都是字符串  
+Function 对象的 `length` 属性: 声明了函数期望的参数个数  
+Function 对象的 `valueOf()` 与 `toString()` 方法: 返回函数源代码  
+
+```js
+function sayHi(sName, sMessage) alert("Hello " + sName + sMessage);
+var sayHi = new Function("sName", "sMessage", "alert(\"Hello \" + sName + sMessage);");
+```
+
+注意: 用类定义函数比用传统方式要慢得多, 不推荐使用, 但所有函数都应看作 Function 类的实例  
+
+闭包
+
+**闭包，指的是词法表示包括不被计算的变量的函数，也就是说，函数可以使用函数之外定义的变量**  
+
+## 对象
+
+应用
+
+声明与实例化: 用 new 后面跟上实例化的类的名字, 如果构造函数无参数，括号则不是必需的  
+
+```js
+var oObject = new Object(); => var oObject = new Object;
+var oStringObject = new String(); => var oStringObject = new String;
+```
+
+对象引用: 每次创建对象, 存储在变量中的都是该对象的引用, 而不是对象本身  
+对象废除: 因为有*无用存储单元收集程序*的存在, 所以不必专门销毁对象来释放内存, 将无用对象废除即设置为 null 即可  
+早绑定与晚绑定: ...
+
+类型
+
+可以创建并使用的对象有三种：本地对象、内置对象和宿主对象  
+本地对象: 独立于宿主环境的 ECMAScript 实现提供的对象, 本地对象就是 ECMA-262 定义的类  
+内置对象: 由 ECMAScript 实现提供的、独立于宿主环境的所有对象，在 ECMAScript 程序开始执行时出现, ES 只有 Global 和 Math 两种  
+宿主对象: 由 ECMAScript 实现的宿主环境提供的对象, 如 BOM, DOM  
+
+对象作用域
+
