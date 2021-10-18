@@ -311,3 +311,80 @@ var oStringObject = new String(); => var oStringObject = new String;
 
 对象作用域
 
+公有, 私有和受保护的作用域: 公用作用域中的对象属性可以从对象外部访问, 而私有只能在对象内部使用, 但受保护的还可以在子类中使用  
+**ES 中只有公有作用域**: 可通过在属性名前添加 `_` 来做一个‘口头约定’来表示私有  
+静态作用域: 严格来说 ES 没有静态作用域, 但可以给构造函数提供属性和方法, 来实现类似的静态方法  
+`this`: 关键字 this 总是指向调用该方法的对象  
+
+创建类和对象
+
+原始方式: 直接全手动实现, 缺点是无法批量生产对象  
+
+```js
+var oCar = new Object;
+oCar.color = "blue";
+oCar.doors = 4;
+oCar.showColor = { function() alert(this.color); };
+```
+
+工厂方式: 批量生产相同属性的对象, 缺点是引用类型属性会重复创建造成内存泄漏  
+解决方案是在工厂函数外定义对象的方法，然后通过属性指向该方法, 但是不符合语义  
+
+```js
+function showColor() {
+  alert(this.color);
+}
+function createCar(sColor,iDoors) {
+  var oTempCar = new Object;
+  oTempCar.color = sColor;
+  oTempCar.doors = iDoors；
+  oTempCar.showColor1 = function() { // 重复创建
+    alert(this.color);
+  };
+	oTempCar.showColor2 = showColor() // 不会重复
+  return oTempCar;
+}
+var oCar1 = createCar("red",4);
+var oCar2 = createCar("blue",3);
+```
+
+构造函数方式: 构造函数看起来很像工厂函数, 缺点也一样  
+解决方案是夹杂原型方式, 即把不需要重复创建的属性写在构造函数的原型上, 只是最常用的方式  
+
+```js
+function Car(sColor,iDoors) { // 一般第一个字符大写
+  this.color = sColor;
+  this.doors = iDoors;
+  this.showColor = function() { // 重复创建
+    alert(this.color);
+  };
+}
+Car.prototype.showColor = function() { // 不会重复
+  alert(this.color);
+};
+var oCar1 = new Car("red",4);
+var oCar2 = new Car("blue",3);
+```
+
+动态原型方法: 为了语义上的和谐  
+
+```js
+function Car(sColor,iDoors) {
+  this.color = sColor;
+  this.doors = iDoors;
+  this.drivers = new Array("Mike","John");
+  if (typeof Car._initialized == "undefined") { // 使用 _initialized 来保证执行一次
+    Car.prototype.showColor = function() {
+      alert(this.color);
+    };
+
+    Car._initialized = true;
+  }
+}
+```
+
+修改对象
+
+`prototype` 属性不仅可以定义构造函数的属性和方法，还可以为本地对象添加属性和方法  
+
+## 继承
