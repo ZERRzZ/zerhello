@@ -73,3 +73,35 @@ Mapbox 样式由一组根属性组成
 某些根属性如 version, name, metadata 对地图的外观或行为没有任何影响, 但会提供与地图相关的重要描述信息  
 某些根属性如 layers, sources 决定了哪些地图要素将出现在地图上以及它们的外观  
 某些属性如 center, zoom, pitch, bearing 为地图渲染器提供了一组默认值, 以便在最初显示地图时使用  
+
+## Mapbox 零碎知识
+
+stop 的类型
+
+指数类型, 区间类型, 种别类型, 恒等类型  
+
+```js
+"type": "exponential", // 指数类型 type 可不写
+"property": "val",
+"stops": [
+  [0, "red"], // properties.val为 0，圆的颜色为红色
+  [500, "green"], // properties.val 为 500，圆的颜色为绿色
+],"base": 0.9 // 可选，默认值：1。插值运算的曲率指数基数，控制最终计算结果值的增长率，值越大，最终计算结果值越大，当值趋近于1时，函数采用线性计算方式。
+
+"type": "interval" // 区间类型
+"property": "val" // stops 中的输入参数必须为数值类型
+"stop": [
+  [0, "red"], // properties.val大于等于0时，圆颜色为红色
+  [500, "green"], // properties.val大于等于500时，圆颜色为绿色
+]
+
+"type": "categorical" // 种别类型
+"property": "val"
+"stop": [
+  [0, "red"], // 仅当 properties.val 等于 0 时，面颜色为红色
+  [500, "green"], // 仅当 properties.val 等于 500 时，面颜色为绿色
+]
+
+"type": "identity" // 恒等类型
+"property": "color" // 线颜色直接取 properties.color 的值
+```
