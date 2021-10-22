@@ -388,3 +388,62 @@ function Car(sColor,iDoors) {
 `prototype` 属性不仅可以定义构造函数的属性和方法，还可以为本地对象添加属性和方法  
 
 ## 继承
+
+继承方式
+
+对象冒充, 原理是构造函数使用 this 关键字给所有属性和方法赋值, 然后使 ClassA 构造函数成为 ClassB 的方法, 这样 B 就有 A 的方法属性  
+所有新属性和新方法都必须在删除了新方法的代码行后定义, 否则, 可能会覆盖超类的相关属性和方法  
+ 
+```js
+function ClassA(sColor) {
+	this.color = sColor
+	this.sayColor = function () {
+		alert(this.color)
+	}
+}
+function ClassB(sColor) { 
+	this.newMethod = ClassA
+	this.newMethod(sColor)
+	delete this.newMethod
+
+	this.name = sName;
+	this.sayName = function () {
+		alert(this.name)
+	}
+}
+```
+
+call() 方式, 改良的对象冒充, 使用方法 xxx.call(this, ...argments), 第一个参数用作 this 的对象, 其他参数都直接传递给函数自身  
+apply() 方式, 用作 this 的对象和要传递给函数的参数的数组  
+
+```js
+function ClassB(sColor, sName) {
+	//this.newMethod = ClassA
+	//this.newMethod(color)
+	//delete this.newMethod
+	ClassA.call(this, sColor)
+	ClassA.apply(this, new Array(sColor))
+
+	this.name = sName
+	this.sayName = function () {
+		alert(this.name)
+	}
+}
+```
+
+原型链方式, 原理是 prototype 对象的任何属性和方法都被传递给那个类的所有实例, 以此来实现继承  
+在原型链中，instanceof 运算符的运行方式也很独特  
+
+```js
+function ClassA() { }
+ClassA.prototype.color = "blue"
+ClassA.prototype.sayColor = function () {
+	alert(this.color)
+}
+function ClassB() { }
+ClassB.prototype = new ClassA()
+ClassB.prototype.name = ""
+ClassB.prototype.sayName = function () {
+	alert(this.name)
+}
+```
