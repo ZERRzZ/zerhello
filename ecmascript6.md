@@ -1,33 +1,26 @@
 # let、const、var
 
-* let 拥有块级作用域
+let 拥有块级作用域
+
 ``` js
 var i = 10
-for (var i = 1; i < 5; i++) {
-  console.log(i)
-}
-console.log(i)
-// 此时最底下的 i 值为 5
-```
-``` js
+for (var i = 1; i < 5; i++) console.log(i)
+console.log(i) // 此时最底下的 i 值为 5
+
 var i = 10
-for (let i = 1; i < 5; i++) {
-  console.log(i)
-}
-console.log(i)
-// 此时最低下的 i 为 10
+for (let i = 1; i < 5; i++) console.log(i)
+console.log(i) // 此时最低下的 i 为 10
 ```
 
-* let 定义的变量不能再重复定义
+let 定义的变量不能再重复定义
+
 ``` js
 let i = 10
-let i = 5
-// 报错 Identifier 'i' has already been declared
+let i = 5 // 报错 Identifier 'i' has already been declared
 ```
 
-* TDZ 暂时性死区，指变量在作用域内已经存在，但必须在 let/const 声明后才可以使用
-* TDZ 可以让程序保持先声明后使用的习惯，让程序更稳定。
-* 建议使用 let/const 而少使用 var
+TDZ 暂时性死区: 指变量在作用域内已经存在, 但必须在 let/const 声明后才可以使用, 可以让程序保持先声明后使用的习惯, 让程序更稳定, 建议使用 let/const 而少使用 var
+
 ``` js
 var i = 10
 function fun() {
@@ -37,19 +30,21 @@ function fun() {
 fun() // 报错，Cannot access 'i' before initialization
 ```
 
-* const 声明的是常量，不能够被修改
-* 声明时必须同时赋值
+const 声明的是常量, 不能够被修改, 且声明时必须同时赋值
+
 ``` js
 const PI = 3.14
-PI = 3
-// 报错，Assignment to constant variable.
+PI = 3 // 报错，Assignment to constant variable.
 ```
 
 # 字符串的方法
 
-* `includes(str[,position])`: 是否找到了参数字符串，返回布尔值
-* `startsWith(str[,position])`: 参数字符串是否在原字符串的头部，返回布尔值
-* `endsWith(str[,endPosition])`: 参数字符串是否在原字符串的尾部，返回布尔值
+`includes(str[, position])`: 是否找到了参数字符串，返回布尔值
+
+`startsWith(str[, position])`: 参数字符串是否在原字符串的头部，返回布尔值
+
+`endsWith(str[, endPosition])`: 参数字符串是否在原字符串的尾部，返回布尔值
+
 ``` js
 let str = 'hello world'
 let test1 = str.includes('hello')
