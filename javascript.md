@@ -1,29 +1,36 @@
-## 遇见
+# 遇见
 
-引入
+## 引入
 
 DOM 事件中: `<input type='button' onclick='...'>`  
+
 a 标签中: `<a href='javascript:...'></a>` 设置 `javascript:;` 防止跳转  
+
 script 标签中: 可以直接在标签中书写也可用 `src` 属性引用外部脚本文件  
+
 把脚本放在 `<body>` 元素的底部可改善页面显示速度, 因为脚本编译会拖慢显示  
 
-调试
+## 调试
 
 打印: `console.log()`, `console.warn()`, `console.error()`  
+
 警告框: `window.alert()`, `window.confirm()`, `window.prompt()` 区别在于返回值 `undefined/布尔值/用户输入值`  
+
 测试性能: `console.time()`, `console.timeEnd()` 开启与关闭计时器  
+
 写入 body 中: `document.write()`  
 
-注释
+## 注释
 
 单行注释：`//`  
+
 多行注释：`/* */`  
 
-标识符
+## 标识符
 
 **不以数字开头的包含字母, 数字, 下划线或 $ 的区分大小写的一串字符**  
 
-字符集
+## 字符集
 
 常见: ASCII, Windows-1252, ISO-8895-1, UTF-8, web 开发推荐使用 UTF-8 字符集  
 ASCII: 计算机数据以二进制代码存储在电子设备中, 它为每个可存储字符定义了一个唯一的二进制数字, 包含了 128 个字符的 7 位字符集, 但排除了非英文字母  
@@ -31,14 +38,14 @@ Windows-1252: Windows(直到 Windows 95)中的默认字符集, 使用一个完�
 ISO-8859-1: HTML4 中最常用的字符集, 是 ASCII 的扩展, 增加了国际字符, 与 Windows-1252 类似  
 Unicode UTF-8: Unicode 联盟开发了 UTF-8 和 UTF-16 标准, 几乎涵盖世界上所有的字符, 标点和符号  
 
-Unicode
+## Unicode
 
 **字符集将字符转换为数字, 编码将数字转换为二进制**  
 Unicode 是字符集, 可以通过不同的字符集实现, 最常用的编码是 UTF-8 和 UTF-16  
 UTF-8: 字符长度可以是 1 到 4 个字节, 可以表示 Unicode 标准中的任何字符, 向后兼容 ASCII, 是电子邮件和网页的首选编码  
 UTF-16: UTF-16 用于主要的操作系统和环境, 例如 Microsoft Windows, Java 和 .NET  
 
-## 原理
+# 原理
 
 实现
 
