@@ -1,133 +1,93 @@
-# 遇见
-
-## 引入
-
-DOM 事件中: `<input type='button' onclick='...'>`  
-
-a 标签中: `<a href='javascript:...'></a>` 设置 `javascript:;` 防止跳转  
-
-script 标签中: 可以直接在标签中书写也可用 `src` 属性引用外部脚本文件  
-
-把脚本放在 `<body>` 元素的底部可改善页面显示速度, 因为脚本编译会拖慢显示  
-
-## 调试
-
-打印: `console.log()`, `console.warn()`, `console.error()`  
-
-警告框: `window.alert()`, `window.confirm()`, `window.prompt()` 区别在于返回值 `undefined/布尔值/用户输入值`  
-
-测试性能: `console.time()`, `console.timeEnd()` 开启与关闭计时器  
-
-写入 body 中: `document.write()`  
-
-## 注释
-
-单行注释：`//`  
-
-多行注释：`/* */`  
-
-## 标识符
-
-**不以数字开头的包含字母, 数字, 下划线或 $ 的区分大小写的一串字符**  
+# 前置
 
 ## 字符集
 
-常见: ASCII, Windows-1252, ISO-8895-1, UTF-8, web 开发推荐使用 UTF-8 字符集  
-ASCII: 计算机数据以二进制代码存储在电子设备中, 它为每个可存储字符定义了一个唯一的二进制数字, 包含了 128 个字符的 7 位字符集, 但排除了非英文字母  
-Windows-1252: Windows(直到 Windows 95)中的默认字符集, 使用一个完整的字节(8 位)表示 256 个不同的字符, 是 ASCII 的扩展, 增加了国际字符  
-ISO-8859-1: HTML4 中最常用的字符集, 是 ASCII 的扩展, 增加了国际字符, 与 Windows-1252 类似  
-Unicode UTF-8: Unicode 联盟开发了 UTF-8 和 UTF-16 标准, 几乎涵盖世界上所有的字符, 标点和符号  
+常见: ASCII, Windows-1252, ISO-8895-1, UTF-8, web 开发推荐使用 UTF-8 字符集
+
+ASCII: 计算机数据以二进制代码存储在电子设备中, 它为每个可存储字符定义了一个唯一的二进制数字, 包含了 128 个字符的 7 位字符集, 但排除了非英文字母
+
+Windows-1252: Windows(直到 Windows 95)中的默认字符集, 使用一个完整的字节(8 位)表示 256 个不同的字符, 是 ASCII 的扩展, 增加了国际字符
+
+ISO-8859-1: HTML4 中最常用的字符集, 是 ASCII 的扩展, 增加了国际字符, 与 Windows-1252 类似
+
+Unicode UTF-8: Unicode 联盟开发了 UTF-8 和 UTF-16 标准, 几乎涵盖世界上所有的字符, 标点和符号
 
 ## Unicode
 
-**字符集将字符转换为数字, 编码将数字转换为二进制**  
-Unicode 是字符集, 可以通过不同的字符集实现, 最常用的编码是 UTF-8 和 UTF-16  
-UTF-8: 字符长度可以是 1 到 4 个字节, 可以表示 Unicode 标准中的任何字符, 向后兼容 ASCII, 是电子邮件和网页的首选编码  
-UTF-16: UTF-16 用于主要的操作系统和环境, 例如 Microsoft Windows, Java 和 .NET  
+**字符集将字符转换为数字, 编码将数字转换为二进制**
 
-# 原理
+Unicode 是字符集, 可以通过不同的字符集实现, 最常用的编码是 UTF-8 和 UTF-16
 
-实现
+UTF-8: 字符长度可以是 1 到 4 个字节, 可以表示 Unicode 标准中的任何字符, 向后兼容 ASCII, 是电子邮件和网页的首选编码
 
-JS 的实现由三个部分组成: 核心 ECMAScript 描述语法与基本对象, 文档对象模型 DOM, 浏览器对象模型 BOM  
-ECMAScript: 与宿主环境相分离的一个描述, 描述了类型, 值, 对象, 属性, 函数和程序语言及语义, 其他语言可以实现 ECMAScript 来作为功能的基准  
-DOM: 是 HTML 和 XML 的应用程序接口(API), 通过创建树来表示文档, 把整个页面规划成由节点层级构成的文档, 从而使开发者对文档的内容和结构具有空前的控制力  
-BOM: 主要处理浏览器窗口和框架  
+UTF-16: UTF-16 用于主要的操作系统和环境, 例如 Microsoft Windows, Java 和 .NET
 
+## 实现
 
+JS 的实现由三个部分组成: 核心 ECMAScript 描述语法与基本对象, 文档对象模型 DOM, 浏览器对象模型 BOM
 
+ECMAScript: 与宿主环境相分离的一个描述, 描述了类型, 值, 对象, 属性, 函数和程序语言及语义, 其他语言可以实现 ECMAScript 来作为功能的基准
 
-## 数据类型
+DOM: 是 HTML 和 XML 的应用程序接口(API), 通过创建树来表示文档, 把整个页面规划成由节点层级构成的文档, 从而使开发者对文档的内容和结构具有空前的控制力
 
-  数据类型即字面量类型：
-    Number, String, Boolean, Null, Undefined  基本类型 (原始值)
-    Object  引用类型 (Function 也是对象, 但 typeof 可以识别)
-      Object 包括 Function, Date, Array, Object 等等
-  注：
-    1.方法和属性也可用于原始值，因为在执行方法和属性时 JS 将原始值临时转换为对象
-    2.引用类型可用 new 关键字调用函数来定义, new 调用的函数为构造器函数 constructor
-    3.原始值也都可用 new 作为对象来定义, 但 new 使代码复杂化, 不推荐
-  Number: ...
-  String: ...
-  Boolean: 只有两个值：true 或 false
-  Undefined: 未赋值的变量值和未声明的变量为 undefined, 但使用未声明的变量会报错
-  Null: 表示空的对象, null 的数据类型是对象 object (bug) 它本应是 null
->
-JavaScript 类型转换
-  分类：分为强制类型转换与自动类型转换
-  正规转换方法：
-    Number() 函数 - 转变成数值类型
-      1.空的字符串转换为 0, 其他字符串将转换为 NaN
-      2.Null 类型转换为 0, Undefined 类型转换为 NaN
-      3.布尔类型转换为 0 和 1
-      4.日期对象转换为毫秒
-    ParseInt(), ParseFloat() 函数
-      1.与 Number() 不同的是可将有效的数取出, 不是一味地 NaN
-      2.遇非 String 类型时先转化成字符串, 再判断, 规则同上
-    String() 函数 - 转变成字符串类型
-    .toString() 方法
-      Null 与 Undefined 没有 toString() 方法, 自动 toString
-  偏方（隐式转换）:
-    转换成数值："string" * 1
-    转换成字符串：number + ""
-    转换成布尔类型：！！xxx
-  转换布尔值:
-    Boolean() 函数
-      0, NaN 为 false, 其他 Number 为 true
-      "" 空字符串为 false, 其他 String 为 true
-      undefined, null 为 false
-      Object 为 true
-  转换数组：
-    .split() 方法 - 字符串转换成数组
-  转换字符串：
-    .join() 方法 - 数组转换字符串，括号内为连接符号
-    .toString() 方法 - 连接符号为 ，
->
-Javascript 数值
-  定义方法：
-    阴间定义：let num = new Number(); num.valueOf()
-    字面量定义：let num = xxx;
-  数值的方法：
-    .toString() 原型链的末端，一般的对象都有该方法
-    .valueOf() 取值
-    .toFixed(位数) 保留几位小数，四舍五入
-    Number.isInteger(num) 构造函数的静态方法，判断值数值是否为整数
-    Number.isNaN() 判断数值是否是NaN
+BOM: 主要处理浏览器窗口和框架
+
+# 基础
+
+## JS 使用
+
+script 标签: 在 HTML 中 JS 代码必须位于该标签之间, type 属性不是必需的, JS 是 HTML 中的默认脚本语言 `<script type='text/javascript>`
+
+JS 函数和事件: 当发生事件时可以调用函数, 函数是一种 JS 代码块, 它可以在调用时被执行
+
+head 和 body 标签中: script 标签可以任意放在 head 和 body 标签中, 把脚本置于 body 元素的底部, 可改善显示速度, 因为脚本编译会拖慢显示
+
+外部脚本: JS 文件扩展名是 `.js`, 在 script 标签的 `src` 属性中设置脚本的 url, 可以在 head 或 body 标签中放置外部引用, 效果同上 `<script src=''>`
+
+```
+外部脚本的优点:
+
+已缓存了的 JS 文件可以加速页面加载
+分离了 HTML 和 JS 代码, 方便阅读与维护
+可复用 JS 代码, 相同的脚本可被用于许多不同的网页
+```
+
+## JS 输出
+
+打印: `console.log()`, `console.warn()`, `console.error()`
+
+警告框: `window.alert()`, `window.confirm()`, `window.prompt()` 区别在于返回值 `undefined/布尔值/用户输入值`
+
+测试性能: `console.time()`, `console.timeEnd()` 开启与关闭计时器
+
+写入 body/HTML 中: `document.write()` / `innerHTML`
+
+## JS 标识符
+
+**不以数字开头的包含字母, 数字, 下划线或 $ 的区分大小写的一串字符**
+
+# 语法
+
+JS 基础语法基本上同 ES 规范
+
+JS 事件是处理发生在 HTML 上的事情, 属于 DOM 的范围
+
+## JS 字符串
 
 
-  数字字符串:
-    加法和级联都使用 + 运算符, 数字用加法。字符串用级联
-    在其他所有数字运算中，JS 会尝试将字符串转换为数字
-
-  Infinite (-Infinite):
-    Infinite 是数值类型, 是在计算数时超出最大可能数范围时返回的值
-    除以 0（零）也会生成 Infinity, 负数除以零为 -Infinity;
-
-  进制: 0x 开头为十六进制, (0 开头为八进制, 0b 开头为二进制)
-  精度: 浮点的算数并不总是 100% 精准 (.2 + .1 != .3)
 
 
->
+
+
+
+
+
+
+
+
+
+
+
 
 Javascript 字符串
 
@@ -484,7 +444,7 @@ JavaScript Array
       pre 上次调用函数的返回值
       value, index, arr ...
       initialValue pre 的初值，没有则 pre 为数组第一个值，此情况 value 从数组第二个值开始
-  
+
   数组的遍历：
     for 循环，
     for...in... 拿到的是索引
@@ -738,7 +698,7 @@ JavaScript DOM 事件
     pageX | pageY  鼠标水平|垂直位置，整个页面  兼容有问题
     cancelBubble  布尔值，是否取消事件的冒泡
     target  事件的目标节点，触发事件的元素
-    currentTarget 
+    currentTarget
 
   元素相对鼠标移动：
     可用 clientY 减去 scrollTop 来计算出鼠标相对于整个页面的位置，直接用 page 不兼容
@@ -761,48 +721,48 @@ JavaScript DOM 事件
 
 viewport
 
-视口代表当前可见的计算机图形区域, 在 Web 浏览器术语中, 通常与浏览器窗口相同, 但不包括浏览器的 UI, 菜单栏等, 即指你正在浏览的文档的那一部分  
+视口代表当前可见的计算机图形区域, 在 Web 浏览器术语中, 通常与浏览器窗口相同, 但不包括浏览器的 UI, 菜单栏等, 即指你正在浏览的文档的那一部分
 
 window
 
-`outerHeight/outerWidth` 整个浏览器窗口的宽高  
-`innerHeight/innerWidth` 浏览器窗口的**视口**宽高, 如果有滚动条, 也包括滚动条宽高  
-`window.screen` 实现了 Screen 接口, 它是个特殊的对象, 返回当前渲染窗口中和屏幕有关的属性  
+`outerHeight/outerWidth` 整个浏览器窗口的宽高
+`innerHeight/innerWidth` 浏览器窗口的**视口**宽高, 如果有滚动条, 也包括滚动条宽高
+`window.screen` 实现了 Screen 接口, 它是个特殊的对象, 返回当前渲染窗口中和屏幕有关的属性
 
 client
 
-`el.clientWidth/clientHeight` 元素内部宽高, 包括内边距, 但不包括边框和外边距, 以及滚动条  
-`el.clientLeft/clientTop`  元素左边框/上边框的宽度, 如果有滚动条则包括滚动条  
+`el.clientWidth/clientHeight` 元素内部宽高, 包括内边距, 但不包括边框和外边距, 以及滚动条
+`el.clientLeft/clientTop`  元素左边框/上边框的宽度, 如果有滚动条则包括滚动条
 
 offset
 
-`el.offsetWidht/offsetHeight` 元素 `border + padding + width` 三者的总宽高  
-`el.offsetParent` 返回一个当前元素最近的定位父元素  
-`el.offsetLeft/offsetTop` 返回当前元素左上角相对于 `offsetParent` 节点的左边界/上边界偏移的像素值  
+`el.offsetWidht/offsetHeight` 元素 `border + padding + width` 三者的总宽高
+`el.offsetParent` 返回一个当前元素最近的定位父元素
+`el.offsetLeft/offsetTop` 返回当前元素左上角相对于 `offsetParent` 节点的左边界/上边界偏移的像素值
 
 scroll
 
-`el.scrollWidth/scrollHeight` 当没有 overflow 时等于视口宽高, 内容超出时表示整个滚动区的宽高  
-`el.scrollLeft/scrollTop` 元素滚动条到元素左边/上边的距离, 可以设置  
-满足 scrollHeight - scrollTop == clientHeight 时表示滚动条到底  
+`el.scrollWidth/scrollHeight` 当没有 overflow 时等于视口宽高, 内容超出时表示整个滚动区的宽高
+`el.scrollLeft/scrollTop` 元素滚动条到元素左边/上边的距离, 可以设置
+满足 scrollHeight - scrollTop == clientHeight 时表示滚动条到底
 
 el.getBoundingClientRect()
 
-返回元素的大小及其相对于**视口**的位置, 一个 `DOMRect` 对象  
-标准盒模型时大小为 `width/height + padding + border` 的总和, `border-box` 时大小为 `width/height`  
-`left, top, right, bottom, x, y` 都是相对于视口的左上角来计算的  
+返回元素的大小及其相对于**视口**的位置, 一个 `DOMRect` 对象
+标准盒模型时大小为 `width/height + padding + border` 的总和, `border-box` 时大小为 `width/height`
+`left, top, right, bottom, x, y` 都是相对于视口的左上角来计算的
 
 ## 拖拽
 
 前置知识
 
-事件的冒泡: 当子元素事件被触发时, 其祖先元素相同事件也会被触发, 用 `event.cancelBubble = true` 来禁止  
-事件的委派: 利用冒泡将事件绑定到祖先元素上, 再用 `event.target` 来获取真正触发事件的元素  
+事件的冒泡: 当子元素事件被触发时, 其祖先元素相同事件也会被触发, 用 `event.cancelBubble = true` 来禁止
+事件的委派: 利用冒泡将事件绑定到祖先元素上, 再用 `event.target` 来获取真正触发事件的元素
 
 拖拽事件
 
-设置 `draggable = true` 来让元素可拖动, 链接和图片默认即可拖动  
-注意 `ondragenter` 会 enter 自己  
+设置 `draggable = true` 来让元素可拖动, 链接和图片默认即可拖动
+注意 `ondragenter` 会 enter 自己
 
 ```js
 // 源元素上的事件
@@ -819,14 +779,14 @@ ondrop() // 拖动对象在其容器内释放鼠标键时触发
 
 实现拖拽排序
 
-获取元素的位置: `el.getBoundingClientRect()` 提供元素大小和相对于**视口**的位置  
-在某元素之前插入元素: `insertBefore(new, old)` 在旧元素前插入新元素  
-使用 `el.offsetWidth` 或者 `setTimeout` 来使触发页面的重绘, 实现 `css animation` 效果  
+获取元素的位置: `el.getBoundingClientRect()` 提供元素大小和相对于**视口**的位置
+在某元素之前插入元素: `insertBefore(new, old)` 在旧元素前插入新元素
+使用 `el.offsetWidth` 或者 `setTimeout` 来使触发页面的重绘, 实现 `css animation` 效果
 
 实现拖拽移动
 
-实际上使用 `onmousedown, onmousemove, onmouseup` 三个鼠标事件实现的  
-`onmusemove` 时默认会全选内容, 应取消默认事件  
+实际上使用 `onmousedown, onmousemove, onmouseup` 三个鼠标事件实现的
+`onmusemove` 时默认会全选内容, 应取消默认事件
 
 JavaScript DOM 事件案例
 
