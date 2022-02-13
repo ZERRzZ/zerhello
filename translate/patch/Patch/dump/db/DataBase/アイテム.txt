@@ -1,0 +1,200 @@
+> WOLF TRANS PATCH FILE VERSION 1.0
+
+> BEGIN STRING
+緑茶
+> CONTEXT DB:DataBase/[2]アイテム/[0]緑茶/[0]アイテム名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+味方一人のHPを30回復できる薬草
+> CONTEXT DB:DataBase/[2]アイテム/[0]緑茶/[1]説明文[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+玉露
+> CONTEXT DB:DataBase/[2]アイテム/[1]玉露/[0]アイテム名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+味方一人のHPを100回復させる水
+> CONTEXT DB:DataBase/[2]アイテム/[1]玉露/[1]説明文[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+コーヒー
+> CONTEXT DB:DataBase/[2]アイテム/[2]コーヒー/[0]アイテム名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+SPを30回復させることができる水
+> CONTEXT DB:DataBase/[2]アイテム/[2]コーヒー/[1]説明文[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+紅茶
+> CONTEXT DB:DataBase/[2]アイテム/[3]紅茶/[0]アイテム名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+傷薬
+> CONTEXT DB:DataBase/[2]アイテム/[5]傷薬/[0]アイテム名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+爆発物
+> CONTEXT DB:DataBase/[2]アイテム/[6]爆発物/[0]アイテム名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+戦闘中に飲むと、しばらく攻撃力が上昇する
+> CONTEXT DB:DataBase/[2]アイテム/[6]爆発物/[1]説明文[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+は興奮剤を使った！
+> CONTEXT DB:DataBase/[2]アイテム/[6]爆発物/[3]使用時文章[戦](人名~ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+3級遺物
+> CONTEXT DB:DataBase/[2]アイテム/[10]3級遺物/[0]アイテム名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+2級遺物
+> CONTEXT DB:DataBase/[2]アイテム/[11]2級遺物/[0]アイテム名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+1級遺物
+> CONTEXT DB:DataBase/[2]アイテム/[12]1級遺物/[0]アイテム名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+特級遺物
+> CONTEXT DB:DataBase/[2]アイテム/[13]特級遺物/[0]アイテム名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+穀物の種
+> CONTEXT DB:DataBase/[2]アイテム/[20]穀物の種/[0]アイテム名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+世界を創るための道具。これを持って\r
+街の入口に行くとエンディングになる。
+> CONTEXT DB:DataBase/[2]アイテム/[20]穀物の種/[1]説明文[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+もやしの種
+> CONTEXT DB:DataBase/[2]アイテム/[21]もやしの種/[0]アイテム名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+HP消費して敵全体を攻撃する
+> CONTEXT DB:DataBase/[2]アイテム/[21]もやしの種/[1]説明文[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+の全体攻撃君！
+> CONTEXT DB:DataBase/[2]アイテム/[21]もやしの種/[3]使用時文章[戦](人名~ < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ナスの種
+> CONTEXT DB:DataBase/[2]アイテム/[22]ナスの種/[0]アイテム名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+「ヒール」と同じ効果を発揮する
+> CONTEXT DB:DataBase/[2]アイテム/[22]ナスの種/[1]説明文[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+人参の種
+> CONTEXT DB:DataBase/[2]アイテム/[23]人参の種/[0]アイテム名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+トマトの種
+> CONTEXT DB:DataBase/[2]アイテム/[24]トマトの種/[0]アイテム名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+キャベツの種
+> CONTEXT DB:DataBase/[2]アイテム/[25]キャベツの種/[0]アイテム名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+白菜の種
+> CONTEXT DB:DataBase/[2]アイテム/[26]白菜の種/[0]アイテム名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+かぼちゃの種
+> CONTEXT DB:DataBase/[2]アイテム/[27]かぼちゃの種/[0]アイテム名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+じゃがいもの種
+> CONTEXT DB:DataBase/[2]アイテム/[28]じゃがいもの種/[0]アイテム名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+大根の種
+> CONTEXT DB:DataBase/[2]アイテム/[29]大根の種/[0]アイテム名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+人妻用大根の種
+> CONTEXT DB:DataBase/[2]アイテム/[30]人妻用大根の種/[0]アイテム名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+メクア大根の種
+> CONTEXT DB:DataBase/[2]アイテム/[31]メクア大根の種/[0]アイテム名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+おにくの種
+> CONTEXT DB:DataBase/[2]アイテム/[32]おにくの種/[0]アイテム名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+薬草人参
+> CONTEXT DB:DataBase/[2]アイテム/[33]薬草人参/[0]アイテム名 < UNTRANSLATED
+
+> END STRING

@@ -1,0 +1,305 @@
+> WOLF TRANS PATCH FILE VERSION 1.0
+
+> BEGIN STRING
+形見の剣
+> CONTEXT DB:DataBase/[3]武器/[0]形見の剣/[0]武器の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リコの所持していたナイフ。生活用品だがこれでも護身にはなるだろう。
+> CONTEXT DB:DataBase/[3]武器/[0]形見の剣/[1]武器の説明[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+形見の剣　（改修）
+> CONTEXT DB:DataBase/[3]武器/[1]形見の剣　（改修）/[0]武器の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+硬い石で作られた短剣は予想以上の切れ味を誇るだろう。\r
+だが長く戦いに使える物ではない。
+> CONTEXT DB:DataBase/[3]武器/[1]形見の剣　（改修）/[1]武器の説明[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+弓矢
+> CONTEXT DB:DataBase/[3]武器/[2]弓矢/[0]武器の名前 < UNTRANSLATED
+> CONTEXT DB:DataBase/[5]┗装備タイプ/[5]弓矢/[0]装備タイプ名(剣･鎧など） < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+護身用として広く使われる短剣だがその用途は広い。\r
+軽く力を込めやすく嵩張らないこの短剣を副武器として愛用する者は多い。
+> CONTEXT DB:DataBase/[3]武器/[2]弓矢/[1]武器の説明[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔石のダガー
+> CONTEXT DB:DataBase/[3]武器/[3]魔石のダガー/[0]武器の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+魔石を組み込み術式を施した魔法のダガー。\r
+使い勝手は変わらぬまま恐るべき切れ味を誇る。\r
+魔法の武器は肉体だけではなく霊体をも切り裂くことが可能である。
+> CONTEXT DB:DataBase/[3]武器/[3]魔石のダガー/[1]武器の説明[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+水刃の短刀
+> CONTEXT DB:DataBase/[3]武器/[4]水刃の短刀/[0]武器の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+加護により生まれ変わったリコのナイフ。\r
+濡れる透き通った刃は鉄をも切り裂き所持者に加護を与える。
+> CONTEXT DB:DataBase/[3]武器/[4]水刃の短刀/[1]武器の説明[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ショートソード
+> CONTEXT DB:DataBase/[3]武器/[5]ショートソード/[0]武器の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+初めから所持していた片手剣。\r
+軽く取り回しがよく、人や場所を選ばすに広く使われる。
+> CONTEXT DB:DataBase/[3]武器/[5]ショートソード/[1]武器の説明[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ブロードソード
+> CONTEXT DB:DataBase/[3]武器/[6]ブロードソード/[0]武器の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+斬撃に適した幅広の剣。\r
+薙ぎ払うように広い範囲を攻撃でき信る半面、\r
+狭所での戦闘には向いていない。
+> CONTEXT DB:DataBase/[3]武器/[6]ブロードソード/[1]武器の説明[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ロングソード
+> CONTEXT DB:DataBase/[3]武器/[7]ロングソード/[0]武器の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+恐らく冒険者に最も愛用される直剣。\r
+バランスに優れ、切る・突くと応用の幅が広い。
+> CONTEXT DB:DataBase/[3]武器/[7]ロングソード/[1]武器の説明[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+月光
+> CONTEXT DB:DataBase/[3]武器/[8]月光/[0]武器の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+刀身に月の魔力を宿す刀。\r
+使い手を選ぶが恐ろしいまでの切れ味を誇る。
+> CONTEXT DB:DataBase/[3]武器/[8]月光/[1]武器の説明[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+深き藍の直剣
+> CONTEXT DB:DataBase/[3]武器/[9]深き藍の直剣/[0]武器の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+加護を得たロングソード。\r
+深い藍色の刀身から放たれる斬撃は離れた岩でさえ両断する。
+> CONTEXT DB:DataBase/[3]武器/[9]深き藍の直剣/[1]武器の説明[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+エストック
+> CONTEXT DB:DataBase/[3]武器/[10]エストック/[0]武器の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+突き刺すことを主とした剣。\r
+攻撃速度と隙の少なさに優れているが直線的な攻撃は読まれやすくもある。
+> CONTEXT DB:DataBase/[3]武器/[10]エストック/[1]武器の説明[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+結晶の刺剣
+> CONTEXT DB:DataBase/[3]武器/[11]結晶の刺剣/[0]武器の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+希少な魔石を組み込み術式を施した魔法の刺剣。\r
+魔力の込められた一撃は盾による防御すら穿つ。
+> CONTEXT DB:DataBase/[3]武器/[11]結晶の刺剣/[1]武器の説明[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+黒曜石の短槍
+> CONTEXT DB:DataBase/[3]武器/[12]黒曜石の短槍/[0]武器の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+鋭く尖った硬い石は手頃な木棒と合わせることで立派な武器となる。\r
+容易に作れ優れたこの武器は長らく戦士の友であった。
+> CONTEXT DB:DataBase/[3]武器/[12]黒曜石の短槍/[1]武器の説明[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ショートスピア
+> CONTEXT DB:DataBase/[3]武器/[13]ショートスピア/[0]武器の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+短く詰められた冒険者向きの短槍。\r
+間合いの外から攻撃できる優位性からこの武器を相棒にする物も多い。
+> CONTEXT DB:DataBase/[3]武器/[13]ショートスピア/[1]武器の説明[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+パルチザン
+> CONTEXT DB:DataBase/[3]武器/[14]パルチザン/[0]武器の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+幅広の刃を持つ槍。\r
+リーチに優れ、刺突はもちろん斬りつける攻撃も可能。
+> CONTEXT DB:DataBase/[3]武器/[14]パルチザン/[1]武器の説明[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+海神の二股槍
+> CONTEXT DB:DataBase/[3]武器/[15]海神の二股槍/[0]武器の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ティアラに伝わる絡みつく矛先を持つ加護を受けた二股槍。\r
+信仰を攻撃力に変えるといい信仰と共に忘れられた。
+> CONTEXT DB:DataBase/[3]武器/[15]海神の二股槍/[1]武器の説明[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+こん棒
+> CONTEXT DB:DataBase/[3]武器/[16]こん棒/[0]武器の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+そこそこの重量があり手頃な武器。\r
+手に入れやすく相手を選ばない、原始的だがだからこその安定感がある。
+> CONTEXT DB:DataBase/[3]武器/[16]こん棒/[1]武器の説明[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+石の大剣
+> CONTEXT DB:DataBase/[3]武器/[17]石の大剣/[0]武器の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+固く尖った石と持ち手を組み合わせた大剣。\r
+これを果たして剣と呼べるのかは疑問が残るが\r
+その威力は並みの武器を軽く凌ぐ。
+> CONTEXT DB:DataBase/[3]武器/[17]石の大剣/[1]武器の説明[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グレートソード
+> CONTEXT DB:DataBase/[3]武器/[18]グレートソード/[0]武器の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+馬鹿げたほど巨大な刀身を持つ特大剣。\r
+竜を殺すために作られたとの逸話がある。\r
+岩盤を砕き巨木をも両断せしめる、振るうことができればだが。
+> CONTEXT DB:DataBase/[3]武器/[18]グレートソード/[1]武器の説明[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+海割りの大剣
+> CONTEXT DB:DataBase/[3]武器/[19]海割りの大剣/[0]武器の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+その剣戟は海をも割ると言われる伝説の大剣。\r
+携行するには重く、隠すには大きく目立ちすぎる。\r
+しかし振るう一撃は伝説の名に恥じない力を秘めている。
+> CONTEXT DB:DataBase/[3]武器/[19]海割りの大剣/[1]武器の説明[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+クレイモア
+> CONTEXT DB:DataBase/[3]武器/[22]クレイモア/[0]武器の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+さらに大型で洗練された大剣、両手使いが基本となる。\r
+刺突、薙ぎ払いと状況対応力が高いが使いこなすには高い筋力を要する。
+> CONTEXT DB:DataBase/[3]武器/[22]クレイモア/[1]武器の説明[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ウィングドスピア
+> CONTEXT DB:DataBase/[3]武器/[23]ウィングドスピア/[0]武器の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+穂先にかえしのついた短槍、十字槍と呼ぶ地域もある。\r
+総じて応用力の高い武器種だが狭所の戦いには向いていない。
+> CONTEXT DB:DataBase/[3]武器/[23]ウィングドスピア/[1]武器の説明[2行まで可] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+バスタードソード
+> CONTEXT DB:DataBase/[3]武器/[24]バスタードソード/[0]武器の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+広く普及した大剣、両手での使用が基本。\r
+重量の乗った薙ぎ払いは複数の敵にも対処しやすい。
+> CONTEXT DB:DataBase/[3]武器/[24]バスタードソード/[1]武器の説明[2行まで可] < UNTRANSLATED
+
+> END STRING

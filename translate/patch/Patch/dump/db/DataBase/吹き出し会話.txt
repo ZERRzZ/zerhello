@@ -1,0 +1,106 @@
+> WOLF TRANS PATCH FILE VERSION 1.0
+
+> BEGIN STRING
+がんばれー！\r
+がんばれー！
+> CONTEXT DB:DataBase/[22]吹き出し会話/[0]リコ/[0]汎用1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+あと少しです！
+> CONTEXT DB:DataBase/[22]吹き出し会話/[0]リコ/[1]汎用2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+調合完了！\r
+いまいきます！
+> CONTEXT DB:DataBase/[22]吹き出し会話/[0]リコ/[2]汎用3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+えと、お薬は…あった！
+> CONTEXT DB:DataBase/[22]吹き出し会話/[0]リコ/[3]汎用4 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+使ってください！
+> CONTEXT DB:DataBase/[22]吹き出し会話/[0]リコ/[4]サポート1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+はーい！\r
+差し入れですよー！
+> CONTEXT DB:DataBase/[22]吹き出し会話/[0]リコ/[5]サポート2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+さすがししょー！！
+> CONTEXT DB:DataBase/[22]吹き出し会話/[0]リコ/[6]ジャスト回避1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+かっこいい！！
+> CONTEXT DB:DataBase/[22]吹き出し会話/[0]リコ/[7]ジャスト回避2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+やっちゃえー！
+> CONTEXT DB:DataBase/[22]吹き出し会話/[0]リコ/[8]EXスキル1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ししょーつえー！！
+> CONTEXT DB:DataBase/[22]吹き出し会話/[0]リコ/[9]EXスキル2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+やっつけちゃえー！
+> CONTEXT DB:DataBase/[22]吹き出し会話/[0]リコ/[10]応援1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+がんばれー
+> CONTEXT DB:DataBase/[22]吹き出し会話/[0]リコ/[11]応援2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+うおー！いけー！
+> CONTEXT DB:DataBase/[22]吹き出し会話/[0]リコ/[12]応援3 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+すげーです！ししょー！
+> CONTEXT DB:DataBase/[22]吹き出し会話/[0]リコ/[13]応援4 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ししょー！無理しないで！
+> CONTEXT DB:DataBase/[22]吹き出し会話/[0]リコ/[14]ピンチ1 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+あぶないっ！！
+> CONTEXT DB:DataBase/[22]吹き出し会話/[0]リコ/[15]ピンチ2 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ああっ…
+> CONTEXT DB:DataBase/[22]吹き出し会話/[0]リコ/[16]自ダメージ1 < UNTRANSLATED
+
+> END STRING

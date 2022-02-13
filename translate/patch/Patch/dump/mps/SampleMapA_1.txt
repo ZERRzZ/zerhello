@@ -1,0 +1,717 @@
+> WOLF TRANS PATCH FILE VERSION 1.0
+
+> BEGIN STRING
+\\E…………ふう。
+> CONTEXT COMMONEVENT:323/332/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA_1/events/4/pages/2/86/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eさて、これからどうしようか…。
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/9/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+訓練
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/13/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E武器を使った戦闘訓練か…
+あっちの世界じゃ今まで武器なんて持ったことなんか…
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/15/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…いやあったわ。
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/16/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eトレーニングを開始するのか？
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/17/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eまずは戦いの基本からな。
+まあ、この木人形相手に自由にやってみな。
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/36/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…やるか！
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/38/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\sp[24]\\E………………………………………………………………\\^
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/40/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[36]1000G
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/54/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[36]失敗
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/63/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eこうして今日も日が暮れる……。
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/86/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eふう、食った食った…。
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/99/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eいや、まてよ…。
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/161/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+実践訓練
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/168/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eどうだ？剣の扱いにもだいぶ慣れてきたか？
+ちと早いが今日はいよいよ実戦で剣を振るってもらう。
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/171/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…とはいえ相手はウリボウだ。
+だが1対1でやってみろ、問題ないとは思うが油断しないようにな。
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/172/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…実戦訓練か…準備はいいか？
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/174/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E万一やられるなんてことはないと思うがやってみろ。
+ま、危うくなったら助けてやるよ。
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/193/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+害獣駆除
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/325/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E目的の古い遺跡の近くの森にたぬきが住み着いたらしい。
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/328/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eこれから遺跡に向かうにあたって邪魔をされても面倒だ。
+あれは人を惑わす害獣だからな、駆除してしまおう。
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/329/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…害獣か…準備はいいか？
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/331/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eたぬきは飛び跳ねる！
+敵の行動をよく見て戦い方を変えるんだ！
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/350/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…こい！
+> CONTEXT MPS:SampleMapA_1/events/4/pages/1/352/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+そろそろ寝る
+> CONTEXT MPS:SampleMapA_1/events/4/pages/2/6/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…こうして一日が終わる……。
+> CONTEXT MPS:SampleMapA_1/events/4/pages/2/9/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおっとそろそろ風呂に入るか！
+> CONTEXT MPS:SampleMapA_1/events/4/pages/2/32/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\c[\\self[5]]アクション！
+> CONTEXT MPS:SampleMapA_1/events/4/pages/2/63/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\c[\\self[6]]お茶休憩
+> CONTEXT MPS:SampleMapA_1/events/4/pages/2/63/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\c[\\self[7]]お風呂に入る
+> CONTEXT MPS:SampleMapA_1/events/4/pages/2/63/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\c[0]もう寝ちゃう
+> CONTEXT MPS:SampleMapA_1/events/4/pages/2/63/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eうーん、お茶はもういいかな…。
+> CONTEXT MPS:SampleMapA_1/events/4/pages/2/78/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eコーヒーでも飲むか。
+……すいませーん！
+> CONTEXT MPS:SampleMapA_1/events/4/pages/2/83/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお風呂にはもう入ったぞ。
+> CONTEXT MPS:SampleMapA_1/events/4/pages/2/101/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E行動力を10消費することでイベントを再抽選することができます。
+再抽選は行動力が10以下になるまで何度でも抽選を行うことが出来ます。
+　
+> CONTEXT MPS:SampleMapA_1/events/5/pages/1/69/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eドロー！ずっと俺のターン！！！
+> CONTEXT MPS:SampleMapA_1/events/5/pages/1/105/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eドロー！俺のターン！！！
+> CONTEXT MPS:SampleMapA_1/events/5/pages/1/112/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eいや…少し落ち着こう。
+> CONTEXT MPS:SampleMapA_1/events/5/pages/1/130/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E主にお兄ちゃん（あなた）のスキルを習得します。
+スキルは大別して「戦闘ツリー」「冒険ツリー」「生活ツリー」があり、
+ツリーを開拓することで日々の生活や冒険を優位に運ぶことができるでしょう。
+各スキルの習得には信頼を使います。
+　　
+> CONTEXT MPS:SampleMapA_1/events/7/pages/1/4/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E\\f[20]\\cdb[0:12:8]\n
+> CONTEXT MPS:SampleMapA_1/events/7/pages/1/1573/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\c[9]\\f[20]\\cdb[0:12:11]
+> CONTEXT MPS:SampleMapA_1/events/7/pages/1/1575/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\c[9]\\f[20]\\cdb[0:12:12]
+> CONTEXT MPS:SampleMapA_1/events/7/pages/1/1576/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E\\f[20]\\cdb[0:12:9]
+> CONTEXT MPS:SampleMapA_1/events/7/pages/1/1615/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\c[9]\\f[20]\\cdb[0:12:13]
+> CONTEXT MPS:SampleMapA_1/events/7/pages/1/1617/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\c[9]\\f[20]\\cdb[0:12:14]
+> CONTEXT MPS:SampleMapA_1/events/7/pages/1/1618/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E\\f[20]\\cdb[0:12:10]
+> CONTEXT MPS:SampleMapA_1/events/7/pages/1/1661/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\c[9]\\f[20]\\cdb[0:12:15]
+> CONTEXT MPS:SampleMapA_1/events/7/pages/1/1663/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\c[9]\\f[20]\\cdb[0:12:16]
+> CONTEXT MPS:SampleMapA_1/events/7/pages/1/1664/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\c[9]\\f[28]\\v[17]
+> CONTEXT MPS:SampleMapA_1/events/7/pages/1/1698/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA_1/events/7/pages/2/802/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA_1/events/7/pages/3/779/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\c[9]\\f[28]\\v[18]
+> CONTEXT MPS:SampleMapA_1/events/7/pages/1/1700/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA_1/events/7/pages/2/804/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA_1/events/7/pages/3/781/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\Eこの画面で二人の生活方針を決めることができます。
+日々溜まっていく愛情を使うことで新たな生活方針を開拓でき、
+選んだ方針によって夜に発生するイベントが増えていきます。
+方針は複数ルートを進めることはできません。
+　
+> CONTEXT MPS:SampleMapA_1/events/7/pages/2/4/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA_1/events/7/pages/3/4/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E戦闘行動力を6消費することで行動を再抽選することができます。
+再抽選は戦闘行動力が6以下になるまで何度でも行うことができます。
+　
+> CONTEXT MPS:SampleMapA_1/events/8/pages/1/110/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E攻撃は\\c[1]後に実行されるほど効果が高く\\c[0]なり、
+初手より2回目、2回目より3回目の方が与えるダメージが増します。
+　
+> CONTEXT MPS:SampleMapA_1/events/8/pages/1/172/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]様子を見る\\f[12]
+────────────────
+\\f[12]\\EHP回復4
+> CONTEXT MPS:SampleMapA_1/events/9/pages/1/13/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]攻撃\\f[12]
+────────────────
+\\f[12]\\E近接攻撃（100％）
+> CONTEXT MPS:SampleMapA_1/events/9/pages/1/20/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]攻撃（ハーピー）\\f[12]
+────────────────
+\\f[12]\\E近接攻撃（100％）
+飛翔中ダイブ攻撃（200％）
+> CONTEXT MPS:SampleMapA_1/events/9/pages/1/27/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]突進\\f[12]
+────────────────
+\\f[12]\\E近接攻撃（100％）
+被ダメージ時50％で転倒し
+残りの行動を解除させられる。
+> CONTEXT MPS:SampleMapA_1/events/9/pages/1/39/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]飛び上がる\\f[12]
+────────────────
+\\f[12]\\E飛翔状態となり
+遠距離攻撃以外を無効化する。
+> CONTEXT MPS:SampleMapA_1/events/9/pages/1/46/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]歌う\\f[12]
+────────────────
+\\f[12]\\E行動阻害（50％）
+50％で歌に気を取られ
+残りの行動を解除させられる。
+> CONTEXT MPS:SampleMapA_1/events/9/pages/1/55/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]攻撃\\f[12]
+────────────────
+\\f[12]\\E遠距離攻撃（125％）
+> CONTEXT MPS:SampleMapA_1/events/9/pages/1/62/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]たぬき・マーケティング\\f[12]
+────────────────
+\\f[12]\\E飛び跳ねながら宣伝を行う。
+遠距離攻撃以外を無効化する。
+アイコトバ好評発売中！
+> CONTEXT MPS:SampleMapA_1/events/9/pages/1/69/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]異界の門\\f[12]
+────────────────
+\\f[12]\\E？？攻撃（125％）
+この世界の理をも超越する
+異界の門を解き放ち波動を放つ。
+> CONTEXT MPS:SampleMapA_1/events/9/pages/1/78/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]防御態勢\\f[12]
+────────────────
+\\f[12]\\E基本防御（150％）
+残り\\v[212]ターン
+> CONTEXT MPS:SampleMapA_1/events/10/pages/1/12/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]回避体制\\f[12]
+────────────────
+\\f[12]\\Eあらゆる攻撃を一度だけ回避
+残り\\v[213]ターン
+> CONTEXT MPS:SampleMapA_1/events/10/pages/1/22/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]地形利用\\f[12]
+────────────────
+\\f[12]\\E毎ターン戦局が優位側に傾く
+残り\\v[214]ターン
+> CONTEXT MPS:SampleMapA_1/events/10/pages/1/32/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]焼き討ち\\f[12]
+────────────────
+\\f[12]\\E炎を放ち互いの接近を防ぐ
+毎ターン戦況に応じて
+どちらかがダメージを受ける
+残り\\v[215]ターン
+> CONTEXT MPS:SampleMapA_1/events/10/pages/1/42/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]応援\\f[12]
+────────────────
+\\f[12]\\E戦闘のリロードを5にする
+残り\\v[216]ターン
+> CONTEXT MPS:SampleMapA_1/events/10/pages/1/52/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]支援効果\\f[12]
+────────────────
+\\f[12]\\Eターン終了時の
+戦闘行動力を追加で10回復
+残り\\v[217]ターン
+> CONTEXT MPS:SampleMapA_1/events/10/pages/1/62/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]飛翔\\f[12]
+────────────────
+\\f[12]\\E遠距離以外の攻撃を無力化
+攻撃するか被ダメージで解除
+> CONTEXT MPS:SampleMapA_1/events/10/pages/1/74/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]優柔不断\\f[12]
+─────────────
+\\f[12]\\E戦況-5
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/11/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]ひるむ\\f[12]
+─────────────
+\\f[12]\\E戦況-7
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/16/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]油断\\f[12]
+─────────────
+\\f[12]\\E戦況-6
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/21/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]剣戟\\f[12]
+─────────────
+\\f[12]\\E近接攻撃（100％）
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/28/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]射撃\\f[12]
+─────────────
+\\f[12]\\E遠距離攻撃（75％）
+飛翔状態を解除
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/33/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]防御\\f[12]
+─────────────
+\\f[12]\\E防御力150％ +2ターン
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/38/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]先制攻撃\\f[12]
+─────────────
+\\f[12]\\E近接攻撃（100％）
+敵の行動を全て取り下げ
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/45/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]回避\\f[12]
+─────────────
+\\f[12]\\E発動後ターン中の
+攻撃を1回無効化
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/50/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]会心の一撃\\f[12] (必要SP4)
+─────────────
+\\f[12]\\E近接攻撃（120％）
+防御無視
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/55/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]息を整える\\f[12]
+─────────────
+\\f[12]\\E戦闘行動力回復20
+SP回復5
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/62/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]間合いを取る\\f[12]
+─────────────
+\\f[12]\\E戦況+20
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/67/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]応急手当\\f[12]
+─────────────
+\\f[12]\\EHP回復6
+スキル薬草学取得時12
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/72/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]仕切り直し\\f[12]
+─────────────
+\\f[12]\\Eコストなしリロード
+即時発動
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/79/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]爆弾\\f[12] 爆弾消費1
+─────────────
+\\f[12]\\E爆発（効果10 防御無視）
+防御低下効果1
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/84/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]傷薬\\f[12] 傷薬消費1
+─────────────
+\\f[12]\\EHP回復8
+スキル薬草学取得時16
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/89/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]連撃\\f[12] (必要SP1)
+─────────────
+\\f[12]\\E近接攻撃（60％×2）
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/96/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]剣の舞\\f[12] (必要SP4)
+─────────────
+\\f[12]\\E近接攻撃（50％×3）
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/101/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]必殺技\\f[12] (必要SP8)
+─────────────
+\\f[12]\\E近接攻撃（200％）
+防御無視
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/106/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]魔弾\\f[12] (必要SP1)
+─────────────
+\\f[12]\\E魔法（100％防御無視）
+飛翔状態を解除
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/113/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]炎の矢\\f[12] (必要SP3)
+─────────────
+\\f[12]\\E魔法（135％防御無視）
+飛翔状態を解除
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/118/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]地形利用\\f[12]
+─────────────
+\\f[12]\\E毎ターン戦況に+10
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/123/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]焼き討ち\\f[12] (必要SP5)
+─────────────
+\\f[12]\\E戦況に応じてダメージ
+近接攻撃を互いに無力化
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/130/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]応援\\f[12] （消費体調3）
+─────────────
+\\f[12]\\Eリロード10→5 +1ターン
+SP回復5
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/135/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]支援行動\\f[12] （消費体調4）
+─────────────
+\\f[12]\\Eターン終了時行動力+10　
++3ターン
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/140/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]支援行動\\f[12] （消費体調5）
+─────────────
+\\f[12]\\E敵のセットアクションを
+全て取り下げ
+> CONTEXT MPS:SampleMapA_1/events/11/pages/1/147/Picture < UNTRANSLATED
+
+> END STRING

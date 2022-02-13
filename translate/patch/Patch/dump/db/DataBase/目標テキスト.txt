@@ -1,0 +1,373 @@
+> WOLF TRANS PATCH FILE VERSION 1.0
+
+> BEGIN STRING
+交流戦
+> CONTEXT DB:DataBase/[28]目標テキスト/[9]交流戦/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[10]交流戦/[0]目標 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+あと2日
+> CONTEXT DB:DataBase/[28]目標テキスト/[9]交流戦/[1]期限 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[16]地区予選/[1]期限 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[31]新メニュー/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+あと1日
+> CONTEXT DB:DataBase/[28]目標テキスト/[10]交流戦/[1]期限 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[17]地区予選/[1]期限 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[32]新メニュー/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+地区予選
+> CONTEXT DB:DataBase/[28]目標テキスト/[16]地区予選/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[17]地区予選/[0]目標 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+対策案を考える
+> CONTEXT DB:DataBase/[28]目標テキスト/[26]新メニュー/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[27]新メニュー/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[28]新メニュー/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[29]新メニュー/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[30]新メニュー/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[31]新メニュー/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[32]新メニュー/[0]目標 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+あと7日
+> CONTEXT DB:DataBase/[28]目標テキスト/[26]新メニュー/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+あと6日
+> CONTEXT DB:DataBase/[28]目標テキスト/[27]新メニュー/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+あと5日
+> CONTEXT DB:DataBase/[28]目標テキスト/[28]新メニュー/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+あと4日
+> CONTEXT DB:DataBase/[28]目標テキスト/[29]新メニュー/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+あと3日
+> CONTEXT DB:DataBase/[28]目標テキスト/[30]新メニュー/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+八会で優勝
+> CONTEXT DB:DataBase/[28]目標テキスト/[35]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[36]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[37]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[38]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[39]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[40]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[41]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[42]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[44]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[45]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[46]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[47]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[48]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[49]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[50]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[51]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[52]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[53]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[54]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[55]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[56]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[57]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[58]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[59]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[60]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[61]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[62]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[63]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[64]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[65]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[66]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[67]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[68]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[69]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[70]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[71]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[72]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[73]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[74]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[75]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[76]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[77]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[78]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[79]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[80]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[81]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[82]大会優勝/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[83]大会優勝/[0]目標 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+交流戦まであと2日
+> CONTEXT DB:DataBase/[28]目標テキスト/[44]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+交流戦まであと1日
+> CONTEXT DB:DataBase/[28]目標テキスト/[45]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+地区予選まであと2日
+> CONTEXT DB:DataBase/[28]目標テキスト/[51]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+地区予選まであと1日
+> CONTEXT DB:DataBase/[28]目標テキスト/[52]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+本戦まであと12日
+> CONTEXT DB:DataBase/[28]目標テキスト/[62]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+本戦まであと11日
+> CONTEXT DB:DataBase/[28]目標テキスト/[63]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+本戦まであと10日
+> CONTEXT DB:DataBase/[28]目標テキスト/[64]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+本戦まであと9日
+> CONTEXT DB:DataBase/[28]目標テキスト/[65]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+本戦まであと8日
+> CONTEXT DB:DataBase/[28]目標テキスト/[66]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+本戦まであと7日
+> CONTEXT DB:DataBase/[28]目標テキスト/[67]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+本戦まであと6日
+> CONTEXT DB:DataBase/[28]目標テキスト/[68]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+本戦まであと5日
+> CONTEXT DB:DataBase/[28]目標テキスト/[69]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+本戦まであと4日
+> CONTEXT DB:DataBase/[28]目標テキスト/[70]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+本戦まであと3日
+> CONTEXT DB:DataBase/[28]目標テキスト/[71]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+本戦まであと2日
+> CONTEXT DB:DataBase/[28]目標テキスト/[72]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+本戦まであと1日
+> CONTEXT DB:DataBase/[28]目標テキスト/[73]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+準決勝まであと3日
+> CONTEXT DB:DataBase/[28]目標テキスト/[75]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+準決勝まであと2日
+> CONTEXT DB:DataBase/[28]目標テキスト/[76]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+準決勝まであと1日
+> CONTEXT DB:DataBase/[28]目標テキスト/[77]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+決勝まであと5日
+> CONTEXT DB:DataBase/[28]目標テキスト/[79]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+決勝まであと4日
+> CONTEXT DB:DataBase/[28]目標テキスト/[80]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+決勝まであと3日
+> CONTEXT DB:DataBase/[28]目標テキスト/[81]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+決勝まであと2日
+> CONTEXT DB:DataBase/[28]目標テキスト/[82]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+決勝まであと1日
+> CONTEXT DB:DataBase/[28]目標テキスト/[83]大会優勝/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+異変を解決
+> CONTEXT DB:DataBase/[28]目標テキスト/[86]異変の解決/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[87]異変の解決/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[88]異変の解決/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[89]異変の解決/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[90]異変の解決/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[91]異変の解決/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[92]異変の解決/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[93]異変の解決/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[94]異変の解決/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[95]異変の解決/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[96]異変の解決/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[97]異変の解決/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[98]異変の解決/[0]目標 < UNTRANSLATED
+> CONTEXT DB:DataBase/[28]目標テキスト/[99]異変の解決/[0]目標 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+霧の襲来まであと14日
+> CONTEXT DB:DataBase/[28]目標テキスト/[86]異変の解決/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+霧の襲来まであと13日
+> CONTEXT DB:DataBase/[28]目標テキスト/[87]異変の解決/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+霧の襲来まであと12日
+> CONTEXT DB:DataBase/[28]目標テキスト/[88]異変の解決/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+霧の襲来まであと11日
+> CONTEXT DB:DataBase/[28]目標テキスト/[89]異変の解決/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+霧の襲来まであと10日
+> CONTEXT DB:DataBase/[28]目標テキスト/[90]異変の解決/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+霧の襲来まであと9日
+> CONTEXT DB:DataBase/[28]目標テキスト/[91]異変の解決/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+霧の襲来まであと8日
+> CONTEXT DB:DataBase/[28]目標テキスト/[92]異変の解決/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+霧の襲来まであと7日
+> CONTEXT DB:DataBase/[28]目標テキスト/[93]異変の解決/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+霧の襲来まであと6日
+> CONTEXT DB:DataBase/[28]目標テキスト/[94]異変の解決/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+霧の襲来まであと5日
+> CONTEXT DB:DataBase/[28]目標テキスト/[95]異変の解決/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+霧の襲来まであと4日
+> CONTEXT DB:DataBase/[28]目標テキスト/[96]異変の解決/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+霧の襲来まであと3日
+> CONTEXT DB:DataBase/[28]目標テキスト/[97]異変の解決/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+霧の襲来まであと2日
+> CONTEXT DB:DataBase/[28]目標テキスト/[98]異変の解決/[1]期限 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+霧の襲来まであと1日
+> CONTEXT DB:DataBase/[28]目標テキスト/[99]異変の解決/[1]期限 < UNTRANSLATED
+
+> END STRING

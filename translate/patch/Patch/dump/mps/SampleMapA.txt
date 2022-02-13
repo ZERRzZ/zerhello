@@ -1,0 +1,5499 @@
+> WOLF TRANS PATCH FILE VERSION 1.0
+
+> BEGIN STRING
+\\c[9]\\f[16]★
+> CONTEXT COMMONEVENT:239/424/Picture < UNTRANSLATED
+> CONTEXT COMMONEVENT:241/453/Picture < UNTRANSLATED
+> CONTEXT COMMONEVENT:242/744/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/8/pages/1/438/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E<C\>Tips　バトルについて
+> CONTEXT COMMONEVENT:239/509/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/1/114/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/115/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/115/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E各行動は使用スキルに応じた\\c[2]行動ポイント（★）\\c[0]を消費します。
+行動ポイントは毎ターンの初めに\\c[2]2ポイント\\c[0]回復します。
+　
+> CONTEXT COMMONEVENT:239/519/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/1/129/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/130/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/130/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\Eまた、各キャラクターそれぞれ\\c[2]動ける回数\\c[0]が決まっています。
+顔アイコン横の■が残りの動ける回数です。
+> CONTEXT COMMONEVENT:239/523/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/1/133/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/134/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/134/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E10ターン以内に勝負がつかなかった場合は
+その時点で\\c[1]戦力比\\c[0]の多い陣営の勝利となります。
+> CONTEXT COMMONEVENT:239/525/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/1/135/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/136/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/136/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E横なぎに倒れる木々、吹き飛んだ家…だったもの。
+見えるはずのない星空、感じるはずのない夜の風─
+> CONTEXT COMMONEVENT:246/613/Message < UNTRANSLATED
+> CONTEXT COMMONEVENT:247/693/Message < UNTRANSLATED
+> CONTEXT COMMONEVENT:323/1343/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/7/96/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/8/102/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eん？
+> CONTEXT COMMONEVENT:247/1029/Message < UNTRANSLATED
+> CONTEXT COMMONEVENT:301/3203/Message < UNTRANSLATED
+> CONTEXT COMMONEVENT:305/3098/Message < UNTRANSLATED
+> CONTEXT COMMONEVENT:326/780/Message < UNTRANSLATED
+> CONTEXT COMMONEVENT:345/173/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/3/88/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…けほっけほっ。
+> CONTEXT COMMONEVENT:277/86/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/4/pages/1/312/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スケベ
+> CONTEXT COMMONEVENT:283/18/SetString < UNTRANSLATED
+> CONTEXT DB:DataBase/[25]ランダム肩書/[1]肩書2/[1]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/339/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eあ、お兄ちゃんおかえり。
+> CONTEXT COMMONEVENT:301/3259/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/584/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…おにいちゃん、おにーちゃん！
+ほらあ、そろそろ起きないと遅れちゃうよー。
+> CONTEXT COMMONEVENT:305/2850/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/450/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお"・に"・い"・ぢ・ゃ・ん"っ！
+> CONTEXT COMMONEVENT:305/2854/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/454/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E▼
+> CONTEXT COMMONEVENT:305/3006/Picture < UNTRANSLATED
+> CONTEXT COMMONEVENT:336/400/Picture < UNTRANSLATED
+> CONTEXT COMMONEVENT:405/105/Picture < UNTRANSLATED
+> CONTEXT COMMONEVENT:408/148/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/1/34/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/35/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/35/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…ふぅ。
+> CONTEXT COMMONEVENT:319/217/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1931/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E残念ながらあなたの冒険はここで終わってしまった…！
+> CONTEXT COMMONEVENT:326/40/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/4/pages/2/22/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E妹の手料理を食べて少し元気になった。
+> CONTEXT COMMONEVENT:326/517/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/592/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E<C\>Tips　深夜について
+> CONTEXT COMMONEVENT:335/3685/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/1/78/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/79/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/79/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\Eお兄ちゃんの\\c[2]性欲\\c[0]が一定値を超えている状態で就寝すると
+深夜（お触り）パートへ移行できます。
+> CONTEXT COMMONEVENT:335/3691/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/1/84/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/85/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/85/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E上部メーターは\\c[1]BADが不快感\\c[0]、\\c[1]GOODが気持ちよさ\\c[0]を表し
+BADがゲージいっぱいまで達成すると行為は強制終了となります。
+> CONTEXT COMMONEVENT:335/3696/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/1/89/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/90/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/90/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\Eメーター中央アイコンで現在の妹の\\c[1]睡眠状態\\c[0]と
+\\c[1]その気（興奮）度合い\\c[0]を\\c[2]アイコンの鼓動速度\\c[0]で表します。
+> CONTEXT COMMONEVENT:335/3699/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/1/92/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/93/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/93/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E睡眠状態が浅いほどGOOD、BAD両ゲージの上昇が早くなりますが
+逆に眠りが深い時は行動に制限を受けません。
+> CONTEXT COMMONEVENT:335/3701/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/1/94/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/95/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/95/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\EBADの許容量は\\c[1]信頼度\\c[0]や\\c[1]性興味\\c[0]を上げることで上昇します。
+> CONTEXT COMMONEVENT:335/3702/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/1/95/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/96/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/96/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E\\f[32]\\v[111]%
+> CONTEXT COMMONEVENT:339/58/Picture < UNTRANSLATED
+> CONTEXT COMMONEVENT:348/1843/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/1/37/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/2/8/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/3/8/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/4/9/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/5/9/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/6/6/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/7/6/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/8/6/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/9/7/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/10/7/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/1/8/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/2/6/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/3/6/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/4/6/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/5/6/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E………むー…おにーちゃん…。
+> CONTEXT COMMONEVENT:345/102/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/3/29/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eむむ？
+> CONTEXT COMMONEVENT:345/104/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/3/31/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそーやってお兄ちゃんばっかり…
+あたしだって…気持ちよくなりたいんだよ…？
+> CONTEXT COMMONEVENT:345/107/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/3/33/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+もっとしちゃう
+> CONTEXT COMMONEVENT:345/109/Choices < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/3/34/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+今日は疲れた…
+> CONTEXT COMMONEVENT:345/109/Choices < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/3/34/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E……ぷー…。
+> CONTEXT COMMONEVENT:345/129/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/3/48/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E……う…おにい…ちゃん。
+> CONTEXT COMMONEVENT:345/171/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/3/86/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E……じぶんばっかり…。
+> CONTEXT COMMONEVENT:345/197/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/3/105/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…あの…おにいちゃん……
+も、もう少しだから…その…。
+> CONTEXT COMMONEVENT:345/242/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/3/147/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E……ぶぅ…。
+> CONTEXT COMMONEVENT:345/264/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/3/160/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eん…。
+> CONTEXT COMMONEVENT:402/229/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/11/pages/1/1075/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/20/pages/1/337/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+勇猛な
+> CONTEXT DB:DataBase/[25]ランダム肩書/[0]肩書1/[0]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/261/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+覚悟完了
+> CONTEXT DB:DataBase/[25]ランダム肩書/[0]肩書1/[1]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/261/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+無謀な
+> CONTEXT DB:DataBase/[25]ランダム肩書/[0]肩書1/[2]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/261/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+優柔不断
+> CONTEXT DB:DataBase/[25]ランダム肩書/[0]肩書1/[4]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/281/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+冷静な
+> CONTEXT DB:DataBase/[25]ランダム肩書/[0]肩書1/[5]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/281/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+誉を捨てた
+> CONTEXT DB:DataBase/[25]ランダム肩書/[0]肩書1/[6]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/281/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+現実的
+> CONTEXT DB:DataBase/[25]ランダム肩書/[0]肩書1/[7]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/281/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+慎重な
+> CONTEXT DB:DataBase/[25]ランダム肩書/[0]肩書1/[8]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/298/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+優しい
+> CONTEXT DB:DataBase/[25]ランダム肩書/[0]肩書1/[9]表示文章 < UNTRANSLATED
+> CONTEXT DB:DataBase/[25]ランダム肩書/[1]肩書2/[6]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/362/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+変態
+> CONTEXT DB:DataBase/[25]ランダム肩書/[0]肩書1/[10]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/298/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+根菜
+> CONTEXT DB:DataBase/[25]ランダム肩書/[0]肩書1/[11]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/298/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+守銭奴
+> CONTEXT DB:DataBase/[25]ランダム肩書/[0]肩書1/[13]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/315/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+クマヘッド
+> CONTEXT DB:DataBase/[25]ランダム肩書/[0]肩書1/[14]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/315/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+下心
+> CONTEXT DB:DataBase/[25]ランダム肩書/[1]肩書2/[0]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/339/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+脳筋
+> CONTEXT DB:DataBase/[25]ランダム肩書/[1]肩書2/[2]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/339/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+策略家
+> CONTEXT DB:DataBase/[25]ランダム肩書/[1]肩書2/[3]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/339/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+イケメン
+> CONTEXT DB:DataBase/[25]ランダム肩書/[1]肩書2/[4]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/362/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+お人好し
+> CONTEXT DB:DataBase/[25]ランダム肩書/[1]肩書2/[5]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/362/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ワンチャン
+> CONTEXT DB:DataBase/[25]ランダム肩書/[1]肩書2/[7]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/362/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+水も滴る
+> CONTEXT DB:DataBase/[25]ランダム肩書/[1]肩書2/[8]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/383/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+波乱万丈
+> CONTEXT DB:DataBase/[25]ランダム肩書/[1]肩書2/[9]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/383/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+不幸
+> CONTEXT DB:DataBase/[25]ランダム肩書/[1]肩書2/[10]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/383/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+知的
+> CONTEXT DB:DataBase/[25]ランダム肩書/[1]肩書2/[11]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/383/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+絶叫
+> CONTEXT DB:DataBase/[25]ランダム肩書/[1]肩書2/[12]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/403/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+脱糞
+> CONTEXT DB:DataBase/[25]ランダム肩書/[1]肩書2/[13]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/403/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+天才
+> CONTEXT DB:DataBase/[25]ランダム肩書/[1]肩書2/[15]表示文章 < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/0/pages/1/403/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E目を閉じると脳裏に浮かぶ光景がある。
+夕日に朱く染まる小高い丘の上、風のざわめき。
+見下ろした先には…？
+> CONTEXT MPS:SampleMapA/events/0/pages/1/61/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+戦場が広がっている
+> CONTEXT MPS:SampleMapA/events/0/pages/1/62/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+広大な森が広がっている
+> CONTEXT MPS:SampleMapA/events/0/pages/1/62/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+風に揺れる麦畑だ
+> CONTEXT MPS:SampleMapA/events/0/pages/1/62/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+家族の待つ我が家だ
+> CONTEXT MPS:SampleMapA/events/0/pages/1/62/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eあなたは戦いの最中ついに追い詰められてしまった。
+多勢に無勢、足元は崖、逃げ道はない、どうする？
+> CONTEXT MPS:SampleMapA/events/0/pages/1/110/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+突破する
+> CONTEXT MPS:SampleMapA/events/0/pages/1/111/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+飛び降りる
+> CONTEXT MPS:SampleMapA/events/0/pages/1/111/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+好機を待つ
+> CONTEXT MPS:SampleMapA/events/0/pages/1/111/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+降参する
+> CONTEXT MPS:SampleMapA/events/0/pages/1/111/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E行商の途中、お腹を空かせた少女に出会う。
+街までは遠く、手持ちの食料は少ないが売り物の野菜ならある。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/141/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+足早に立ち去る
+> CONTEXT MPS:SampleMapA/events/0/pages/1/142/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+食料を分け与える
+> CONTEXT MPS:SampleMapA/events/0/pages/1/142/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+野菜をぶち込む
+> CONTEXT MPS:SampleMapA/events/0/pages/1/142/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+取引する
+> CONTEXT MPS:SampleMapA/events/0/pages/1/142/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E立ち寄った小さな村で少女はこう言った。
+「母の病を治すためにあの森の奥にある泉の水が必要なのです…。」
+> CONTEXT MPS:SampleMapA/events/0/pages/1/175/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+フヒッ任せろ
+> CONTEXT MPS:SampleMapA/events/0/pages/1/176/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+その辺の水を汲んでくる
+> CONTEXT MPS:SampleMapA/events/0/pages/1/176/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+街まで医者を呼びに行く
+> CONTEXT MPS:SampleMapA/events/0/pages/1/176/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+でもクマとか怖いし…
+> CONTEXT MPS:SampleMapA/events/0/pages/1/176/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E広い大きな川を小舟で渡っている。
+中程まで来たところで突然船底に穴が空いた！
+> CONTEXT MPS:SampleMapA/events/0/pages/1/206/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+泳ぐ
+> CONTEXT MPS:SampleMapA/events/0/pages/1/207/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+水を掻き出す
+> CONTEXT MPS:SampleMapA/events/0/pages/1/207/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+穴を塞ぐ物を探す
+> CONTEXT MPS:SampleMapA/events/0/pages/1/207/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ああああああああ！！！！！（ﾌﾞﾘﾌﾞﾘﾌﾞﾘｭ
+> CONTEXT MPS:SampleMapA/events/0/pages/1/207/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E自分の未来は。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/237/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+自分の手で切り開く
+> CONTEXT MPS:SampleMapA/events/0/pages/1/238/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+自由でありたい
+> CONTEXT MPS:SampleMapA/events/0/pages/1/238/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+安定が欲しい
+> CONTEXT MPS:SampleMapA/events/0/pages/1/238/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+神のみぞ知る
+> CONTEXT MPS:SampleMapA/events/0/pages/1/238/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eあなたは……\\cdb[0:12:0]\\cdb[0:12:1]お兄ちゃんです。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/255/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+強運の
+> CONTEXT MPS:SampleMapA/events/0/pages/1/261/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+慈悲深い
+> CONTEXT MPS:SampleMapA/events/0/pages/1/298/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+臆病な
+> CONTEXT MPS:SampleMapA/events/0/pages/1/315/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+生まれ変わった
+> CONTEXT MPS:SampleMapA/events/0/pages/1/315/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+気合い
+> CONTEXT MPS:SampleMapA/events/0/pages/1/403/StringCondition < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E<C\>数日前─。<L\>
+> CONTEXT MPS:SampleMapA/events/0/pages/1/438/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…そんな訳でしばらく家を空けることになった。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/440/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eいつまで？
+そりゃもちろん、お宝を見つけるまでさ。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/441/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eま、いつもどおりってやつだ。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/442/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eただ…お前はともかく、
+妹はまだ学生だ、身体も丈夫な方じゃないからな。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/443/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそこはしっかり支えて面倒をみてやってくれ。
+じゃ頼んだぜ、お兄ちゃん。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/444/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおはよう、お兄ちゃん。
+ご飯できてるよ、いっしょにたべよ。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/462/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E都市部から少し離れた山間の村「メクア」。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/475/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E森と湖畔に囲まれた豊かな自然とのどかな景色。
+そんな牧歌的な村のさらに外れにある小さなログハウス。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/477/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E<C\>「冒険者ギルドメクア支部」<L\>
+> CONTEXT MPS:SampleMapA/events/0/pages/1/478/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eいかにも手製感あふれる看板にはそう書かれている。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/479/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおかえりなさいお兄ちゃん、ご苦労さま。
+道中危ないことはなかった？
+> CONTEXT MPS:SampleMapA/events/0/pages/1/489/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eマスター…
+ただのお使いするだけで危険も何もないよー。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/494/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eあら、何事もなかったならなによりじゃない。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/498/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eうちはうち、よそはよそ。
+適材適所よ。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/499/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eでもねー…腕が鈍っちゃうよね。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/503/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eわ、私は今みたいなのんびりでも嫌じゃないよ。
+無理して怪我とかしたら…嫌だな…。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/508/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+「そうだな。」　\\f[12]NORMAL
+> CONTEXT MPS:SampleMapA/events/0/pages/1/512/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[20]「もう少し張り合いがあっても…。」　\\f[12]HARD
+> CONTEXT MPS:SampleMapA/events/0/pages/1/512/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそうよ、安全第一。
+とにかく今日もおつかれさまでした。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/518/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E雑に難易度が上がるおまけモードです\\c[2]初回はおすすめしません。
+\\c[0]クリア出来る保証はしませんがよろしいですか？
+> CONTEXT MPS:SampleMapA/events/0/pages/1/522/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそういうのはもうちょっと強くなってからいうの。
+それまでは安全第一、ね。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/537/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eはい、これは今日のお仕事料。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/541/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそういえばお兄ちゃんは家で妹さんと二人なんでしょ？
+妹さんはまだ学生なんだし…なおさらよ。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/543/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+（確かに、妹の事を考えると無茶はできないな…）
+> CONTEXT MPS:SampleMapA/events/0/pages/1/546/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eね？
+じゃあみんな今日は遅くなる前にお家に帰ること。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/553/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eまたそんな子供相手みたいな言い方してー
+> CONTEXT MPS:SampleMapA/events/0/pages/1/557/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eあら？あたしから見たらみんな子供みたいなものよ。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/561/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E出た！
+マスターのエルフアピール。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/565/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eなによ出たってー
+とにかくみんな今日はお疲れさま、また明日ね。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/569/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eギルドメンバーのカナ、ユイ。
+ギルドマスターのユカリに出会った。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/574/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eごはんの用意できてるよ、一緒に食べよう。
+> CONTEXT MPS:SampleMapA/events/0/pages/1/586/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E\\f[12]Ver1.1.0 アップデート
+週末に「討伐」「大冒険」が追加されました。
+　
+> CONTEXT MPS:SampleMapA/events/4/pages/1/34/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E\\f[12]引き続き「妹！せいかつ～ファンタジー～」をお楽しみください！
+> CONTEXT MPS:SampleMapA/events/4/pages/1/35/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E現在のバージョンで遊べるのはここまでです！
+ご感想などありましたらコメント頂けますと嬉しく思います！
+> CONTEXT MPS:SampleMapA/events/4/pages/1/50/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお兄ちゃん、お風呂用意できてるから。
+> CONTEXT MPS:SampleMapA/events/4/pages/1/110/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお兄ちゃん、お風呂用意できてるよ。
+> CONTEXT MPS:SampleMapA/events/4/pages/1/125/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお兄ちゃん、そろそろお風呂入りなよー。
+> CONTEXT MPS:SampleMapA/events/4/pages/1/140/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eうーん…眠いぞ……。
+> CONTEXT MPS:SampleMapA/events/4/pages/1/182/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eさすがにそろそろ寝ないとな…。
+> CONTEXT MPS:SampleMapA/events/4/pages/1/212/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA_1/events/4/pages/2/5/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eふわ……眠くなってきたな…。
+> CONTEXT MPS:SampleMapA/events/4/pages/1/241/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…………なに…？
+> CONTEXT MPS:SampleMapA/events/4/pages/1/284/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E（ううむ、なんだか気まずいな…。
+> CONTEXT MPS:SampleMapA/events/4/pages/1/286/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…………あ、お兄ちゃん…。
+> CONTEXT MPS:SampleMapA/events/4/pages/1/289/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eはーい！お兄ちゃん！
+> CONTEXT MPS:SampleMapA/events/4/pages/1/298/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eなになに？
+> CONTEXT MPS:SampleMapA/events/4/pages/1/301/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…なにか用？
+> CONTEXT MPS:SampleMapA/events/4/pages/1/304/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…はぁはぁ……。
+> CONTEXT MPS:SampleMapA/events/4/pages/1/315/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…………………。
+> CONTEXT MPS:SampleMapA/events/4/pages/2/4/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E……………………………………………。
+> CONTEXT MPS:SampleMapA/events/4/pages/2/6/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eん？どうし………………
+> CONTEXT MPS:SampleMapA/events/4/pages/2/8/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[48]\\Eうわああああああああ
+> CONTEXT MPS:SampleMapA/events/4/pages/2/13/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[48]\\E妹ーーーーーーーーーっ！！！
+> CONTEXT MPS:SampleMapA/events/4/pages/2/14/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eもっと妹を大切にいたわりましょう。
+当然ながらお兄ちゃん失格です。
+> CONTEXT MPS:SampleMapA/events/4/pages/2/23/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+<C\>\\EBADEND　～昇天～
+> CONTEXT MPS:SampleMapA/events/4/pages/2/24/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eうーん、ぐっすり寝ているようだ…。
+> CONTEXT MPS:SampleMapA/events/4/pages/5/2/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+寝顔を眺める
+> CONTEXT MPS:SampleMapA/events/4/pages/5/5/SetString < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+そっとシーツを掛け直す
+> CONTEXT MPS:SampleMapA/events/4/pages/5/8/SetString < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+悪戯しちゃう
+> CONTEXT MPS:SampleMapA/events/4/pages/5/11/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\s[0]
+> CONTEXT MPS:SampleMapA/events/4/pages/5/11/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E明日はいよいよ八会の決勝だ…
+今夜はさっさと寝とこうぜ。
+> CONTEXT MPS:SampleMapA/events/4/pages/5/15/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E妹は具合が悪そうだ…
+今日は静かに寝せておこうぜ？
+> CONTEXT MPS:SampleMapA/events/4/pages/5/33/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E妹を起こさないようにそっとシーツを掛け直した…。
+> CONTEXT MPS:SampleMapA/events/4/pages/5/43/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eすやすやと静かに寝息を立てている…。
+> CONTEXT MPS:SampleMapA/events/4/pages/5/57/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E朝まで寝るのか？
+> CONTEXT MPS:SampleMapA/events/4/pages/5/62/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそうだな、寝よう…。
+> CONTEXT MPS:SampleMapA/events/4/pages/5/66/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+妹ステータス
+> CONTEXT MPS:SampleMapA/events/5/pages/1/9/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+兄ステータス
+> CONTEXT MPS:SampleMapA/events/5/pages/1/9/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アイテム補充
+> CONTEXT MPS:SampleMapA/events/5/pages/1/9/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+深夜用デバック
+> CONTEXT MPS:SampleMapA/events/5/pages/1/9/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+行動回復
+> CONTEXT MPS:SampleMapA/events/5/pages/1/9/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+調子
+> CONTEXT MPS:SampleMapA/events/5/pages/1/9/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+信頼　　\\f[12]（\\v[21]）\\f[20]
+> CONTEXT MPS:SampleMapA/events/5/pages/1/13/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+性興味　\\f[12]（\\v[22]）\\f[20]
+> CONTEXT MPS:SampleMapA/events/5/pages/1/13/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+性欲　　\\f[12]（\\v[102]）\\f[20]
+> CONTEXT MPS:SampleMapA/events/5/pages/1/13/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+機嫌　　\\f[12]（\\v[23]）\\f[20]
+> CONTEXT MPS:SampleMapA/events/5/pages/1/13/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+気まずい\\f[12]（\\v[151]）\\f[20]
+> CONTEXT MPS:SampleMapA/events/5/pages/1/13/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+体調　　\\f[12]（\\v[20]）\\f[20]
+> CONTEXT MPS:SampleMapA/events/5/pages/1/13/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+爆破
+> CONTEXT MPS:SampleMapA/events/5/pages/1/13/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+高い
+> CONTEXT MPS:SampleMapA/events/5/pages/1/15/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+普通
+> CONTEXT MPS:SampleMapA/events/5/pages/1/15/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+低い
+> CONTEXT MPS:SampleMapA/events/5/pages/1/15/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ほどほど
+> CONTEXT MPS:SampleMapA/events/5/pages/1/34/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
++50
+> CONTEXT MPS:SampleMapA/events/5/pages/1/52/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+-50
+> CONTEXT MPS:SampleMapA/events/5/pages/1/52/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+機嫌を良くする
+> CONTEXT MPS:SampleMapA/events/5/pages/1/65/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+機嫌を悪くする
+> CONTEXT MPS:SampleMapA/events/5/pages/1/65/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+気まずくする
+> CONTEXT MPS:SampleMapA/events/5/pages/1/78/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+解消
+> CONTEXT MPS:SampleMapA/events/5/pages/1/78/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+平常時
+> CONTEXT MPS:SampleMapA/events/5/pages/1/91/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+体調不良軽
+> CONTEXT MPS:SampleMapA/events/5/pages/1/91/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+体調不良中
+> CONTEXT MPS:SampleMapA/events/5/pages/1/91/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+体調不良重
+> CONTEXT MPS:SampleMapA/events/5/pages/1/91/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…お兄ちゃん…
+> CONTEXT MPS:SampleMapA/events/5/pages/1/115/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/6/83/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/7/64/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/8/70/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E\\f[32]最っ低！！！！！！！！
+> CONTEXT MPS:SampleMapA/events/5/pages/1/116/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/6/84/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/7/65/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/8/71/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E機嫌を損ねているときに悪戯してはいけません。
+もっと妹を大事にしてください、お兄ちゃん失格です。
+> CONTEXT MPS:SampleMapA/events/5/pages/1/155/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/6/123/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/7/104/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/8/110/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+攻撃
+> CONTEXT MPS:SampleMapA/events/5/pages/1/166/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+技術
+> CONTEXT MPS:SampleMapA/events/5/pages/1/166/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+根性
+> CONTEXT MPS:SampleMapA/events/5/pages/1/166/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+賢さ
+> CONTEXT MPS:SampleMapA/events/5/pages/1/166/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スキルP
+> CONTEXT MPS:SampleMapA/events/5/pages/1/166/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+性欲
+> CONTEXT MPS:SampleMapA/events/5/pages/1/166/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+お茶
+> CONTEXT MPS:SampleMapA/events/5/pages/1/265/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+書物
+> CONTEXT MPS:SampleMapA/events/5/pages/1/265/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+Hアイテム
+> CONTEXT MPS:SampleMapA/events/5/pages/1/265/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+所持金
+> CONTEXT MPS:SampleMapA/events/5/pages/1/265/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E全てのお茶を補充しました。
+> CONTEXT MPS:SampleMapA/events/5/pages/1/268/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E全ての書物を補充しました。
+> CONTEXT MPS:SampleMapA/events/5/pages/1/273/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E全てのHアイテムを補充しました。
+> CONTEXT MPS:SampleMapA/events/5/pages/1/278/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+時間変更
+> CONTEXT MPS:SampleMapA/events/5/pages/1/294/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+睡眠状態
+> CONTEXT MPS:SampleMapA/events/5/pages/1/294/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+Hゲージ関連
+> CONTEXT MPS:SampleMapA/events/5/pages/1/294/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+熱帯夜
+> CONTEXT MPS:SampleMapA/events/5/pages/1/294/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+射精感
+> CONTEXT MPS:SampleMapA/events/5/pages/1/294/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+お尻経験加算
+> CONTEXT MPS:SampleMapA/events/5/pages/1/294/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+0：00
+> CONTEXT MPS:SampleMapA/events/5/pages/1/296/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+18：00
+> CONTEXT MPS:SampleMapA/events/5/pages/1/296/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+睡眠を深くする
+> CONTEXT MPS:SampleMapA/events/5/pages/1/307/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+睡眠を浅くする
+> CONTEXT MPS:SampleMapA/events/5/pages/1/307/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+快楽高い
+> CONTEXT MPS:SampleMapA/events/5/pages/1/323/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+快楽ほどほど
+> CONTEXT MPS:SampleMapA/events/5/pages/1/323/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+不快高い
+> CONTEXT MPS:SampleMapA/events/5/pages/1/323/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+不快リセット
+> CONTEXT MPS:SampleMapA/events/5/pages/1/323/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+100
+> CONTEXT MPS:SampleMapA/events/5/pages/1/347/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+上げる
+> CONTEXT MPS:SampleMapA/events/5/pages/1/375/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+下げる
+> CONTEXT MPS:SampleMapA/events/5/pages/1/375/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[12]習得 "長押し"
+> CONTEXT MPS:SampleMapA/events/6/pages/1/1/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/1/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA_1/events/7/pages/1/8/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA_1/events/7/pages/2/8/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA_1/events/7/pages/3/8/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]おさわり時に少し目覚めにくくなる。
+必要スキルPt:20
+> CONTEXT MPS:SampleMapA/events/6/pages/1/8/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/27/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]おさわり時に少し目覚めにくくなる。\n
+> CONTEXT MPS:SampleMapA/events/6/pages/1/11/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/30/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]おさわり時に少し快楽値が上がりやすくなる。
+必要スキルPt:40
+> CONTEXT MPS:SampleMapA/events/6/pages/1/28/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/46/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]おさわり時に少し快楽値が上がりやすくなる。\n
+> CONTEXT MPS:SampleMapA/events/6/pages/1/31/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/49/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]パジャマを脱がす際にかなり目覚めにくくする。
+必要スキルPt:30
+> CONTEXT MPS:SampleMapA/events/6/pages/1/47/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/64/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]パジャマを脱がす際にかなり目覚めにくくする。\n\n\n\n
+> CONTEXT MPS:SampleMapA/events/6/pages/1/50/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/67/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]その日初回の挿入時に快楽値を大きく上昇させる。
+必要スキルPt:24
+> CONTEXT MPS:SampleMapA/events/6/pages/1/66/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/82/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]その日初回の挿入時に快楽値を大きく上昇させる。\n
+> CONTEXT MPS:SampleMapA/events/6/pages/1/69/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/85/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]射精可能回数が増える。 ※最大9 繰り返し取得可
+必要スキルPt:16
+> CONTEXT MPS:SampleMapA/events/6/pages/1/85/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/100/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]射精可能回数が増える。
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/1/88/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/103/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]中だし時に快楽値を大きく上昇させる。
+必要スキルPt:32
+> CONTEXT MPS:SampleMapA/events/6/pages/1/104/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/118/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]中だし時に快楽値を大きく上昇させる。\n
+> CONTEXT MPS:SampleMapA/events/6/pages/1/107/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/121/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]覗きなどが見つかりにくくなる。
+必要スキルPt:24
+> CONTEXT MPS:SampleMapA/events/6/pages/1/123/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/136/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]覗きなどが見つかりにくくなる。\n
+> CONTEXT MPS:SampleMapA/events/6/pages/1/126/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/139/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]1日の精力回復値がアップする。
+必要スキルPt:20
+> CONTEXT MPS:SampleMapA/events/6/pages/1/142/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/154/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]1日の精力回復値がアップする。\n
+> CONTEXT MPS:SampleMapA/events/6/pages/1/145/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/157/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]性欲が溜まりやすい。
+必要スキルPt:20
+> CONTEXT MPS:SampleMapA/events/6/pages/1/161/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/172/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]性欲が溜まりやすい。\n
+> CONTEXT MPS:SampleMapA/events/6/pages/1/164/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/175/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]パンツを漁った時の取得数が増加。
+必要スキルPt:20
+> CONTEXT MPS:SampleMapA/events/6/pages/1/180/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/190/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]パンツを漁った時の取得数が増加。\n
+> CONTEXT MPS:SampleMapA/events/6/pages/1/183/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/193/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]射精を130％まで耐えることができる。
+必要スキルPt:20
+> CONTEXT MPS:SampleMapA/events/6/pages/1/199/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/208/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]射精を130％まで耐えることができる。\n
+> CONTEXT MPS:SampleMapA/events/6/pages/1/202/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/211/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]射精を110％までしか耐えることができない。
+必要経験　--
+> CONTEXT MPS:SampleMapA/events/6/pages/1/222/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/230/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]射精を110％までしか耐えることができない。
+必要スキルPt:20　（解除）
+> CONTEXT MPS:SampleMapA/events/6/pages/1/225/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/233/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]中出し時に着床率が100％
+必要経験　--
+> CONTEXT MPS:SampleMapA/events/6/pages/1/240/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/247/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]中出し時に着床率が100％
+必要スキルPt:20　（解除）
+> CONTEXT MPS:SampleMapA/events/6/pages/1/243/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/250/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]スキンシップを行った際の妹性欲上昇が増加。
+必要スキルPt:32　
+> CONTEXT MPS:SampleMapA/events/6/pages/1/258/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/264/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]スキンシップを行った際の妹性欲上昇が増加。\n
+> CONTEXT MPS:SampleMapA/events/6/pages/1/261/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/267/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]深夜妹がフェラチオをしてくれるようになる。
+必要スキルPt:40
+> CONTEXT MPS:SampleMapA/events/6/pages/1/277/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/282/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]深夜妹がフェラチオをしてくれるようになる。
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/1/280/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/285/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]妹の性欲が極めて高い時に何もせず就寝した際
+素股、騎乗位が発生する。
+必要スキルPt:40
+> CONTEXT MPS:SampleMapA/events/6/pages/1/296/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/300/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]妹の性欲が極めて高い時に何もせず就寝した際
+素股、騎乗位が発生する。
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/1/299/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/303/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]お風呂でのHしたいコマンドにパイズリを追加する。
+必要スキルPt:40
+> CONTEXT MPS:SampleMapA/events/6/pages/1/315/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/318/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]お風呂でのHしたいコマンドにパイズリを追加する。
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/1/318/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/321/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]体位、まんぐり返しを選択できるようになる。
+必要スキルPt:40
+> CONTEXT MPS:SampleMapA/events/6/pages/1/334/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/336/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]体位、まんぐり返しを選択できるようになる。
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/1/337/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/339/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]体位、後背位を選択できるようになる。
+必要スキルPt:40
+> CONTEXT MPS:SampleMapA/events/6/pages/1/353/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/354/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]体位、後背位を選択できるようになる。
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/1/356/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/357/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]作れる料理が増加し失敗率も低下。
+必要スキルPt:20
+> CONTEXT MPS:SampleMapA/events/6/pages/1/372/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/372/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]作れる料理が増加し失敗率も低下。
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/1/375/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/375/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]怪我の治りが早くなる。
+必要スキルPt:20
+> CONTEXT MPS:SampleMapA/events/6/pages/1/391/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/390/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]怪我の治りが早くなる。
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/1/394/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/393/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]バイトで得られるお金が増える。
+必要スキルPt:30
+> CONTEXT MPS:SampleMapA/events/6/pages/1/410/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/408/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]バイトで得られるお金が増える。
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/1/413/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/411/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]地域貢献、討伐などの報酬が増える。
+必要スキルPt:30
+> CONTEXT MPS:SampleMapA/events/6/pages/1/429/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]\\f[16]地域貢献、討伐などの報酬が増える。
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/1/432/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/429/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]戦闘時に必殺のお兄ちゃんアタックを使用できる。
+必要スキルPt:30
+> CONTEXT MPS:SampleMapA/events/6/pages/1/448/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/7/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]戦闘時に必殺のお兄ちゃんアタックを使用できる。
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/1/451/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/10/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]攻撃系の基礎能力が上がりやすくなる。
+必要スキルPt:50
+> CONTEXT MPS:SampleMapA/events/6/pages/1/467/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/444/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]攻撃系の基礎能力が上がりやすくなる。
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/1/470/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/447/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]防御系の基礎能力が上がりやすくなる。
+必要スキルPt:50
+> CONTEXT MPS:SampleMapA/events/6/pages/1/486/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/462/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]防御系の基礎能力が上がりやすくなる。
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/1/489/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/465/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]スキル発動率20％UP
+必要スキルPt:140
+> CONTEXT MPS:SampleMapA/events/6/pages/1/505/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/480/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]スキル発動率20％UP
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/1/508/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/483/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]スキル発動時に反撃率25％UP
+必要スキルPt:40
+> CONTEXT MPS:SampleMapA/events/6/pages/1/524/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/498/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]スキル発動時に反撃率25％UP
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/1/527/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/501/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]スキル発動時に会心率25％UP
+必要スキルPt:40
+> CONTEXT MPS:SampleMapA/events/6/pages/1/543/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/516/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]スキル発動時に会心率25％UP
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/1/546/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/519/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]会心ダメージ25％UP
+必要スキルPt:40
+> CONTEXT MPS:SampleMapA/events/6/pages/1/562/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/534/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]\\f[16]会心ダメージ25％UP
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/1/565/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/537/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]仲間のつよさを50％UP
+必要スキルPt:60
+> CONTEXT MPS:SampleMapA/events/6/pages/1/581/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/552/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]\\f[16]仲間のつよさを50％UP
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/1/584/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/555/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]スキル発動時に最大戦力の5％を回復
+必要スキルPt:60
+> CONTEXT MPS:SampleMapA/events/6/pages/1/600/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/570/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]スキル発動時に最大戦力の5％を回復
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/1/603/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/573/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]スキル発動時にガード率25％UP
+必要スキルPt:40
+> CONTEXT MPS:SampleMapA/events/6/pages/1/619/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/588/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]スキル発動時にガード率25％UP
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/1/622/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/591/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]戦闘時4ターン目以降のスキル発動率+10％
+必要スキルPt:100
+> CONTEXT MPS:SampleMapA/events/6/pages/1/638/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/606/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]戦闘時4ターン目以降のスキル発動率+10％
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/1/641/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/609/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]お兄ちゃんの攻撃に追撃発生率25％UP
+必要スキルPt:40
+> CONTEXT MPS:SampleMapA/events/6/pages/1/657/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/624/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]お兄ちゃんの攻撃に追撃発生率25％UP
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/1/660/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/627/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]スキル発動時1ターン目の行動ポイント+5
+必要スキルPt:60
+> CONTEXT MPS:SampleMapA/events/6/pages/1/676/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/642/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]スキル発動時1ターン目の行動ポイント+5
+> CONTEXT MPS:SampleMapA/events/6/pages/1/679/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/645/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]スキル発動時1ターン目の攻撃力50％UP
+必要スキルPt:60
+> CONTEXT MPS:SampleMapA/events/6/pages/1/695/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/660/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]スキル発動時1ターン目の攻撃力50％UP
+> CONTEXT MPS:SampleMapA/events/6/pages/1/698/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/663/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]会心率10％UP 戦闘可能ターン数-5
+必要スキルPt:50
+> CONTEXT MPS:SampleMapA/events/6/pages/1/714/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/678/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]戦闘可能ターン数+5
+必要スキルPt:50
+> CONTEXT MPS:SampleMapA/events/6/pages/1/733/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/696/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]カナの攻撃に確率で追撃が発生する。\n
+> CONTEXT MPS:SampleMapA/events/6/pages/1/752/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/714/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]攻撃を受け戦力が0になった際、
+ユイの行動力を全て消費し回復を発動。
+> CONTEXT MPS:SampleMapA/events/6/pages/1/766/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/6/pages/2/728/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]妹のおうえんを受ける時にHPが大きく回復する。
+必要スキルPt:30
+> CONTEXT MPS:SampleMapA/events/6/pages/1/780/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]妹のおうえんを受ける時にHPが大きく回復する。
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/1/783/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]\\f[16]地域貢献、討伐などの報酬が増える。
+必要スキルPt:30
+> CONTEXT MPS:SampleMapA/events/6/pages/2/426/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]妹のおうえんを受ける時にHPが回復する。
+必要スキルPt:30
+> CONTEXT MPS:SampleMapA/events/6/pages/2/742/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]妹のおうえんを受ける時にHPが回復する。
+習得済み
+> CONTEXT MPS:SampleMapA/events/6/pages/2/745/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\Eおめでとうございます！
+これでスキルの取得は完了です。
+> CONTEXT MPS:SampleMapA/events/6/pages/2/1032/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E様々なスキルを習得して、
+より豊かなお兄ちゃんライフを満喫しましょう！
+> CONTEXT MPS:SampleMapA/events/6/pages/2/1033/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E\\f[28]賢者
+> CONTEXT MPS:SampleMapA/events/9/pages/1/40/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/2/11/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/3/11/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/4/12/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/5/12/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/6/9/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/7/9/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/8/9/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/9/10/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/10/10/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/1/11/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/2/9/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/3/9/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/4/9/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/5/9/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E\\f[28]冷静
+> CONTEXT MPS:SampleMapA/events/9/pages/1/43/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/2/14/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/3/14/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/4/15/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/5/15/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/6/12/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/7/12/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/8/12/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/9/13/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/10/13/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/1/14/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/2/12/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/3/12/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/4/12/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/5/12/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E\\f[28]普通
+> CONTEXT MPS:SampleMapA/events/9/pages/1/46/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/2/17/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/3/17/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/4/18/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/5/18/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/6/15/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/7/15/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/8/15/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/9/16/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/10/16/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/1/17/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/2/15/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/3/15/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/4/15/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/5/15/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E\\f[28]興奮
+> CONTEXT MPS:SampleMapA/events/9/pages/1/51/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/2/22/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/3/22/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/4/23/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/5/23/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/6/20/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/7/20/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/8/20/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/9/21/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/10/21/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/1/22/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/2/20/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/3/20/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/4/20/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/5/20/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E\\f[28]限界
+> CONTEXT MPS:SampleMapA/events/9/pages/1/54/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/2/25/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/3/25/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/4/26/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/5/26/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/6/23/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/7/23/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/8/23/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/9/24/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/10/24/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/1/25/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/2/23/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/3/23/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/4/23/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/5/23/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E\\f[28]暴走
+> CONTEXT MPS:SampleMapA/events/9/pages/1/57/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/2/28/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/3/28/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/4/29/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/5/29/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/6/26/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/7/26/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/8/26/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/9/27/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/9/pages/10/27/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/1/28/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/2/26/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/3/26/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/4/26/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/10/pages/5/26/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eしっかり装着しているぞ。
+> CONTEXT MPS:SampleMapA/events/11/pages/1/952/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E妹の事を思うならちゃんとつけないとな…。
+> CONTEXT MPS:SampleMapA/events/11/pages/1/957/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E妹を起こすのか…？
+> CONTEXT MPS:SampleMapA/events/11/pages/1/980/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E先に精子を拭いたほうがよさそうだ…。
+> CONTEXT MPS:SampleMapA/events/11/pages/1/1032/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/21/pages/1/1098/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E仰向けにするのか…？
+> CONTEXT MPS:SampleMapA/events/11/pages/1/1056/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E横向きにするのか…？
+> CONTEXT MPS:SampleMapA/events/11/pages/1/1192/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E横になればいいの…？
+> CONTEXT MPS:SampleMapA/events/11/pages/1/1211/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eうつ伏せにするのか…？
+> CONTEXT MPS:SampleMapA/events/11/pages/1/1328/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…よっこいしょ、と。
+> CONTEXT MPS:SampleMapA/events/11/pages/1/1332/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eえ、うつ伏せになるの…？
+> CONTEXT MPS:SampleMapA/events/11/pages/1/1347/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E後ろからするの…？
+うん…いいよ…。
+> CONTEXT MPS:SampleMapA/events/11/pages/1/1474/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eは、はずかしいからあまり見ないで…。
+> CONTEXT MPS:SampleMapA/events/11/pages/1/1478/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそんな格好…恥ずかしいよ…。
+> CONTEXT MPS:SampleMapA/events/11/pages/1/1484/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E上に乗るの…？
+うん…わかった…。
+> CONTEXT MPS:SampleMapA/events/11/pages/1/1617/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E上になればいいの…？
+う、うん…。
+> CONTEXT MPS:SampleMapA/events/11/pages/1/1621/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそんなの…恥ずかしいよ…。
+> CONTEXT MPS:SampleMapA/events/11/pages/1/1627/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお口がいいの…？
+うん、いいよ…。
+> CONTEXT MPS:SampleMapA/events/11/pages/1/1779/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…お口で？
+ん、いいよ…。
+> CONTEXT MPS:SampleMapA/events/11/pages/1/1783/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eああ…見られちゃう…あたしの…。
+> CONTEXT MPS:SampleMapA/events/11/pages/1/1791/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eうん…いっぱいして…。
+> CONTEXT MPS:SampleMapA/events/11/pages/1/1925/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…やっ…きゃっ！
+> CONTEXT MPS:SampleMapA/events/11/pages/1/1929/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eうぅ…こんな格好…恥ずかしい…。
+> CONTEXT MPS:SampleMapA/events/11/pages/1/1938/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eやっ…やだ…こんな格好…！
+> CONTEXT MPS:SampleMapA/events/11/pages/1/1942/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…うん。
+妹の胸で気持ちよくなってね…。
+> CONTEXT MPS:SampleMapA/events/11/pages/1/2068/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…おっぱいで挟むの…？
+うん…わかった…。
+> CONTEXT MPS:SampleMapA/events/11/pages/1/2074/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…む、胸で…？
+う、うん…いい、けど…。
+> CONTEXT MPS:SampleMapA/events/11/pages/1/2078/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E精液を拭き取ってからにしようぜ…。
+> CONTEXT MPS:SampleMapA/events/14/pages/1/16/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+Tips
+> CONTEXT MPS:SampleMapA/events/15/pages/1/23/Choices < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/24/Choices < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/24/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+更新履歴
+> CONTEXT MPS:SampleMapA/events/15/pages/1/23/Choices < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/24/Choices < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/24/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+画面の見方（メイン）
+> CONTEXT MPS:SampleMapA/events/15/pages/1/27/Choices < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/28/Choices < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/28/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+画面の見方（深夜）
+> CONTEXT MPS:SampleMapA/events/15/pages/1/27/Choices < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/28/Choices < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/28/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+画面の見方（戦闘）
+> CONTEXT MPS:SampleMapA/events/15/pages/1/27/Choices < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/28/Choices < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/28/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+画面の見方（冒険など）
+> CONTEXT MPS:SampleMapA/events/15/pages/1/27/Choices < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/28/Choices < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/28/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アイテムリスト
+> CONTEXT MPS:SampleMapA/events/15/pages/1/27/Choices < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/28/Choices < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/28/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+育成のヒント
+> CONTEXT MPS:SampleMapA/events/15/pages/1/27/Choices < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/28/Choices < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/28/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E着衣の乱れや精液など\\c[1]痕跡\\c[0]を残さないように気をつけ
+最初のうちはとにかく\\c[2]バレないように\\c[0]してみましょう。
+> CONTEXT MPS:SampleMapA/events/15/pages/1/96/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/97/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/97/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\Eバトルは\\c[1]1ターン\\c[0]に\\c[1]1回\\c[0]キャラクターを選択し行動を選ぶことで進行します。
+> CONTEXT MPS:SampleMapA/events/15/pages/1/121/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/122/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/122/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E互いに行動を繰り返し、先に\\c[2]戦力\\c[0]を全て奪った陣営の勝利となります。
+> CONTEXT MPS:SampleMapA/events/15/pages/1/125/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/126/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/126/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E<C\>Tips　討伐/冒険について
+> CONTEXT MPS:SampleMapA/events/15/pages/1/155/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/156/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/156/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E大冒険、討伐は各コマンドを実行しクエストクリアを目指します。
+> CONTEXT MPS:SampleMapA/events/15/pages/1/163/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/164/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/164/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E\\c[1]進む\\c[0]、\\c[1]背負う\\c[0]コマンドは進行度が進みますが行動力が減ります。
+> CONTEXT MPS:SampleMapA/events/15/pages/1/168/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/169/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/169/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E行動力、妹の体調が0になると冒険は終了となりますので
+上手く休憩しながらクエスト達成を目指してください。
+> CONTEXT MPS:SampleMapA/events/15/pages/1/169/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/170/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/170/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E冒険中は進む毎にイベントカードがめくられ、
+各種イベントが発生します。
+> CONTEXT MPS:SampleMapA/events/15/pages/1/175/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/176/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/176/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E進行度が最大になると討伐対象との戦闘、
+あるいはクエストクリアとなります。
+> CONTEXT MPS:SampleMapA/events/15/pages/1/177/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/178/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/178/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\Eお兄ちゃんの調子が低いと鍛錬で貰える経験が少なくなります。
+調子は「おちんちんびろーん」で上げることが出来ます。
+> CONTEXT MPS:SampleMapA/events/15/pages/1/198/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/199/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/199/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E適度なびろーんで調子を整えましょう！
+> CONTEXT MPS:SampleMapA/events/15/pages/1/199/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/200/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/200/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E地域貢献や討伐を行うことで収入を増やすことができます。
+不意な妊娠、爆発に備えて保存は\\c[1]こまめ\\c[0]に\\c[1]別けて\\c[0]おきましょう。
+> CONTEXT MPS:SampleMapA/events/15/pages/1/200/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/201/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/201/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E敵が強いと思ったら\\c[1]戦闘スキル\\c[0]を習得しましょう。
+単体では逆に不利になるスキルもありますので注意しましょう。
+> CONTEXT MPS:SampleMapA/events/15/pages/1/201/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/202/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/202/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\EVer1.0.0リリースしました！　2022.2.10
+Ver1.1.0追加アップデート1　2022.2.11
+不具合修正、ストーリークリア後コンテンツに討伐、大冒険を追加。
+　
+　
+> CONTEXT MPS:SampleMapA/events/15/pages/1/210/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/2/211/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/15/pages/3/211/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eだ、ダメだよ…。
+> CONTEXT MPS:SampleMapA/events/18/pages/1/347/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…そこは…だめ……。
+> CONTEXT MPS:SampleMapA/events/18/pages/1/416/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…やだっ…やめて！
+> CONTEXT MPS:SampleMapA/events/18/pages/1/447/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…や、そんなとこ…やめてっ！
+> CONTEXT MPS:SampleMapA/events/18/pages/1/479/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…だめ…。
+> CONTEXT MPS:SampleMapA/events/18/pages/1/745/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eっ………あっ…！
+> CONTEXT MPS:SampleMapA/events/18/pages/1/785/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…そんな…とこ…。
+> CONTEXT MPS:SampleMapA/events/18/pages/1/792/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…そこ…だめぇ……。
+> CONTEXT MPS:SampleMapA/events/18/pages/1/801/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…そこはダメだよ…。
+> CONTEXT MPS:SampleMapA/events/18/pages/1/830/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E………っ…！
+> CONTEXT MPS:SampleMapA/events/18/pages/1/871/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…やぁ……ん…。
+> CONTEXT MPS:SampleMapA/events/18/pages/1/878/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…だ、だめぇ……。
+> CONTEXT MPS:SampleMapA/events/18/pages/1/887/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…だ、だめ…。
+> CONTEXT MPS:SampleMapA/events/18/pages/1/916/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…濡れてないと…ちょっと痛いから…。
+> CONTEXT MPS:SampleMapA/events/18/pages/1/1137/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E指入れちゃだめ…。
+> CONTEXT MPS:SampleMapA/events/18/pages/1/1231/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eんぅっ…ん…。
+> CONTEXT MPS:SampleMapA/events/18/pages/1/1237/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eあっ…やっ……だめぇ…。
+> CONTEXT MPS:SampleMapA/events/18/pages/1/1247/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…兄妹で…ダメ…。
+> CONTEXT MPS:SampleMapA/events/18/pages/1/1303/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eいやっ…お兄ちゃんだめっ！
+> CONTEXT MPS:SampleMapA/events/18/pages/1/1399/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eふぁ…お兄ちゃん…
+えっちなこと…してる…。
+> CONTEXT MPS:SampleMapA/events/18/pages/1/1441/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eんー…お兄ちゃん…？
+なにしてるの…？
+> CONTEXT MPS:SampleMapA/events/18/pages/1/1447/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…お口でしてあげるね…。
+> CONTEXT MPS:SampleMapA/events/18/pages/1/1472/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…手でしてあげるね…。
+> CONTEXT MPS:SampleMapA/events/18/pages/1/1536/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…こうされると…気持ちいいでしょ…？
+> CONTEXT MPS:SampleMapA/events/18/pages/1/1544/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…お兄ちゃん…
+オナニー…してるの…？
+> CONTEXT MPS:SampleMapA/events/18/pages/1/1594/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…ぁ…お兄ちゃんのがこすれて…んっ…
+> CONTEXT MPS:SampleMapA/events/18/pages/1/1603/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…あ…お兄ちゃん…
+オナニー…してる…。
+> CONTEXT MPS:SampleMapA/events/18/pages/1/1612/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eっ…出しちゃだめ…だよ…。
+> CONTEXT MPS:SampleMapA/events/18/pages/1/1641/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお、おにいちゃん…その…それ…
+> CONTEXT MPS:SampleMapA/events/18/pages/1/1650/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…先にキャミソールを着せたほうがよさそうだな。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/11/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…今日はもうおしまい…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/22/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお兄ちゃんが着せてくれるの…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/27/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…ふぁ…むにゃ…お兄ちゃん…？
+あ、あれ…なんで？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/34/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…絶対に起きると思うが…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/41/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…そっとボタンを…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/44/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…着せちゃうの…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/163/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E着せてくれるの…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/168/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…お兄ちゃん……あれ…？
+わたし…なんで裸…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/175/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…起きる前に着せておこう…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/179/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…ひとりでできるよー…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/190/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…ほどけてるぞ…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/194/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…むにゃ…？
+お兄ちゃん…ありがとう…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/197/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…戻しておくか…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/201/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお兄ちゃん…もっと…
+えっちしたい…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/275/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eもっといいよ…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/280/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eはけばいいの…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/287/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E一人ではけるから…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/292/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお兄ちゃん…何してるの…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/299/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…起きて脱いでたらさすがに不自然だよな…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/304/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/332/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそ、そのくらい自分でするから…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/342/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお兄ちゃん…くすぐったい…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/349/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…ちゃんと上げとこうか…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/354/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E……ん…ぅ…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/407/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…お兄ちゃん…お兄ちゃんの精子で…
+オナニーしてもいい…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/544/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…お兄ちゃん…あそこ…ぬるぬるだよ…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/550/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eん…ぬるぬるしてる…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/558/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそれ…お兄ちゃんの…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/564/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eふぁ…おにいちゃん…
+…お股がぬるぬるするの…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/574/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…精液付きのパンツを…よし。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/580/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eパンツ…汚しちゃうかも…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/599/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…はいている方が好きなの…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/604/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E脱がせたのに今度ははかせるの…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/611/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eパンツくらい一人ではくから…あまり見ないで…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/616/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eんぅー…あれ……おにいちゃん…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/623/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…朝になってお尻丸出しはマズイか…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/628/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eふふ…お兄ちゃんくすぐったいよ…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/651/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eむにゃ…あれ…？どうしたの…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/672/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…よし…これでおっけー。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/677/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…エッチしてくれるの？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/886/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…うん、脱ぐから待ってね…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/892/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…見たいの…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/899/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…なんで脱がそうとするの…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/905/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…うぅん…なに…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/913/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…そーっとボタンを…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/923/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…いくら何でも起きると思うが…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/926/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eふふ…妹のおっぱい、好き？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1075/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…見たいの？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1080/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…ん…わかった…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1087/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…お兄ちゃん…見えちゃう…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1093/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…ん…お兄ちゃん…どうしたの…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1101/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…気付かれないように肩紐をほどいて…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1106/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…いっぱいエッチしようね。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1121/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eん、わかった。脱ぐね。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1126/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…やっぱりなんか恥ずかしいよ…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1133/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…は、恥ずかしいよ…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1139/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…あれ…お兄ちゃん…？
+なんで脱がしてるの…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1147/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…さすがに起きそうだが…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1152/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお兄ちゃんのも見せて…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1207/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそんなに焦んなくてもいいんだよ…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1217/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E脱ぐんだよね…うん…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1224/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお兄ちゃん…
+見るだけ…見るだけだよ…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1229/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eうぅん…？
+なんで脱がすの…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1236/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…よし、このまま全部…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1242/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E脱がせてくれるの…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1257/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eもー…いたずらしないの…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1274/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eふぁ…お兄ちゃん何してるの…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1281/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…少しづつゆっくり下げて…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1287/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお兄ちゃん…もう触って…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1454/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eふふ、そんなに妹のおまんこ見たいの…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1460/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E焦らなくても逃げないよ…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1465/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eだ、だめ…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1477/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eふふ…くすぐったいよお兄ちゃん…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1486/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E脱がせて…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1505/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお兄ちゃん…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1510/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eこれ以上は…見えちゃう…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1515/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…ん…ふぁ……なあに？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1524/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…よし、このままそーっと…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1531/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eいっぱいエッチしようね…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1544/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eん…見える…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1551/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお兄ちゃん…
+ダメだよ…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1557/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eふぇ…おにいちゃん…？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1567/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…あと少しで…ゴクリ。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1575/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…ね、もっと…しよ？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1795/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…パジャマ脱ごっか？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1814/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…戻しちゃうんだ？
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1828/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…パタパタさせないでよー。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1863/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…んもう…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1882/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…もう、なんなの。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1896/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…お兄ちゃん…何やってるの…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1915/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…うぅん…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1949/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…一応戻しておこう…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1959/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…そーっと…。
+> CONTEXT MPS:SampleMapA/events/20/pages/1/1976/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eこんなのって…
+> CONTEXT MPS:SampleMapA/events/21/pages/1/554/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそんなの…怖いよ…。
+> CONTEXT MPS:SampleMapA/events/21/pages/1/560/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eや、やだっ…！やめて…！
+> CONTEXT MPS:SampleMapA/events/21/pages/1/580/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eっ…ひどい…。
+> CONTEXT MPS:SampleMapA/events/21/pages/1/703/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそんなの入れるの…怖いよ…。
+> CONTEXT MPS:SampleMapA/events/21/pages/1/709/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eい、いや…何するの…やめて！
+> CONTEXT MPS:SampleMapA/events/21/pages/1/729/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eいやっ！いやああ…っ！！
+> CONTEXT MPS:SampleMapA/events/21/pages/1/824/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eや、やだ…怖いっ…！
+> CONTEXT MPS:SampleMapA/events/21/pages/1/830/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eひっ！
+い、いや…やめてお兄ちゃんっ！
+> CONTEXT MPS:SampleMapA/events/21/pages/1/850/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E精子を拭き取るのか…？
+> CONTEXT MPS:SampleMapA/events/21/pages/1/956/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eだな、さすがに拭いておこう…。
+> CONTEXT MPS:SampleMapA/events/21/pages/1/967/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E拭き取っておくか…。
+> CONTEXT MPS:SampleMapA/events/21/pages/1/972/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eええとティッシュティッシュ…。
+> CONTEXT MPS:SampleMapA/events/21/pages/1/977/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eわぁ…いっぱいだしたねー、えへへ。
+> CONTEXT MPS:SampleMapA/events/21/pages/1/991/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eまたしちゃったね…。
+> CONTEXT MPS:SampleMapA/events/21/pages/1/996/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E……もう気は済んだ？
+> CONTEXT MPS:SampleMapA/events/21/pages/1/1001/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお兄ちゃんちょっとくすぐったい…。
+> CONTEXT MPS:SampleMapA/events/21/pages/1/1010/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E……兄妹なのにね…だめだね。
+> CONTEXT MPS:SampleMapA/events/21/pages/1/1015/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E………こんな関係…。
+> CONTEXT MPS:SampleMapA/events/21/pages/1/1021/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…お兄ちゃん……。
+> CONTEXT MPS:SampleMapA/events/21/pages/1/1032/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E………ぐす…どうして…。
+> CONTEXT MPS:SampleMapA/events/21/pages/1/1038/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E……うぅ…こんなの……ひどいよ…。
+> CONTEXT MPS:SampleMapA/events/21/pages/1/1045/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E足を広げるのか…？
+> CONTEXT MPS:SampleMapA/events/21/pages/1/1110/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eいや…まずいだろ…。
+> CONTEXT MPS:SampleMapA/events/21/pages/1/1115/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eうん…わかった…。
+> CONTEXT MPS:SampleMapA/events/21/pages/1/1163/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eあ、あまり見ないで…。
+> CONTEXT MPS:SampleMapA/events/21/pages/1/1203/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eだめ…。
+> CONTEXT MPS:SampleMapA/events/21/pages/1/1232/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eこんな格好…恥ずかしい…。
+> CONTEXT MPS:SampleMapA/events/21/pages/1/1249/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eい…いや…！
+> CONTEXT MPS:SampleMapA/events/21/pages/1/1279/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E足を閉じさせるのか…？
+> CONTEXT MPS:SampleMapA/events/21/pages/1/1380/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E足を閉じるの…？
+> CONTEXT MPS:SampleMapA/events/21/pages/1/1394/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…深く寝入っているようだ。
+熱い吐息と高揚した頬…興奮しているのか…？
+> CONTEXT MPS:SampleMapA/events/22/pages/1/26/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…耳を澄ますと規則正しい寝息が聞こえてくる。
+少しだけ頬が高揚しているように見える。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/29/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…耳を澄ますと規則正しい寝息が聞こえてくる。
+しばらく目を覚ますことはないだろうな。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/32/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…半分夢心地といった表情だ。
+しっとりと汗ばんで息も荒い…興奮しているようだ。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/40/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…まだ夢から覚めていないのだろう、うつろげな表情だ。
+少しだけ頬が高揚しているように見える。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/43/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…夢心地…といったところだろうか…
+そろそろ目を覚ますかも知れない。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/46/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…完全に起きてしまった…再び寝入ることはないだろう。
+訴えるような熱い視線を絡ませてくる…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/54/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…完全に起きてしまった…再び寝入ることはないだろう。
+少し頬が赤いように見える…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/57/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…完全に起きてしまった…再び寝入ることはないだろう。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/60/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E眠る妹の頬に軽くキスをする…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/88/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/23/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/23/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E……すぅ…すぅ……。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/91/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/26/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/26/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eまどろむ妹に引き寄せられるように口を近づける…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/99/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/31/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/31/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E……ん…おにいちゃ……？
+> CONTEXT MPS:SampleMapA/events/22/pages/1/103/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/34/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/34/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E深く繋がったまま唇を貪り合い
+互いの舌を絡ませ唾液を交換する。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/120/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/45/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/45/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eぷぁ…おにい…ん…ちゅ…れろ…ちゅ……っ……じゅる…
+> CONTEXT MPS:SampleMapA/events/22/pages/1/122/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/47/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/47/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E繋がったままの妹を抱き寄せ唇を寄せ合う…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/130/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/54/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/54/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおにいちゃん…ちゅ…ちゅ…すき…すき……ちゅ…
+> CONTEXT MPS:SampleMapA/events/22/pages/1/132/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/56/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/56/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eとろけ顔で見つめてくる妹と唇を重ねると
+当たり前のように舌が割り込んでくる…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/144/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eはぁっはぁっ…おにいちゃ…ん…ちゅ……れろ…
+> CONTEXT MPS:SampleMapA/events/22/pages/1/146/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/69/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/69/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E見つめ合うと自然に唇を重ね舌を絡ませる。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/154/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/76/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/76/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eん…ちゅ…おにいちゃん……ちゅ…えへ…
+> CONTEXT MPS:SampleMapA/events/22/pages/1/156/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/78/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/78/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E熱い息の漏れる唇を重ねると
+おずおずと妹の舌が割り込んでくる…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/172/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/93/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/93/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eん…はぁ…ん…ぷぁ…おにい…ちゃ…ちゅ……
+> CONTEXT MPS:SampleMapA/events/22/pages/1/174/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/95/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/95/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E視線が絡みお互い引き寄せられるように唇を重ね合う…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/182/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/103/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/103/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおにい…ちゃ…ん…すき…ちゅ……んっ…すき……
+> CONTEXT MPS:SampleMapA/events/22/pages/1/184/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/105/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/105/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E身体を重ねたまま吸い付くようにお互いの唇を求め合う…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/224/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/142/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/142/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eんっ…はぁはぁ…おにいちゃ……
+兄妹…なのに…しちゃった…ん…ちゅ……。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/226/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/144/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/144/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E妹の膣奥へペニスを突きたて強引に唇を奪う。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/234/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/151/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/151/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…やっ…こんなの…おにいちゃ…っ…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/236/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/153/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/153/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E怪訝そうな表情で見つめてくる妹に唇を寄せる…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/248/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/164/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/164/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eん…ちゅ…おにいちゃ…だめだよ…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/250/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/166/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/166/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E……え…な、なに？やだ…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/261/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/175/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/175/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E眠る妹の髪をそっとすくいあげると
+花のような香りがふわりと立ち上る。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/299/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E柔らかな妹の髪を手に取り息を吸い込む、
+鼻腔内いっぱいに花のような香りが広がる…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/302/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eすやすやと眠りにつく妹の髪をすくようにそっとなで、頬に触れる。
+病気がちな妹を看病した思い出がよみがえる…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/326/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/222/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/222/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eん……すぅ…すぅ……。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/328/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/224/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/224/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E夢心地の中にいる妹を安心させるように頭を優しくなでる。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/336/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/230/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/230/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおにいちゃん…すき……すぅ…すぅ…
+> CONTEXT MPS:SampleMapA/events/22/pages/1/341/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/234/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/234/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eむにゃ…えへ…おにいちゃん……
+> CONTEXT MPS:SampleMapA/events/22/pages/1/344/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/237/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/237/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…ん…おにいちゃ？…すぅ…すぅ…
+> CONTEXT MPS:SampleMapA/events/22/pages/1/347/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/240/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/240/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E妹の頭にそっと手を伸ばし優しく髪をなでる。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/361/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E見つめてくる妹の頭にそっと手を伸ばし優しく髪をなでる。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/364/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/249/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/249/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eえへへ…お兄ちゃん…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/371/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/253/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/253/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…おにいちゃん…安心する…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/375/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/256/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/256/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…ん…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/379/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/2/259/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/259/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E固くなった乳首の存在を示すかのように
+膨らみの頂点にポツリと点を浮かび上がらせている…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/431/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E薄手の肌着越しに上下する
+乳房の形がはっきりと見て取れる。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/435/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E桃色の乳頭が刺激を受けてぷくりと膨らんでいる…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/443/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E白い肌にたわわな乳房が揺れている…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/447/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E薄手の肌着越しに
+乳房の形がはっきりと見て取れる。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/463/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E年齢の割に大きく育った乳房は
+服の上からでもその膨らみがはっきりと分かる。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/517/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E固くなったペニスが妹の胸に挟み込まれている…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/541/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eパジャマの裾から伸びる太ももが眩しい…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/637/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E尻穴のあるべき場所にはペニスが深く突き立てられている。
+肉棒を咥えた肛門が吸盤のように吸い付いてくる。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/667/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E溢れる愛液で互いの性器が怪しく濡れ光っている。
+パンパンに膨れ上がったクリトリスが絶頂を待ちわび震えている。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/673/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eにじみ出る愛液が絡み滑りがよくなったようだ。
+にゅるにゅるとうごめく膣内に思わず射精感が込み上げてくる…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/677/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eぴちっと閉じた割れ目をこじ開けるようにペニスが挿入されている。
+膣内は狭くぎちりと痛いほどに締め付けてくる…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/681/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eむき出しにされたクリトリスはピンと隆起し、
+膣穴はヒクヒクと物欲しそうに収縮を繰り返している…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/692/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eぬめりと湿り気を帯びた妹のまんこだ。
+愛液で濡れ怪しくてかっている。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/696/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eぷにぷにと柔らかいスジを押し広げると
+きれいなピンク色の女性器が現れる…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/700/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eスジの奥に見える膣穴から愛液が溢れ出し
+てらてらといやらしく濡れ光っている。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/710/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E湿り気を帯びてツヤ光るスジまんこだ。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/714/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E太ももに挟まれぷっくりと膨らむ妹のスジまんこだ。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/718/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eショーツの中央部にじわりと染みが広がっている…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/747/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E柔らかい素材のショーツが湿気を吸って肌に張り付いている…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/751/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E年相応のリボンの付いたかわいいショーツだ。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/755/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eじっとりと汗ばむ肌に張り付くように食い込んでいる…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/767/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E蒸れた股間に食い込んでいる…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/771/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E伸びる太ももが眩しい部屋着のオーバーパンツだ。
+柔らかい素材で色々と浮いて見えてしまう。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/775/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお尻っ…すき！好きなの…あたし気持ちいいのっ！
+もっと…もっとパンパンしてっ…おねがい…中にだして…！
+> CONTEXT MPS:SampleMapA/events/22/pages/1/811/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eあっ…お尻で気持ちよくなっちゃうぅ…あっあっ…
+だめっ…おしりなのにっ！こんな…ぁ…あっ！あっ！
+> CONTEXT MPS:SampleMapA/events/22/pages/1/814/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおにい…ちゃ……ヘン…ヘンだよ…っ！
+お尻で…なんて……あん…あ…だめぇ…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/818/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E妹の割れ目に挟まれにゅるにゅると擦り上げられ、
+膣奥から溢れる愛液が絡みつく…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/832/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおにいちゃん…わかる？
+妹のおまんこ…もうぬるぬるなんだよ？
+> CONTEXT MPS:SampleMapA/events/22/pages/1/844/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお兄ちゃんの息がかかって…
+あそこが切なくて…へんなの…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/849/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお、おにいちゃん…
+おまた見られるのはずかしい…
+> CONTEXT MPS:SampleMapA/events/22/pages/1/854/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eもっ…と解さないと…きつ…ぃ…ぃ…
+お尻っ…壊れちゃう……よ…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/911/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eくるし…っ…おにいちゃ…んっ…
+い…たいよっ……むりぃ…！
+> CONTEXT MPS:SampleMapA/events/22/pages/1/914/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eいぃ…た…い…だめぇ……抜いてぇ…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/918/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eぷっくらと膨らむスジまんこにペニスが埋もれている…。
+妹が身をよじる度にいやらしい水音を立てている。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/932/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおまんこ…もう準備できてるから…ね？
+> CONTEXT MPS:SampleMapA/events/22/pages/1/943/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお兄ちゃんに…見られちゃってる…
+あたしの…あそこ…
+> CONTEXT MPS:SampleMapA/events/22/pages/1/948/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eああ…みないで…
+> CONTEXT MPS:SampleMapA/events/22/pages/1/954/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお尻でえっちするの…すきになっちゃった…。
+いっぱい動いて…中に熱いの出して…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/987/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eぁ…えっちする場所じゃなないのに…っ…こんな…
+ヘンだよぅ…おにいちゃん…お尻っこわれちゃう…っ
+> CONTEXT MPS:SampleMapA/events/22/pages/1/990/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eっ…ぁ…っく！お尻っ…だめっ…
+く、るしいよ……こんなの……おかしいっ…よ！
+> CONTEXT MPS:SampleMapA/events/22/pages/1/994/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E妹の割れ目で挟み込むようにペニスが埋もれている。
+妹の体重や熱、ヌルヌルとした愛液の滑りが心地よい…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1008/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eここにお兄ちゃんのが入っちゃうんだよ…？
+ふふ…ねぇ、どうする…？
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1019/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお兄ちゃん…そんなとこ…見ないで…
+は、はずかしいよ…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1024/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eだめっ…お兄ちゃん！そこは…！
+見ないで…やだっ…やだやだ…！
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1029/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E蒸されて熱々でとろとろのおまんこだよ…？
+挿入たらきっと気持ちいいよ…？
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1060/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそんなにじっくり見ないで…はずかしいよ…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1065/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eこ、これは汗だから…うぅ…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1070/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E濡れてきちゃった…
+お兄ちゃん…えっちなこと、しよ？
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1090/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eや、エッチなことしないで…だめだよ…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1095/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそ、そんなところ…見ちゃ…だめ…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1100/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eもう…妹のパンツがそんなに好きなの…？
+息が荒くなってるよ…ふふ。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1120/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおにいちゃんはパンツが好きなの…？
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1125/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお、お兄ちゃん…はずかしいよ…
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1130/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおにいちゃん…もういっぱい濡れてると思うから……しよ。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1154/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおにいちゃん…見てるだけで…いいの…？
+もっと…いいよ……。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1159/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおにいちゃん…どうしよう…
+あそこがきゅんってなって…切ないの…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1164/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおにいちゃん…どこ見てるの…？
+ふふ…触ってもいいよ…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1176/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおにいちゃん…おまたがキュンってするの…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1181/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…そ、そんなとこ…じっと見ちゃダメ…だよ。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1186/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそんなにお顔近づけてみたら…恥ずかしいよ…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1197/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eだめー！もう、ヘンなところばっかり見るんだから…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1202/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそ、そんなとこ…見ないで…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1207/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E脱がせた妹のパンツだ…。
+クロッチの部分は精液でベトベトになっている。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1245/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eついさっきまで身につけられていた妹のパンツだ。
+クロッチの部分が大きくシミになっている…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1250/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eいままで妹のはいていたパンツだ。
+クロッチ部分がうっすらと湿っている…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1254/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eほおずりしたくなるほどに白く眩しい妹のお尻だ…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1284/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eかわいらしい下着に包まれた妹のお尻だ。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1288/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E丸みをおびた妹のお尻が揺れている…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1294/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E眠っている妹の割れ目に舌を差し込みスジを舌でなぞる…。
+分泌物と石鹸の混じり合う妹の味と匂いが口と鼻を満たす…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1321/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E膣奥へ舌を差し込み溢れる愛液を舐め啜り、
+隆起したクリトリスに吸い付き舌先で撫で回す…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1324/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E皮に包まれた陰核に吸い付き唇と舌で優しく吸い上げる…。
+膣穴をなぞるように舌を這わせ膣壁をなで上げる。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1329/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E閉じた縦スジに沿って舌をなぞりほぐしていく…。
+分泌物の味と少しのおしっこの匂いが口いっぱいに広がる…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1334/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E妹の割れ目に舌を差し込みスジを舌でなぞる…。
+分泌物と石鹸の混じり合う妹の味と匂いが口と鼻を満たす…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1343/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eあっ…あっ……おにいちゃん…そこっ……もっと…！
+もっと吸って…あっ…きもちいいっ…あっああっ！
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1376/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eんっ…ぁ…はぁっはぁっ…おにいちゃん…おいし？
+きもち…いいよ…っ…上手……んぁ…っ…はっ…ぁん…！
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1384/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお兄ちゃんがあたしのおまんこ舐めてる…ふふ…。
+ん…いいよ……いっぱい味わってね…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1392/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそんな…吸っちゃ…あっ……んぁっ…あっあんっ！
+あっ…イっきそ…おにいちゃんっ！いっちゃうっイッちゃうよ…！
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1406/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eやっ…っ…そこ…おにいちゃ…だめぇ…っ…ぁ……あぅ…
+きた…汚いよ……あっ…あっ……だめっ…あ、ああっ！
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1414/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eだめっ…そんなとこ……汚い…よ…っ…あっ…
+ああっ…だ、めぇ……あぅ……っ……んっ……ぁ…
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1423/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eだめっ…おにいちゃん！そこ…舐めちゃ汚っ……っ…あっ！ぁ…ぁっ！
+あっ…だめ……だめなのっ……んっ…はぁっ……あ…あっ！
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1439/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eや、やだ……おにいちゃん……そこは…だめ…。
+お願い…わかって…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1449/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eや…嫌っ！お兄ちゃんダメッ！！
+止めてお願い！もう止めて…！お兄ちゃん！
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1456/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eやだぁ…あっ…あっ！…嫌…なのにぃ……やめてぇ……。
+おにいちゃん…だめ…っ……あっあっ……もう…いやぁ…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1468/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eな、何を…やだっ！だめぇ！！
+お兄ちゃん…おにいちゃん！やめて！やめて……。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1478/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eい…嫌……やだ………嫌…いやーっ！！！
+やだ！やだぁ…止めて！だ、誰か……っ！
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1485/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E刺激され固くなった乳首を舌先で味わうように転がす…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1528/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそっと妹の乳房を口に含み乳首をやさしく吸い上げる…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1543/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eコリコリと固くなった乳首を吸い上げ。
+舌先で弾くように転がす…
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1557/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E妹の乳房を口に含み乳首を吸い上げる…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1574/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eん…きもちいいよ……。
+おにいちゃん…妹のおっぱい美味し？
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1592/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおにいちゃんかわいい…。
+妹のおっぱい…いっぱい吸っていいからね…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1609/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eんっ……はぁっ…
+お兄ちゃん一生懸命でかわいい…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1620/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…お兄ちゃん、なんだか赤ちゃんみたい…。ふふ
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1638/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eんっ…やだ……やだやだ…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1649/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eい…いやっ！
+お兄ちゃんやめて…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/1667/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E尻肉を広げきゅっとすぼまった肛門に舌を這わせる、
+シワの間を丁寧に舐め上げヒクく尻穴に舌先を差し入れる…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/2224/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eとろとろにほぐれた尻穴にしゃぶりつくように舐め回し、
+肛門に吸い付き舌先を何度も差し入れる…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/2271/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…あっ…入って…おにいちゃんの入ってるのわかるよ。
+いいよ…きれいにしてるから平気…いっぱいして…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/2275/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eんぁ…っ…ん……舌…きもちいいよ…。
+もっと舐めて…っ…奥まで…あっ…あぁっ…！
+> CONTEXT MPS:SampleMapA/events/22/pages/1/2279/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eあっあっ…きもち…いいっ…お尻…おしりがいいの…っ！
+おにいちゃん！あたし…おしりもきもちいいの…あっ…んっ！
+> CONTEXT MPS:SampleMapA/events/22/pages/1/2288/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eヒクヒクと開閉する尻穴に舌先を尖らせねじり込む、
+舌先をいっぱいに伸ばし腸壁の奥を舐め上げる…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/2300/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおにいちゃん…おしりのがいいの…？
+あたし…おまんこの方がいいな…うぅー…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/2304/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eんっ……はぁ…おにいちゃん…きもちいいよ…。
+おにいちゃんも興奮する？あたしのお尻すき…？
+> CONTEXT MPS:SampleMapA/events/22/pages/1/2308/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eあ…あぁ…お尻も…あそこも…おにいちゃんのだからね…。
+いっぱい…いっぱい舐めて…気持ちよくして…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/2317/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eんっ…そんなとこ…っ……うぅ……。
+ヘンな感じ…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/2334/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eんっ…ぁ…今日はお尻がいいの？
+いいよ…していいようにしてるからいっぱい…して…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/2347/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eあぅ…ん……んっ…はぁっ…おし…おしりぃ…
+おにいちゃ…あっ…お尻も…きもちいいかも……あっ！
+> CONTEXT MPS:SampleMapA/events/22/pages/1/2367/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eきゅっと閉じた肛門に舌を這わせ舐め上げる、
+尻穴を舌先でつつきシワの間を丁寧に舐めほぐす…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/2392/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eやっ…っ…そこ…おにいちゃ…だめぇ…っ…ぁ……あぅ…
+いやぁ…ヘンな感じ……あっ…おにいちゃ…ぅんっ…！
+> CONTEXT MPS:SampleMapA/events/22/pages/1/2394/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E異物の侵入を阻もうと閉じる尻穴の締め付けを感じながら
+固く尖らせた舌先を肛門に出し入れする…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/2414/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eきゅっとすぼまった肛門に優しく口を寄せ、
+閉じた尻穴に舌先を差し入れほぐしていく…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/2443/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eやっ！おにいちゃ…っ…そこ違っ…！
+き、汚いよ…ん……っ……あっ……だめぇ…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/2445/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eやっ！？…そんなとこ…だめっ！！
+そこ…だめ……お願い、お兄ちゃん…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/2468/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eやだっ…だ、だめ！
+お兄ちゃん！おにーちゃん！！！やめてぇ！
+> CONTEXT MPS:SampleMapA/events/22/pages/1/2475/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E尻肉を広げかぶりつくように尻穴を舌先でねぶる、
+閉じた肛門に無理やり差し入れ啜りシワを舐め上げる。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/2485/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E嫌っ…っ…ん……だめ！もういやぁ…！
+お兄ちゃん…こんなこともう…ぁっ……いやだぁ…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/2487/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\い、嫌！！やだぁ…！
+お兄ちゃん…ひどいことしないで…。
+> CONTEXT MPS:SampleMapA/events/22/pages/1/2518/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E蕩け顔で見つめてくる妹と唇を重ねると
+当たり前のように舌が割り込んでくる…。
+> CONTEXT MPS:SampleMapA/events/22/pages/2/67/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/22/pages/3/67/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eもうこんな時間か…
+1時には寝ておかないと明日にひびくな…。
+> CONTEXT MPS:SampleMapA/events/23/pages/1/82/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eさすがに朝になる前に寝ておかないとまずいな…。
+> CONTEXT MPS:SampleMapA/events/23/pages/1/96/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…っともうこんな時間か…そろそろ寝ないと…！
+> CONTEXT MPS:SampleMapA/events/24/pages/1/9/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…一発シコシコしてから寝るか…。
+> CONTEXT MPS:SampleMapA/events/24/pages/1/17/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…い、いやっ！
+……お兄ちゃん…やめて…。
+> CONTEXT MPS:SampleMapA/events/24/pages/2/88/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eん…そんなにしたかったの…？
+> CONTEXT MPS:SampleMapA/events/24/pages/2/150/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eん…おにいちゃん…
+今日もえっちなことしてくれるの…？
+> CONTEXT MPS:SampleMapA/events/24/pages/2/153/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eんー…おにいちゃん眠いよ……
+> CONTEXT MPS:SampleMapA/events/24/pages/2/180/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E今日はもう寝よう…？
+> CONTEXT MPS:SampleMapA/events/24/pages/2/181/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…お兄ちゃん、普通そこまでする…？
+> CONTEXT MPS:SampleMapA/events/24/pages/2/207/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…お兄ちゃん、していい時とだめな時があるんだよ？
+> CONTEXT MPS:SampleMapA/events/24/pages/2/210/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…もう…仕方ないなあ…。
+> CONTEXT MPS:SampleMapA/events/24/pages/2/272/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…ん…おにいちゃん……したくなったの…？
+> CONTEXT MPS:SampleMapA/events/24/pages/2/275/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eん…あれ…？
+> CONTEXT MPS:SampleMapA/events/24/pages/2/304/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eどうして…こんな…。
+> CONTEXT MPS:SampleMapA/events/24/pages/2/305/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eや…お兄ちゃん…だめだよ……ね？
+> CONTEXT MPS:SampleMapA/events/24/pages/2/310/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…お兄ちゃん…今日は寝かせて…おねがい…。
+> CONTEXT MPS:SampleMapA/events/24/pages/2/325/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…え……い、いやっ！
+なんで…？えっ…えっ？
+> CONTEXT MPS:SampleMapA/events/24/pages/2/351/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eあれ…おにい…ちゃん…？
+> CONTEXT MPS:SampleMapA/events/24/pages/2/390/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E………んっ…こんなの…だめだよ…。
+> CONTEXT MPS:SampleMapA/events/24/pages/2/394/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E………あ……えと…やさしく…して…。
+> CONTEXT MPS:SampleMapA/events/24/pages/2/399/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eん…なに…？……あれ……？
+> CONTEXT MPS:SampleMapA/events/24/pages/2/426/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E………おにいちゃ……え？えぇ！？
+なんで…え……だ、だめだよ！
+> CONTEXT MPS:SampleMapA/events/24/pages/2/430/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E………おにいちゃ……え？…なに……
+だめなんだよ…兄妹なんだから……ね…？
+> CONTEXT MPS:SampleMapA/events/24/pages/2/434/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…え…？
+お兄ちゃん…嘘…なんで…。
+> CONTEXT MPS:SampleMapA/events/24/pages/2/465/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…お、お兄ちゃん……その…なに…してるの…。
+> CONTEXT MPS:SampleMapA/events/24/pages/2/479/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E妹に怒られてしまった…。
+> CONTEXT MPS:SampleMapA/events/24/pages/2/545/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…ふぅ…いっぱい出してスッキリしたぞ…。
+ふぁ……そろそろ寝ようかな…。
+> CONTEXT MPS:SampleMapA/events/24/pages/3/6/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eも…もっと…して…
+あたしも…きもちよくして…？
+> CONTEXT MPS:SampleMapA/events/24/pages/3/90/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eで、でるっ…！！
+> CONTEXT MPS:SampleMapA/events/24/pages/5/35/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E……うぅん…。
+> CONTEXT MPS:SampleMapA/events/24/pages/6/10/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/7/10/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/8/10/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…ほんとうに…ケダモノなの…？
+> CONTEXT MPS:SampleMapA/events/24/pages/6/132/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/8/119/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E……こんなのって…
+> CONTEXT MPS:SampleMapA/events/24/pages/6/162/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/8/149/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…最低……
+> CONTEXT MPS:SampleMapA/events/24/pages/6/163/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/7/122/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/8/150/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…なんで…こんなこと……
+> CONTEXT MPS:SampleMapA/events/24/pages/6/196/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/8/183/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…おにいちゃん……
+> CONTEXT MPS:SampleMapA/events/24/pages/6/223/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/8/210/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…信じてたのに…ひどい……。
+> CONTEXT MPS:SampleMapA/events/24/pages/6/224/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/24/pages/8/211/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…い、いやぁっ…！
+> CONTEXT MPS:SampleMapA/events/24/pages/7/112/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…いやっ…出さないでっ……
+> CONTEXT MPS:SampleMapA/events/24/pages/7/134/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…ひどい……
+> CONTEXT MPS:SampleMapA/events/24/pages/7/144/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eこんなの我慢できるわけ…ないだろ…？
+> CONTEXT MPS:SampleMapA/events/26/pages/1/472/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/27/pages/1/264/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E濡れてるな…。
+> CONTEXT MPS:SampleMapA/events/26/pages/1/506/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E柔らかくて暖かい…。
+> CONTEXT MPS:SampleMapA/events/26/pages/1/512/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eほんの少し…先っぽだけなら…。
+> CONTEXT MPS:SampleMapA/events/26/pages/1/520/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eちょっと当てるだけだから…。
+> CONTEXT MPS:SampleMapA/events/26/pages/1/546/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお兄ちゃんになら…いいよ…。
+> CONTEXT MPS:SampleMapA/events/26/pages/1/580/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/27/pages/1/1378/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお兄ちゃん…挿れたいの…？
+うん…いいよ…。
+> CONTEXT MPS:SampleMapA/events/26/pages/1/583/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/27/pages/1/993/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eぁ…ん……ん…。
+おにいちゃん…きて…。
+> CONTEXT MPS:SampleMapA/events/26/pages/1/777/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eだ…だめぇ…。
+> CONTEXT MPS:SampleMapA/events/26/pages/1/801/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eまた…あれ、するの…？
+> CONTEXT MPS:SampleMapA/events/26/pages/1/804/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/27/pages/1/1381/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eん…ぁ……やさしくしてね…。
+> CONTEXT MPS:SampleMapA/events/26/pages/1/832/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eんっ…ぅ……っ…
+ちょっとまだきついかも…。
+> CONTEXT MPS:SampleMapA/events/26/pages/1/846/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eぁ…ん…
+おにいちゃん…やさしくして…。
+> CONTEXT MPS:SampleMapA/events/26/pages/1/1059/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eっ…ん…
+お兄ちゃんの…おっき…。
+> CONTEXT MPS:SampleMapA/events/26/pages/1/1082/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eつ…っ…！
+まだ…ちょっと……痛いよ…。
+> CONTEXT MPS:SampleMapA/events/26/pages/1/1103/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eあたしたち兄妹なんだよ…。
+> CONTEXT MPS:SampleMapA/events/26/pages/1/1128/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/27/pages/1/1757/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E兄妹でこんなこと…。
+> CONTEXT MPS:SampleMapA/events/26/pages/1/1131/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/27/pages/1/1760/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eぁ…ぁ……ああ…っ
+おにいちゃん…だめぇ…。
+> CONTEXT MPS:SampleMapA/events/26/pages/1/1332/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそれだけはダメ…だよ…。
+お願い…わかって、ね？
+> CONTEXT MPS:SampleMapA/events/26/pages/1/1381/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/27/pages/1/2158/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…今日のお兄ちゃん、なんだか怖いよ…。
+> CONTEXT MPS:SampleMapA/events/26/pages/1/1399/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/27/pages/1/2191/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…っ！？
+い、嫌っ！やだっ！！お兄ちゃんやめてっ！！
+> CONTEXT MPS:SampleMapA/events/26/pages/1/1451/Message < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/27/pages/1/2242/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eぬるりと挿入ってしまった…。
+> CONTEXT MPS:SampleMapA/events/27/pages/1/552/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eき、きつい…挿れてるだけでも…。
+> CONTEXT MPS:SampleMapA/events/27/pages/1/557/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eよく寝てるな…これなら…。
+> CONTEXT MPS:SampleMapA/events/27/pages/1/567/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E妹の膣内に挿入れたい…。
+> CONTEXT MPS:SampleMapA/events/27/pages/1/750/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E妹のはじめて…あげるね。
+> CONTEXT MPS:SampleMapA/events/27/pages/1/990/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eあっ…ん……おにいちゃん…
+あたしの中でいっぱい気持ちよくなってね…。
+> CONTEXT MPS:SampleMapA/events/27/pages/1/1334/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eん……んっ……。
+お兄ちゃんの…ぜんぶ挿入ちゃったね。
+> CONTEXT MPS:SampleMapA/events/27/pages/1/1349/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eんっ…っ…
+濡らさないと…きつい…よ…。
+> CONTEXT MPS:SampleMapA/events/27/pages/1/1362/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eん…挿入ちゃった…。
+お兄ちゃん…やさしくしてね…。
+> CONTEXT MPS:SampleMapA/events/27/pages/1/1711/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eんっ…おなか…くるし…っ！
+大きいよぅ…おにいちゃん…。
+> CONTEXT MPS:SampleMapA/events/27/pages/1/1726/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eいっ…っ……つ…。
+ちょっと…まだ…痛いよお兄ちゃん。
+> CONTEXT MPS:SampleMapA/events/27/pages/1/1739/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eあっあっ…だめっ…。
+おちんちんしたらだめぇ…あ、あぁぁ…っ！
+> CONTEXT MPS:SampleMapA/events/27/pages/1/2116/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E妹のアナルに…。
+> CONTEXT MPS:SampleMapA/events/28/pages/1/92/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eねっとりと包み込んでくる…。
+> CONTEXT MPS:SampleMapA/events/28/pages/1/233/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eよく寝てる…いまなら…。
+> CONTEXT MPS:SampleMapA/events/28/pages/1/240/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eくっ…中がうねって…やば…。
+> CONTEXT MPS:SampleMapA/events/28/pages/1/336/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eどうしても…挿れたい…。
+> CONTEXT MPS:SampleMapA/events/28/pages/1/343/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E狭…いな……ぎゅうぎゅうに締め付けてくる…。
+> CONTEXT MPS:SampleMapA/events/28/pages/1/446/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…もう…早く入れて…。
+おにいちゃんのが欲しいの…。
+> CONTEXT MPS:SampleMapA/events/28/pages/1/475/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお尻で…したいの？
+うー…少しだけ、なら…。
+> CONTEXT MPS:SampleMapA/events/28/pages/1/490/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eま、まだ…そんなおっきいの入らないよ…。
+> CONTEXT MPS:SampleMapA/events/28/pages/1/505/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eもー、いきなりお尻なの…？
+お兄ちゃんのヘンタイ…いいけど…。
+> CONTEXT MPS:SampleMapA/events/28/pages/1/525/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eまだおちんちんなんて無理だよ…。
+> CONTEXT MPS:SampleMapA/events/28/pages/1/540/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eま、まだ…そんなおっきいの挿らないよ…。
+> CONTEXT MPS:SampleMapA/events/28/pages/1/555/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eあっあっあっ……！
+入って…おちんちん…おしりっ…に……っ
+> CONTEXT MPS:SampleMapA/events/28/pages/1/599/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eあっあっ…太いのきたぁっ！
+きもちいぃっ！…お尻っ…きもちいいのっ！
+> CONTEXT MPS:SampleMapA/events/28/pages/1/699/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eんっ…解れてないのに…
+ごりごりって入ってくるの…きもちいい…。
+> CONTEXT MPS:SampleMapA/events/28/pages/1/707/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eうっ…ぐ……っ…くるし……
+も、もうぜんぶ…入った…の…？
+> CONTEXT MPS:SampleMapA/events/28/pages/1/718/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E今日はお尻で気持ちよくしてくれるの…？
+うれしい…。
+> CONTEXT MPS:SampleMapA/events/28/pages/1/746/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそ、そっちはまだだめだよ…。
+> CONTEXT MPS:SampleMapA/events/28/pages/1/761/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…お尻？うん…いいよ…
+入れて…おにいちゃん。
+> CONTEXT MPS:SampleMapA/events/28/pages/1/796/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお、お尻でなんて無理だよ…。
+> CONTEXT MPS:SampleMapA/events/28/pages/1/827/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eんっ…あぁあっ！！
+おしり広がっ…あっ…あっ…ああっ！！
+> CONTEXT MPS:SampleMapA/events/28/pages/1/869/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eあっ…んっ……ああっ！！
+入ってきたぁっ……あ、あぁ…きもちいぃ…っ…。
+> CONTEXT MPS:SampleMapA/events/28/pages/1/966/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eんっ…ぐ……あっあぁ…！
+入ってる…入ってるの…お尻にぃ……っ…
+> CONTEXT MPS:SampleMapA/events/28/pages/1/974/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eきつ…い…たいぃ…っ…
+くるし…おにいちゃ…んっ
+> CONTEXT MPS:SampleMapA/events/28/pages/1/985/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお兄ちゃんがそうしたいなら…
+いいよ…お尻…入れても…。
+> CONTEXT MPS:SampleMapA/events/28/pages/1/1016/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそ、そこ違っ！だ、だめだよ！
+> CONTEXT MPS:SampleMapA/events/28/pages/1/1031/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eや、やだ！そこはダメッ！
+> CONTEXT MPS:SampleMapA/events/28/pages/1/1048/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…お、おしり？
+そこはえっちする場所じゃないよ…
+> CONTEXT MPS:SampleMapA/events/28/pages/1/1069/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eやだ！そこっ……っ…
+…するとこだからだめ！
+> CONTEXT MPS:SampleMapA/events/28/pages/1/1086/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eっ！！
+お兄ちゃんやめてっ！！
+> CONTEXT MPS:SampleMapA/events/28/pages/1/1103/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eんっ…んんっ…！
+入って…あっ…ヘン……っ…ヘンな感じだよぉ…。
+> CONTEXT MPS:SampleMapA/events/28/pages/1/1146/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eあぅ…っ…！
+は、入っちゃった…お兄ちゃんのが…あっ…ああっ
+> CONTEXT MPS:SampleMapA/events/28/pages/1/1240/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eああああっ…！
+こんな…おし…お尻…ひろがっちゃうぅ…っ…
+> CONTEXT MPS:SampleMapA/events/28/pages/1/1248/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…い、いやっ！やだ！！
+な、何するの…やめて！お兄ちゃん！！
+> CONTEXT MPS:SampleMapA/events/28/pages/1/1275/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[10]+\\self[0]%
+> CONTEXT MPS:SampleMapA/events/30/pages/1/40/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/30/pages/2/33/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[10]\\self[0]%
+> CONTEXT MPS:SampleMapA/events/30/pages/1/43/Picture < UNTRANSLATED
+> CONTEXT MPS:SampleMapA/events/30/pages/2/36/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[8]\\space[0]\\c[9]■
+■
+■
+> CONTEXT MPS:SampleMapA/events/34/pages/1/23/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[8]\\space[0]\\c[9]□
+■
+■
+> CONTEXT MPS:SampleMapA/events/34/pages/1/26/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[8]\\space[0]\\c[9]
+■
+■
+> CONTEXT MPS:SampleMapA/events/34/pages/1/29/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[8]\\space[0]\\c[9]
+□
+■
+> CONTEXT MPS:SampleMapA/events/34/pages/1/34/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[8]\\space[0]\\c[9]
+
+■
+> CONTEXT MPS:SampleMapA/events/34/pages/1/37/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[8]\\space[0]\\c[9]\n\n
+> CONTEXT MPS:SampleMapA/events/34/pages/1/40/Picture < UNTRANSLATED
+
+> END STRING

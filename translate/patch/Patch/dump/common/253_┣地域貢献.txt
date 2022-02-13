@@ -1,0 +1,130 @@
+> WOLF TRANS PATCH FILE VERSION 1.0
+
+> BEGIN STRING
+\\c[7]\\E\\f[20]<C\>+\\cself[10]
+> CONTEXT COMMONEVENT:252/104/Picture < UNTRANSLATED
+> CONTEXT COMMONEVENT:253/270/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…ちいきこうけん？
+> CONTEXT COMMONEVENT:253/17/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそ、地域貢献。
+いつも基礎トレーニングばかりじゃ飽きるでしょ。
+> CONTEXT COMMONEVENT:253/21/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eメクアみたいな農村では常に人手は不足しているの。
+あなた達はそんな人達の手助けをする。
+> CONTEXT COMMONEVENT:253/29/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E買い出しに水くみ、薪割り、害獣の駆除…
+簡単な仕事だけどやれることは山ほどあるわ。
+> CONTEXT COMMONEVENT:253/30/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E地域の安全や社会貢献も冒険者にとって大事な役割よ。
+> CONTEXT COMMONEVENT:253/31/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+　…つまりボランティア？　
+> CONTEXT COMMONEVENT:253/35/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E全くの無償で働くわけじゃないけど…それに近いものはあるわね。
+> CONTEXT COMMONEVENT:253/42/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E例えば村も害獣が出るたび冒険者に依頼なんてしたら
+お金がいくらあっても足りないでしょうし。
+> CONTEXT COMMONEVENT:253/43/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E地域に貢献できて腕も磨けるなんて一石二鳥でしょ？
+> CONTEXT COMMONEVENT:253/44/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eんー私はずっと素振りしてるよりはいいかなー。
+> CONTEXT COMMONEVENT:253/48/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eわ、わたしは皆の役に立てるなら…。
+> CONTEXT COMMONEVENT:253/52/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eはい、それじゃ決まりー。
+> CONTEXT COMMONEVENT:253/56/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eじゃあ、みんなよろしくね。
+> CONTEXT COMMONEVENT:253/66/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eはいっ…！
+> CONTEXT COMMONEVENT:253/74/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E<C\>Tips　地域貢献とギルド評判
+> CONTEXT COMMONEVENT:253/77/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E\\c[1]地域貢献\\c[0]や\\c[1]討伐\\c[0]など冒険者として実績を重ねることで
+\\c[1]ギルドの評判\\c[0]が上がります。
+> CONTEXT COMMONEVENT:253/78/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E\\c[1]評判\\c[0]が上がると収入が増加し
+ショップなどでの\\c[1]取扱い商品ラインナップ\\c[0]などに影響します。
+> CONTEXT COMMONEVENT:253/79/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E地域貢献では戦闘が発生する事があり、
+場合によって怪我を負うこともあります。
+> CONTEXT COMMONEVENT:253/80/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E今日も一日が始まる…！
+> CONTEXT COMMONEVENT:253/90/Message < UNTRANSLATED
+> CONTEXT COMMONEVENT:284/9/Message < UNTRANSLATED
+
+> END STRING

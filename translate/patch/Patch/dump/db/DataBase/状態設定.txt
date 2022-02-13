@@ -1,0 +1,297 @@
+> WOLF TRANS PATCH FILE VERSION 1.0
+
+> BEGIN STRING
+飛行
+> CONTEXT DB:DataBase/[8]状態設定/[1]飛行/[0]状態名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+は頭上高く飛び上がる！
+> CONTEXT DB:DataBase/[8]状態設定/[1]飛行/[2]発生時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+は地上に降り立った！
+> CONTEXT DB:DataBase/[8]状態設定/[1]飛行/[3]回復時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+毒
+> CONTEXT DB:DataBase/[8]状態設定/[2]毒/[0]状態名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+は毒にかかった！
+> CONTEXT DB:DataBase/[8]状態設定/[2]毒/[2]発生時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+の毒が抜けた！
+> CONTEXT DB:DataBase/[8]状態設定/[2]毒/[3]回復時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+封印
+> CONTEXT DB:DataBase/[8]状態設定/[3]封印/[0]状態名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+は魔法を封印された！
+> CONTEXT DB:DataBase/[8]状態設定/[3]封印/[2]発生時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+の封印が解けた！
+> CONTEXT DB:DataBase/[8]状態設定/[3]封印/[3]回復時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+麻痺
+> CONTEXT DB:DataBase/[8]状態設定/[4]麻痺/[0]状態名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+は動けなくなった！
+> CONTEXT DB:DataBase/[8]状態設定/[4]麻痺/[2]発生時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+は行動可能になった！
+> CONTEXT DB:DataBase/[8]状態設定/[4]麻痺/[3]回復時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+の受けるダメージが1/4になった！
+> CONTEXT DB:DataBase/[8]状態設定/[5]防御/[2]発生時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+は敵に狙われなくなった！
+> CONTEXT DB:DataBase/[8]状態設定/[6]隠れる/[2]発生時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+の次ターンの攻撃力が2倍になった！
+> CONTEXT DB:DataBase/[8]状態設定/[7]力ため/[2]発生時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+力ため+
+> CONTEXT DB:DataBase/[8]状態設定/[8]力ため+/[0]状態名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+の次ターンの攻撃力が5倍になった！
+> CONTEXT DB:DataBase/[8]状態設定/[8]力ため+/[2]発生時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+力ため++
+> CONTEXT DB:DataBase/[8]状態設定/[9]力ため++/[0]状態名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+の次ターンの攻撃力が10倍になった！
+> CONTEXT DB:DataBase/[8]状態設定/[9]力ため++/[2]発生時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+力ためすぎ
+> CONTEXT DB:DataBase/[8]状態設定/[10]力ためすぎ/[0]状態名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+は力のためすぎで爆発した！
+> CONTEXT DB:DataBase/[8]状態設定/[10]力ためすぎ/[2]発生時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+引きつける
+> CONTEXT DB:DataBase/[8]状態設定/[12]引きつける/[0]状態名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+は敵の目を引きつけた！
+> CONTEXT DB:DataBase/[8]状態設定/[12]引きつける/[2]発生時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+最大HP増加
+> CONTEXT DB:DataBase/[8]状態設定/[13]最大HP増加/[0]状態名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+の最大HPが1.5倍になった！
+> CONTEXT DB:DataBase/[8]状態設定/[13]最大HP増加/[2]発生時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+の最大HPが元に戻った！
+> CONTEXT DB:DataBase/[8]状態設定/[13]最大HP増加/[3]回復時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+攻撃減少
+> CONTEXT DB:DataBase/[8]状態設定/[14]攻撃減少/[0]状態名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+は攻撃力が減少した！
+> CONTEXT DB:DataBase/[8]状態設定/[14]攻撃減少/[2]発生時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+の攻撃力が元に戻った！
+> CONTEXT DB:DataBase/[8]状態設定/[14]攻撃減少/[3]回復時の文章[(人名)～] < UNTRANSLATED
+> CONTEXT DB:DataBase/[8]状態設定/[17]攻撃強化/[3]回復時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+防御減少
+> CONTEXT DB:DataBase/[8]状態設定/[15]防御減少/[0]状態名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+の防御力が減少した！
+> CONTEXT DB:DataBase/[8]状態設定/[15]防御減少/[2]発生時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+の防御力が元に戻った！
+> CONTEXT DB:DataBase/[8]状態設定/[15]防御減少/[3]回復時の文章[(人名)～] < UNTRANSLATED
+> CONTEXT DB:DataBase/[8]状態設定/[18]防御強化/[3]回復時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+命中率減少
+> CONTEXT DB:DataBase/[8]状態設定/[16]命中率減少/[0]状態名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+の命中率が下がった！
+> CONTEXT DB:DataBase/[8]状態設定/[16]命中率減少/[2]発生時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+の命中率が元に戻った！
+> CONTEXT DB:DataBase/[8]状態設定/[16]命中率減少/[3]回復時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+攻撃強化
+> CONTEXT DB:DataBase/[8]状態設定/[17]攻撃強化/[0]状態名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+の攻撃力が上がった！
+> CONTEXT DB:DataBase/[8]状態設定/[17]攻撃強化/[2]発生時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+防御強化
+> CONTEXT DB:DataBase/[8]状態設定/[18]防御強化/[0]状態名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+の防御力が上がった！
+> CONTEXT DB:DataBase/[8]状態設定/[18]防御強化/[2]発生時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+速度強化
+> CONTEXT DB:DataBase/[8]状態設定/[19]速度強化/[0]状態名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+の速度・回避率が上がった！
+> CONTEXT DB:DataBase/[8]状態設定/[19]速度強化/[2]発生時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+の速度・回避率が元に戻った！
+> CONTEXT DB:DataBase/[8]状態設定/[19]速度強化/[3]回復時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+精神強化
+> CONTEXT DB:DataBase/[8]状態設定/[20]精神強化/[0]状態名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+の精神攻撃・精神防御が上がった！
+> CONTEXT DB:DataBase/[8]状態設定/[20]精神強化/[2]発生時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+の精神攻撃・精神防御が元に戻った！
+> CONTEXT DB:DataBase/[8]状態設定/[20]精神強化/[3]回復時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+HP・SP半減
+> CONTEXT DB:DataBase/[8]状態設定/[21]HP・SP半減/[0]状態名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+暴走
+> CONTEXT DB:DataBase/[8]状態設定/[22]暴走/[0]状態名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+は暴走した！
+> CONTEXT DB:DataBase/[8]状態設定/[22]暴走/[2]発生時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+の暴走が治った！
+> CONTEXT DB:DataBase/[8]状態設定/[22]暴走/[3]回復時の文章[(人名)～] < UNTRANSLATED
+
+> END STRING

@@ -1,0 +1,285 @@
+> WOLF TRANS PATCH FILE VERSION 1.0
+
+> BEGIN STRING
+なにもしない
+> CONTEXT DB:DataBase/[0]技能/[0]なにもしない/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+様子を見る
+> CONTEXT DB:DataBase/[0]技能/[1]様子を見る/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+攻撃（汎用）
+> CONTEXT DB:DataBase/[0]技能/[2]攻撃（汎用）/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+味方一人のHPを回復\r\n
+> CONTEXT DB:DataBase/[0]技能/[2]攻撃（汎用）/[1]スキル説明 < UNTRANSLATED
+> CONTEXT DB:DataBase/[0]技能/[3]攻撃（爪）/[1]スキル説明 < UNTRANSLATED
+> CONTEXT DB:DataBase/[0]技能/[4]攻撃（キバ）/[1]スキル説明 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+攻撃（爪）
+> CONTEXT DB:DataBase/[0]技能/[3]攻撃（爪）/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+攻撃（キバ）
+> CONTEXT DB:DataBase/[0]技能/[4]攻撃（キバ）/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+突進
+> CONTEXT DB:DataBase/[0]技能/[5]突進/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+敵一体に炎の魔法攻撃
+> CONTEXT DB:DataBase/[0]技能/[5]突進/[1]スキル説明 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+飛び上がる
+> CONTEXT DB:DataBase/[0]技能/[6]飛び上がる/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+敵全体に火柱で魔法攻撃
+> CONTEXT DB:DataBase/[0]技能/[6]飛び上がる/[1]スキル説明 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+歌う
+> CONTEXT DB:DataBase/[0]技能/[7]歌う/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+敵一体に強力な氷刃攻撃
+> CONTEXT DB:DataBase/[0]技能/[7]歌う/[1]スキル説明 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+神エイム
+> CONTEXT DB:DataBase/[0]技能/[8]神エイム/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ランダムな敵３体に岩を落として攻撃
+> CONTEXT DB:DataBase/[0]技能/[8]神エイム/[1]スキル説明 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ステマ
+> CONTEXT DB:DataBase/[0]技能/[9]ステマ/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+敵一体に強烈な稲妻攻撃
+> CONTEXT DB:DataBase/[0]技能/[9]ステマ/[1]スキル説明 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+異界の門
+> CONTEXT DB:DataBase/[0]技能/[10]異界の門/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+敵一体に無属性攻撃
+> CONTEXT DB:DataBase/[0]技能/[10]異界の門/[1]スキル説明 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ころがる
+> CONTEXT DB:DataBase/[0]技能/[11]ころがる/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+増える
+> CONTEXT DB:DataBase/[0]技能/[12]増える/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+暴れる
+> CONTEXT DB:DataBase/[0]技能/[13]暴れる/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+目を回す
+> CONTEXT DB:DataBase/[0]技能/[14]目を回す/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ほーほー↓ほっほー↑
+> CONTEXT DB:DataBase/[0]技能/[15]ほーほー↓ほっほー↑/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+突っつく
+> CONTEXT DB:DataBase/[0]技能/[16]突っつく/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+突撃（汎用
+> CONTEXT DB:DataBase/[0]技能/[17]突撃（汎用/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+グラスバインド
+> CONTEXT DB:DataBase/[0]技能/[18]グラスバインド/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リジュネート
+> CONTEXT DB:DataBase/[0]技能/[19]リジュネート/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+リーフカッター
+> CONTEXT DB:DataBase/[0]技能/[20]リーフカッター/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+攻撃（爪）汎用
+> CONTEXT DB:DataBase/[0]技能/[21]攻撃（爪）汎用/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ねこぱんち
+> CONTEXT DB:DataBase/[0]技能/[22]ねこぱんち/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+膨れる
+> CONTEXT DB:DataBase/[0]技能/[23]膨れる/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+焦げる
+> CONTEXT DB:DataBase/[0]技能/[24]焦げる/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+スリープ
+> CONTEXT DB:DataBase/[0]技能/[25]スリープ/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ゆめくい
+> CONTEXT DB:DataBase/[0]技能/[26]ゆめくい/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ブラインド
+> CONTEXT DB:DataBase/[0]技能/[27]ブラインド/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+おおなみ
+> CONTEXT DB:DataBase/[0]技能/[28]おおなみ/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+あざらヒール
+> CONTEXT DB:DataBase/[0]技能/[29]あざらヒール/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+あざらロケット
+> CONTEXT DB:DataBase/[0]技能/[30]あざらロケット/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+吸収
+> CONTEXT DB:DataBase/[0]技能/[31]吸収/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+軟質化
+> CONTEXT DB:DataBase/[0]技能/[32]軟質化/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ステマ2
+> CONTEXT DB:DataBase/[0]技能/[33]ステマ2/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ロックスピア
+> CONTEXT DB:DataBase/[0]技能/[34]ロックスピア/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ストンアーマー
+> CONTEXT DB:DataBase/[0]技能/[35]ストンアーマー/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+アースウォール
+> CONTEXT DB:DataBase/[0]技能/[36]アースウォール/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+閉じる
+> CONTEXT DB:DataBase/[0]技能/[37]閉じる/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ザキ
+> CONTEXT DB:DataBase/[0]技能/[38]ザキ/[0]技能の名前 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+8本足
+> CONTEXT DB:DataBase/[0]技能/[39]8本足/[0]技能の名前 < UNTRANSLATED
+
+> END STRING

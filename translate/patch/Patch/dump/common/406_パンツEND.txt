@@ -1,0 +1,79 @@
+> WOLF TRANS PATCH FILE VERSION 1.0
+
+> BEGIN STRING
+\\Eやっ…た………ついに……
+> CONTEXT COMMONEVENT:406/18/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eつ……いに…………そろ…った…。
+> CONTEXT COMMONEVENT:406/19/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E\\f[40]…やるかっ………アレを！！
+> CONTEXT COMMONEVENT:406/21/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eパッと宙に舞う色とりどりのパンツ。
+> CONTEXT COMMONEVENT:406/26/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E白、ピンク、水色…色とりどりのパンツ達は
+色彩豊かなシャワーとなって宙を舞い降り注ぐ。
+> CONTEXT COMMONEVENT:406/27/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eここにある全てが長年こつこつ集めてきたお宝たち。
+一枚一枚に特別な想いが込められている…。
+> CONTEXT COMMONEVENT:406/28/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…ここまでの道のりは長く、
+決して平たんな道ではなかった。
+> CONTEXT COMMONEVENT:406/29/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E手に取れば温もりと共に思い出が蘇る…
+あの日、あの時、妹が身に着けていたパンツ。
+> CONTEXT COMMONEVENT:406/30/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそれはもはやただの布ではない、
+これまで妹の生きてきた証であり人生の軌跡。
+> CONTEXT COMMONEVENT:406/31/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E一枚一枚全てに特別で唯一の物語がある。
+ひらめくパンツの合間からあの日の妹の姿が…思い出が蘇る…。
+> CONTEXT COMMONEVENT:406/32/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eわが生涯に悔いなし！！
+> CONTEXT COMMONEVENT:406/34/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E宴は続く……
+> CONTEXT COMMONEVENT:406/36/Message < UNTRANSLATED
+
+> END STRING

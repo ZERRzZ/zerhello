@@ -1,0 +1,11 @@
+> WOLF TRANS PATCH FILE VERSION 1.0
+
+> BEGIN STRING
+\\\>「X[移]選択箇所装備コード取得」エラー：
+　装備箇所が8以下です。 　=\>　\\cself[1]
+　（※0～7で指定して下さい）
+> CONTEXT COMMONEVENT:106/38/Message < UNTRANSLATED
+\\\>「X[移]获取选定的装备代码」错误：
+　配备8个或更少。 　=\>　\\cself[1]
+　（*请指定从 0 到 7）
+> END STRING

@@ -1,0 +1,13 @@
+> WOLF TRANS PATCH FILE VERSION 1.0
+
+> BEGIN STRING
+SystemGraphic/Text_Pause.png
+> CONTEXT COMMONEVENT:212/17/SetString < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\sp[\\cself[24]]\\f[\\cself[23]]\\space[\\cself[25]]\\cself[5]
+> CONTEXT COMMONEVENT:212/140/Picture < UNTRANSLATED
+
+> END STRING

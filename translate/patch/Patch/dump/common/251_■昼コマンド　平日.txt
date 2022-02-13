@@ -1,0 +1,918 @@
+> WOLF TRANS PATCH FILE VERSION 1.0
+
+> BEGIN STRING
+\\E交流戦を行うわよー
+事件も一応落ち着いたってことで久々の交流戦ね。
+> CONTEXT COMMONEVENT:251/29/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E今回の相手は…「冒険者協会タウン支部」よ。
+> CONTEXT COMMONEVENT:251/30/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E色々あって大会の決勝は流れちゃったけど…
+この交流戦でスッキリとさせちゃいましょ！
+> CONTEXT COMMONEVENT:251/31/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E交流戦は\\c[2]3日後\\c[0]だから備えておいてね。
+> CONTEXT COMMONEVENT:251/32/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eタウン支部…アカツキか…負けないぞ！
+やる気があがった！
+> CONTEXT COMMONEVENT:251/34/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E交流戦
+<R\>\\f[18]あと\\cself[51]日
+> CONTEXT COMMONEVENT:251/45/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおはよう、お兄ちゃん。
+そろそろ八会の地区予選が始まるわよ。
+> CONTEXT COMMONEVENT:251/84/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E交流戦と違って\\c[2]負けられない戦い\\c[0]になるわ。
+初戦で負けるようじゃ\\c[2]先はない\\c[0]わよ、頑張って。
+> CONTEXT COMMONEVENT:251/85/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eメクア支部の出番は\\c[2]3日後の木曜\\c[0]よ。
+それまでに備えておいてね。
+> CONTEXT COMMONEVENT:251/86/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E地区予選
+<R\>\\f[18]あと3日
+> CONTEXT COMMONEVENT:251/87/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそろそろまた交流戦を行うわよ―
+交流戦は\\c[2]3日後の木曜日\\c[0]だから備えておいてね。
+> CONTEXT COMMONEVENT:251/126/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E八会で優勝
+<R\>\\f[18]交流戦まであと3日
+> CONTEXT COMMONEVENT:251/127/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E地区予選の次の相手が決まったわよ。
+次の相手は…前に交流戦で戦った美食倶楽部よ。
+> CONTEXT COMMONEVENT:251/144/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E一度負けている相手ではあるけど…
+逆に自分たちの成長を確認するいい機会でもあるわ。
+> CONTEXT COMMONEVENT:251/145/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eあの頃とは違うって所を見せつけましょ。
+試合は\\c[2]3日後の木曜日\\c[0]だから備えておいてね。
+> CONTEXT COMMONEVENT:251/146/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E次の相手は美食倶楽部か…今度こそは…！
+> CONTEXT COMMONEVENT:251/148/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E八会で優勝
+<R\>\\f[18]地区予選まであと3日
+> CONTEXT COMMONEVENT:251/150/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおはようお兄ちゃん、妹ちゃん。
+> CONTEXT COMMONEVENT:251/180/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eさ、みんな揃ったわね。
+じゃあ行きましょう！
+> CONTEXT COMMONEVENT:251/181/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおはよう、お兄ちゃん。
+今週からいよいよ本戦が始まるわよ。
+> CONTEXT COMMONEVENT:251/232/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E本戦はトーナメント方式で地区の代表が争うの。
+全8チームだから単純に3回勝てば優勝ってことになるわ。
+> CONTEXT COMMONEVENT:251/233/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそれで気になる初戦の相手は…「スカウトユニオン」ね。
+> CONTEXT COMMONEVENT:251/234/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eその名のとおりスカウト…
+偵察や探索のスペシャリストが数多く在籍しているわ。
+> CONTEXT COMMONEVENT:251/235/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eトリッキーな戦い方で主導権を握るのが得意ね。
+純粋に剣の勝負じゃ十分戦えるはずだから惑わされないようにね。
+> CONTEXT COMMONEVENT:251/236/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E一回戦は\\c[1]3日後の木曜日\\c[0]だから備えておいてね。
+> CONTEXT COMMONEVENT:251/237/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eいよいよ八王子武闘会が始まる…！
+> CONTEXT COMMONEVENT:251/239/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおはよう、お兄ちゃん。
+決勝の相手が決まったわよ。
+> CONTEXT COMMONEVENT:251/268/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E相手は「冒険者協会タウン支部」
+あのアカツキ君の所属するギルドね。
+> CONTEXT COMMONEVENT:251/269/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eさすがはここ10年負け知らずの優勝候補ギルド。
+一回戦、準決勝ともに圧倒的な強さを見せつけての決勝進出よ。
+> CONTEXT COMMONEVENT:251/270/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eアカツキ…
+> CONTEXT COMMONEVENT:251/272/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E決勝は\\c[1]今週の日曜日\\c[0]よ。
+十分に備えておいてね。
+> CONTEXT COMMONEVENT:251/274/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおはよう。
+昨日はみんなお疲れさま。
+> CONTEXT COMMONEVENT:251/290/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E昨日の件について
+新しく得た情報も含めてまとめるわよ。
+> CONTEXT COMMONEVENT:251/291/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E調べてみると街近くの遺跡から未発見の層が
+発見されたという報告が最近上がってたそうよ。
+> CONTEXT COMMONEVENT:251/292/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eじゃあ発生源は遺跡で間違いない？
+> CONTEXT COMMONEVENT:251/296/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eでしょうね。
+> CONTEXT COMMONEVENT:251/300/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E霧の速度はゆっくりだが徐々に街に迫ってきている。
+正体が何なのかはハッキリしないけれども…
+> CONTEXT COMMONEVENT:251/301/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E見たこともない異形の姿や発生源となった遺跡…
+ギルドの学者は門が開いた可能性を指摘しているわ。
+> CONTEXT COMMONEVENT:251/302/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E門？
+> CONTEXT COMMONEVENT:251/306/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eえぇ、今よりずっとずっと昔。
+> CONTEXT COMMONEVENT:251/310/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E魔法がもっと当たり前に使えてずっとずっと栄えてた時代、
+大きな都市と都市は魔法の門で繋がれていたらしいの。
+> CONTEXT COMMONEVENT:251/311/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E魔法の門を通るだけではるか遠くの街へ一瞬行くことができるとか…
+確かに古い遺跡でそんな門跡が見つかる事自体は稀にあるのよ。
+> CONTEXT COMMONEVENT:251/312/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそんなすごい魔法があるんですか…。
+> CONTEXT COMMONEVENT:251/316/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E実際にそういった門跡から何かが這いずった痕跡が見つかったり、
+それこそ異形が現れたというような事例はあるらしいわ。
+> CONTEXT COMMONEVENT:251/320/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eだいぶそれっぽいですね…
+> CONTEXT COMMONEVENT:251/324/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eとなると…
+> CONTEXT COMMONEVENT:251/328/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそうね、門自体を壊して閉じてしまえば
+この怪異も収まる可能性が高いんじゃないかしら？
+> CONTEXT COMMONEVENT:251/332/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…でも遺跡に向かえば異形と出会う可能性も高い。
+何が待ち受けているかわからないとても危険な任務になる。
+> CONTEXT COMMONEVENT:251/333/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E迫ってくる霧に街が飲まれる前…猶予はあと15日くらいかしらね。
+\\c[2]霧が襲来する前に\\c[0]解決する必要があるわ。
+> CONTEXT COMMONEVENT:251/334/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E全ギルドに指令が出ているわ。
+> CONTEXT COMMONEVENT:251/335/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E私たちも準備が整い次第対応にあたるわ。
+お兄ちゃん、頼んだわよ。
+> CONTEXT COMMONEVENT:251/336/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E実際に門跡から何かが這いずった痕跡が見つかったり、
+それこそ異形が現れたというような事例はあるらしいわ。
+> CONTEXT COMMONEVENT:251/374/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E迫ってくる霧に街が飲まれる前…猶予はあと15日くらいかしら。
+その前にこの異変の原因を取り除く必要がある。
+> CONTEXT COMMONEVENT:251/388/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E異変を解決
+<R\>\\f[18]霧の襲来まであと15日
+> CONTEXT COMMONEVENT:251/396/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E<C\>Tips　怪我
+> CONTEXT COMMONEVENT:251/434/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E状態が\\c[2]怪我\\c[0]の時は鍛錬や探索を行うことができません。
+完治するまで診療所に通うことになります。
+> CONTEXT COMMONEVENT:251/435/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E101日目以降日中パートは自動で進行され任意の育成ができなくなります。
+> CONTEXT COMMONEVENT:251/488/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおはよう、お兄ちゃん。
+今日も頑張ってねー。
+> CONTEXT COMMONEVENT:251/496/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E<C\>Tips　ギルド活動について
+> CONTEXT COMMONEVENT:251/512/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\Eユカリさんからその日に行う\\c[1]ギルド活動\\c[0]が提案されます。
+> CONTEXT COMMONEVENT:251/513/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[14]\\E\\c[1]ギルド活動\\c[0]にはいくつか種類があり。
+選択した内容によってステータスの強化やお金が取得できます。
+> CONTEXT COMMONEVENT:251/514/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお兄ちゃんたちもだいぶ慣れてきたわねー。
+そろそろ街の依頼を受けてもいい頃合いかもしれないわね。
+> CONTEXT COMMONEVENT:251/525/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eがんばってるねー、うんうん。
+これなら強いモンスターと出会っても大丈夫かしらね。
+> CONTEXT COMMONEVENT:251/536/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおはよう、お兄ちゃん。
+んー…、今日はこんな感じでどうかしら。
+> CONTEXT COMMONEVENT:251/603/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+お店の手伝い
+> CONTEXT COMMONEVENT:251/612/SetString < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+お勉強会
+> CONTEXT COMMONEVENT:251/615/SetString < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+基礎鍛錬
+> CONTEXT COMMONEVENT:251/618/SetString < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+攻撃練習
+> CONTEXT COMMONEVENT:251/623/SetString < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+防御練習
+> CONTEXT COMMONEVENT:251/626/SetString < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+秘密特訓
+> CONTEXT COMMONEVENT:251/629/SetString < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+地域貢献
+> CONTEXT COMMONEVENT:251/634/SetString < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+探索
+> CONTEXT COMMONEVENT:251/637/SetString < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+遠征
+> CONTEXT COMMONEVENT:251/640/SetString < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+他の案を聞きたい
+> CONTEXT COMMONEVENT:251/643/SetString < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+討伐依頼 \\f[14]期限 \\v[49] 日
+> CONTEXT COMMONEVENT:251/745/SetString < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[20]\\cself[9]
+> CONTEXT COMMONEVENT:251/823/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eギルドハウスでユカリさんの手伝いをして\\c[2]お小遣い\\c[0]を稼ぎます。
+> CONTEXT COMMONEVENT:251/849/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E冒険に必要な\\c[2]知識・スキル\\c[0]について学習します。
+> CONTEXT COMMONEVENT:251/853/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E体つくりに励み\\c[2]行動力\\c[0]を鍛えます。
+> CONTEXT COMMONEVENT:251/857/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E木剣を使った訓練で\\c[2]攻撃力\\c[0]を鍛えます。
+> CONTEXT COMMONEVENT:251/863/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E打たれ強さを強化し\\c[2]防御力\\c[0]を鍛えます。
+> CONTEXT COMMONEVENT:251/867/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E秘密の特訓で\\c[2]根性\\c[0]を鍛え上げます。
+> CONTEXT COMMONEVENT:251/871/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E地域の困ったを解決する\\c[2]ごく簡単なお仕事\\c[0]を中心に活動します。
+> CONTEXT COMMONEVENT:251/877/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E魔物退治や商隊護衛など、
+\\c[2]冒険者らしい仕事\\c[0]を中心に活動します。
+> CONTEXT COMMONEVENT:251/881/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E古い遺跡の調査、魔物の討伐など、
+\\c[2]腕の立つ冒険者向けの依頼\\c[0]を積極的にこなします。
+> CONTEXT COMMONEVENT:251/885/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+討伐依頼
+> CONTEXT COMMONEVENT:251/895/SetString < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ニャースドラゴン
+> CONTEXT COMMONEVENT:251/918/SetString < UNTRANSLATED
+> CONTEXT DB:DataBase/[9]敵ｷｬﾗ個体ﾃﾞｰﾀ/[27]ニャースドラゴン/[0]敵キャラ名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+あのアザラシ
+> CONTEXT COMMONEVENT:251/922/SetString < UNTRANSLATED
+> CONTEXT DB:DataBase/[9]敵ｷｬﾗ個体ﾃﾞｰﾀ/[25]あのアザラシ/[0]敵キャラ名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+謎の影
+> CONTEXT COMMONEVENT:251/926/SetString < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+逃げ出した野菜
+> CONTEXT COMMONEVENT:251/940/SetString < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+白いアイツ
+> CONTEXT COMMONEVENT:251/962/SetString < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+野生化した筋肉
+> CONTEXT COMMONEVENT:251/966/SetString < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+大量発生したアレ
+> CONTEXT COMMONEVENT:251/986/SetString < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+危険な海洋生物
+> CONTEXT COMMONEVENT:251/990/SetString < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+畑を荒らす害獣
+> CONTEXT COMMONEVENT:251/1008/SetString < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+森に潜む野獣
+> CONTEXT COMMONEVENT:251/1012/SetString < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E依頼内容は怪異の解決。
+> CONTEXT COMMONEVENT:251/1040/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eいくつかのギルドから選抜して合同精鋭チームを
+派遣して異変の対処にあたるわ。
+> CONTEXT COMMONEVENT:251/1041/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E恐らくは遺跡の門を破壊すれば霧も収まるはず…
+だけどその前に異形との戦いは避けられないはずよ。
+> CONTEXT COMMONEVENT:251/1042/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E敗北の許されない決戦になるわ、
+本当に準備はいい？
+> CONTEXT COMMONEVENT:251/1043/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eわかった、十分に気をつけてね。
+> CONTEXT COMMONEVENT:251/1046/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eまだ準備が足りない…。
+> CONTEXT COMMONEVENT:251/1053/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E今回の依頼は\\c[2]\\cself[8]\\c[0]の討伐よ。
+> CONTEXT COMMONEVENT:251/1073/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E今のあなた達なら大丈夫だと思うけど気を付けて。
+> CONTEXT COMMONEVENT:251/1077/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E戦力的には互角の相手よ、油断はしないで。
+> CONTEXT COMMONEVENT:251/1080/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E今のあなた達には厳しいかも知れないけど逆に言えばチャンスよ。
+> CONTEXT COMMONEVENT:251/1083/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eうーん…今のあなた達じゃちょっと手に余るかな？どうする？
+> CONTEXT COMMONEVENT:251/1086/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+問題ない
+> CONTEXT COMMONEVENT:251/1090/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+考え直す
+> CONTEXT COMMONEVENT:251/1090/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eじゃあみんなくれぐれも気をつけてね。
+> CONTEXT COMMONEVENT:251/1096/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eここは慎重にいこう…。
+> CONTEXT COMMONEVENT:251/1101/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E今日は\\cself[8]ってことでいいのね？
+> CONTEXT COMMONEVENT:251/1115/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eじゃあみんな\\c[1]\\cself[8]\\c[0]がんばってねー。
+> CONTEXT COMMONEVENT:251/1121/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…うーん、なんか手がチクチクする。
+> CONTEXT COMMONEVENT:251/1172/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eあ…あれ？どうしたの？
+> CONTEXT COMMONEVENT:251/1175/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+　手がチクチクする　
+> CONTEXT COMMONEVENT:251/1178/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eえと、あの…ちょっと見せてもらってもいいですか？
+> CONTEXT COMMONEVENT:251/1183/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eえ……あ、トゲが刺さってます。
+きっと訓練用の木剣がささくれてたんですね。
+> CONTEXT COMMONEVENT:251/1186/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E（そういえば手入れをサボってたな…。）
+> CONTEXT COMMONEVENT:251/1189/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+放っておく
+> CONTEXT COMMONEVENT:251/1191/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+ツバでもつけておく
+> CONTEXT COMMONEVENT:251/1191/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eだ、ダメです。
+小さな傷が後で腫れて痛むこともあるんですから…。
+> CONTEXT COMMONEVENT:251/1199/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E眼の前にいる女の子は一応メディックですよ、もう…
+少しじっとしててくださいね…。
+> CONTEXT COMMONEVENT:251/1200/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…小さな傷が怪我に繋がってしまうこともあるから…
+診せられる余裕があるときは診せてください。
+> CONTEXT COMMONEVENT:251/1204/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…ん。
+はい、これで大丈夫です。
+> CONTEXT COMMONEVENT:251/1206/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+　ありがとう　
+> CONTEXT COMMONEVENT:251/1208/Choices < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eどういたしまして。
+> CONTEXT COMMONEVENT:251/1212/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E（なんだかとてもかわいらしい
+メディカルシールを貼られてしまった…。）
+> CONTEXT COMMONEVENT:251/1214/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eあ、お兄ちゃん今週もお疲れさま。
+えーと…今週の収支は……
+> CONTEXT COMMONEVENT:251/1235/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eなんと……
+> CONTEXT COMMONEVENT:251/1293/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eうふふふ。
+> CONTEXT COMMONEVENT:251/1297/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E今週の分け前\\cself[50]Gが分配された。
+> CONTEXT COMMONEVENT:251/1300/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E結構な黒字よー、うふふ。
+> CONTEXT COMMONEVENT:251/1304/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…やったわね、黒字よ！
+> CONTEXT COMMONEVENT:251/1311/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…まあ、トントンね。
+> CONTEXT COMMONEVENT:251/1320/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eこれは…赤字じゃなかっただけ喜ぶべきなんだろうな…。
+> CONTEXT COMMONEVENT:251/1322/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…赤字よ。
+> CONTEXT COMMONEVENT:251/1326/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eと、いうわけでカンパよろしくー。
+> CONTEXT COMMONEVENT:251/1328/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E鍛錬だけしてても赤字か…そりゃそうだよな…。
+> CONTEXT COMMONEVENT:251/1331/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E…大幅に赤字よ。
+> CONTEXT COMMONEVENT:251/1335/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eと、いうわけで一人200Gのカンパね、カンパ。
+> CONTEXT COMMONEVENT:251/1336/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eわかっていても辛いな…。
+やる気が下がった。
+> CONTEXT COMMONEVENT:251/1339/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eそれじゃまた来週もよろしくねー。
+> CONTEXT COMMONEVENT:251/1347/Message < UNTRANSLATED
+
+> END STRING

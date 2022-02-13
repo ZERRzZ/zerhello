@@ -1,0 +1,133 @@
+> WOLF TRANS PATCH FILE VERSION 1.0
+
+> BEGIN STRING
+2a
+> CONTEXT DB:DataBase/[30]アニメ設定/[15]導入/[0]ファイルタイプ名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+2b
+> CONTEXT DB:DataBase/[30]アニメ設定/[16]待機A/[0]ファイルタイプ名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+2c
+> CONTEXT DB:DataBase/[30]アニメ設定/[17]スカートめくり/[0]ファイルタイプ名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+2d
+> CONTEXT DB:DataBase/[30]アニメ設定/[18]スカートめくり待機/[0]ファイルタイプ名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+2e
+> CONTEXT DB:DataBase/[30]アニメ設定/[19]衣服めくり/[0]ファイルタイプ名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+2f
+> CONTEXT DB:DataBase/[30]アニメ設定/[20]衣服めくり待機/[0]ファイルタイプ名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+2g
+> CONTEXT DB:DataBase/[30]アニメ設定/[21]ブラめくり/[0]ファイルタイプ名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+2h
+> CONTEXT DB:DataBase/[30]アニメ設定/[22]ブラめくり待機/[0]ファイルタイプ名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+2i
+> CONTEXT DB:DataBase/[30]アニメ設定/[23]開脚待機A/[0]ファイルタイプ名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+3a
+> CONTEXT DB:DataBase/[30]アニメ設定/[24]開脚待機B/[0]ファイルタイプ名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+3b
+> CONTEXT DB:DataBase/[30]アニメ設定/[25]待機B/[0]ファイルタイプ名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+3c
+> CONTEXT DB:DataBase/[30]アニメ設定/[26]感じる/[0]ファイルタイプ名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+3d
+> CONTEXT DB:DataBase/[30]アニメ設定/[27]挿入/[0]ファイルタイプ名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+3e
+> CONTEXT DB:DataBase/[30]アニメ設定/[28]挿入待機/[0]ファイルタイプ名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+3f
+> CONTEXT DB:DataBase/[30]アニメ設定/[29]ピストン弱/[0]ファイルタイプ名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+3g
+> CONTEXT DB:DataBase/[30]アニメ設定/[30]ピストン中/[0]ファイルタイプ名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+3h
+> CONTEXT DB:DataBase/[30]アニメ設定/[31]ピストン強/[0]ファイルタイプ名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+3i
+> CONTEXT DB:DataBase/[30]アニメ設定/[32]射精/[0]ファイルタイプ名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+3j
+> CONTEXT DB:DataBase/[30]アニメ設定/[33]射精待機/[0]ファイルタイプ名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+3k
+> CONTEXT DB:DataBase/[30]アニメ設定/[34]抜き/[0]ファイルタイプ名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+3l
+> CONTEXT DB:DataBase/[30]アニメ設定/[35]事後A/[0]ファイルタイプ名 < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+3m
+> CONTEXT DB:DataBase/[30]アニメ設定/[36]事後B/[0]ファイルタイプ名 < UNTRANSLATED
+
+> END STRING

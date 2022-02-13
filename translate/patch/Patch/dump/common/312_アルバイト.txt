@@ -1,0 +1,34 @@
+> WOLF TRANS PATCH FILE VERSION 1.0
+
+> BEGIN STRING
+\\Eお、来たね。
+親父さんから話は聞いているよ。
+> CONTEXT COMMONEVENT:312/20/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\E収穫、水汲み、柵の補修…やることは山ほどある。
+仕事はきついが手伝ってくれればバイト代を出そう。
+> CONTEXT COMMONEVENT:312/21/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eお金も貰えて体力もつくなんて最高だな。
+> CONTEXT COMMONEVENT:312/28/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおーい、そこのあんちゃん。
+よく働くねぇ…ほら、これ持っていきな。
+> CONTEXT COMMONEVENT:312/52/Message < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\Eおやつを頂いてしまった…！
+> CONTEXT COMMONEVENT:312/54/Message < UNTRANSLATED
+
+> END STRING
