@@ -87,7 +87,7 @@
 > BEGIN STRING
  \\cself[61]日目 \\s[0] \\cself[68]時　\\cself[5]
 > CONTEXT COMMONEVENT:94/426/SetString < UNTRANSLATED
- 第\\cself[61]日 \\s[0] \\cself[68]时　\\cself[5]
+第\\cself[61]日\\s[0]\\cself[68]时\\cself[5]
 > END STRING
 
 > BEGIN STRING

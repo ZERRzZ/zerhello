@@ -1,8 +1,0 @@
-> WOLF TRANS PATCH FILE VERSION 1.0
-
-> BEGIN STRING
-
- 残り x \\cself[11]
-> CONTEXT COMMONEVENT:99/93/SetString
- 剩余 x \\cself[11]
-> END STRING

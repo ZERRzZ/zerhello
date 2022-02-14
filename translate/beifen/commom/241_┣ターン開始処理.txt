@@ -1,0 +1,131 @@
+> WOLF TRANS PATCH FILE VERSION 1.0
+
+> BEGIN STRING
+<C\>\\f[64]\\E戦闘終了<L\>
+> CONTEXT COMMONEVENT:241/45/Picture < UNTRANSLATED
+<C\>\\f[64]\\E战斗结束<L\>
+> END STRING
+
+> BEGIN STRING
+<C\>\\f[64]\\E\\v[349]\\f[32]/\\cself[31] \\f[48]ターン<L\>
+> CONTEXT COMMONEVENT:241/58/Picture < UNTRANSLATED
+<C\>\\f[64]\\E\\v[349]\\f[32]/\\cself[31] \\f[48]回合<L\>
+> END STRING
+
+> BEGIN STRING
+\\c[3]\\f[48]\\E\\cself[10]
+> CONTEXT COMMONEVENT:241/73/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]心無いファンからの投石！
+> CONTEXT COMMONEVENT:241/117/Picture < UNTRANSLATED
+\\f[16]一个无情的粉丝扔石头！
+> END STRING
+
+> BEGIN STRING
+\\f[16]\\cself[13]のダメージを受けた！！
+> CONTEXT COMMONEVENT:241/118/Picture < UNTRANSLATED
+> CONTEXT COMMONEVENT:243/249/Picture < UNTRANSLATED
+受到了\\f[16]\\cself[13]的伤害！
+> END STRING
+
+> BEGIN STRING
+\\c[14]\\f[48]\\E\\cself[13]
+> CONTEXT COMMONEVENT:241/119/Picture < UNTRANSLATED
+> CONTEXT COMMONEVENT:243/252/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+\\f[16]熱狂的ファンの黄色い声援！
+> CONTEXT COMMONEVENT:241/149/Picture < UNTRANSLATED
+\\f[16]热情粉丝的黄色欢呼！
+> END STRING
+
+> BEGIN STRING
+\\f[16]「「カズヤー頑張ってー！！」」
+> CONTEXT COMMONEVENT:241/150/Picture < UNTRANSLATED
+\\f[16]「「カズヤー加油ー！！」」
+> END STRING
+
+> BEGIN STRING
+<C\>\\c[18]\\f[24]\\E陣地形成
+\\c[0]\\f[18]\\Eスキル発動率UP\n
+> CONTEXT COMMONEVENT:241/225/Picture < UNTRANSLATED
+<C\>\\c[18]\\f[24]\\E阵地形成
+\\c[0]\\f[18]\\E技能发动率UP\n
+> END STRING
+
+> BEGIN STRING
+<C\>\\c[18]\\f[24]\\E反撃の狼煙
+\\c[0]\\f[18]\\E反撃率UP\n
+> CONTEXT COMMONEVENT:241/249/Picture < UNTRANSLATED
+<C\>\\c[18]\\f[24]\\E反击的狼烟
+\\c[0]\\f[18]\\E反击率UP\n
+> END STRING
+
+> BEGIN STRING
+\\f[16]アカツキ「畳み掛けるぞ！！」
+> CONTEXT COMMONEVENT:241/296/Picture < UNTRANSLATED
+\\f[16]アカツキ「我要把它折叠起来！！！！」
+> END STRING
+
+> BEGIN STRING
+<C\>\\c[18]\\f[24]\\E集中攻撃
+\\c[0]\\f[18]\\E会心率UP\n
+> CONTEXT COMMONEVENT:241/297/Picture < UNTRANSLATED
+<C\>\\c[18]\\f[24]\\E集中攻击
+\\c[0]\\f[18]\\E会心率UP\n
+> END STRING
+
+> BEGIN STRING
+<C\>\\c[18]\\f[24]\\E自動回復
+\\c[3]\\f[18]\\cself[15]
+> CONTEXT COMMONEVENT:241/323/Picture < UNTRANSLATED
+<C\>\\c[18]\\f[24]\\E自动回复
+\\c[3]\\f[18]\\cself[15]
+> END STRING
+
+> BEGIN STRING
+\\f[16]ノーソン「食ってけれ！」
+> CONTEXT COMMONEVENT:241/364/Picture < UNTRANSLATED
+\\f[16]ノーソン「吃吧！」
+> END STRING
+
+> BEGIN STRING
+<C\>\\c[18]\\f[24]\\E支援物資
+\\c[3]\\f[18]\\cself[15]
+> CONTEXT COMMONEVENT:241/365/Picture < UNTRANSLATED
+<C\>\\c[18]\\f[24]\\E支援物资
+\\c[3]\\f[18]\\cself[15]
+> END STRING
+
+> BEGIN STRING
+<C\>\\c[18]\\f[24]\\E鉄壁
+\\c[0]\\f[18]\\Eガード率UP\n
+> CONTEXT COMMONEVENT:241/410/Picture < UNTRANSLATED
+<C\>\\c[18]\\f[24]\\E铁壁
+\\c[0]\\f[18]\\E防护率UP\n
+> END STRING
+
+> BEGIN STRING
+\\f[16]マッシブ「哈哈哈，交给防守吧！」
+> CONTEXT COMMONEVENT:241/428/Picture < UNTRANSLATED
+
+> END STRING
+
+> BEGIN STRING
+<C\>\\c[18]\\f[24]\\E肉壁
+\\c[0]\\f[18]\\Eガード率UP\n
+> CONTEXT COMMONEVENT:241/429/Picture < UNTRANSLATED
+<C\>\\c[18]\\f[24]\\E肉壁
+\\c[0]\\f[18]\\E防护率UP\n
+> END STRING
+
+> BEGIN STRING
+\\f[16]戦闘終了まで\\cself[50]ターン\n
+> CONTEXT COMMONEVENT:241/460/Picture < UNTRANSLATED
+\\f[16]离战斗结束还有\\cself[50]回合\n
+> END STRING

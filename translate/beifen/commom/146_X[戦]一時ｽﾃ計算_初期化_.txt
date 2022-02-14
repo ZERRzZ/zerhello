@@ -1,0 +1,9 @@
+> WOLF TRANS PATCH FILE VERSION 1.0
+
+> BEGIN STRING
+\\\>「X[戦]一時ｽﾃ計算<初期化\>」エラー：
+　戦闘スロットが「-1」以下になっています。＞ \\cself[0]
+> CONTEXT COMMONEVENT:146/7/Message < UNTRANSLATED
+\\\>「X[戦]临时阶段计算<初始化\>错误:
+　战斗槽为“-1”或更少＞ \\cself[0]
+> END STRING
