@@ -30,39 +30,39 @@
 他愛もない話題
 > CONTEXT COMMONEVENT:247/8/Choices < UNTRANSLATED
 > CONTEXT COMMONEVENT:360/37/Choices < UNTRANSLATED
-闲散的话题
+闲散话题
 > END STRING
 
 > BEGIN STRING
 えっちな話題
 > CONTEXT COMMONEVENT:247/8/Choices < UNTRANSLATED
 > CONTEXT COMMONEVENT:360/37/Choices < UNTRANSLATED
-H的话题
+H 话题
 > END STRING
 
 > BEGIN STRING
 怖い話
 > CONTEXT COMMONEVENT:247/8/Choices < UNTRANSLATED
-恐怖的话题
+恐怖话题
 > END STRING
 
 > BEGIN STRING
 \\Eなあ……
 > CONTEXT COMMONEVENT:247/11/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:328/198/Message < UNTRANSLATED
-
+\\E啊……
 > END STRING
 
 > BEGIN STRING
 \\E気まずい時間を過ごした…。
 > CONTEXT COMMONEVENT:247/18/Message < UNTRANSLATED
-\\E尴尬的时间过去了...
+\\E尴尬的时间过去了……
 > END STRING
 
 > BEGIN STRING
 \\Eちょっと気まずい時間を過ごした…。
 > CONTEXT COMMONEVENT:247/37/Message < UNTRANSLATED
-\\E尴尬的时间过去了一点...
+\\E尴尬的时间过去了一点……
 > END STRING
 
 > BEGIN STRING
@@ -72,7 +72,7 @@ H的话题
 > CONTEXT COMMONEVENT:279/200/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:328/201/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:360/46/Message < UNTRANSLATED
-\\E说了一些无关紧要的话
+\\E说了一些无关紧要的话。
 > END STRING
 
 > BEGIN STRING
@@ -82,7 +82,7 @@ H的话题
 > CONTEXT COMMONEVENT:279/205/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:328/206/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:360/52/Message < UNTRANSLATED
-\\E意外的气氛高涨
+\\E意外的气氛高涨。
 > END STRING
 
 > BEGIN STRING
@@ -94,13 +94,13 @@ H的话题
 > BEGIN STRING
 \\E………………はぁ…。
 > CONTEXT COMMONEVENT:247/86/Message < UNTRANSLATED
-
+\\E………………哈……
 > END STRING
 
 > BEGIN STRING
 \\E………………そうなんだ。
 > CONTEXT COMMONEVENT:247/102/Message < UNTRANSLATED
-
+\\E………………是这样啊。
 > END STRING
 
 > BEGIN STRING
@@ -108,68 +108,68 @@ H的话题
 > CONTEXT COMMONEVENT:247/119/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:279/230/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:360/66/Message < UNTRANSLATED
-\\E说了一点 H 的话
+\\E说了一点 H 的话。
 > END STRING
 
 > BEGIN STRING
 \\E普通に嫌がられた。
 > CONTEXT COMMONEVENT:247/128/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:360/77/Message < UNTRANSLATED
-\\E很普通的讨厌
+\\E普通的被讨厌了。
 > END STRING
 
 > BEGIN STRING
 \\Eいや、実はな……
 > CONTEXT COMMONEVENT:247/153/Message < UNTRANSLATED
-\\E不、其实呢...
+\\E不、其实呢……
 > END STRING
 
 > BEGIN STRING
 \\E……ごめん、お話しする気分じゃないの。
 > CONTEXT COMMONEVENT:247/160/Message < UNTRANSLATED
-\\E……对不起、我没心情跟你说话
+\\E……对不起、我没心情跟你说话。
 > END STRING
 
 > BEGIN STRING
 \\E……や、やめてよ…。
 > CONTEXT COMMONEVENT:247/181/Message < UNTRANSLATED
-\\E...不、住手吧...
+\\E……不、住手吧……
 > END STRING
 
 > BEGIN STRING
 \\E怪談話をした。
 > CONTEXT COMMONEVENT:247/203/Message < UNTRANSLATED
-\\E说了一些怪谈
+\\E说了一些怪谈。
 > END STRING
 
 > BEGIN STRING
 \\E…刺激が強すぎた。
 > CONTEXT COMMONEVENT:247/213/Message < UNTRANSLATED
-\\E...刺激太强了
+\\E……刺激太强了。
 > END STRING
 
 > BEGIN STRING
 \\Eうーん、何か本でも読もうかな…。
 > CONTEXT COMMONEVENT:247/244/Message < UNTRANSLATED
-\\E唔嗯、要看什么书呢...
+\\E唔嗯、要看什么书呢……
 > END STRING
 
 > BEGIN STRING
 \\Eうーん、気まずい時間を過ごしてしまった…。
 > CONTEXT COMMONEVENT:247/255/Message < UNTRANSLATED
-\\E嗯，度过了尴尬的时间…
+\\E嗯、度过了尴尬的时间……
 > END STRING
 
 > BEGIN STRING
 \\Eうーん、ちょっと気まずい時間を過ごしてしまった…。
 > CONTEXT COMMONEVENT:247/276/Message < UNTRANSLATED
-\\E嗯, 度过了一段尴尬的时间…
+\\E嗯、度过了一段尴尬的时间……
 > END STRING
 
 > BEGIN STRING
 \\E何か本でも読もうか。
 > CONTEXT COMMONEVENT:247/288/Message < UNTRANSLATED
-\\E要读点什么书呢
+\\E要读点什么书呢。
 > END STRING
 
 > BEGIN STRING
@@ -193,19 +193,19 @@ H的话题
 > BEGIN STRING
 えっちな本　 \\f[12]所持(\\v[276])\\f[20]
 > CONTEXT COMMONEVENT:247/292/Choices < UNTRANSLATED
-色色的书　　 \\f[12]所持(\\v[276])\\f[20]
+H 的书　　 \\f[12]所持(\\v[276])\\f[20]
 > END STRING
 
 > BEGIN STRING
 薄いブック　 \\f[12]所持(\\v[277])\\f[20]
 > CONTEXT COMMONEVENT:247/292/Choices < UNTRANSLATED
-薄薄的书　　 \\f[12]所持(\\v[277])\\f[20]
+薄本　　　　 \\f[12]所持(\\v[277])\\f[20]
 > END STRING
 
 > BEGIN STRING
 \\Eレッドキャップと呼ばれたゴブリンの物語らしい。
 > CONTEXT COMMONEVENT:247/298/Message < UNTRANSLATED
-\\E好像是一个叫小红帽的童话故事
+\\E好像是一个叫小红帽的童话故事。
 > END STRING
 
 > BEGIN STRING
@@ -213,13 +213,13 @@ H的话题
 > CONTEXT COMMONEVENT:247/302/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:278/28/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:279/13/Message < UNTRANSLATED
-
+\\E………………………………
 > END STRING
 
 > BEGIN STRING
 \\E…なんだこの童話。
 > CONTEXT COMMONEVENT:247/307/Message < UNTRANSLATED
-\\E…什么啊这个童话。
+\\E……什么啊这个童话。
 > END STRING
 
 > BEGIN STRING
@@ -251,25 +251,25 @@ H的话题
 差別主義者を誅殺していく正義の物語らしい。
 > CONTEXT COMMONEVENT:247/356/Message < UNTRANSLATED
 \\E不允许歧视的人
-这似乎是一个杀死种族主义者的正义故事
+这似乎是一个杀死种族主义者的正义故事。
 > END STRING
 
 > BEGIN STRING
 \\E……せ、正義とは一体…。
 > CONTEXT COMMONEVENT:247/367/Message < UNTRANSLATED
-\\E……好吧、正义是其中之一…。
+\\E……好吧、正义是其中之一……
 > END STRING
 
 > BEGIN STRING
 \\E続きを読みたくても持っていないな…。
 > CONTEXT COMMONEVENT:247/390/Message < UNTRANSLATED
-\\E即使我想阅读更多内容，我也没有…。
+\\E即使我想阅读更多内容，我也没有……
 > END STRING
 
 > BEGIN STRING
 \\Eお話の続き、気になるね…。
 > CONTEXT COMMONEVENT:247/393/Message < UNTRANSLATED
-\\E继续故事，我很好奇るね…。
+\\E继续说下去、很好奇呢……
 > END STRING
 
 > BEGIN STRING
@@ -277,7 +277,7 @@ H的话题
 …稀に内容が消えて白紙になってしまう魔法の本だったりもする。
 > CONTEXT COMMONEVENT:247/399/Message < UNTRANSLATED
 \\E这是一本在街头卖得很好的冒险小说。
-......稀少的内容正在消失并变成空白的魔法书。
+……稀少的内容正在消失并变成空白的魔法书。
 > END STRING
 
 > BEGIN STRING
@@ -291,7 +291,7 @@ H的话题
 > BEGIN STRING
 \\E……ふう、今日はここまででセーブしておくか…。
 > CONTEXT COMMONEVENT:247/420/Message < UNTRANSLATED
-\\E……嗯，今天就这样保存吗…。
+\\E……嗯、今天就保存到这里吧……
 > END STRING
 
 > BEGIN STRING
@@ -311,21 +311,21 @@ H的话题
 > BEGIN STRING
 \\E………………………………ふう。
 > CONTEXT COMMONEVENT:247/453/Message < UNTRANSLATED
-
+\\E………………………………唔。
 > END STRING
 
 > BEGIN STRING
 \\E……お兄ちゃん…ふぅん…そうなんだ……。
 > CONTEXT COMMONEVENT:247/472/Message < UNTRANSLATED
-\\E……欧尼酱…嗯…是啊……。
+\\E……欧尼酱……嗯……是啊……
 > END STRING
 
 > BEGIN STRING
 \\Eなるほど…そういうのもあるのか…。
 …今度試してみようかな…？
 > CONTEXT COMMONEVENT:247/495/Message < UNTRANSLATED
-\\E原来如此…也有那样的东西啊…。
-…下次试一下吧…？
+\\E原来如此……也有那样的东西啊……
+……下次试一下吧……？
 > END STRING
 
 > BEGIN STRING
@@ -345,43 +345,43 @@ H的话题
 > BEGIN STRING
 \\E……（ドン引き）
 > CONTEXT COMMONEVENT:247/538/Message < UNTRANSLATED
-
+\\E……（冷场）
 > END STRING
 
 > BEGIN STRING
 \\E…………はぁ…尊い……。
 > CONTEXT COMMONEVENT:247/549/Message < UNTRANSLATED
-\\E…………啊…好珍贵……。
+\\E…………啊……好珍贵……
 > END STRING
 
 > BEGIN STRING
 \\Eスキル パイズリのひらめきを得た！
 > CONTEXT COMMONEVENT:247/565/Message < UNTRANSLATED
-\\Eスキル パイズリ 的灵感得到了
+\\E技能 乳交 的灵感得到了
 > END STRING
 
 > BEGIN STRING
 \\E…俺のカンだとやらない方がいいと思うぜ。
 > CONTEXT COMMONEVENT:247/583/Message < UNTRANSLATED
-\\E…我的直觉告诉还是不要做比较好。
+\\E……我的直觉告诉还是不要做比较好。
 > END STRING
 
 > BEGIN STRING
 \\E…もう……ばか。
 > CONTEXT COMMONEVENT:247/591/Message < UNTRANSLATED
-\\E…もう……笨蛋。
+\\E……够了……笨蛋。
 > END STRING
 
 > BEGIN STRING
 \\Eもう…いい加減にして…っ！
 > CONTEXT COMMONEVENT:247/649/Message < UNTRANSLATED
-\\Eもう…适可而止吧！
+\\E够了……适可而止吧！
 > END STRING
 
 > BEGIN STRING
 \\Eよし、ここは…
 > CONTEXT COMMONEVENT:247/727/Message < UNTRANSLATED
-
+\\E好、这里是……
 > END STRING
 
 > BEGIN STRING
@@ -405,25 +405,25 @@ H的话题
 > BEGIN STRING
 \\E…ごめんな。
 > CONTEXT COMMONEVENT:247/736/Message < UNTRANSLATED
-\\E…对不起。
+\\E……对不起。
 > END STRING
 
 > BEGIN STRING
 \\E……うん。
 > CONTEXT COMMONEVENT:247/762/Message < UNTRANSLATED
-
+\\E……唔嗯。
 > END STRING
 
 > BEGIN STRING
 \\E少し気まずい時間を過ごした…。
 > CONTEXT COMMONEVENT:247/767/Message < UNTRANSLATED
-\\E度过了一点尴尬的时间……。
+\\E度过了一点尴尬的时间……
 > END STRING
 
 > BEGIN STRING
 \\E残念ながら持っていないな…。
 > CONTEXT COMMONEVENT:247/787/Message < UNTRANSLATED
-\\E很遗憾，我没有带…。
+\\E很遗憾，我没有带……
 > END STRING
 
 > BEGIN STRING
@@ -455,13 +455,13 @@ H的话题
 > BEGIN STRING
 \\E妹にはいつも世話になってるからな…
 > CONTEXT COMMONEVENT:247/858/Message < UNTRANSLATED
-\\E因为总是受到妹妹的照顾…
+\\E因为总是受到妹妹的照顾……
 > END STRING
 
 > BEGIN STRING
 \\Eなあ…これ。
 > CONTEXT COMMONEVENT:247/860/Message < UNTRANSLATED
-\\E啊...这个
+\\E啊……这个。
 > END STRING
 
 > BEGIN STRING
@@ -487,13 +487,13 @@ H的话题
 > BEGIN STRING
 \\Eなにそれ…。
 > CONTEXT COMMONEVENT:247/909/Message < UNTRANSLATED
-\\E这是什么…。
+\\E这是什么……
 > END STRING
 
 > BEGIN STRING
 \\E妹の機嫌を取った。
 > CONTEXT COMMONEVENT:247/914/Message < UNTRANSLATED
-\\E妹妹的心情上升了
+\\E妹妹的心情上升了。
 > END STRING
 
 > BEGIN STRING
@@ -509,7 +509,7 @@ H的话题
 今日なんかの日だったっけ…？
 > CONTEXT COMMONEVENT:247/978/Message < UNTRANSLATED
 \\E诶？为什么？
-今天是什么日子来着…？
+今天是什么日子来着？
 > END STRING
 
 > BEGIN STRING
@@ -523,25 +523,25 @@ H的话题
 > BEGIN STRING
 \\E…えと、お兄ちゃん…
 > CONTEXT COMMONEVENT:247/1027/Message < UNTRANSLATED
-\\E…えと、欧尼酱...
+\\E……えと、欧尼酱……
 > END STRING
 
 > BEGIN STRING
 \\Eその…ト、トイレ…
 > CONTEXT COMMONEVENT:247/1032/Message < UNTRANSLATED
-\\Eその…ト、厕所…
+\\E那……那个、厕所……
 > END STRING
 
 > BEGIN STRING
 \\E…まさかついてきて欲しいのか。
 > CONTEXT COMMONEVENT:247/1034/Message < UNTRANSLATED
-\\E…难道你想跟我来吗。
+\\E……难道你想跟我来吗。
 > END STRING
 
 > BEGIN STRING
 \\Eだって怖い話するから…。
 > CONTEXT COMMONEVENT:247/1037/Message < UNTRANSLATED
-\\E但是你说了恐怖的话…。
+\\E但是你说了恐怖的话……
 > END STRING
 
 > BEGIN STRING
@@ -559,5 +559,5 @@ H的话题
 > BEGIN STRING
 \\Eうー…お兄ちゃんの意地悪…。
 > CONTEXT COMMONEVENT:247/1045/Message < UNTRANSLATED
-\\Eうー…欧尼酱…你个坏心眼。
+\\E唔……欧尼酱……你个坏心眼。
 > END STRING
