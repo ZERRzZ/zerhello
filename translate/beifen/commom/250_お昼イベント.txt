@@ -3,45 +3,49 @@
 > BEGIN STRING
 \\Eお兄ちゃん、いるー？
 > CONTEXT COMMONEVENT:250/15/Message < UNTRANSLATED
-
+\\E欧尼酱、在吗？
 > END STRING
 
 > BEGIN STRING
 \\Eあ、いた。
 よかったー、いてくれて。
 > CONTEXT COMMONEVENT:250/17/Message < UNTRANSLATED
-
+\\E啊、在。
+太好了、你在这儿！
 > END STRING
 
 > BEGIN STRING
 \\Eはい、これ。
 みんなで食べてね。
 > CONTEXT COMMONEVENT:250/19/Message < UNTRANSLATED
-
+\\E好、这个。
+大家一起吃吧。
 > END STRING
 
 > BEGIN STRING
 \\Eわー、もう行かなきゃ。
 じゃあ頑張ってねお兄ちゃん。
 > CONTEXT COMMONEVENT:250/21/Message < UNTRANSLATED
-
+\\E哇、已经要走了。
+那么加油哦，欧尼酱。
 > END STRING
 
 > BEGIN STRING
 \\Eお、おい…。
 > CONTEXT COMMONEVENT:250/25/Message < UNTRANSLATED
-
+\\E喂、喂……
 > END STRING
 
 > BEGIN STRING
 \\Eうーん、なんともあわただしく行ってしまった…。
 > CONTEXT COMMONEVENT:250/26/Message < UNTRANSLATED
-
+\\E唔、真是匆匆忙忙的出去了……
 > END STRING
 
 > BEGIN STRING
 \\Eお昼休みに妹が差し入れを持ってきてくれた！
 やる気が上がった！
 > CONTEXT COMMONEVENT:250/27/Message < UNTRANSLATED
-
+\\E午休时妹妹给我拿了慰问品！
+干劲上升了！
 > END STRING

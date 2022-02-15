@@ -4,103 +4,116 @@
 \\E交流戦を行うわよー
 事件も一応落ち着いたってことで久々の交流戦ね。
 > CONTEXT COMMONEVENT:251/29/Message < UNTRANSLATED
-
+\\E进行交流战吧，
+事件也大体平静下来了，真是久违的交流战啊。
 > END STRING
 
 > BEGIN STRING
 \\E今回の相手は…「冒険者協会タウン支部」よ。
 > CONTEXT COMMONEVENT:251/30/Message < UNTRANSLATED
-
+\\E这次的对手是“冒险者协会城镇支部”哦。
 > END STRING
 
 > BEGIN STRING
 \\E色々あって大会の決勝は流れちゃったけど…
 この交流戦でスッキリとさせちゃいましょ！
 > CONTEXT COMMONEVENT:251/31/Message < UNTRANSLATED
-
+\\E虽然发生了各种各样的事情，大会的决赛也结束了……
+但是在这次的交流战中一起进行清爽的战斗吧！
 > END STRING
 
 > BEGIN STRING
 \\E交流戦は\\c[2]3日後\\c[0]だから備えておいてね。
 > CONTEXT COMMONEVENT:251/32/Message < UNTRANSLATED
-
+\\E交流战在\\c[2]3日后\\c[0]所以说要做好准备哦。
 > END STRING
 
 > BEGIN STRING
 \\Eタウン支部…アカツキか…負けないぞ！
 やる気があがった！
 > CONTEXT COMMONEVENT:251/34/Message < UNTRANSLATED
-
+\\E城镇支部……アカツキ……是不会输的！
+要有干劲啊！
 > END STRING
 
 > BEGIN STRING
 \\E交流戦
 <R\>\\f[18]あと\\cself[51]日
 > CONTEXT COMMONEVENT:251/45/Picture < UNTRANSLATED
-
+\\E交流战
+<R\>\\f[18]还有\\cself[51]日
 > END STRING
 
 > BEGIN STRING
 \\Eおはよう、お兄ちゃん。
 そろそろ八会の地区予選が始まるわよ。
 > CONTEXT COMMONEVENT:251/84/Message < UNTRANSLATED
-
+\\E早上好、欧尼酱。
+差不多八会的地区预选就要开始了。
 > END STRING
 
 > BEGIN STRING
 \\E交流戦と違って\\c[2]負けられない戦い\\c[0]になるわ。
 初戦で負けるようじゃ\\c[2]先はない\\c[0]わよ、頑張って。
 > CONTEXT COMMONEVENT:251/85/Message < UNTRANSLATED
-
+\\E和交流战不同的是\\c[2]这是场不能输的战斗\\c[0]。
+在初战中就输了的话\\c[2]就没有未来了\\c[0]，加油。
 > END STRING
 
 > BEGIN STRING
 \\Eメクア支部の出番は\\c[2]3日後の木曜\\c[0]よ。
 それまでに備えておいてね。
 > CONTEXT COMMONEVENT:251/86/Message < UNTRANSLATED
-
+\\Eメクア支部的出场在\\c[2]3日后的星期四\\c[0]哦。
+在那之前做好准备吧。
 > END STRING
 
 > BEGIN STRING
 \\E地区予選
 <R\>\\f[18]あと3日
 > CONTEXT COMMONEVENT:251/87/Picture < UNTRANSLATED
-
+\\E地区预选
+<R\>\\f[18]还有3日
 > END STRING
 
 > BEGIN STRING
 \\Eそろそろまた交流戦を行うわよ―
 交流戦は\\c[2]3日後の木曜日\\c[0]だから備えておいてね。
 > CONTEXT COMMONEVENT:251/126/Message < UNTRANSLATED
-
+\\E差不多该再进行交流战了，
+交流战在\\c[2]3日后的星期四\\c[0]，所以说要做好准备哦。
 > END STRING
 
 > BEGIN STRING
 \\E八会で優勝
 <R\>\\f[18]交流戦まであと3日
 > CONTEXT COMMONEVENT:251/127/Picture < UNTRANSLATED
-
+\\E八会获胜
+<R\>\\f[18]交流还有3日
 > END STRING
 
 > BEGIN STRING
 \\E地区予選の次の相手が決まったわよ。
 次の相手は…前に交流戦で戦った美食倶楽部よ。
 > CONTEXT COMMONEVENT:251/144/Message < UNTRANSLATED
-
+\\E地区预选的下一个对手定下来了哦。
+下一个对手是……之前在交流战中战斗过的美食俱乐部哦。
 > END STRING
 
 > BEGIN STRING
 \\E一度負けている相手ではあるけど…
 逆に自分たちの成長を確認するいい機会でもあるわ。
 > CONTEXT COMMONEVENT:251/145/Message < UNTRANSLATED
-
+\\E虽然是输过一次的对手……
+反过来也是确认自己成长的好机会。
 > END STRING
 
 > BEGIN STRING
 \\Eあの頃とは違うって所を見せつけましょ。
 試合は\\c[2]3日後の木曜日\\c[0]だから備えておいてね。
 > CONTEXT COMMONEVENT:251/146/Message < UNTRANSLATED
-
+\\E让我们看看和那时不一样的地方吧。
+比赛在\\c[2]3日后的星期四\\c[0]所以要准备好。
 > END STRING
 
 > BEGIN STRING
