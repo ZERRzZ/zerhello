@@ -3,7 +3,7 @@
 > BEGIN STRING
 \\Eよし、張り切って働くか…！
 > CONTEXT COMMONEVENT:252/10/Message < UNTRANSLATED
-
+\\E好吧、充满热情的开始吧……！
 > END STRING
 
 > BEGIN STRING
@@ -15,11 +15,11 @@
 > BEGIN STRING
 \\Eよし、やるか…！
 > CONTEXT COMMONEVENT:252/136/Message < UNTRANSLATED
-
+\\E好吧、干吧……！
 > END STRING
 
 > BEGIN STRING
 \\Eよーし、今日は走るか！
 > CONTEXT COMMONEVENT:252/293/Message < UNTRANSLATED
-
+\\E好吧、今天就跑吧！
 > END STRING

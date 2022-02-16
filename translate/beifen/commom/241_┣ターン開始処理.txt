@@ -47,7 +47,7 @@
 > BEGIN STRING
 \\f[16]「「カズヤー頑張ってー！！」」
 > CONTEXT COMMONEVENT:241/150/Picture < UNTRANSLATED
-\\f[16]「「カズヤー加油ー！！」」
+\\f[16]“カズヤー加油ー！！”
 > END STRING
 
 > BEGIN STRING

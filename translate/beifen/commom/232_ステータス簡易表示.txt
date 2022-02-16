@@ -99,7 +99,7 @@
 > BEGIN STRING
 \\E\\f[16]シスタートラベル\n
 > CONTEXT COMMONEVENT:232/100/Picture
-\\E\\f[16]修女ー旅行\n
+\\E\\f[16]修女旅行\n
 > END STRING
 
 > BEGIN STRING
@@ -321,7 +321,7 @@
 > BEGIN STRING
 \\c[0]\\E\\f[16]ギンギン
 > CONTEXT COMMONEVENT:232/492/Picture
-\\c[0]\\E\\f[16]金金
+\\c[0]\\E\\f[16]ギンギン
 > END STRING
 
 > BEGIN STRING
@@ -386,6 +386,6 @@
 \\f[14]\\E\\c[1]おちんちんびろーん\\c[0]や\\c[1]特定のスキンシップ\\c[0]、
 イベントなどで調子を取り戻す事が可能です。
 > CONTEXT COMMONEVENT:232/585/Message < UNTRANSLATED
-\\f[14]\\E\\c[1]欧金金びろーん\\c[0]是\\c[1]特定的身体接触\\c[0]、
+\\f[14]\\E\\c[1]おちんちんびろーん\\c[0]是\\c[1]特定的身体接触\\c[0]、
 有可能在活动中重回正轨
 > END STRING

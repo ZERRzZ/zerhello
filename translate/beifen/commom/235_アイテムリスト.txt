@@ -21,7 +21,7 @@
 > BEGIN STRING
 \\c[9]\\f[16]安眠茶　　　　×\\v[93]
 > CONTEXT COMMONEVENT:235/66/Picture < UNTRANSLATED
-
+\\c[9]\\f[16]安眠茶　　　　×\\v[93]
 > END STRING
 
 > BEGIN STRING
@@ -69,25 +69,25 @@
 > BEGIN STRING
 \\c[9]\\f[16]えっちな本　　×\\v[276]
 > CONTEXT COMMONEVENT:235/202/Picture < UNTRANSLATED
-\\c[9]\\f[16]色色的书　　　×\\v[276]
+\\c[9]\\f[16]小黄书　　　　×\\v[276]
 > END STRING
 
 > BEGIN STRING
 \\c[9]\\f[16]薄いブック　　×\\v[277]
 > CONTEXT COMMONEVENT:235/219/Picture
-\\c[9]\\f[16]薄薄的书　　　×\\v[277]
+\\c[9]\\f[16]薄本　　　　　×\\v[277]
 > END STRING
 
 > BEGIN STRING
 \\c[9]\\f[16]安眠枕
 > CONTEXT COMMONEVENT:235/236/Picture < UNTRANSLATED
-\\c[9]\\f[16]安眠枕头
+\\c[9]\\f[16]安眠枕
 > END STRING
 
 > BEGIN STRING
 \\c[9]\\f[16]羽毛布団
 > CONTEXT COMMONEVENT:235/253/Picture < UNTRANSLATED
-\\c[9]\\f[16]羽绒棉被
+\\c[9]\\f[16]羽绒被
 > END STRING
 
 > BEGIN STRING
@@ -135,7 +135,7 @@
 > BEGIN STRING
 \\c[9]\\f[16]触手
 > CONTEXT COMMONEVENT:235/389/Picture < UNTRANSLATED
-
+\\c[9]\\f[16]触手
 > END STRING
 
 > BEGIN STRING

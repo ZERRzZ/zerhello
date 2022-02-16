@@ -69,7 +69,7 @@
 > BEGIN STRING
 不屈の
 > CONTEXT COMMONEVENT:239/158/SetString < UNTRANSLATED
-
+不屈的
 > END STRING
 
 > BEGIN STRING
@@ -81,7 +81,7 @@
 > BEGIN STRING
 \\f[16]\\s[0]が現れた！
 > CONTEXT COMMONEVENT:239/208/Picture < UNTRANSLATED
-\\f[16]\\s[0]出现了
+\\f[16]\\s[0]出现了！
 > END STRING
 
 > BEGIN STRING
@@ -205,17 +205,17 @@
 > BEGIN STRING
 \\f[16]お兄ちゃん「な、何だこの黒いモヤモヤは！？」
 > CONTEXT COMMONEVENT:239/627/Picture < UNTRANSLATED
-\\f[16]欧尼酱「这黑色的烟雾到底是什么啊！？」
+\\f[16]欧尼酱“这黑色的烟雾到底是什么啊！？”
 > END STRING
 
 > BEGIN STRING
 \\f[16]\\s[0]との戦いに勝利した！
 > CONTEXT COMMONEVENT:239/659/Picture < UNTRANSLATED
-\\f[16]\\s[0]这场战斗胜利了
+\\f[16]\\s[0]这场战斗胜利了！
 > END STRING
 
 > BEGIN STRING
 \\f[16]\\s[0]との戦いに負けてしまった…
 > CONTEXT COMMONEVENT:239/713/Picture < UNTRANSLATED
-\\f[16]\\s[0]这场战斗输掉了
+\\f[16]\\s[0]这场战斗输掉了……
 > END STRING

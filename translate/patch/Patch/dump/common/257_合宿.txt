@@ -4,153 +4,162 @@
 \\Eさあ合宿だ！
 どうしようかな…
 > CONTEXT COMMONEVENT:257/11/Message < UNTRANSLATED
-
+\\E那么合宿了！
+怎么办呢……
 > END STRING
 
 > BEGIN STRING
 \\E午後はどうしようか…？
 > CONTEXT COMMONEVENT:257/14/Message < UNTRANSLATED
-
+\\E下午怎么办呢……？
 > END STRING
 
 > BEGIN STRING
 攻撃の能力を鍛えたい！
 > CONTEXT COMMONEVENT:257/45/Choices < UNTRANSLATED
-
+想锻炼攻击的能力！
 > END STRING
 
 > BEGIN STRING
 防御の能力を鍛えたい！
 > CONTEXT COMMONEVENT:257/45/Choices < UNTRANSLATED
-
+想锻炼防御的能力！
 > END STRING
 
 > BEGIN STRING
 スキル能力を鍛えたい！
 > CONTEXT COMMONEVENT:257/45/Choices < UNTRANSLATED
-
+想锻炼技能能力！
 > END STRING
 
 > BEGIN STRING
 リフレッシュする！
 > CONTEXT COMMONEVENT:257/45/Choices < UNTRANSLATED
-
+恢复精神！
 > END STRING
 
 > BEGIN STRING
 \\Eだいぶ疲れているがいいのか？
 \\c[2]特訓効果と調子が下がります。\\c[0]
 > CONTEXT COMMONEVENT:257/50/Message < UNTRANSLATED
-
+\\E已经相当的疲劳了，还继续吗？
+\\c[2]特训的效果和状况会下降。\\c[0]
 > END STRING
 
 > BEGIN STRING
 \\Eやるか…。
 > CONTEXT COMMONEVENT:257/53/Message < UNTRANSLATED
-
+\\E要做吗……
 > END STRING
 
 > BEGIN STRING
 \\Eよし！やるぞ！
 > CONTEXT COMMONEVENT:257/67/Message < UNTRANSLATED
-
+\\E好！干吧！
 > END STRING
 
 > BEGIN STRING
 \\Eうおおお！リフレッシュするぞ！
 > CONTEXT COMMONEVENT:257/177/Message < UNTRANSLATED
-
+\\E好吧！振作起来！
 > END STRING
 
 > BEGIN STRING
 \\Eおにーちゃーん！
 > CONTEXT COMMONEVENT:257/222/Message < UNTRANSLATED
-
+\\E欧尼～酱～～～！
 > END STRING
 
 > BEGIN STRING
 \\Eおつかれさま。
 そろそろお昼にしよ。
 > CONTEXT COMMONEVENT:257/224/Message < UNTRANSLATED
-
+\\E辛苦了。
+差不多该吃午饭了。
 > END STRING
 
 > BEGIN STRING
 \\Eお、もうそんな時間か。
 > CONTEXT COMMONEVENT:257/227/Message < UNTRANSLATED
-
+\\E哦、已经到这个时间了吗。
 > END STRING
 
 > BEGIN STRING
 \\Eはいラスト一本～！
 > CONTEXT COMMONEVENT:257/249/Message < UNTRANSLATED
-
+\\E好最后一本～！
 > END STRING
 
 > BEGIN STRING
 \\Eうおおおお！
 > CONTEXT COMMONEVENT:257/252/Message < UNTRANSLATED
-
+\\E唔哦哦哦哦！
 > END STRING
 
 > BEGIN STRING
 \\Eぜぇ…ぜぇ…。
 こ、この調子で一週間か…。
 > CONTEXT COMMONEVENT:257/266/Message < UNTRANSLATED
-
+\\E哼……哼……
+这个、按这个样子过一周吗……
 > END STRING
 
 > BEGIN STRING
 \\E…大丈夫なのか？
 > CONTEXT COMMONEVENT:257/267/Message < UNTRANSLATED
-
+\\E……没问题吗？
 > END STRING
 
 > BEGIN STRING
 \\Eお、ユカリさんと…妹？
 なんだか珍しい組み合わせだな。
 > CONTEXT COMMONEVENT:257/274/Message < UNTRANSLATED
-
+\\E哦、“ユカリ”酱和妹妹酱？
+总觉得是很少见的组合呢。
 > END STRING
 
 > BEGIN STRING
 \\E…けど妹ちゃんの場合ちょっと気弱そうに見えるから、
 もう少し砕けたほうがいいのかもねー。
 > CONTEXT COMMONEVENT:257/280/Message < UNTRANSLATED
-
+\\E……但是妹妹的话看起来有点虚弱啊、
+再稍微碎一点比较好呢。
 > END STRING
 
 > BEGIN STRING
 \\Eほらぁ、良くも悪くも大雑把な人とか多いでしょ？
 冒険者相手なんかざっくり強気くらいで丁度いいのよ。
 > CONTEXT COMMONEVENT:257/282/Message < UNTRANSLATED
-
+\\E你看，不管好坏，大概很多人都是粗枝大叶的吧？
+冒险者对手的话稍微强势一点正好哦。
 > END STRING
 
 > BEGIN STRING
 \\E何の話だ…？
 > CONTEXT COMMONEVENT:257/285/Message < UNTRANSLATED
-
+\\E说什么呢……？
 > END STRING
 
 > BEGIN STRING
 \\E減るので止めてください、とか
 はいはいそういうのいいから、このあたりは使えるわね。
 > CONTEXT COMMONEVENT:257/288/Message < UNTRANSLATED
-
+\\E因为会减少，所以请停下来、
+是的是的，那样挺好的，这附近可以用。
 > END STRING
 
 > BEGIN STRING
 \\Eお兄ちゃんとあたりがヘンな事したらバカじゃねーの？
 くらい言ってやればいいわよ。
 > CONTEXT COMMONEVENT:257/291/Message < UNTRANSLATED
-
+\\E如果和哥哥做了一些奇怪的事情，那不是傻瓜吗？
+说点什么就好了。
 > END STRING
 
 > BEGIN STRING
 \\Eば、ばかじゃないの…ですか。
 > CONTEXT COMMONEVENT:257/295/Message < UNTRANSLATED
-
+\\E这、这不是笨蛋吗。
 > END STRING
 
 > BEGIN STRING

@@ -3,13 +3,13 @@
 > BEGIN STRING
 \\f[18]？\\f[14]日目
 > CONTEXT COMMONEVENT:217/4/Picture < UNTRANSLATED
-\\f[18]？\\f[14]日
+第\\f[18]？\\f[14]日
 > END STRING
 
 > BEGIN STRING
 \\f[18]\\v[160]\\f[14]日目
 > CONTEXT COMMONEVENT:217/7/Picture < UNTRANSLATED
-\\f[18]\\v[160]\\f[14]日
+第\\f[18]\\v[160]\\f[14]日
 > END STRING
 
 > BEGIN STRING

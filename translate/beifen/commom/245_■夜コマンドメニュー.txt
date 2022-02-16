@@ -15,7 +15,7 @@
 > BEGIN STRING
 Hしたい！！
 > CONTEXT COMMONEVENT:245/9/SetString < UNTRANSLATED
-想要 H !
+想要色色！
 > END STRING
 
 > BEGIN STRING
@@ -46,7 +46,7 @@ Hしたい！！
 > BEGIN STRING
 \\Eうーん、具合が良くないみたいだ…。
 > CONTEXT COMMONEVENT:245/44/Message < UNTRANSLATED
-\\唔嗯, 我好像不舒服...
+\\唔嗯, 我好像不舒服……
 > END STRING
 
 > BEGIN STRING
@@ -94,20 +94,20 @@ Hしたい！！
 今日はもう寝る
 > CONTEXT COMMONEVENT:245/51/Choices < UNTRANSLATED
 > CONTEXT MPS:SampleMapA/events/4/pages/5/11/Choices < UNTRANSLATED
-要睡觉了...
+要睡觉了……
 > END STRING
 
 > BEGIN STRING
 \\E今日はもう疲れたな…。
 > CONTEXT COMMONEVENT:245/56/Message < UNTRANSLATED
 > CONTEXT MPS:SampleMapA_1/events/4/pages/2/68/Message < UNTRANSLATED
-\\E今天已经累了...
+\\E今天已经累了……
 > END STRING
 
 > BEGIN STRING
 \\Eあまりスキンシップ…って空気じゃないが…。
 > CONTEXT COMMONEVENT:245/64/Message < UNTRANSLATED
-\\E不要过多的身体接触, 又不是空气...
+\\E不要过多的身体接触，又不是空气……
 > END STRING
 
 > BEGIN STRING
@@ -128,13 +128,13 @@ Hしたい！！
 > CONTEXT COMMONEVENT:245/71/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:285/152/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:326/114/Message < UNTRANSLATED
-\\E对哦
+\\E对哦。
 > END STRING
 
 > BEGIN STRING
 \\Eとてもスキンシップ…って空気じゃないが…。
 > CONTEXT COMMONEVENT:245/82/Message < UNTRANSLATED
-\\E太多的身体接触了, 又不是空气...
+\\E太多的身体接触了，又不是空气……
 > END STRING
 
 > BEGIN STRING
@@ -146,58 +146,58 @@ Hしたい！！
 > BEGIN STRING
 \\Eふう…少し疲れたな…。
 > CONTEXT COMMONEVENT:245/130/Message < UNTRANSLATED
-\\E呼嗯...有点累了...
+\\E呼嗯……有点累了……
 > END STRING
 
 > BEGIN STRING
 \\E…さすがに疲れてヘトヘトだ…。
 > CONTEXT COMMONEVENT:245/140/Message < UNTRANSLATED
-\\E...果然是累的不行了...
+\\E……果然是累的不行了……
 > END STRING
 
 > BEGIN STRING
 \\Eよし、お兄ちゃんに任せろ。
 > CONTEXT COMMONEVENT:245/145/Message < UNTRANSLATED
-\\E好、就交给欧尼酱吧
+\\E好、就交给欧尼酱吧。
 > END STRING
 
 > BEGIN STRING
 \\E……………………………。
 > CONTEXT COMMONEVENT:245/149/Message < UNTRANSLATED
-
+\\E……………………………
 > END STRING
 
 > BEGIN STRING
 \\E…少し落ち着いてくれたようだ。
 > CONTEXT COMMONEVENT:245/165/Message < UNTRANSLATED
-\\E...似乎冷静了一点
+\\E……似乎冷静了一点。
 > END STRING
 
 > BEGIN STRING
 \\Eお茶は…もういいかな…。
 > CONTEXT COMMONEVENT:245/176/Message < UNTRANSLATED
-\\E喝茶...可以吗...
+\\E喝茶……可以吗……
 > END STRING
 
 > BEGIN STRING
 \\E正直身体を拭いてあげるのはドキっとするな…
 もしもっとこう…ぐいっと…
 > CONTEXT COMMONEVENT:245/196/Message < UNTRANSLATED
-\\E老实说, 擦身体不要惊讶...
-如果更像这样...
+\\E老实说擦身体的时候心不要一直在跳啊……
+如果那里……一下子……
 > END STRING
 
 > BEGIN STRING
 \\Eスキル まんぐり返しのひらめきを得た！
 > CONTEXT COMMONEVENT:245/198/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:317/136/Message < UNTRANSLATED
-\\E技能 打桩机 的灵感得到了!
+\\E技能 “まんぐり返し”的灵感得到了!
 > END STRING
 
 > BEGIN STRING
 \\E風呂はさっき入ったぞ…。
 > CONTEXT COMMONEVENT:245/208/Message < UNTRANSLATED
-\\E刚才已经入浴了...
+\\E刚才已经入浴了……
 > END STRING
 
 > BEGIN STRING
@@ -224,50 +224,50 @@ Hしたい！！
 \\Eよーし…やるか！
 > CONTEXT COMMONEVENT:245/226/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:313/1/Message < UNTRANSLATED
-\\E好...开始吧！
+\\E好……开始吧！
 > END STRING
 
 > BEGIN STRING
 \\Eふう…いい汗をかいたぞ…。
 > CONTEXT COMMONEVENT:245/235/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:313/12/Message < UNTRANSLATED
-\\E呼...流了很多的汗...
+\\E呼……流了很多的汗……
 > END STRING
 
 > BEGIN STRING
 \\Eふう…このくらいにしておくか…。
 > CONTEXT COMMONEVENT:245/303/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:313/85/Message < UNTRANSLATED
-\\E呼...是关于这个的吗...
+\\E呼……是关于这个的吗……
 > END STRING
 
 > BEGIN STRING
 \\Eお疲れさま、お兄ちゃん。
 > CONTEXT COMMONEVENT:245/333/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:310/574/Message < UNTRANSLATED
-\\E辛苦了, 欧尼酱
+\\E辛苦了、欧尼酱。
 > END STRING
 
 > BEGIN STRING
 \\Eうん…しよっか…。
 > CONTEXT COMMONEVENT:245/345/Message < UNTRANSLATED
-\\E唔嗯...那就做吧...
+\\E唔嗯……那就做吧……
 > END STRING
 
 > BEGIN STRING
 \\Eあまりそういう事する気分じゃないの…ごめんね。
 > CONTEXT COMMONEVENT:245/357/Message < UNTRANSLATED
-\\E我不想做那么多……对不起。
+\\E不太有做那些事情的心情……对不起啊。
 > END STRING
 
 > BEGIN STRING
 \\Eそういうの好きじゃないの…ごめんね。
 > CONTEXT COMMONEVENT:245/365/Message < UNTRANSLATED
-\\E我不喜欢那样...对不起。
+\\E我不喜欢那样……对不起。
 > END STRING
 
 > BEGIN STRING
 \\Eお兄ちゃんはそれしか頭にないの…？
 > CONTEXT COMMONEVENT:245/375/Message < UNTRANSLATED
-\\E欧尼酱除这以外头脑里就没有其他的吗...?
+\\E欧尼酱除这种事情以外头脑里就没有其他的吗……?
 > END STRING

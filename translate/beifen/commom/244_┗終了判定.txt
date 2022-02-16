@@ -15,25 +15,25 @@
 > BEGIN STRING
 \\f[16]「あなたはここで一緒にあたしと死ぬの。」
 > CONTEXT COMMONEVENT:244/193/Picture < UNTRANSLATED
-\\f[16]「你就在这里和我一起死去吗」
+\\f[16]“你就在这里和我一起死去吗”
 > END STRING
 
 > BEGIN STRING
 \\f[16]「だいじょうぶ、痛いのは一瞬だから…。」
 > CONTEXT COMMONEVENT:244/196/Picture < UNTRANSLATED
-\\f[16]「没关系、疼痛只是一瞬间的事儿...」
+\\f[16]“没关系、疼痛只是一瞬间的事儿……”
 > END STRING
 
 > BEGIN STRING
 \\f[16]「いっしょに逝こう？」
 > CONTEXT COMMONEVENT:244/199/Picture < UNTRANSLATED
-\\f[16]「一起死去吗？」
+\\f[16]“一起死去吗？”
 > END STRING
 
 > BEGIN STRING
 \\f[16]「好き。」
 > CONTEXT COMMONEVENT:244/202/Picture < UNTRANSLATED
-\\f[16]「喜欢。」
+\\f[16]“喜欢。”
 > END STRING
 
 > BEGIN STRING

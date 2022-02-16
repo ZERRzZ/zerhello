@@ -32,37 +32,37 @@
 > BEGIN STRING
 \\f[16]ユニコーンはディスクを叩き割った！
 > CONTEXT COMMONEVENT:243/57/Picture < UNTRANSLATED
-\\f[16]独角兽把碟子砸了！
+\\f[16]“独角兽”把碟子砸了！
 > END STRING
 
 > BEGIN STRING
 \\f[16]ユニコーンは心無いコメントを書き込んだ！
 > CONTEXT COMMONEVENT:243/60/Picture < UNTRANSLATED
-\\f[16]独角兽写了一个无情的评论！
+\\f[16]“独角兽”写了一个无情的评论！
 > END STRING
 
 > BEGIN STRING
 \\f[16]ユニコーンは口汚く罵った！
 > CONTEXT COMMONEVENT:243/63/Picture < UNTRANSLATED
-\\f[16]独角兽在骂人！
+\\f[16]“独角兽”在骂人！
 > END STRING
 
 > BEGIN STRING
 \\f[16]ユニコーンは憤慨している！
 > CONTEXT COMMONEVENT:243/66/Picture < UNTRANSLATED
-\\f[16]独角兽愤愤不平！
+\\f[16]“独角兽”愤愤不平！
 > END STRING
 
 > BEGIN STRING
 \\f[16]イカ大王の触手攻撃！
 > CONTEXT COMMONEVENT:243/78/Picture < UNTRANSLATED
-\\f[16]乌贼大王的触手攻击！
+\\f[16]“乌贼大王”的触手攻击！
 > END STRING
 
 > BEGIN STRING
 \\f[16]イカ大王はスミを吐いた！
 > CONTEXT COMMONEVENT:243/89/Picture < UNTRANSLATED
-\\f[16]乌贼大王吐出了スミ！
+\\f[16]“乌贼大王”吐出了スミ！
 > END STRING
 
 > BEGIN STRING
@@ -74,25 +74,25 @@
 > BEGIN STRING
 \\f[16]サイコマッチョは力をためている…！
 > CONTEXT COMMONEVENT:243/116/Picture < UNTRANSLATED
-\\f[16]サイコマッチョ正在积蓄力量！
+\\f[16]“精神病”正在积蓄力量！
 > END STRING
 
 > BEGIN STRING
 \\f[16]サイコマッチョの筋肉が膨れ上がる！
 > CONTEXT COMMONEVENT:243/122/Picture < UNTRANSLATED
-\\f[16]サイコマッチョ肌肉膨胀！
+\\f[16]“精神病”肌肉膨胀！
 > END STRING
 
 > BEGIN STRING
 \\f[16]サイコマッチョの痛恨の一撃！
 > CONTEXT COMMONEVENT:243/128/Picture < UNTRANSLATED
-\\f[16]サイコマッチョ的痛恨的一击！
+\\f[16]“精神病”的痛恨的一击！
 > END STRING
 
 > BEGIN STRING
 \\f[16]サイレントキラーは膨れだした！
 > CONTEXT COMMONEVENT:243/162/Picture < UNTRANSLATED
-\\f[16]无声杀手开始膨胀了！
+\\f[16]“无声杀手”开始膨胀了！
 > END STRING
 
 > BEGIN STRING
@@ -110,7 +110,7 @@
 > BEGIN STRING
 \\f[16]サイレントキラーはますます膨れだした！
 > CONTEXT COMMONEVENT:243/183/Picture < UNTRANSLATED
-\\f[16]无声杀手越来越膨胀了！
+\\f[16]“无声杀手”越来越膨胀了！
 > END STRING
 
 > BEGIN STRING
@@ -122,13 +122,13 @@
 > BEGIN STRING
 \\f[16]\\s[0]の攻撃をブロック！\\cself[13]のダメージを受けた！
 > CONTEXT COMMONEVENT:243/245/Picture < UNTRANSLATED
-\\f[16]\\s[0]的攻击封锁了！收到了\\cself[13]的伤害！
+\\f[16]\\s[0]的攻击被封锁了！收到了\\cself[13]的伤害！
 > END STRING
 
 > BEGIN STRING
 \\f[16]グイン「これも勝負なんで、悪いな。」
 > CONTEXT COMMONEVENT:243/273/Picture < UNTRANSLATED
-\\f[16]グイン「这也算得上是一场对决吗, 真是糟糕。」
+\\f[16]“グイン”“这也算得上是一场对决吗, 真是糟糕。”
 > END STRING
 
 > BEGIN STRING
@@ -140,19 +140,19 @@
 > BEGIN STRING
 \\f[16]？？？「見せてやろう！」
 > CONTEXT COMMONEVENT:243/305/Picture < UNTRANSLATED
-\\f[16]？？？「让我们看看！」
+\\f[16]？？？“让我们看看！”
 > END STRING
 
 > BEGIN STRING
 \\f[16]兄者「フハハハ！これが鋼の肉体よ！」
 > CONTEXT COMMONEVENT:243/319/Picture < UNTRANSLATED
-\\f[16]兄者「呼哈哈哈！这是钢铁之躯！」
+\\f[16]兄者“呼哈哈哈！这是钢铁之躯！”
 > END STRING
 
 > BEGIN STRING
 \\f[16]弟者「マッシブ…ブロウッ！！」
 > CONTEXT COMMONEVENT:243/325/Picture < UNTRANSLATED
-\\f[16]弟者「大呼...！！」
+\\f[16]弟者“大呼...！！”
 > END STRING
 
 > BEGIN STRING
@@ -166,13 +166,13 @@
 > BEGIN STRING
 \\f[16]グイン「ちっ…仕留めきれないか…。」
 > CONTEXT COMMONEVENT:243/342/Picture < UNTRANSLATED
-\\f[16]グイン「那个……你不能说完吗……。」
+\\f[16]“グイン”“那个……你不能说完吗……。”
 > END STRING
 
 > BEGIN STRING
 \\f[16]カズヤ「ここで…決める！」
 > CONTEXT COMMONEVENT:243/366/Picture < UNTRANSLATED
-\\f[16]カズヤ「就在这里下决定！」
+\\f[16]“カズヤ”“就在这里下决定！”
 > END STRING
 
 > BEGIN STRING
@@ -186,7 +186,7 @@
 > BEGIN STRING
 \\f[16]カズヤ「くらえっ！！」
 > CONTEXT COMMONEVENT:243/376/Picture < UNTRANSLATED
-\\f[16]カズヤ「接招！！」
+\\f[16]“カズヤ”“接招！！”
 > END STRING
 
 > BEGIN STRING
@@ -206,14 +206,14 @@
 \\f[16]「わたしが守ります！」
 > CONTEXT COMMONEVENT:243/503/Picture < UNTRANSLATED
 > CONTEXT COMMONEVENT:244/81/Picture < UNTRANSLATED
-\\f[16]「我会保护你的！」
+\\f[16]“我会保护你的！”
 > END STRING
 
 > BEGIN STRING
 \\f[16]ユイの献身で戦力が\\cself[40]回復した！
 > CONTEXT COMMONEVENT:243/517/Picture < UNTRANSLATED
 > CONTEXT COMMONEVENT:244/95/Picture < UNTRANSLATED
-\\f[16]ユイ的献身使战力回复了\\cself[40]！
+\\f[16]“ユイ”的献身使战力回复了\\cself[40]！
 > END STRING
 
 > BEGIN STRING
