@@ -30,20 +30,24 @@
 他愛もない話題
 > CONTEXT COMMONEVENT:247/8/Choices < UNTRANSLATED
 > CONTEXT COMMONEVENT:360/37/Choices < UNTRANSLATED
-闲散的话题
+闲散话题
 > END STRING
 
 > BEGIN STRING
 えっちな話題
 > CONTEXT COMMONEVENT:247/8/Choices < UNTRANSLATED
 > CONTEXT COMMONEVENT:360/37/Choices < UNTRANSLATED
+<<<<<<< HEAD:translate/beifen/commom/247_┣コミュニケーション.txt
 色色的话题
+=======
+H 话题
+>>>>>>> 2ca49d9551de6b962fd644b1ecb2c373ca13fd65:translate/beifen/common/247_┣コミュニケーション.txt
 > END STRING
 
 > BEGIN STRING
 怖い話
 > CONTEXT COMMONEVENT:247/8/Choices < UNTRANSLATED
-恐怖的话题
+恐怖话题
 > END STRING
 
 > BEGIN STRING
@@ -94,13 +98,21 @@
 > BEGIN STRING
 \\E………………はぁ…。
 > CONTEXT COMMONEVENT:247/86/Message < UNTRANSLATED
+<<<<<<< HEAD:translate/beifen/commom/247_┣コミュニケーション.txt
 \\E………………哦……
+=======
+\\E………………哈……
+>>>>>>> 2ca49d9551de6b962fd644b1ecb2c373ca13fd65:translate/beifen/common/247_┣コミュニケーション.txt
 > END STRING
 
 > BEGIN STRING
 \\E………………そうなんだ。
 > CONTEXT COMMONEVENT:247/102/Message < UNTRANSLATED
+<<<<<<< HEAD:translate/beifen/commom/247_┣コミュニケーション.txt
 \\E………………是那样啊。
+=======
+\\E………………是这样啊。
+>>>>>>> 2ca49d9551de6b962fd644b1ecb2c373ca13fd65:translate/beifen/common/247_┣コミュニケーション.txt
 > END STRING
 
 > BEGIN STRING
@@ -108,14 +120,22 @@
 > CONTEXT COMMONEVENT:247/119/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:279/230/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:360/66/Message < UNTRANSLATED
+<<<<<<< HEAD:translate/beifen/commom/247_┣コミュニケーション.txt
 \\E说了一点色色的话。
+=======
+\\E说了一点 H 的话。
+>>>>>>> 2ca49d9551de6b962fd644b1ecb2c373ca13fd65:translate/beifen/common/247_┣コミュニケーション.txt
 > END STRING
 
 > BEGIN STRING
 \\E普通に嫌がられた。
 > CONTEXT COMMONEVENT:247/128/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:360/77/Message < UNTRANSLATED
+<<<<<<< HEAD:translate/beifen/commom/247_┣コミュニケーション.txt
 \\E很普通的讨厌。
+=======
+\\E普通的被讨厌了。
+>>>>>>> 2ca49d9551de6b962fd644b1ecb2c373ca13fd65:translate/beifen/common/247_┣コミュニケーション.txt
 > END STRING
 
 > BEGIN STRING
@@ -193,7 +213,11 @@
 > BEGIN STRING
 えっちな本　 \\f[12]所持(\\v[276])\\f[20]
 > CONTEXT COMMONEVENT:247/292/Choices < UNTRANSLATED
+<<<<<<< HEAD:translate/beifen/commom/247_┣コミュニケーション.txt
 小黄书　　　 \\f[12]所持(\\v[276])\\f[20]
+=======
+H 的书　　 \\f[12]所持(\\v[276])\\f[20]
+>>>>>>> 2ca49d9551de6b962fd644b1ecb2c373ca13fd65:translate/beifen/common/247_┣コミュニケーション.txt
 > END STRING
 
 > BEGIN STRING
@@ -205,7 +229,11 @@
 > BEGIN STRING
 \\Eレッドキャップと呼ばれたゴブリンの物語らしい。
 > CONTEXT COMMONEVENT:247/298/Message < UNTRANSLATED
+<<<<<<< HEAD:translate/beifen/commom/247_┣コミュニケーション.txt
 \\E好像是一个叫红帽的妖精的故事。
+=======
+\\E好像是一个叫小红帽的童话故事。
+>>>>>>> 2ca49d9551de6b962fd644b1ecb2c373ca13fd65:translate/beifen/common/247_┣コミュニケーション.txt
 > END STRING
 
 > BEGIN STRING
@@ -257,7 +285,11 @@
 > BEGIN STRING
 \\E……せ、正義とは一体…。
 > CONTEXT COMMONEVENT:247/367/Message < UNTRANSLATED
+<<<<<<< HEAD:translate/beifen/commom/247_┣コミュニケーション.txt
 \\E……好吧、正义是其中之一。
+=======
+\\E……好吧、正义是其中之一……
+>>>>>>> 2ca49d9551de6b962fd644b1ecb2c373ca13fd65:translate/beifen/common/247_┣コミュニケーション.txt
 > END STRING
 
 > BEGIN STRING
@@ -269,15 +301,24 @@
 > BEGIN STRING
 \\Eお話の続き、気になるね…。
 > CONTEXT COMMONEVENT:247/393/Message < UNTRANSLATED
+<<<<<<< HEAD:translate/beifen/commom/247_┣コミュニケーション.txt
 \\E继续说下去、很在意呢……
+=======
+\\E继续说下去、很好奇呢……
+>>>>>>> 2ca49d9551de6b962fd644b1ecb2c373ca13fd65:translate/beifen/common/247_┣コミュニケーション.txt
 > END STRING
 
 > BEGIN STRING
 \\E巷ですごく売れているらしい冒険活劇小説だ。
 …稀に内容が消えて白紙になってしまう魔法の本だったりもする。
 > CONTEXT COMMONEVENT:247/399/Message < UNTRANSLATED
+<<<<<<< HEAD:translate/beifen/commom/247_┣コミュニケーション.txt
 \\E这是一部非常畅销的冒险小说。
 ……也有稀少的内容正在消失并变成空白的魔法书。
+=======
+\\E这是一本在街头卖得很好的冒险小说。
+……稀少的内容正在消失并变成空白的魔法书。
+>>>>>>> 2ca49d9551de6b962fd644b1ecb2c373ca13fd65:translate/beifen/common/247_┣コミュニケーション.txt
 > END STRING
 
 > BEGIN STRING
@@ -291,7 +332,11 @@
 > BEGIN STRING
 \\E……ふう、今日はここまででセーブしておくか…。
 > CONTEXT COMMONEVENT:247/420/Message < UNTRANSLATED
+<<<<<<< HEAD:translate/beifen/commom/247_┣コミュニケーション.txt
 \\E……嗯，今天就保留到这里吧……
+=======
+\\E……嗯、今天就保存到这里吧……
+>>>>>>> 2ca49d9551de6b962fd644b1ecb2c373ca13fd65:translate/beifen/common/247_┣コミュニケーション.txt
 > END STRING
 
 > BEGIN STRING
@@ -311,7 +356,11 @@
 > BEGIN STRING
 \\E………………………………ふう。
 > CONTEXT COMMONEVENT:247/453/Message < UNTRANSLATED
+<<<<<<< HEAD:translate/beifen/commom/247_┣コミュニケーション.txt
 \\E………………………………呼。
+=======
+\\E………………………………唔。
+>>>>>>> 2ca49d9551de6b962fd644b1ecb2c373ca13fd65:translate/beifen/common/247_┣コミュニケーション.txt
 > END STRING
 
 > BEGIN STRING
@@ -325,7 +374,11 @@
 …今度試してみようかな…？
 > CONTEXT COMMONEVENT:247/495/Message < UNTRANSLATED
 \\E原来如此……也有那样的东西啊……
+<<<<<<< HEAD:translate/beifen/commom/247_┣コミュニケーション.txt
 下次试一下吧……？
+=======
+……下次试一下吧……？
+>>>>>>> 2ca49d9551de6b962fd644b1ecb2c373ca13fd65:translate/beifen/common/247_┣コミュニケーション.txt
 > END STRING
 
 > BEGIN STRING
@@ -345,7 +398,11 @@
 > BEGIN STRING
 \\E……（ドン引き）
 > CONTEXT COMMONEVENT:247/538/Message < UNTRANSLATED
+<<<<<<< HEAD:translate/beifen/commom/247_┣コミュニケーション.txt
 \\E……（扫兴）
+=======
+\\E……（冷场）
+>>>>>>> 2ca49d9551de6b962fd644b1ecb2c373ca13fd65:translate/beifen/common/247_┣コミュニケーション.txt
 > END STRING
 
 > BEGIN STRING
@@ -357,7 +414,11 @@
 > BEGIN STRING
 \\Eスキル パイズリのひらめきを得た！
 > CONTEXT COMMONEVENT:247/565/Message < UNTRANSLATED
+<<<<<<< HEAD:translate/beifen/commom/247_┣コミュニケーション.txt
 \\Eスキル “パイズリ”的灵感得到了！
+=======
+\\E技能 乳交 的灵感得到了
+>>>>>>> 2ca49d9551de6b962fd644b1ecb2c373ca13fd65:translate/beifen/common/247_┣コミュニケーション.txt
 > END STRING
 
 > BEGIN STRING
@@ -369,7 +430,11 @@
 > BEGIN STRING
 \\E…もう……ばか。
 > CONTEXT COMMONEVENT:247/591/Message < UNTRANSLATED
+<<<<<<< HEAD:translate/beifen/commom/247_┣コミュニケーション.txt
 \\E……真是的……笨蛋。
+=======
+\\E……够了……笨蛋。
+>>>>>>> 2ca49d9551de6b962fd644b1ecb2c373ca13fd65:translate/beifen/common/247_┣コミュニケーション.txt
 > END STRING
 
 > BEGIN STRING
@@ -381,7 +446,11 @@
 > BEGIN STRING
 \\Eよし、ここは…
 > CONTEXT COMMONEVENT:247/727/Message < UNTRANSLATED
+<<<<<<< HEAD:translate/beifen/commom/247_┣コミュニケーション.txt
 \\E很好、这里就……
+=======
+\\E好、这里是……
+>>>>>>> 2ca49d9551de6b962fd644b1ecb2c373ca13fd65:translate/beifen/common/247_┣コミュニケーション.txt
 > END STRING
 
 > BEGIN STRING
@@ -509,7 +578,11 @@
 今日なんかの日だったっけ…？
 > CONTEXT COMMONEVENT:247/978/Message < UNTRANSLATED
 \\E诶？为什么？
+<<<<<<< HEAD:translate/beifen/commom/247_┣コミュニケーション.txt
 今天是什么日子来着……？
+=======
+今天是什么日子来着？
+>>>>>>> 2ca49d9551de6b962fd644b1ecb2c373ca13fd65:translate/beifen/common/247_┣コミュニケーション.txt
 > END STRING
 
 > BEGIN STRING
@@ -523,13 +596,21 @@
 > BEGIN STRING
 \\E…えと、お兄ちゃん…
 > CONTEXT COMMONEVENT:247/1027/Message < UNTRANSLATED
+<<<<<<< HEAD:translate/beifen/commom/247_┣コミュニケーション.txt
 \\E……那个、欧尼酱……
+=======
+\\E……えと、欧尼酱……
+>>>>>>> 2ca49d9551de6b962fd644b1ecb2c373ca13fd65:translate/beifen/common/247_┣コミュニケーション.txt
 > END STRING
 
 > BEGIN STRING
 \\Eその…ト、トイレ…
 > CONTEXT COMMONEVENT:247/1032/Message < UNTRANSLATED
+<<<<<<< HEAD:translate/beifen/commom/247_┣コミュニケーション.txt
 \\E那……那个、洗手间……
+=======
+\\E那……那个、厕所……
+>>>>>>> 2ca49d9551de6b962fd644b1ecb2c373ca13fd65:translate/beifen/common/247_┣コミュニケーション.txt
 > END STRING
 
 > BEGIN STRING
