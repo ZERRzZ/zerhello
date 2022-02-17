@@ -3,29 +3,29 @@
 > BEGIN STRING
 お風呂を覗く
 > CONTEXT COMMONEVENT:321/11/Choices < UNTRANSLATED
-
+偷看洗澡
 > END STRING
 
 > BEGIN STRING
 パンツを漁る
 > CONTEXT COMMONEVENT:321/11/Choices < UNTRANSLATED
-
+寻找胖次
 > END STRING
 
 > BEGIN STRING
 \\Eまさか妹の入浴を覗こうっていうのか…？
 > CONTEXT COMMONEVENT:321/14/Message < UNTRANSLATED
-
+\\E难道想偷看妹妹洗澡吗……？
 > END STRING
 
 > BEGIN STRING
 \\Eだよな…さすがにやめておこう…。
 > CONTEXT COMMONEVENT:321/21/Message < UNTRANSLATED
-
+\\E对哦……果然还是算了吧……
 > END STRING
 
 > BEGIN STRING
 \\E脱ぎたてのパンツをゲットしにいくのか…？
 > CONTEXT COMMONEVENT:321/32/Message < UNTRANSLATED
-
+\\E要去找刚刚脱下的胖次吗……？
 > END STRING

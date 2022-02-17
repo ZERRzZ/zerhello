@@ -122,8 +122,8 @@
 \\E…けど妹ちゃんの場合ちょっと気弱そうに見えるから、
 もう少し砕けたほうがいいのかもねー。
 > CONTEXT COMMONEVENT:257/280/Message < UNTRANSLATED
-\\E……但是妹妹的话看起来有点虚弱啊、
-再稍微碎一点比较好呢。
+\\E……但是妹妹的话看起来有点胆小啊、
+再稍微融洽一点比较好呢。
 > END STRING
 
 > BEGIN STRING
@@ -144,16 +144,16 @@
 \\E減るので止めてください、とか
 はいはいそういうのいいから、このあたりは使えるわね。
 > CONTEXT COMMONEVENT:257/288/Message < UNTRANSLATED
-\\E因为会减少，所以请停下来、
-是的是的，那样挺好的，这附近可以用。
+\\E有点害怕，还请停下来、
+是、是，不要这么说吗，在这附近可以的吧。
 > END STRING
 
 > BEGIN STRING
 \\Eお兄ちゃんとあたりがヘンな事したらバカじゃねーの？
 くらい言ってやればいいわよ。
 > CONTEXT COMMONEVENT:257/291/Message < UNTRANSLATED
-\\E如果和哥哥做了一些奇怪的事情，那不是傻瓜吗？
-说点什么就好了。
+\\E如果和哥哥在附近做了一些奇怪的事情那不是很傻吗？
+说点什么就可以哦。
 > END STRING
 
 > BEGIN STRING
@@ -165,136 +165,139 @@
 > BEGIN STRING
 \\Eだから何の話…。
 > CONTEXT COMMONEVENT:257/298/Message < UNTRANSLATED
-
+\\E所以说什么话……
 > END STRING
 
 > BEGIN STRING
 \\Eふふ、将来が楽しみねーお兄ちゃん。
 > CONTEXT COMMONEVENT:257/301/Message < UNTRANSLATED
-
+\\E呵呵、将来的话会很快乐呢，欧尼酱。
 > END STRING
 
 > BEGIN STRING
 \\E全く話が見えん！
 > CONTEXT COMMONEVENT:257/303/Message < UNTRANSLATED
-
+\\E所有的话都看不到！
 > END STRING
 
 > BEGIN STRING
 \\E5日間お疲れさま、お兄ちゃん。
 長いようであっという間だったけど今日で合宿は終わりよ。
 > CONTEXT COMMONEVENT:257/315/Message < UNTRANSLATED
-
+\\E这5天来辛苦了、欧尼酱。
+似乎很长但又转眼间的样子，今天之后合宿就结束了哦。
 > END STRING
 
 > BEGIN STRING
 \\Eそうか、もうそんななのか…。
 > CONTEXT COMMONEVENT:257/317/Message < UNTRANSLATED
-
+\\E是吗，已经是那样了啊……
 > END STRING
 
 > BEGIN STRING
 \\E再来週からもう本戦がはじまるから。
 \\c[1]できるときに買い物や技の習得は済ませておいてね。\\c[0]
 > CONTEXT COMMONEVENT:257/319/Message < UNTRANSLATED
-
+\\E下下周正式比赛就要开始了。
+\\c[1]如果可以的话购物和技能的学习都要做好哦\\c[0]。
 > END STRING
 
 > BEGIN STRING
 \\Eこうして今日も日が暮れる…。
 > CONTEXT COMMONEVENT:257/334/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:300/229/Message < UNTRANSLATED
-
+\\E就这样今天也天黑了……
 > END STRING
 
 > BEGIN STRING
 \\Eお兄ちゃん、今日もお疲れさま。
 > CONTEXT COMMONEVENT:257/345/Message < UNTRANSLATED
-
+\\E欧尼酱、今天也幸苦了。
 > END STRING
 
 > BEGIN STRING
 将来の話
 > CONTEXT COMMONEVENT:257/346/Choices < UNTRANSLATED
-
+将来的话
 > END STRING
 
 > BEGIN STRING
 えっちな話
 > CONTEXT COMMONEVENT:257/346/Choices < UNTRANSLATED
 > CONTEXT COMMONEVENT:328/164/Choices < UNTRANSLATED
-
+色色的话
 > END STRING
 
 > BEGIN STRING
 他愛もない話
 > CONTEXT COMMONEVENT:257/346/Choices < UNTRANSLATED
 > CONTEXT COMMONEVENT:328/164/Choices < UNTRANSLATED
-
+闲散的话
 > END STRING
 
 > BEGIN STRING
 \\E冒険者は無理でも…
 それを支える人になりたいな。
 > CONTEXT COMMONEVENT:257/350/Message < UNTRANSLATED
-
+\\E即使不能成为冒险者的话……
+我也想成为支持它的人。
 > END STRING
 
 > BEGIN STRING
 \\Eそしたら、ずっと一緒にいられるしね。
 > CONTEXT COMMONEVENT:257/351/Message < UNTRANSLATED
-
+\\E那样的话，就能一直在一起了。
 > END STRING
 
 > BEGIN STRING
 \\E二人でおおいに夢を語った。
 > CONTEXT COMMONEVENT:257/354/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:328/172/Message < UNTRANSLATED
-
+\\E两个人谈了很多梦想。
 > END STRING
 
 > BEGIN STRING
 \\Eとても盛り上がった。
 > CONTEXT COMMONEVENT:257/356/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:328/177/Message < UNTRANSLATED
-
+\\E气氛非常热烈。
 > END STRING
 
 > BEGIN STRING
 \\E…もー、またそんな事言って。
 > CONTEXT COMMONEVENT:257/370/Message < UNTRANSLATED
-
+\\E……不、下次再说那样的事吧。
 > END STRING
 
 > BEGIN STRING
 \\Eほんと、お兄ちゃんえっちだよね。
 > CONTEXT COMMONEVENT:257/372/Message < UNTRANSLATED
-
+\\E真的是、欧尼酱个老色批。
 > END STRING
 
 > BEGIN STRING
 \\Eえっちな話をした。
 > CONTEXT COMMONEVENT:257/376/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:328/231/Message < UNTRANSLATED
-
+\\E说了色色的话。
 > END STRING
 
 > BEGIN STRING
 \\E興味津々のようだ。
 > CONTEXT COMMONEVENT:257/378/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:328/236/Message < UNTRANSLATED
-
+\\E好像很津津有味。
 > END STRING
 
 > BEGIN STRING
 \\Eお兄ちゃんお兄ちゃん。
 > CONTEXT COMMONEVENT:257/391/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:279/16/Message < UNTRANSLATED
-
+\\E欧尼酱，欧尼酱。
 > END STRING
 
 > BEGIN STRING
 \\Eあたし今日ね……
 > CONTEXT COMMONEVENT:257/392/Message < UNTRANSLATED
-
+\\E我呢，今天……
 > END STRING

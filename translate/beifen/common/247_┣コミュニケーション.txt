@@ -509,11 +509,7 @@
 今日なんかの日だったっけ…？
 > CONTEXT COMMONEVENT:247/978/Message < UNTRANSLATED
 \\E诶？为什么？
-<<<<<<< HEAD:translate/beifen/commom/247_┣コミュニケーション.txt
 今天是什么日子来着……？
-=======
-今天是什么日子来着？
->>>>>>> 2ca49d9551de6b962fd644b1ecb2c373ca13fd65:translate/beifen/common/247_┣コミュニケーション.txt
 > END STRING
 
 > BEGIN STRING
@@ -527,21 +523,13 @@
 > BEGIN STRING
 \\E…えと、お兄ちゃん…
 > CONTEXT COMMONEVENT:247/1027/Message < UNTRANSLATED
-<<<<<<< HEAD:translate/beifen/commom/247_┣コミュニケーション.txt
 \\E……那个、欧尼酱……
-=======
-\\E……えと、欧尼酱……
->>>>>>> 2ca49d9551de6b962fd644b1ecb2c373ca13fd65:translate/beifen/common/247_┣コミュニケーション.txt
 > END STRING
 
 > BEGIN STRING
 \\Eその…ト、トイレ…
 > CONTEXT COMMONEVENT:247/1032/Message < UNTRANSLATED
-<<<<<<< HEAD:translate/beifen/commom/247_┣コミュニケーション.txt
 \\E那……那个、洗手间……
-=======
-\\E那……那个、厕所……
->>>>>>> 2ca49d9551de6b962fd644b1ecb2c373ca13fd65:translate/beifen/common/247_┣コミュニケーション.txt
 > END STRING
 
 > BEGIN STRING

@@ -3,35 +3,35 @@
 > BEGIN STRING
 \\Eイカ大王に遭遇した！
 > CONTEXT COMMONEVENT:287/85/Message < UNTRANSLATED
-
+\\E遭遇了“イカ大王”！（乌贼大王）
 > END STRING
 
 > BEGIN STRING
 \\Eサイコマッチョに遭遇した！
 > CONTEXT COMMONEVENT:287/111/Message < UNTRANSLATED
-
+\\E遭遇了“サイコマッチョ”！（精神病）
 > END STRING
 
 > BEGIN STRING
 \\Eメンヘラちゃんに遭遇した！
 > CONTEXT COMMONEVENT:287/137/Message < UNTRANSLATED
-
+\\E遭遇了“メンヘラちゃん”！（孟加拉酱）
 > END STRING
 
 > BEGIN STRING
 \\Eサイレントキラーに遭遇した！
 > CONTEXT COMMONEVENT:287/165/Message < UNTRANSLATED
-
+\\E遭遇了“サイレントキラー”！（沉默杀手）
 > END STRING
 
 > BEGIN STRING
 \\Eアザラ勇者一行に遭遇した！
 > CONTEXT COMMONEVENT:287/191/Message < UNTRANSLATED
-
+\\E遭遇了“アザラ勇者一行”！（“アザラ”勇者一行人）
 > END STRING
 
 > BEGIN STRING
 \\E触手を手に入れた！
 > CONTEXT COMMONEVENT:287/424/Message < UNTRANSLATED
-
+\\E得到了触手！
 > END STRING

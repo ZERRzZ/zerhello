@@ -6,293 +6,297 @@
 > CONTEXT COMMONEVENT:278/334/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:311/17/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:329/394/Message < UNTRANSLATED
-
+\\E伤好了！
 > END STRING
 
 > BEGIN STRING
 \\E（コンコンコン）
 > CONTEXT COMMONEVENT:278/15/Message < UNTRANSLATED
-
+\\E咚咚咚（コンコンコン）
 > END STRING
 
 > BEGIN STRING
 \\Eん、誰だこんな夜に…。
 > CONTEXT COMMONEVENT:278/19/Message < UNTRANSLATED
-
+\\E嗯、是谁啊，在这深夜里……
 > END STRING
 
 > BEGIN STRING
 \\Eなんとクマヘッドだ！
 > CONTEXT COMMONEVENT:278/22/Message < UNTRANSLATED
-
+\\E竟然是个熊头！
 > END STRING
 
 > BEGIN STRING
 \\Eお前に稽古をつけてやろうヘッド！
 > CONTEXT COMMONEVENT:278/24/Message < UNTRANSLATED
-
+\\E我来给你练功吧！
 > END STRING
 
 > BEGIN STRING
 \\E……無理やり稽古をつけられた。
 なんだったんだ。
 > CONTEXT COMMONEVENT:278/45/Message < UNTRANSLATED
-
+\\E……被迫进行了无理的练功。
+到底发生了什么。
 > END STRING
 
 > BEGIN STRING
 \\Eスキル\\c[1]攻撃センス\\c[0]のヒントを得た！
 > CONTEXT COMMONEVENT:278/57/Message < UNTRANSLATED
-
+\\E技能\\c[1]“攻撃センス”\\c[0]的提示得到了！
 > END STRING
 
 > BEGIN STRING
 \\Eスキル\\c[1]防御センス\\c[0]のヒントを得た！
 > CONTEXT COMMONEVENT:278/73/Message < UNTRANSLATED
-
+\\E技能\\c[1]“防御センス”\\c[0]的提示得到了！
 > END STRING
 
 > BEGIN STRING
 \\Eスキル\\c[1]渾身の一撃\\c[0]のヒントを得た！
 > CONTEXT COMMONEVENT:278/89/Message < UNTRANSLATED
-
+\\E技能\\c[1]“渾身の一撃”\\c[0]的提示得到了！
 > END STRING
 
 > BEGIN STRING
 O・イズミさん
 > CONTEXT COMMONEVENT:278/120/SetString < UNTRANSLATED
-
+O・“イズミ”桑
 > END STRING
 
 > BEGIN STRING
 ミスター味ボーイ
 > CONTEXT COMMONEVENT:278/123/SetString < UNTRANSLATED
-
+“Mr.味Boy”
 > END STRING
 
 > BEGIN STRING
 \\E伝説の料理人\\cself[5]だ！
 > CONTEXT COMMONEVENT:278/126/Message < UNTRANSLATED
-
+\\E传说中的厨师\\cself[5]啊！
 > END STRING
 
 > BEGIN STRING
 \\Eおい！パイ食わねぇか！？
 > CONTEXT COMMONEVENT:278/130/Message < UNTRANSLATED
-
+\\E喂！要吃馅饼吗！？
 > END STRING
 
 > BEGIN STRING
 食べる
 > CONTEXT COMMONEVENT:278/131/Choices < UNTRANSLATED
-
+吃
 > END STRING
 
 > BEGIN STRING
 食べない
 > CONTEXT COMMONEVENT:278/131/Choices < UNTRANSLATED
-
+不吃
 > END STRING
 
 > BEGIN STRING
 \\E……奇跡的に旨かった。
 > CONTEXT COMMONEVENT:278/140/Message < UNTRANSLATED
-
+\\E……奇迹般地好吃。
 > END STRING
 
 > BEGIN STRING
 \\Eめちゃくちゃに辛い！！！！
 > CONTEXT COMMONEVENT:278/145/Message < UNTRANSLATED
-
+\\E好难受！！！！
 > END STRING
 
 > BEGIN STRING
 \\Eいやそれは…ちょっと…。
 > CONTEXT COMMONEVENT:278/153/Message < UNTRANSLATED
-
+\\E不，那个……有点……
 > END STRING
 
 > BEGIN STRING
 \\Eねえ！食べてみてよ！
 > CONTEXT COMMONEVENT:278/169/Message < UNTRANSLATED
-
+\\E喂！尝尝吧！
 > END STRING
 
 > BEGIN STRING
 \\E正直期待したほどでもなかった…。
 > CONTEXT COMMONEVENT:278/179/Message < UNTRANSLATED
-
+\\E老实说并没有达到期待的程度……
 > END STRING
 
 > BEGIN STRING
 \\E……こ、これは…！
 > CONTEXT COMMONEVENT:278/185/Message < UNTRANSLATED
-
+\\E……这、这是……！
 > END STRING
 
 > BEGIN STRING
 \\Eう・ま…
 > CONTEXT COMMONEVENT:278/186/Message < UNTRANSLATED
-
+\\E好、吃……
 > END STRING
 
 > BEGIN STRING
 \\Eい……ぞーーーーーーーーーーーーーっ！！！！！
 > CONTEXT COMMONEVENT:278/187/Message < UNTRANSLATED
-
+\\E……哦ーーーーーーーーーーーーー！！！！！
 > END STRING
 
 > BEGIN STRING
 \\Eああ…落ちていく…落ちていく……味の海に……
 深い味の深海に………うまいぞ…うまいぞぉ………！
 > CONTEXT COMMONEVENT:278/189/Message < UNTRANSLATED
-
+\\E啊啊……坠落下去……坠落下去……味道之海……
+在味道很深的海里……很好吃哦……很好吃哦………！
 > END STRING
 
 > BEGIN STRING
 \\E料理人は帰っていった…。
 > CONTEXT COMMONEVENT:278/210/Message < UNTRANSLATED
-
+\\E厨师回去了……
 > END STRING
 
 > BEGIN STRING
 \\Eあなたは今しあわせですか？
 > CONTEXT COMMONEVENT:278/226/Message < UNTRANSLATED
-
+\\E你现在辛福吗？
 > END STRING
 
 > BEGIN STRING
 \\E宗教の勧誘だった…。
 > CONTEXT COMMONEVENT:278/228/Message < UNTRANSLATED
-
+\\E是宗教的劝诱……
 > END STRING
 
 > BEGIN STRING
 \\Eお腹を空かせた旅人だ。
 > CONTEXT COMMONEVENT:278/253/Message < UNTRANSLATED
-
+\\E是个饿了的旅人。
 > END STRING
 
 > BEGIN STRING
 \\f[20]丁重にもてなす　　　\\f[10]所持金-500
 > CONTEXT COMMONEVENT:278/254/Choices < UNTRANSLATED
-
+\\f[20]周到的招待　　　　　\\f[10]所持金-500
 > END STRING
 
 > BEGIN STRING
 \\f[20]食べ物を分け与える　\\f[10]所持金-100
 > CONTEXT COMMONEVENT:278/254/Choices < UNTRANSLATED
-
+\\f[20]把食物分给他　　　　\\f[10]所持金-100
 > END STRING
 
 > BEGIN STRING
 \\f[20]追い返す
 > CONTEXT COMMONEVENT:278/254/Choices < UNTRANSLATED
-
+\\f[20]赶回去
 > END STRING
 
 > BEGIN STRING
 \\Eな、なんて心の優しい人だ…！
 お礼にフットボールを教えましょう！
 > CONTEXT COMMONEVENT:278/263/Message < UNTRANSLATED
-
+\\E真、真是个心地善良的人啊……！
+作为回礼就教你足球吧！
 > END STRING
 
 > BEGIN STRING
 \\E温かい食事を振る舞い旅人を泊めてあげることにした。
 > CONTEXT COMMONEVENT:278/269/Message < UNTRANSLATED
-
+\\E招待热餐，并让旅客住下。
 > END STRING
 
 > BEGIN STRING
 \\Eありがとうございます！このご恩は忘れません…！
 > CONTEXT COMMONEVENT:278/286/Message < UNTRANSLATED
-
+\\E谢谢您！我不会忘记您的恩情……！
 > END STRING
 
 > BEGIN STRING
 \\E旅人に食べ物を分け与えた。
 > CONTEXT COMMONEVENT:278/292/Message < UNTRANSLATED
-
+\\E把食物分给了旅行者。
 > END STRING
 
 > BEGIN STRING
 \\E残念だが今は余裕がないな…。
 > CONTEXT COMMONEVENT:278/298/Message < UNTRANSLATED
-
+\\E很遗憾现在并没有富余……
 > END STRING
 
 > BEGIN STRING
 \\E旅人は帰っていった…。
 > CONTEXT COMMONEVENT:278/300/Message < UNTRANSLATED
-
+\\E旅人回去了……
 > END STRING
 
 > BEGIN STRING
 \\E旅の医者だそうだ。
 > CONTEXT COMMONEVENT:278/320/Message < UNTRANSLATED
-
+\\E听说是旅行的医生。
 > END STRING
 
 > BEGIN STRING
 \\f[20]診てもらう　　\\f[10]お金-200
 > CONTEXT COMMONEVENT:278/321/Choices < UNTRANSLATED
-
+\\f[20]医疗　　　　　\\f[10]金钱-200
 > END STRING
 
 > BEGIN STRING
 \\f[20]必要ない
 > CONTEXT COMMONEVENT:278/321/Choices < UNTRANSLATED
-
+\\f[20]不必要
 > END STRING
 
 > BEGIN STRING
 \\E…その言葉が…聞きたかった……。
 > CONTEXT COMMONEVENT:278/329/Message < UNTRANSLATED
-
+\\E……那个有句话……想问一下……
 > END STRING
 
 > BEGIN STRING
 \\E医者は満足げに帰っていった。
 > CONTEXT COMMONEVENT:278/338/Message < UNTRANSLATED
-
+\\E医生满意的回去了。
 > END STRING
 
 > BEGIN STRING
 \\Eそんなお金は持っていない…。
 > CONTEXT COMMONEVENT:278/350/Message < UNTRANSLATED
-
+\\E没有那样的钱……
 > END STRING
 
 > BEGIN STRING
 \\Eアナタ悩ミ、解決シテアゲマース。
 オ代ハイリマセーン。
 > CONTEXT COMMONEVENT:278/379/Message < UNTRANSLATED
-
+\\E你的烦恼、解决它吧。
+不要报酬。
 > END STRING
 
 > BEGIN STRING
 元気になりたい
 > CONTEXT COMMONEVENT:278/381/Choices < UNTRANSLATED
-
+想要元气
 > END STRING
 
 > BEGIN STRING
 "力"がほしい
 > CONTEXT COMMONEVENT:278/381/Choices < UNTRANSLATED
-
+想要“力”
 > END STRING
 
 > BEGIN STRING
 強くなりたい
 > CONTEXT COMMONEVENT:278/381/Choices < UNTRANSLATED
-
+想要变强
 > END STRING
 
 > BEGIN STRING
 必要ない
 > CONTEXT COMMONEVENT:278/381/Choices < UNTRANSLATED
-
+不必要
 > END STRING
 
 > BEGIN STRING
@@ -310,21 +314,23 @@ O・イズミさん
 > BEGIN STRING
 \\Eなんだか元気になった気がする！
 > CONTEXT COMMONEVENT:278/398/Message < UNTRANSLATED
-
+\\E感觉有点精神了！
 > END STRING
 
 > BEGIN STRING
 \\Eオオット……！
 ……デハオダイジニー。
 > CONTEXT COMMONEVENT:278/406/Message < UNTRANSLATED
-
+\\Eオオット……！
+……デハオダイジニー。(再见)
 > END STRING
 
 > BEGIN STRING
 \\Eアナタノ身体、既ニカイゾ……
 アナタニハ必要アリマセーン、他ノ願イハナイノデスカ。
 > CONTEXT COMMONEVENT:278/419/Message < UNTRANSLATED
-
+\\Eアナタノ身体、既ニカイゾ……
+アナタニハ必要アリマセーン、他ノ願イハナイノデスカ。（没有必要）
 > END STRING
 
 > BEGIN STRING
@@ -337,25 +343,25 @@ O・イズミさん
 > BEGIN STRING
 \\Eソウデスカ……ソレハザンネンデース。
 > CONTEXT COMMONEVENT:278/435/Message < UNTRANSLATED
-
+\\Eソウデスカ……ソレハザンネンデース。（遗憾）
 > END STRING
 
 > BEGIN STRING
 \\E…デハ、コチラニオイデクダサーイ。
 > CONTEXT COMMONEVENT:278/441/Message < UNTRANSLATED
-
+\\E…デハ、コチラニオイデクダサーイ。（到这边来）
 > END STRING
 
 > BEGIN STRING
 \\Eここは…一体…？
 > CONTEXT COMMONEVENT:278/445/Message < UNTRANSLATED
-
+\\E这里……究竟是……？
 > END STRING
 
 > BEGIN STRING
 \\E…デハ、治療ヲ始メマショウ………。
 > CONTEXT COMMONEVENT:278/447/Message < UNTRANSLATED
-
+\\E…デハ、治療ヲ始メマショウ………。（开始治疗）
 > END STRING
 
 > BEGIN STRING
@@ -368,7 +374,7 @@ O・イズミさん
 > BEGIN STRING
 \\Eぬ、ぬわーーーーーーーーっ！！
 > CONTEXT COMMONEVENT:278/450/Message < UNTRANSLATED
-
+\\E眼、眼睛ーーーーーーーー！！
 > END STRING
 
 > BEGIN STRING
@@ -381,7 +387,8 @@ O・イズミさん
 \\Eコレハ…ナントイウコトダ…奇跡ダ…！
 マタ一歩人類ノ科学ガ前進シタデース！
 > CONTEXT COMMONEVENT:278/468/Message < UNTRANSLATED
-
+\\Eコレハ…ナントイウコトダ…奇跡ダ…！
+マタ一歩人類ノ科学ガ前進シタデース！（奇迹……人类进步）
 > END STRING
 
 > BEGIN STRING
@@ -394,7 +401,7 @@ O・イズミさん
 > BEGIN STRING
 \\E…デハ、トレーニングヲ始メマショウ………。
 > CONTEXT COMMONEVENT:278/509/Message < UNTRANSLATED
-
+\\E…デハ、トレーニングヲ始メマショウ………。（特训开始）
 > END STRING
 
 > BEGIN STRING
@@ -407,7 +414,8 @@ O・イズミさん
 \\E強制トレーニングモード起動、ギアリミッター解除。
 …サア地獄ノ特訓ノ始マリデース！！
 > CONTEXT COMMONEVENT:278/513/Message < UNTRANSLATED
-
+\\E強制トレーニングモード起動、ギアリミッター解除。
+…サア地獄ノ特訓ノ始マリデース！！（特训开始）
 > END STRING
 
 > BEGIN STRING
@@ -427,208 +435,213 @@ O・イズミさん
 > BEGIN STRING
 \\Eオウ…ザンネンデース…。
 > CONTEXT COMMONEVENT:278/545/Message < UNTRANSLATED
-
+\\Eオウ…ザンネンデース…。（遗憾）
 > END STRING
 
 > BEGIN STRING
 \\E医者？は帰っていった。
 > CONTEXT COMMONEVENT:278/551/Message < UNTRANSLATED
-
+\\E医生？他回去了。
 > END STRING
 
 > BEGIN STRING
 \\E行商人だ。
 > CONTEXT COMMONEVENT:278/570/Message < UNTRANSLATED
-
+\\E是个行商。
 > END STRING
 
 > BEGIN STRING
 \\Eお安くしておきますのでぜひ。
 > CONTEXT COMMONEVENT:278/572/Message < UNTRANSLATED
-
+\\E给你算便宜点，请一定要买哦。
 > END STRING
 
 > BEGIN STRING
 \\f[20]緑茶　　　　\\f[12]2個100G (\\v[90])
 > CONTEXT COMMONEVENT:278/574/Choices < UNTRANSLATED
-
+\\f[20]绿茶　　　　\\f[12]2个100G (\\v[90])
 > END STRING
 
 > BEGIN STRING
 \\f[20]コーヒー　　\\f[12]2個100G (\\v[91])
 > CONTEXT COMMONEVENT:278/574/Choices < UNTRANSLATED
-
+\\f[20]咖啡　　　　\\f[12]2个100G (\\v[91])
 > END STRING
 
 > BEGIN STRING
 \\f[20]紅茶　　　　\\f[12]2個200G (\\v[92])
 > CONTEXT COMMONEVENT:278/574/Choices < UNTRANSLATED
-
+\\f[20]红茶　　　　\\f[12]2个200G (\\v[92])
 > END STRING
 
 > BEGIN STRING
 \\f[20]お菓子　　　\\f[12]2個100G (\\v[273])
 > CONTEXT COMMONEVENT:278/574/Choices < UNTRANSLATED
-
+\\f[20]零食　　　　\\f[12]2个100G (\\v[273])
 > END STRING
 
 > BEGIN STRING
 \\f[20]いらない
 > CONTEXT COMMONEVENT:278/574/Choices < UNTRANSLATED
-
+\\f[20]不需要
 > END STRING
 
 > BEGIN STRING
 \\E緑茶を買うのか？　所持\\v[90] 100G
 > CONTEXT COMMONEVENT:278/586/Message < UNTRANSLATED
-
+\\E要买绿茶吗？　　　所持\\v[90] 100G
 > END STRING
 
 > BEGIN STRING
 \\Eありがとうございます。
 では商品と…これ、試供品です。
 > CONTEXT COMMONEVENT:278/593/Message < UNTRANSLATED
-
+\\E谢谢你。
+那么商品和……这个是试用品。
 > END STRING
 
 > BEGIN STRING
 \\Eエナジードリンクを手に入れた！
 > CONTEXT COMMONEVENT:278/595/Message < UNTRANSLATED
-
+\\E得到了能量饮料！
 > END STRING
 
 > BEGIN STRING
 \\Eコーヒーを買うのか？　所持\\v[91] 100G
 > CONTEXT COMMONEVENT:278/625/Message < UNTRANSLATED
-
+\\E要买咖啡吗？　　　　　所持\\v[91] 100G
 > END STRING
 
 > BEGIN STRING
 \\E…じゃあこれを一つください。
 > CONTEXT COMMONEVENT:278/628/Message < UNTRANSLATED
-
+\\E……那么请给我一个这个。
 > END STRING
 
 > BEGIN STRING
 \\E紅茶を買うのか？　所持\\v[92] 200G
 > CONTEXT COMMONEVENT:278/664/Message < UNTRANSLATED
-
+\\E要买红茶吗？　　　所持\\v[92] 200G
 > END STRING
 
 > BEGIN STRING
 \\Eお菓子を買うのか？　所持\\v[273] 100G
 > CONTEXT COMMONEVENT:278/703/Message < UNTRANSLATED
-
+\\E要买零食吗？　　　　所持\\v[273] 100G
 > END STRING
 
 > BEGIN STRING
 \\Eありがとうございました。
 ではまたいずれ…。
 > CONTEXT COMMONEVENT:278/734/Message < UNTRANSLATED
-
+\\E真的是非常感谢。
+那么改天见……
 > END STRING
 
 > BEGIN STRING
 \\E行商人は去っていった。
 > CONTEXT COMMONEVENT:278/736/Message < UNTRANSLATED
-
+\\E行商走了。
 > END STRING
 
 > BEGIN STRING
 \\Eん、なんだ？こんな時間に……
 > CONTEXT COMMONEVENT:278/755/Message < UNTRANSLATED
-
+\\E嗯、什么？在这个时间……
 > END STRING
 
 > BEGIN STRING
 \\Eお届け物でーす。
 > CONTEXT COMMONEVENT:278/758/Message < UNTRANSLATED
-
+\\E是给你东西。
 > END STRING
 
 > BEGIN STRING
 \\E送り主は…親父か…。
 > CONTEXT COMMONEVENT:278/760/Message < UNTRANSLATED
-
+\\E寄件人是……父亲吗……
 > END STRING
 
 > BEGIN STRING
 \\Eえっと…変なオブジェ。
 植物の種、何かの骨…なにこれ。
 > CONTEXT COMMONEVENT:278/765/Message < UNTRANSLATED
-
+\\E呃……奇怪的东西啊。
+植物的种子、是么东西的骨头……这是什么。
 > END STRING
 
 > BEGIN STRING
 \\Eよくわからないが冒険は順調なようだ…。
 > CONTEXT COMMONEVENT:278/767/Message < UNTRANSLATED
-
+\\E虽然不太清楚，但是冒险好像很顺利……
 > END STRING
 
 > BEGIN STRING
 \\Eお兄ちゃんお兄ちゃん。
 お父さんから手紙が届いたよ！
 > CONTEXT COMMONEVENT:278/794/Message < UNTRANSLATED
-
+\\E欧尼酱欧尼酱。
+是父亲的来信哦！
 > END STRING
 
 > BEGIN STRING
 \\Eどれどれ…
 > CONTEXT COMMONEVENT:278/796/Message < UNTRANSLATED
-
+\\E让我康康……
 > END STRING
 
 > BEGIN STRING
 \\E今は常夏の島で女性の尻を追いかけ回しているらしい…
 > CONTEXT COMMONEVENT:278/804/Message < UNTRANSLATED
-
+\\E现在似乎在常夏的岛上追逐着女性的屁股……
 > END STRING
 
 > BEGIN STRING
 \\E南国の女性がいかに情熱的かつ積極的かを長文で綴っている。
 後半はみみずが這ったような文字になっているな…
 > CONTEXT COMMONEVENT:278/808/Message < UNTRANSLATED
-
+\\E用长篇文章记述了南国女性的热情和积极性。
+后半部分是蚯蚓爬行的文字……
 > END STRING
 
 > BEGIN STRING
 \\Eこ、こいつ…
 > CONTEXT COMMONEVENT:278/812/Message < UNTRANSLATED
-
+\\E这、这家伙……
 > END STRING
 
 > BEGIN STRING
 \\Eまあ冒険？は順調なようだな…。
 > CONTEXT COMMONEVENT:278/813/Message < UNTRANSLATED
-
+\\E啊，冒险？看来一切都很顺利啊……
 > END STRING
 
 > BEGIN STRING
 \\Eつらつらと冒険の日々のことが綴られている…
 > CONTEXT COMMONEVENT:278/824/Message < UNTRANSLATED
-
+\\E描写了各种各样的冒险的日子……
 > END STRING
 
 > BEGIN STRING
 \\E聞いたこともない国と人々との交流の事が書かれている…
 > CONTEXT COMMONEVENT:278/828/Message < UNTRANSLATED
-
+\\E上面写着和从未听过的国家的人们的交流……
 > END STRING
 
 > BEGIN STRING
 \\E故郷と家族を懐かしむ内容だ…
 > CONTEXT COMMONEVENT:278/832/Message < UNTRANSLATED
-
+\\E是怀念故乡和家人的内容……
 > END STRING
 
 > BEGIN STRING
 \\E冒険は順調なようだ…。
 > CONTEXT COMMONEVENT:278/836/Message < UNTRANSLATED
-
+\\E冒险好像很顺利……
 > END STRING
 
 > BEGIN STRING
 \\E気のせいだった…。
 > CONTEXT COMMONEVENT:278/859/Message < UNTRANSLATED
-
+\\E是错觉……
 > END STRING

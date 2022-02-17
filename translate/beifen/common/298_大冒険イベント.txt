@@ -3,11 +3,11 @@
 > BEGIN STRING
 \\E深い森の中を進む…
 > CONTEXT COMMONEVENT:298/83/Message < UNTRANSLATED
-
+\\E在森林深处前进……
 > END STRING
 
 > BEGIN STRING
 \\E二人は荒野を進む…
 > CONTEXT COMMONEVENT:298/86/Message < UNTRANSLATED
-
+\\E两人在荒野上前进……
 > END STRING

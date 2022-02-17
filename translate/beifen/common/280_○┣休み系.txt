@@ -3,11 +3,11 @@
 > BEGIN STRING
 \\E…ふう…少し休もうか。
 > CONTEXT COMMONEVENT:280/9/Message < UNTRANSLATED
-
+\\E……呼……稍微休息一下吧。
 > END STRING
 
 > BEGIN STRING
 \\Eお兄ちゃん、お茶だよー。
 > CONTEXT COMMONEVENT:280/12/Message < UNTRANSLATED
-
+\\E欧尼酱、喝茶了哦。
 > END STRING

@@ -101,8 +101,8 @@
 \\Eそういえば試供品をもらってたな…
 俺はこれにするか。
 > CONTEXT COMMONEVENT:248/192/Message < UNTRANSLATED
-\\E说起来，我得到了一个免费的样品，
-我要这样做吗？
+\\E说起来，我得到了试用品，
+要这样做吗？
 > END STRING
 
 > BEGIN STRING
@@ -114,7 +114,7 @@
 > BEGIN STRING
 \\E…うーん、お茶を飲む前にすることがあったな…。
 > CONTEXT COMMONEVENT:248/216/Message < UNTRANSLATED
-\\E唔、喝茶之前有过这样的事情啊……
+\\E唔、喝茶之前还有这样的事情要做啊……
 > END STRING
 
 > BEGIN STRING
@@ -174,13 +174,13 @@
 > BEGIN STRING
 \\E…よし、お茶を入れてくるな。
 > CONTEXT COMMONEVENT:248/341/Message < UNTRANSLATED
-\\E好吧、别泡茶了……
+\\E好吧、我去泡茶啦……
 > END STRING
 
 > BEGIN STRING
 \\E…よし、お茶を入れてくるよ。
 > CONTEXT COMMONEVENT:248/373/Message < UNTRANSLATED
-\\E好吧、我去泡茶……
+\\E好吧、我去泡茶哟……
 > END STRING
 
 > BEGIN STRING

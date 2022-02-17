@@ -10,37 +10,37 @@
 > BEGIN STRING
 \\Eあ…っと、ごめんアレ取ってくれる？
 > CONTEXT COMMONEVENT:279/8/Message < UNTRANSLATED
-
+\\E啊……对不起，能帮我拿那个吗？
 > END STRING
 
 > BEGIN STRING
 \\Eん…はい、お兄ちゃん。
 > CONTEXT COMMONEVENT:279/11/Message < UNTRANSLATED
-
+\\E嗯……好、欧尼酱。
 > END STRING
 
 > BEGIN STRING
 \\Eん…はいよ、これだろ？
 > CONTEXT COMMONEVENT:279/18/Message < UNTRANSLATED
-
+\\E嗯……好哦、是这个吧？
 > END STRING
 
 > BEGIN STRING
 \\Eありがとう～。
 > CONTEXT COMMONEVENT:279/20/Message < UNTRANSLATED
-
+\\E谢谢～。
 > END STRING
 
 > BEGIN STRING
 \\Eとても仲良くすごした。
 > CONTEXT COMMONEVENT:279/32/Message < UNTRANSLATED
-
+\\E相处的非常的好。
 > END STRING
 
 > BEGIN STRING
 \\E（うーん…なんだかこの頃妙に……。）
 > CONTEXT COMMONEVENT:279/42/Message < UNTRANSLATED
-
+\\E（嗯……总觉得最近很奇怪……）
 > END STRING
 
 > BEGIN STRING
@@ -52,117 +52,119 @@
 > BEGIN STRING
 \\E…お兄ちゃんどこ見てるの…？
 > CONTEXT COMMONEVENT:279/51/Message < UNTRANSLATED
-
+\\E……欧尼酱，你在看哪里啊……？
 > END STRING
 
 > BEGIN STRING
 \\Eヘンな意識をしてしまった。
 > CONTEXT COMMONEVENT:279/53/Message < UNTRANSLATED
-
+\\E会有奇怪的意识出现。
 > END STRING
 
 > BEGIN STRING
 \\E（…最近なんかこう、成長したな……。）
 > CONTEXT COMMONEVENT:279/59/Message < UNTRANSLATED
-
+\\E（……最近好像这样、成长了……）
 > END STRING
 
 > BEGIN STRING
 \\Eっ！取れたー！
 ほら、お兄ちゃんこんなに大きい！
 > CONTEXT COMMONEVENT:279/87/Message < UNTRANSLATED
-
+\\E耶！取下来了！
+你看、欧尼酱、有这么大！
 > END STRING
 
 > BEGIN STRING
 \\Eおお…これは大物だ…。
 > CONTEXT COMMONEVENT:279/89/Message < UNTRANSLATED
-
+\\E哦哦……这是个大东西啊……
 > END STRING
 
 > BEGIN STRING
 \\Eはい、次は反対側ねお兄ちゃん。
 > CONTEXT COMMONEVENT:279/92/Message < UNTRANSLATED
-
+\\E好的、接下来是反面呢，欧尼酱。
 > END STRING
 
 > BEGIN STRING
 \\Eお兄ちゃんお兄ちゃんお兄ちゃーん！
 > CONTEXT COMMONEVENT:279/97/Message < UNTRANSLATED
-
+\\E欧尼酱欧尼酱欧尼～酱！
 > END STRING
 
 > BEGIN STRING
 \\Eほい、あ～ん。
 > CONTEXT COMMONEVENT:279/101/Message < UNTRANSLATED
-
+\\E好、啊～嗯。
 > END STRING
 
 > BEGIN STRING
 \\Eあ～ん。
 > CONTEXT COMMONEVENT:279/104/Message < UNTRANSLATED
-
+\\E啊～嗯。
 > END STRING
 
 > BEGIN STRING
 \\E…美味いか？
 > CONTEXT COMMONEVENT:279/107/Message < UNTRANSLATED
-
+\\E……好吃吗？
 > END STRING
 
 > BEGIN STRING
 \\Eいちゃいちゃな時間を過ごした。
 > CONTEXT COMMONEVENT:279/128/Message < UNTRANSLATED
-
+\\E度过了调皮的时间。
 > END STRING
 
 > BEGIN STRING
 \\Eんー…
 > CONTEXT COMMONEVENT:279/138/Message < UNTRANSLATED
-
+\\E嗯……
 > END STRING
 
 > BEGIN STRING
 \\Eんーーーーーーーっ？
 > CONTEXT COMMONEVENT:279/140/Message < UNTRANSLATED
-
+\\E嗯ーーーーーーー？
 > END STRING
 
 > BEGIN STRING
 \\E…どうした？
 > CONTEXT COMMONEVENT:279/143/Message < UNTRANSLATED
-
+\\E……怎么了？
 > END STRING
 
 > BEGIN STRING
 \\Eん、出された宿題が難しくって…。
 > CONTEXT COMMONEVENT:279/146/Message < UNTRANSLATED
-
+\\E嗯、出的作业很难做……
 > END STRING
 
 > BEGIN STRING
 \\Eどれ、見せてみな。
 > CONTEXT COMMONEVENT:279/148/Message < UNTRANSLATED
-
+\\E在哪？给我康康。
 > END STRING
 
 > BEGIN STRING
 \\Eああ、なるほどこれか。
 これなら…
 > CONTEXT COMMONEVENT:279/156/Message < UNTRANSLATED
-
+\\E啊，原来如此，是这个啊。
+这样的话……
 > END STRING
 
 > BEGIN STRING
 \\E全くわからなかった！
 > CONTEXT COMMONEVENT:279/162/Message < UNTRANSLATED
-
+\\E完全不明白！
 > END STRING
 
 > BEGIN STRING
 \\E妹と二人で宿題に取り組んだ。
 > CONTEXT COMMONEVENT:279/173/Message < UNTRANSLATED
-
+\\E和妹妹两人埋头做作业。
 > END STRING
 
 > BEGIN STRING
@@ -180,36 +182,37 @@
 > BEGIN STRING
 \\E…今日はなんだか妹の機嫌がいいみたいだ。
 > CONTEXT COMMONEVENT:279/185/Message < UNTRANSLATED
-
+\\E……今天妹妹的心情好像很好。
 > END STRING
 
 > BEGIN STRING
 \\Eねー、お兄ちゃん！お兄ちゃん！
 あたし今日ね…
 > CONTEXT COMMONEVENT:279/194/Message < UNTRANSLATED
-
+\\E喂、欧尼酱！欧尼酱！
+我今天呢……
 > END STRING
 
 > BEGIN STRING
 \\Eお兄ちゃん…ええとね…。
 > CONTEXT COMMONEVENT:279/224/Message < UNTRANSLATED
-
+\\E欧尼酱……这个呢……
 > END STRING
 
 > BEGIN STRING
 \\Eおにーちゃーん…ねー聞いてくれるー？
 > CONTEXT COMMONEVENT:279/259/Message < UNTRANSLATED
-
+\\E欧～尼～酱……喂、能听我说说吗？
 > END STRING
 
 > BEGIN STRING
 \\E愚痴を聞かされた…。
 > CONTEXT COMMONEVENT:279/265/Message < UNTRANSLATED
-
+\\E听了抱怨的话……
 > END STRING
 
 > BEGIN STRING
 \\Eやる気が下がった…。
 > CONTEXT COMMONEVENT:279/270/Message < UNTRANSLATED
-
+\\E干劲降低了……
 > END STRING

@@ -3,145 +3,145 @@
 > BEGIN STRING
 パンツコレクター
 > CONTEXT COMMONEVENT:283/7/SetString < UNTRANSLATED
-
+胖次收藏家
 > END STRING
 
 > BEGIN STRING
 変態収集家
 > CONTEXT COMMONEVENT:283/10/SetString < UNTRANSLATED
-
+变态收藏家
 > END STRING
 
 > BEGIN STRING
 案外真面目
 > CONTEXT COMMONEVENT:283/13/SetString < UNTRANSLATED
-
+意外的正经
 > END STRING
 
 > BEGIN STRING
 えっち
 > CONTEXT COMMONEVENT:283/21/SetString < UNTRANSLATED
-
+色色的
 > END STRING
 
 > BEGIN STRING
 紳士
 > CONTEXT COMMONEVENT:283/24/SetString < UNTRANSLATED
-
+绅士
 > END STRING
 
 > BEGIN STRING
 覗き魔でもあるが
 > CONTEXT COMMONEVENT:283/29/SetString < UNTRANSLATED
-
+但是个偷窥狂魔
 > END STRING
 
 > BEGIN STRING
 救いようもないが
 > CONTEXT COMMONEVENT:283/32/SetString < UNTRANSLATED
-
+无可救药
 > END STRING
 
 > BEGIN STRING
 意外と頼りになる
 > CONTEXT COMMONEVENT:283/35/SetString < UNTRANSLATED
-
+出乎意料的可靠
 > END STRING
 
 > BEGIN STRING
 \\c[15]\\f[14]妹を溺愛し\\cself[6]で\\cself[7]、\\cself[8]
 > CONTEXT COMMONEVENT:283/38/Picture < UNTRANSLATED
-
+\\c[15]\\f[14]溺爱妹妹\\cself[6]で\\cself[7]、\\cself[8]
 > END STRING
 
 > BEGIN STRING
 実は多少名の知れた腕の立つ冒険者。
 > CONTEXT COMMONEVENT:283/41/SetString < UNTRANSLATED
-
+实际上是个多少有点本领的冒险家。
 > END STRING
 
 > BEGIN STRING
 この地方で活動する若い冒険者の一人。
 > CONTEXT COMMONEVENT:283/44/SetString < UNTRANSLATED
-
+是在这个地方活动的年轻冒险者之一。
 > END STRING
 
 > BEGIN STRING
 メクアの村で活動する新米冒険者。
 > CONTEXT COMMONEVENT:283/47/SetString < UNTRANSLATED
-
+“メクア”村子里活动的新手冒险家。
 > END STRING
 
 > BEGIN STRING
 冒険の日々に憧れる駆け出しの冒険者。
 > CONTEXT COMMONEVENT:283/50/SetString < UNTRANSLATED
-
+憧憬着冒险的日子的初出茅庐的冒险者。
 > END STRING
 
 > BEGIN STRING
 予選後アカツキという冒険者に力の差を見せつけられるも
 > CONTEXT COMMONEVENT:283/56/SetString < UNTRANSLATED
-
+预选后被叫做“アカツキ”的冒险者显示出力量的差距
 > END STRING
 
 > BEGIN STRING
 交流戦では実力の差と現実をまざまざと見せつけられるも
 > CONTEXT COMMONEVENT:283/59/SetString < UNTRANSLATED
-
+在交流战中实力的差距的现实被显示得淋漓尽致
 > END STRING
 
 > BEGIN STRING
 いよいよ11日、自身初めてのギルド交流戦を控える中で
 > CONTEXT COMMONEVENT:283/62/SetString < UNTRANSLATED
-
+终于在11日、在等候自己第一次的工会交流战中
 > END STRING
 
 > BEGIN STRING
 カナやユイ、ギルドの仲間と訓練ばかりの毎日の中でも
 > CONTEXT COMMONEVENT:283/65/SetString < UNTRANSLATED
-
+每天都和“カナ”，“ユイ”、工会的伙伴们一起训练
 > END STRING
 
 > BEGIN STRING
 所属ギルドはその不振から合併統合の話が立ち上がる中で
 > CONTEXT COMMONEVENT:283/70/SetString < UNTRANSLATED
-
+所属的工会因为不景气而开始了合并的话题
 > END STRING
 
 > BEGIN STRING
 妹の脱ぎたてパンツに情熱を注ぐ
 > CONTEXT COMMONEVENT:283/76/SetString < UNTRANSLATED
-
+对妹妹脱下来的胖次倾注热情
 > END STRING
 
 > BEGIN STRING
 一心不乱にパンツを収集する
 > CONTEXT COMMONEVENT:283/79/SetString < UNTRANSLATED
-
+聚精会神地收集胖次
 > END STRING
 
 > BEGIN STRING
 どちらかというとパンツが気になる
 > CONTEXT COMMONEVENT:283/82/SetString < UNTRANSLATED
-
+不管怎么说都很在意胖次
 > END STRING
 
 > BEGIN STRING
 意に介さず鍛錬に励む
 > CONTEXT COMMONEVENT:283/85/SetString < UNTRANSLATED
-
+不介意地努力锻炼
 > END STRING
 
 > BEGIN STRING
 パンツハンターである。
 > CONTEXT COMMONEVENT:283/90/SetString < UNTRANSLATED
-
+是胖次猎人
 > END STRING
 
 > BEGIN STRING
 未来ある若者だ。
 > CONTEXT COMMONEVENT:283/93/SetString < UNTRANSLATED
-
+未来的年轻人
 > END STRING
 
 > BEGIN STRING
@@ -153,91 +153,91 @@
 > BEGIN STRING
 活躍の甲斐ありギルド存続の危機をも乗り越えさらには
 > CONTEXT COMMONEVENT:283/99/SetString < UNTRANSLATED
-
+活跃的有意义的工会存续危机也能成功跨越
 > END STRING
 
 > BEGIN STRING
 当面の危機を新メニュー作戦で乗り越えたお兄ちゃんは
 > CONTEXT COMMONEVENT:283/102/SetString < UNTRANSLATED
-
+面临危机用新菜单作战来度过的欧尼酱
 > END STRING
 
 > BEGIN STRING
 合併の危機を乗り越えるため新メニュー開発に取り組む中
 > CONTEXT COMMONEVENT:283/107/SetString < UNTRANSLATED
-
+为了克服合并危机，正在努力开发新菜单
 > END STRING
 
 > BEGIN STRING
 入浴姿や
 > CONTEXT COMMONEVENT:283/118/SetString < UNTRANSLATED
-
+洗澡的样子
 > END STRING
 
 > BEGIN STRING
 風呂や
 > CONTEXT COMMONEVENT:283/121/SetString < UNTRANSLATED
-
+洗澡
 > END STRING
 
 > BEGIN STRING
 妹の協力を得て
 > CONTEXT COMMONEVENT:283/124/SetString < UNTRANSLATED
-
+得到了妹妹的帮助
 > END STRING
 
 > BEGIN STRING
 排泄姿までも
 > CONTEXT COMMONEVENT:283/129/SetString < UNTRANSLATED
-
+就连排泄的样子也
 > END STRING
 
 > BEGIN STRING
 トイレまで
 > CONTEXT COMMONEVENT:283/132/SetString < UNTRANSLATED
-
+到洗手间为止
 > END STRING
 
 > BEGIN STRING
 下着姿も
 > CONTEXT COMMONEVENT:283/137/SetString < UNTRANSLATED
-
+内衣的样子
 > END STRING
 
 > BEGIN STRING
 どうにか
 > CONTEXT COMMONEVENT:283/140/SetString < UNTRANSLATED
-
+好歹
 > END STRING
 
 > BEGIN STRING
 培った技術を駆使し
 > CONTEXT COMMONEVENT:283/147/SetString < UNTRANSLATED
-
+使用培养出的技术
 > END STRING
 
 > BEGIN STRING
 時々失敗もしながら
 > CONTEXT COMMONEVENT:283/150/SetString < UNTRANSLATED
-
+有时也会失败
 > END STRING
 
 > BEGIN STRING
 堪能する。
 > CONTEXT COMMONEVENT:283/156/SetString < UNTRANSLATED
-
+心满意足
 > END STRING
 
 > BEGIN STRING
 楽しんだ。
 > CONTEXT COMMONEVENT:283/159/SetString < UNTRANSLATED
-
+玩的很开心
 > END STRING
 
 > BEGIN STRING
 取り組んだ。
 > CONTEXT COMMONEVENT:283/162/SetString < UNTRANSLATED
-
+努力了
 > END STRING
 
 > BEGIN STRING
@@ -249,157 +249,157 @@
 > BEGIN STRING
 新メンバーのカスミも加えいよいよ大会優勝を目指す中で
 > CONTEXT COMMONEVENT:283/176/SetString < UNTRANSLATED
-
+新成员“カスミ”也终于加上以大会优胜为目标当中
 > END STRING
 
 > BEGIN STRING
 障害を乗り越えいよいよ本格的に大会優勝を目指す中で
 > CONTEXT COMMONEVENT:283/179/SetString < UNTRANSLATED
-
+跨越障碍，终于在以正式的大会优胜为目标的时候
 > END STRING
 
 > BEGIN STRING
 街でカスミという少女が暴漢に襲われている所を助けたり
 > CONTEXT COMMONEVENT:283/184/SetString < UNTRANSLATED
-
+在街上救了一个被歹徒袭击的叫“カスミ”的少女
 > END STRING
 
 > BEGIN STRING
 ギルド存続のために大会の優勝を目指す事になる中で
 > CONTEXT COMMONEVENT:283/187/SetString < UNTRANSLATED
-
+为了工会的存续，以大会的优胜为目标
 > END STRING
 
 > BEGIN STRING
 妹と二人で過ごす毎日は贅沢な暮らしではないものの
 > CONTEXT COMMONEVENT:283/190/SetString < UNTRANSLATED
-
+和妹妹两个人一起度过了每天虽然不是奢侈的生活
 > END STRING
 
 > BEGIN STRING
 ギルド存続を掛け大会優勝を目指し予選を勝ち抜く中で
 > CONTEXT COMMONEVENT:283/195/SetString < UNTRANSLATED
-
+行会存续，以大会优胜为目标，在预选赛中胜出
 > END STRING
 
 > BEGIN STRING
 以前敗北を喫したあの美食倶楽部との対決を控えた中で
 > CONTEXT COMMONEVENT:283/198/SetString < UNTRANSLATED
-
+在和以前败北的美食俱乐部的对决中
 > END STRING
 
 > BEGIN STRING
 強敵マッシブブラザーズとの交流戦を経て気持ちを新たに
 > CONTEXT COMMONEVENT:283/201/SetString < UNTRANSLATED
-
+经过和强敌“マッシブ兄弟”的交流战，心情焕然一新
 > END STRING
 
 > BEGIN STRING
 ついに始まる本戦、ギルドの存続を掛けた戦いが始まる中
 > CONTEXT COMMONEVENT:283/206/SetString < UNTRANSLATED
-
+终于开始的本战，为行会存续而展开的战斗中
 > END STRING
 
 > BEGIN STRING
 あっという間だった5日間の強化合宿も終え我が家に戻り
 > CONTEXT COMMONEVENT:283/209/SetString < UNTRANSLATED
-
+一转眼5天的合宿训结束后回到了家
 > END STRING
 
 > BEGIN STRING
 お兄ちゃん達は戦力を高めるため強化合宿を計画する
 > CONTEXT COMMONEVENT:283/212/SetString < UNTRANSLATED
-
+欧尼酱他们为了提高战斗力而计划强化合宿
 > END STRING
 
 > BEGIN STRING
 黒い霧、謎の影、街を襲った突然の怪異の中でも
 > CONTEXT COMMONEVENT:283/217/SetString < UNTRANSLATED
-
+黑色的雾、神秘的影子、在突然袭击街道的怪异中
 > END STRING
 
 > BEGIN STRING
 決勝は因縁あるアカツキだ、負けるわけにはいかないと
 > CONTEXT COMMONEVENT:283/220/SetString < UNTRANSLATED
-
+决赛是有因缘的“アカツキ”，不能输
 > END STRING
 
 > BEGIN STRING
 夜毎に
 > CONTEXT COMMONEVENT:283/237/SetString < UNTRANSLATED
-
+每夜
 > END STRING
 
 > BEGIN STRING
 夜な夜な
 > CONTEXT COMMONEVENT:283/240/SetString < UNTRANSLATED
-
+夜半
 > END STRING
 
 > BEGIN STRING
 日々
 > CONTEXT COMMONEVENT:283/243/SetString < UNTRANSLATED
-
+每天
 > END STRING
 
 > BEGIN STRING
 妹と快楽を貪り
 > CONTEXT COMMONEVENT:283/248/SetString < UNTRANSLATED
-
+和妹妹一起贪图快乐
 > END STRING
 
 > BEGIN STRING
 身体を重ね
 > CONTEXT COMMONEVENT:283/251/SetString < UNTRANSLATED
-
+身体重叠
 > END STRING
 
 > BEGIN STRING
 未熟ながらも
 > CONTEXT COMMONEVENT:283/254/SetString < UNTRANSLATED
-
+虽然还不成熟
 > END STRING
 
 > BEGIN STRING
 アナルも堪能する
 > CONTEXT COMMONEVENT:283/259/SetString < UNTRANSLATED
-
+肛门耶心满意足
 > END STRING
 
 > BEGIN STRING
 尻穴まで開発する
 > CONTEXT COMMONEVENT:283/262/SetString < UNTRANSLATED
-
+连肛门耶开发了
 > END STRING
 
 > BEGIN STRING
 いつもどうりの
 > CONTEXT COMMONEVENT:283/265/SetString < UNTRANSLATED
-
+一如既往的
 > END STRING
 
 > BEGIN STRING
 充実した妹生活だ。
 > CONTEXT COMMONEVENT:283/270/SetString < UNTRANSLATED
-
+过着充实的妹生活。
 > END STRING
 
 > BEGIN STRING
 充実した毎日だ。
 > CONTEXT COMMONEVENT:283/273/SetString < UNTRANSLATED
-
+充实的每一天。
 > END STRING
 
 > BEGIN STRING
 欲に塗れた毎日だ。
 > CONTEXT COMMONEVENT:283/278/SetString < UNTRANSLATED
-
+充满欲望的每一天。
 > END STRING
 
 > BEGIN STRING
 毎日だ。
 > CONTEXT COMMONEVENT:283/281/SetString < UNTRANSLATED
-
+每一天。
 > END STRING
 
 > BEGIN STRING

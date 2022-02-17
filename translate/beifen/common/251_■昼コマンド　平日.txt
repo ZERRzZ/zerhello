@@ -32,7 +32,7 @@
 \\Eタウン支部…アカツキか…負けないぞ！
 やる気があがった！
 > CONTEXT COMMONEVENT:251/34/Message < UNTRANSLATED
-\\E城镇支部……アカツキ……是不会输的！
+\\E城镇支部……“アカツキ”……是不会输的！
 要有干劲啊！
 > END STRING
 
@@ -64,7 +64,7 @@
 \\Eメクア支部の出番は\\c[2]3日後の木曜\\c[0]よ。
 それまでに備えておいてね。
 > CONTEXT COMMONEVENT:251/86/Message < UNTRANSLATED
-\\Eメクア支部的出场在\\c[2]3日后的星期四\\c[0]哦。
+\\E“メクア”支部的出场在\\c[2]3日后的星期四\\c[0]哦。
 在那之前做好准备吧。
 > END STRING
 
@@ -469,7 +469,7 @@
 んー…、今日はこんな感じでどうかしら。
 > CONTEXT COMMONEVENT:251/603/Message < UNTRANSLATED
 \\E早上好、欧尼酱。
-嗯……今天就这样吧。
+嗯……今天就这样怎么样？
 > END STRING
 
 > BEGIN STRING
@@ -945,7 +945,7 @@
 > BEGIN STRING
 \\E鍛錬だけしてても赤字か…そりゃそうだよな…。
 > CONTEXT COMMONEVENT:251/1331/Message < UNTRANSLATED
-\\E即使只是端锻炼也还是赤字吗……那也是啊……
+\\E即使只是锻炼也还是赤字吗……那也是啊……
 > END STRING
 
 > BEGIN STRING

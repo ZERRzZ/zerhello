@@ -3,14 +3,14 @@
 > BEGIN STRING
 \\Eよし！久々の大冒険に出かけるか！
 > CONTEXT COMMONEVENT:285/23/Message < UNTRANSLATED
-
+\\E好！去久违的大冒险吧！
 > END STRING
 
 > BEGIN STRING
 \\f[24]\\E自宅の前
 > CONTEXT COMMONEVENT:285/31/Picture < UNTRANSLATED
 > CONTEXT COMMONEVENT:297/50/Picture < UNTRANSLATED
-
+\\f[24]\\E自家门前
 > END STRING
 
 > BEGIN STRING
@@ -18,7 +18,8 @@
 今回はここまでにしておこう…。
 > CONTEXT COMMONEVENT:285/39/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:297/58/Message < UNTRANSLATED
-
+\\E再往前的冒险恐怕已经不行了……
+这次就到此为止吧……
 > END STRING
 
 > BEGIN STRING
@@ -26,33 +27,36 @@
 今回はここまでにしておこう…。
 > CONTEXT COMMONEVENT:285/47/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:297/66/Message < UNTRANSLATED
-
+\\E再往前的冒险恐怕已经不行了……
+这次就到此为止吧……
 > END STRING
 
 > BEGIN STRING
 \\f[24]\\E自宅前
 > CONTEXT COMMONEVENT:285/79/Picture < UNTRANSLATED
-
+\\f[24]\\E自家前
 > END STRING
 
 > BEGIN STRING
 \\Eやっと帰ってきたねー、お兄ちゃん。
 …あれ、お家の前に何かいるよ？
 > CONTEXT COMMONEVENT:285/87/Message < UNTRANSLATED
-
+\\E终于回来了，欧尼酱。
+……咦，家门口有什么东西啊？
 > END STRING
 
 > BEGIN STRING
 \\Eん…？
 > CONTEXT COMMONEVENT:285/89/Message < UNTRANSLATED
-
+\\E嗯……？
 > END STRING
 
 > BEGIN STRING
 \\Eん、あれは…性戦士（ユニコーン）じゃないか…
 どうしてこんなところに…。
 > CONTEXT COMMONEVENT:285/91/Message < UNTRANSLATED
-
+\\E嗯，那不是……性战士（独角兽）吗……
+为什么会在这里……
 > END STRING
 
 > BEGIN STRING
@@ -64,99 +68,105 @@
 > BEGIN STRING
 \\Eわ、こっちみた。
 > CONTEXT COMMONEVENT:285/96/Message < UNTRANSLATED
-
+\\E哇、看向这里了。
 > END STRING
 
 > BEGIN STRING
 \\E…非処女！淫乱！売女！絶許！
 ヒヒーーーーーーーーーンッ！！！！
 > CONTEXT COMMONEVENT:285/100/Message < UNTRANSLATED
-
+\\E……非处女！淫乱！卖女！绝对不准！
+哔哔ーーーーーーーーー！！！！
 > END STRING
 
 > BEGIN STRING
 \\Eうおっ！？急に暴れだしたぞ！
 > CONTEXT COMMONEVENT:285/102/Message < UNTRANSLATED
-
+\\E喂！？突然暴躁起来了！
 > END STRING
 
 > BEGIN STRING
 \\E非処女！非処女！非処女！
 貫通済み！中古！中古！
 > CONTEXT COMMONEVENT:285/105/Message < UNTRANSLATED
-
+\\E非处女！非处女！非处女！
+贯通完了！二手货！二手货！
 > END STRING
 
 > BEGIN STRING
 \\Eうわ、うっざいな！
 > CONTEXT COMMONEVENT:285/107/Message < UNTRANSLATED
-
+\\E哇、吵死了！
 > END STRING
 
 > BEGIN STRING
 \\E…処女！純潔！可憐！清楚！
 ヒヒーーーーーーーーーンッ！！！！
 > CONTEXT COMMONEVENT:285/111/Message < UNTRANSLATED
-
+\\E……处女！纯洁！可爱！清秀！
+哔哔ーーーーーーーーー！！！！
 > END STRING
 
 > BEGIN STRING
 \\Eうおっ！？急に興奮しだしたぞ！
 > CONTEXT COMMONEVENT:285/113/Message < UNTRANSLATED
-
+\\E喂！？突然兴奋起来了！
 > END STRING
 
 > BEGIN STRING
 \\E我！奪処女！貫通！合体！交配！
 交尾！交尾！交尾！
 > CONTEXT COMMONEVENT:285/116/Message < UNTRANSLATED
-
+\\E我！掠夺处女！贯通！合体！交配！
+交尾！交尾！交尾！
 > END STRING
 
 > BEGIN STRING
 \\Eは、発情しだしたぞ！？
 > CONTEXT COMMONEVENT:285/118/Message < UNTRANSLATED
-
+\\E哇、开始发情了！？
 > END STRING
 
 > BEGIN STRING
 \\Eブルルヒヒィーーーーーーンッ！！
 > CONTEXT COMMONEVENT:285/122/Message < UNTRANSLATED
-
+\\E卟噜哔哔ーーーーーー！！
 > END STRING
 
 > BEGIN STRING
 \\Eく、くそ…。
 > CONTEXT COMMONEVENT:285/129/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:297/113/Message < UNTRANSLATED
-
+\\E可、可恶……
 > END STRING
 
 > BEGIN STRING
 \\E撃退したか…。
 性戦士…噂には聞いていたが…。
 > CONTEXT COMMONEVENT:285/147/Message < UNTRANSLATED
-
+\\E击退了吗……
+性战士……虽然听说过……
 > END STRING
 
 > BEGIN STRING
 \\Eな、なんだかすごく疲れちゃったね…お兄ちゃん。
 お家でゆっくりしよう。
 > CONTEXT COMMONEVENT:285/150/Message < UNTRANSLATED
-
+\\E总、总觉得非常累了……欧尼酱。
+在家好好休息吧。
 > END STRING
 
 > BEGIN STRING
 \\f[24]\\E村外れ
 > CONTEXT COMMONEVENT:285/168/Picture < UNTRANSLATED
 > CONTEXT COMMONEVENT:297/536/Picture < UNTRANSLATED
-
+\\f[24]\\E村外
 > END STRING
 
 > BEGIN STRING
 \\f[24]\\Eメクア遺跡
 > CONTEXT COMMONEVENT:285/172/Picture < UNTRANSLATED
-
+\\f[24]\\E“メクア”遗迹
 > END STRING
 
 > BEGIN STRING
@@ -168,20 +178,20 @@
 > BEGIN STRING
 \\f[24]\\E風の塔
 > CONTEXT COMMONEVENT:285/182/Picture < UNTRANSLATED
-
+\\f[24]\\E风之塔
 > END STRING
 
 > BEGIN STRING
 \\f[24]\\Eメクア海岸
 > CONTEXT COMMONEVENT:285/186/Picture < UNTRANSLATED
-
+\\f[24]\\E“メクア”海岸
 > END STRING
 
 > BEGIN STRING
 \\f[24]\\Eメクア平原
 > CONTEXT COMMONEVENT:285/192/Picture < UNTRANSLATED
 > CONTEXT COMMONEVENT:297/291/Picture < UNTRANSLATED
-
+\\f[24]\\E“メクア”平原
 > END STRING
 
 > BEGIN STRING
@@ -208,60 +218,60 @@
 背負う
 > CONTEXT COMMONEVENT:285/258/Choices < UNTRANSLATED
 > CONTEXT COMMONEVENT:297/655/Choices < UNTRANSLATED
-
+背负
 > END STRING
 
 > BEGIN STRING
 \\Eだいじょうぶか？
 > CONTEXT COMMONEVENT:285/267/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:297/664/Message < UNTRANSLATED
-
+\\E没有关系吗？
 > END STRING
 
 > BEGIN STRING
 \\Eうん、へいきだよ。
 > CONTEXT COMMONEVENT:285/270/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:297/667/Message < UNTRANSLATED
-
+\\E嗯、没有关系哦。
 > END STRING
 
 > BEGIN STRING
 \\Eほら、お兄ちゃんがおぶってあげるから無理すんな。
 > CONTEXT COMMONEVENT:285/272/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:297/669/Message < UNTRANSLATED
-
+\\E快来、欧尼酱给你背、不要勉强。
 > END STRING
 
 > BEGIN STRING
 \\Eん、ありがとうお兄ちゃん。
 > CONTEXT COMMONEVENT:285/275/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:297/672/Message < UNTRANSLATED
-
+\\E嗯、谢谢你欧尼酱。
 > END STRING
 
 > BEGIN STRING
 \\E少し休もうか。
 > CONTEXT COMMONEVENT:285/293/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:297/690/Message < UNTRANSLATED
-
+\\E稍微休息一下吧。
 > END STRING
 
 > BEGIN STRING
 \\Eこの辺で大冒険を切り上げるのか…？
 > CONTEXT COMMONEVENT:285/323/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:297/720/Message < UNTRANSLATED
-
+\\E在这附近结束大冒险吗？
 > END STRING
 
 > BEGIN STRING
 \\Eこうして2度目の大冒険を無事に？終えた。
 > CONTEXT COMMONEVENT:285/349/Message < UNTRANSLATED
-
+\\E就这样第二次的大冒险无事？结束了。
 > END STRING
 
 > BEGIN STRING
 \\E大冒険から帰還した。
 > CONTEXT COMMONEVENT:285/419/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:297/826/Message < UNTRANSLATED
-
+\\E从大冒险回来了。
 > END STRING

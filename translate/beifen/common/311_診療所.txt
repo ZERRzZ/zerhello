@@ -4,7 +4,8 @@
 \\Eなにかしら？
 大人しく治療されに来たのかしら？
 > CONTEXT COMMONEVENT:311/6/Message < UNTRANSLATED
-
+\\E到底是什么？
+是老实的来治疗了吗？
 > END STRING
 
 > BEGIN STRING
@@ -16,23 +17,23 @@
 > BEGIN STRING
 \\Eまた治療されにくるといいかしら。
 > CONTEXT COMMONEVENT:311/21/Message < UNTRANSLATED
-
+\\E再来治疗好吗。
 > END STRING
 
 > BEGIN STRING
 \\E完治までもう少しかかりそうだ…。
 > CONTEXT COMMONEVENT:311/23/Message < UNTRANSLATED
-
+\\E离痊愈好像还需要一点时间……
 > END STRING
 
 > BEGIN STRING
 \\E早漏が治った！
 > CONTEXT COMMONEVENT:311/32/Message < UNTRANSLATED
-
+\\E早泄治好了！
 > END STRING
 
 > BEGIN STRING
 \\Eイッパツが治った！
 > CONTEXT COMMONEVENT:311/38/Message < UNTRANSLATED
-
+\\E“イッパツ”治好了（一发）
 > END STRING

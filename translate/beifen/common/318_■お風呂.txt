@@ -36,37 +36,37 @@
 > BEGIN STRING
 \\Eそろそろ風呂に入るか…。
 > CONTEXT COMMONEVENT:318/112/Message < UNTRANSLATED
-
+\\E差不都该洗澡了……
 > END STRING
 
 > BEGIN STRING
 二人で入る
 > CONTEXT COMMONEVENT:318/115/SetString < UNTRANSLATED
-
+两个人进去
 > END STRING
 
 > BEGIN STRING
 身体を拭いてあげる
 > CONTEXT COMMONEVENT:318/120/SetString < UNTRANSLATED
-
+给你擦拭身体
 > END STRING
 
 > BEGIN STRING
 一人で入る
 > CONTEXT COMMONEVENT:318/125/Choices < UNTRANSLATED
-
+一个人进去
 > END STRING
 
 > BEGIN STRING
 いい風呂だった！
 > CONTEXT COMMONEVENT:318/125/Choices < UNTRANSLATED
-
+洗澡真是舒服啊！
 > END STRING
 
 > BEGIN STRING
 \\Eはーい、いってらっしゃい。
 > CONTEXT COMMONEVENT:318/136/Message < UNTRANSLATED
-
+\\E好、一路走好。
 > END STRING
 
 > BEGIN STRING
@@ -80,65 +80,69 @@
 > BEGIN STRING
 \\Eお風呂にゆっくり浸かった。
 > CONTEXT COMMONEVENT:318/151/Message < UNTRANSLATED
-
+\\E在浴室里悠闲的泡了泡澡。
 > END STRING
 
 > BEGIN STRING
 \\Eおかえり。
 じゃああたしも入ってくるね。
 > CONTEXT COMMONEVENT:318/162/Message < UNTRANSLATED
-
+\\E你回来了。
+那我也要进去了。
 > END STRING
 
 > BEGIN STRING
 \\E代わる代わるお風呂に入った。
 > CONTEXT COMMONEVENT:318/184/Message < UNTRANSLATED
-
+\\E轮换着洗完澡了。
 > END STRING
 
 > BEGIN STRING
 \\Eおかえり。
 > CONTEXT COMMONEVENT:318/191/Message < UNTRANSLATED
-
+\\E你回来了。
 > END STRING
 
 > BEGIN STRING
 \\Eお風呂に入った。
 > CONTEXT COMMONEVENT:318/199/Message < UNTRANSLATED
-
+\\E洗完澡了。
 > END STRING
 
 > BEGIN STRING
 \\Eえ、お兄ちゃんと一緒に…？
 …それはないなー。
 > CONTEXT COMMONEVENT:318/257/Message < UNTRANSLATED
-
+\\E诶、欧尼酱也要一起……？
+……那可不行……不行。
 > END STRING
 
 > BEGIN STRING
 \\Eまあ…そうなるよな。
 …入ってこよう。
 > CONTEXT COMMONEVENT:318/259/Message < UNTRANSLATED
-
+\\E嗯……会变成那样的吧。
+……进来吧。
 > END STRING
 
 > BEGIN STRING
 \\E風呂は…無理そうだな。
 お兄ちゃんが身体拭いてあげるからそっち向いてな。
 > CONTEXT COMMONEVENT:318/267/Message < UNTRANSLATED
-
+\\E洗澡……好像不行啊。
+欧尼酱会帮你擦身体的，你朝向那边。
 > END STRING
 
 > BEGIN STRING
 \\E…ん、うん…。
 > CONTEXT COMMONEVENT:318/269/Message < UNTRANSLATED
-
+\\E……嗯、嗯……
 > END STRING
 
 > BEGIN STRING
 \\Eうーん、すごい汗だぞ…。
 > CONTEXT COMMONEVENT:318/281/Message < UNTRANSLATED
-
+\\E唔嗯、出了好多的汗……
 > END STRING
 
 > BEGIN STRING
@@ -146,66 +150,66 @@
 > CONTEXT COMMONEVENT:318/284/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:345/247/Message < UNTRANSLATED
 > CONTEXT MPS:SampleMapA/events/20/pages/1/1847/Message < UNTRANSLATED
-
+\\E……嗯……
 > END STRING
 
 > BEGIN STRING
 \\E…ありがとう、お兄ちゃん…。
 > CONTEXT COMMONEVENT:318/296/Message < UNTRANSLATED
-
+\\E……谢谢你、欧尼酱……
 > END STRING
 
 > BEGIN STRING
 \\E妹の身体を拭いてあげたぞ…。
 > CONTEXT COMMONEVENT:318/299/Message < UNTRANSLATED
-
+\\E给妹妹擦了身体……
 > END STRING
 
 > BEGIN STRING
 \\Eパジャマ、新しいの出しておくな。
 > CONTEXT COMMONEVENT:318/301/Message < UNTRANSLATED
-
+\\E睡衣、不要吧新睡衣拿出来。
 > END STRING
 
 > BEGIN STRING
 \\Eさてこっちも風呂に入ってさっぱりするか…。
 > CONTEXT COMMONEVENT:318/305/Message < UNTRANSLATED
-
+\\E那么我这边也洗个澡清爽一下吧……
 > END STRING
 
 > BEGIN STRING
 \\Eうむ！実にいいお風呂だった！
 > CONTEXT COMMONEVENT:318/334/Message < UNTRANSLATED
 > CONTEXT MPS:SampleMapA_1/events/4/pages/2/119/Message < UNTRANSLATED
-
+\\E唔嗯！真是泡了一个好澡啊！
 > END STRING
 
 > BEGIN STRING
 \\Eいや、お風呂はもう少しあとにしよう…。
 > CONTEXT COMMONEVENT:318/354/Message < UNTRANSLATED
-
+\\E不、过一会儿再洗澡吧……
 > END STRING
 
 > BEGIN STRING
 \\E……ふー。
 > CONTEXT COMMONEVENT:318/369/Message < UNTRANSLATED
-
+\\E……呼。
 > END STRING
 
 > BEGIN STRING
 \\E……ふいーあっちー。
 > CONTEXT COMMONEVENT:318/379/Message < UNTRANSLATED
-
+\\E……呼、那边。
 > END STRING
 
 > BEGIN STRING
 \\Eんっく……ん……ぷはー！くぅーっ！！
 > CONTEXT COMMONEVENT:318/381/Message < UNTRANSLATED
-
+\\E嗯……嗯……呜哈哈！哼！！
 > END STRING
 
 > BEGIN STRING
 \\Eなんだか親父に似てきたな…。
 > CONTEXT COMMONEVENT:318/383/Message < UNTRANSLATED
-
+\\E总觉得和父亲长得很像啊……
 > END STRING

@@ -3,29 +3,29 @@
 > BEGIN STRING
 \\E\\f[12]イカ大王の討伐
 > CONTEXT COMMONEVENT:288/5/Picture < UNTRANSLATED
-
+\\E\\f[12]“イカ大王”的讨伐（乌贼大王）
 > END STRING
 
 > BEGIN STRING
 \\E\\f[12]サイコマッチョの討伐
 > CONTEXT COMMONEVENT:288/8/Picture < UNTRANSLATED
-
+\\E\\f[12]“サイコマッチョ”的讨伐（精神病）
 > END STRING
 
 > BEGIN STRING
 \\E\\f[12]メンヘラちゃんの対応
 > CONTEXT COMMONEVENT:288/11/Picture < UNTRANSLATED
-
+\\E\\f[12]“メンヘラちゃん”的应对（孟加拉酱）
 > END STRING
 
 > BEGIN STRING
 \\E\\f[12]サイレントキラー収穫
 > CONTEXT COMMONEVENT:288/16/Picture < UNTRANSLATED
-
+\\E\\f[12]“サイレントキラー”的讨伐（沉默杀手）
 > END STRING
 
 > BEGIN STRING
 \\E\\f[12]アザラ勇者の討伐
 > CONTEXT COMMONEVENT:288/19/Picture < UNTRANSLATED
-
+\\E\\f[12]“アザラ勇者”的讨伐（“アザラ”勇者）
 > END STRING

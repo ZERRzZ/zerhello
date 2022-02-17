@@ -46,7 +46,7 @@ Hしたい！！
 > BEGIN STRING
 \\Eうーん、具合が良くないみたいだ…。
 > CONTEXT COMMONEVENT:245/44/Message < UNTRANSLATED
-\\唔嗯, 我好像不舒服……
+\\E唔嗯, 我好像不舒服……
 > END STRING
 
 > BEGIN STRING
