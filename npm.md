@@ -21,7 +21,7 @@
 
 查看: `npm config get registry` 查看当前的仓库(登记处)  
 修改: `npm config set registry <url>` 修改  
-常见: 常见的仓库有官方 `http://registry.npmjs.org`, 淘宝以及私有等  
+常见: 常见的仓库有官方 `https://registry.npmjs.org`, 淘宝以及私有等  
 yz: `http://192.168.1.253:8001/repository/groupnpm chengzs/agms1234`  
 
 ## 使用包
