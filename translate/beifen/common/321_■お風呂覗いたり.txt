@@ -21,7 +21,7 @@
 > BEGIN STRING
 \\Eだよな…さすがにやめておこう…。
 > CONTEXT COMMONEVENT:321/21/Message < UNTRANSLATED
-\\E对哦……果然还是算了吧……
+\\E就是嘛……果然还是算了吧……
 > END STRING
 
 > BEGIN STRING

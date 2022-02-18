@@ -168,7 +168,7 @@
 > BEGIN STRING
 \\Eパジャマ、新しいの出しておくな。
 > CONTEXT COMMONEVENT:318/301/Message < UNTRANSLATED
-\\E睡衣、不要吧新睡衣拿出来。
+\\E睡衣、不要把新睡衣拿出来。
 > END STRING
 
 > BEGIN STRING

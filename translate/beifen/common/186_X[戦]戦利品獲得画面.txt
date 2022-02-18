@@ -19,7 +19,7 @@
 > BEGIN STRING
 　\\cself[10]　入手！
 > CONTEXT COMMONEVENT:186/107/SetString
-得到\\cself[10]
+得到\\cself[10]！
 > END STRING
 
 > BEGIN STRING
@@ -31,7 +31,7 @@
 > BEGIN STRING
 入手！
 > CONTEXT COMMONEVENT:186/113/SetString
-得到
+得到！
 > END STRING
 
 > BEGIN STRING
@@ -59,13 +59,13 @@
 > BEGIN STRING
 \\cself[50]上がった！
 > CONTEXT COMMONEVENT:186/192/SetString < UNTRANSLATED
-\\cself[50]上涨了
+\\cself[50]上涨了！
 > END STRING
 
 > BEGIN STRING
 \\cself[50]下がった！
 > CONTEXT COMMONEVENT:186/195/SetString < UNTRANSLATED
-\\cself[50]下降了
+\\cself[50]下降了！
 > END STRING
 
 > BEGIN STRING

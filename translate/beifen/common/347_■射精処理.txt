@@ -3,5 +3,5 @@
 > BEGIN STRING
 \\Eで、でるっ…！！\\.\\^
 > CONTEXT COMMONEVENT:347/42/Message < UNTRANSLATED
-
+\\E出、出来了……！！\\.\\^
 > END STRING

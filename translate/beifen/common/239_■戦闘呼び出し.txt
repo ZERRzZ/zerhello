@@ -149,7 +149,7 @@
 \\f[12]■
 > CONTEXT COMMONEVENT:239/435/Picture < UNTRANSLATED
 > CONTEXT COMMONEVENT:242/814/Picture < UNTRANSLATED
-
+\\f[12]★
 > END STRING
 
 > BEGIN STRING
@@ -211,11 +211,11 @@
 > BEGIN STRING
 \\f[16]\\s[0]との戦いに勝利した！
 > CONTEXT COMMONEVENT:239/659/Picture < UNTRANSLATED
-\\f[16]\\s[0]这场战斗胜利了！
+\\f[16]在和 \\s[0] 的战斗胜利了！
 > END STRING
 
 > BEGIN STRING
 \\f[16]\\s[0]との戦いに負けてしまった…
 > CONTEXT COMMONEVENT:239/713/Picture < UNTRANSLATED
-\\f[16]\\s[0]这场战斗输掉了……
+\\f[16]在和 \\s[0] 的战斗输掉了……
 > END STRING

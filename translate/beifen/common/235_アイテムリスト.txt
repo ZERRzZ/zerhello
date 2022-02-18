@@ -63,7 +63,7 @@
 > BEGIN STRING
 \\c[9]\\f[16]冒険の書　　　×\\v[275]
 > CONTEXT COMMONEVENT:235/185/Picture < UNTRANSLATED
-\\c[9]\\f[16]冒险的书　　　×\\v[275]
+\\c[9]\\f[16]冒险书　　　　×\\v[275]
 > END STRING
 
 > BEGIN STRING

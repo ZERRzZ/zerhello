@@ -28,7 +28,7 @@
 \\f[16]\\cself[13]のダメージを受けた！！
 > CONTEXT COMMONEVENT:241/118/Picture < UNTRANSLATED
 > CONTEXT COMMONEVENT:243/249/Picture < UNTRANSLATED
-受到了\\f[16]\\cself[13]的伤害！
+\\f[16]受到了\\cself[13]点伤害！
 > END STRING
 
 > BEGIN STRING

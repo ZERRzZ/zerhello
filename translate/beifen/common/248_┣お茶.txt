@@ -3,7 +3,7 @@
 > BEGIN STRING
 \\E…お茶でもいれようかな。
 > CONTEXT COMMONEVENT:248/4/Message < UNTRANSLATED
-\\E泡茶……可以吗？
+\\E……倒杯茶吧……好像不行啊……
 > END STRING
 
 > BEGIN STRING

@@ -3,11 +3,11 @@
 > BEGIN STRING
 \\E夜まで休もうかな…？
 > CONTEXT COMMONEVENT:327/5/Message < UNTRANSLATED
-
+\\E休息到晚上吗……？
 > END STRING
 
 > BEGIN STRING
 \\E…そうだな、今日はゆっくり体を休めよう。
 > CONTEXT COMMONEVENT:327/8/Message < UNTRANSLATED
-
+\\E……也是，今天就好好休息吧。
 > END STRING

@@ -7,162 +7,173 @@
 > CONTEXT COMMONEVENT:289/761/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:297/484/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:298/661/Message < UNTRANSLATED
-
+\\E怎么这样……
 > END STRING
 
 > BEGIN STRING
 \\E昔から妹とは大冒険と称して
 時々ちょっとしたお出かけをする事がある。
 > CONTEXT COMMONEVENT:297/23/Message < UNTRANSLATED
-
+\\E很久之前妹妹就称之为大冒险
+有时也会稍微出去玩玩。
 > END STRING
 
 > BEGIN STRING
 \\E村外れの湖畔まで釣りに行ったり、家の裏手の森を探検したり…。
 普段よりちょっと足を伸ばした安全な冒険。
 > CONTEXT COMMONEVENT:297/24/Message < UNTRANSLATED
-
+\\E去村外的湖畔钓鱼，在家后面的森林探险……
+比平时稍微进一步到更远的地方去安全的冒险。
 > END STRING
 
 > BEGIN STRING
 \\E手頃な枝を剣に見立て、特に目的もなくただ歩き
 日が暮れたら家路につく。
 > CONTEXT COMMONEVENT:297/25/Message < UNTRANSLATED
-
+\\E将合适的树枝比作剑，没有特别目的地只是走着
+天黑了就回家。
 > END STRING
 
 > BEGIN STRING
 \\Eまだ幼かった少年と少女の小さな冒険─
 > CONTEXT COMMONEVENT:297/26/Message < UNTRANSLATED
-
+\\E是还年幼的少年和少女的小小的冒险
 > END STRING
 
 > BEGIN STRING
 \\Eしかしこれから目指すあの森は、深く、暗く、危険で─
 抗いようのない未知という魅力に溢れている。
 > CONTEXT COMMONEVENT:297/29/Message < UNTRANSLATED
-
+\\E但是，从今之后目标的那片森林，又深，又暗，又危险但又
+充满着无法抗拒的未知魅力。
 > END STRING
 
 > BEGIN STRING
 \\Eこの国の北に広がる世界樹の大森林。
 世界樹の祝福を得たものはあらゆる病魔を退け幸運に恵まれる…。
 > CONTEXT COMMONEVENT:297/30/Message < UNTRANSLATED
-
+\\E在这个国家的北方有着广阔的世界树形成的大森林。
+得到世界树祝福的人能击退一切病魔，并获得幸运……
 > END STRING
 
 > BEGIN STRING
 \\E単なる伝承、言い伝え。
 だとしても俺たちにはそこを目指す理由がある。
 > CONTEXT COMMONEVENT:297/31/Message < UNTRANSLATED
-
+\\E虽然只是单纯的传说。
+但是我们有不得不以那里为目标的理由。
 > END STRING
 
 > BEGIN STRING
 \\Eいま少年は剣を手に、少女を連れて。
 > CONTEXT COMMONEVENT:297/32/Message < UNTRANSLATED
-
+\\E现在，少年正拿着剑，带着少女。
 > END STRING
 
 > BEGIN STRING
 \\E大冒険が始まる…！
 > CONTEXT COMMONEVENT:297/33/Message < UNTRANSLATED
-
+\\E开始了大冒险……！
 > END STRING
 
 > BEGIN STRING
 \\E大丈夫か？
 > CONTEXT COMMONEVENT:297/40/Message < UNTRANSLATED
-
+\\E没事吧？
 > END STRING
 
 > BEGIN STRING
 \\Eうん、へいき。
 > CONTEXT COMMONEVENT:297/43/Message < UNTRANSLATED
-
+\\E嗯、不要紧。
 > END STRING
 
 > BEGIN STRING
 \\Eよし…行こうか！
 > CONTEXT COMMONEVENT:297/45/Message < UNTRANSLATED
-
+\\E好……走吧！
 > END STRING
 
 > BEGIN STRING
 \\f[24]\\E世界樹の森
 > CONTEXT COMMONEVENT:297/98/Picture < UNTRANSLATED
-
+\\f[24]\\E世界树的森林
 > END STRING
 
 > BEGIN STRING
 \\E何人たりとも近づくことはできぬ…！
 > CONTEXT COMMONEVENT:297/106/Message < UNTRANSLATED
-
+\\E无论多少人都无法接近……！
 > END STRING
 
 > BEGIN STRING
 \\Eこれが…世界樹…。
 > CONTEXT COMMONEVENT:297/131/Message < UNTRANSLATED
-
+\\E这就是……世界树……
 > END STRING
 
 > BEGIN STRING
 \\Eわあ…上が見えないよお兄ちゃん。
 > CONTEXT COMMONEVENT:297/134/Message < UNTRANSLATED
-
+\\E哇……上面都看不到了，欧尼酱。
 > END STRING
 
 > BEGIN STRING
 \\E約束を違えず2人でここまでこれたようだね。
 > CONTEXT COMMONEVENT:297/137/Message < UNTRANSLATED
-
+\\E没有破坏约定，两个人一起到这里来了呢。
 > END STRING
 
 > BEGIN STRING
 \\Eやあ、また会えて嬉しいよ。
 よく腕を磨いたようだね、実に素晴らしい。
 > CONTEXT COMMONEVENT:297/140/Message < UNTRANSLATED
-
+\\E哎呀、很高兴能再见到你。
+看来你磨练了不少本领、真是太棒了。
 > END STRING
 
 > BEGIN STRING
 \\E妹の方もよく気持ちを暴走させず今まで抑えてきたね。
 魔力を溜め込んだ体は下手をすれば爆発することもあった。
 > CONTEXT COMMONEVENT:297/142/Message < UNTRANSLATED
-
+\\E妹妹这边也没有让心情失控，一直压抑到现在。
+积蓄了魔力的身体如果弄不好就会爆炸。
 > END STRING
 
 > BEGIN STRING
 \\E妹が爆発？…そんなまさか。
 > CONTEXT COMMONEVENT:297/145/Message < UNTRANSLATED
-
+\\E妹妹会爆炸？……不会吧。
 > END STRING
 
 > BEGIN STRING
 \\E蓄積された魔力はなにかの拍子に爆発なんてこともある。
 君の妹は火薬の詰まったタルのようなものなんだよ。
 > CONTEXT COMMONEVENT:297/148/Message < UNTRANSLATED
-
+\\E积蓄的魔力有时会在某个瞬间爆发。
+你妹妹就像一个装满火药的火药桶哦。
 > END STRING
 
 > BEGIN STRING
 \\E─コホン。
 さて、ここまで来てくれた君たち兄妹に新たな提案をしよう。
 > CONTEXT COMMONEVENT:297/153/Message < UNTRANSLATED
-
+\\E嗯。
+那么，我们向来到这里的你们兄妹提出新的提案吧。
 > END STRING
 
 > BEGIN STRING
 \\E私はいま君の未来と引き換えに妹を救う事ができる。
 > CONTEXT COMMONEVENT:297/155/Message < UNTRANSLATED
-
+\\E我现在可以用你的未来去拯救妹妹。
 > END STRING
 
 > BEGIN STRING
 \\E妹の身体の魔力の流れを正常に戻すことは難しいが…
 異常を起こしている部分を君と入れ替える術式を施すことが可能だ。
 > CONTEXT COMMONEVENT:297/156/Message < UNTRANSLATED
-
+\\E虽然很难将妹妹身体的魔力流恢复正常……
+但可以施展把引起异常的部分和你调换一下的术式。
 > END STRING
 
 > BEGIN STRING

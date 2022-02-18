@@ -3,5 +3,5 @@
 > BEGIN STRING
 \\f[16]\\E堪能中…
 > CONTEXT COMMONEVENT:346/44/Picture < UNTRANSLATED
-
+\\f[16]\\E充能中……
 > END STRING

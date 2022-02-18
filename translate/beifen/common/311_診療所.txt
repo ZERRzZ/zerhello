@@ -4,8 +4,8 @@
 \\Eなにかしら？
 大人しく治療されに来たのかしら？
 > CONTEXT COMMONEVENT:311/6/Message < UNTRANSLATED
-\\E到底是什么？
-是老实的来治疗了吗？
+\\E到底是怎么了？
+这么老实的来治疗了？
 > END STRING
 
 > BEGIN STRING

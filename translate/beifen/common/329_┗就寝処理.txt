@@ -3,13 +3,13 @@
 > BEGIN STRING
 \\Eうーん…なんだか寝付けないぞ…。
 > CONTEXT COMMONEVENT:329/252/Message < UNTRANSLATED
-
+\\E嗯……总觉得睡不着啊……
 > END STRING
 
 > BEGIN STRING
 \\Eはっ！？自分は一体…！？
 > CONTEXT COMMONEVENT:329/276/Message < UNTRANSLATED
-
+\\E哈！？自己究竟是怎么了……！？
 > END STRING
 
 > BEGIN STRING

@@ -33,13 +33,13 @@
 > BEGIN STRING
 覗き魔でもあるが
 > CONTEXT COMMONEVENT:283/29/SetString < UNTRANSLATED
-但是个偷窥狂魔
+虽然是个偷窥狂魔
 > END STRING
 
 > BEGIN STRING
 救いようもないが
 > CONTEXT COMMONEVENT:283/32/SetString < UNTRANSLATED
-无可救药
+虽然无可救药
 > END STRING
 
 > BEGIN STRING
@@ -51,61 +51,61 @@
 > BEGIN STRING
 \\c[15]\\f[14]妹を溺愛し\\cself[6]で\\cself[7]、\\cself[8]
 > CONTEXT COMMONEVENT:283/38/Picture < UNTRANSLATED
-\\c[15]\\f[14]溺爱妹妹\\cself[6]で\\cself[7]、\\cself[8]
+\\c[15]\\f[14]溺爱妹妹、\\cself[6]、\\cself[7]、\\cself[8]
 > END STRING
 
 > BEGIN STRING
 実は多少名の知れた腕の立つ冒険者。
 > CONTEXT COMMONEVENT:283/41/SetString < UNTRANSLATED
-实际上是个多少有点本领的冒险家。
+但是实际上是个多少有点本领的冒险家。
 > END STRING
 
 > BEGIN STRING
 この地方で活動する若い冒険者の一人。
 > CONTEXT COMMONEVENT:283/44/SetString < UNTRANSLATED
-是在这个地方活动的年轻冒险者之一。
+但是是在这个地方活动的年轻冒险者之一。
 > END STRING
 
 > BEGIN STRING
 メクアの村で活動する新米冒険者。
 > CONTEXT COMMONEVENT:283/47/SetString < UNTRANSLATED
-“メクア”村子里活动的新手冒险家。
+但是是“メクア”村子里活动的新手冒险家。
 > END STRING
 
 > BEGIN STRING
 冒険の日々に憧れる駆け出しの冒険者。
 > CONTEXT COMMONEVENT:283/50/SetString < UNTRANSLATED
-憧憬着冒险的日子的初出茅庐的冒险者。
+但是是憧憬着冒险的日子的初出茅庐的冒险者。
 > END STRING
 
 > BEGIN STRING
 予選後アカツキという冒険者に力の差を見せつけられるも
 > CONTEXT COMMONEVENT:283/56/SetString < UNTRANSLATED
-预选后被叫做“アカツキ”的冒险者显示出力量的差距
+预选后被叫做“アカツキ”的冒险者显示出力量的差距。
 > END STRING
 
 > BEGIN STRING
 交流戦では実力の差と現実をまざまざと見せつけられるも
 > CONTEXT COMMONEVENT:283/59/SetString < UNTRANSLATED
-在交流战中实力的差距的现实被显示得淋漓尽致
+在交流战中实力的差距的现实被显示得淋漓尽致。
 > END STRING
 
 > BEGIN STRING
 いよいよ11日、自身初めてのギルド交流戦を控える中で
 > CONTEXT COMMONEVENT:283/62/SetString < UNTRANSLATED
-终于在11日、在等候自己第一次的工会交流战中
+交流站定在11日、在等候自己第一次的工会交流战中。
 > END STRING
 
 > BEGIN STRING
 カナやユイ、ギルドの仲間と訓練ばかりの毎日の中でも
 > CONTEXT COMMONEVENT:283/65/SetString < UNTRANSLATED
-每天都和“カナ”，“ユイ”、工会的伙伴们一起训练
+每天都和“カナ”，“ユイ”、工会的伙伴们一起训练。
 > END STRING
 
 > BEGIN STRING
 所属ギルドはその不振から合併統合の話が立ち上がる中で
 > CONTEXT COMMONEVENT:283/70/SetString < UNTRANSLATED
-所属的工会因为不景气而开始了合并的话题
+所属的工会因为不景气而开始了合并的话题。
 > END STRING
 
 > BEGIN STRING
@@ -135,13 +135,13 @@
 > BEGIN STRING
 パンツハンターである。
 > CONTEXT COMMONEVENT:283/90/SetString < UNTRANSLATED
-是胖次猎人
+是胖次猎人。
 > END STRING
 
 > BEGIN STRING
 未来ある若者だ。
 > CONTEXT COMMONEVENT:283/93/SetString < UNTRANSLATED
-未来的年轻人
+未来的年轻人。
 > END STRING
 
 > BEGIN STRING
@@ -153,7 +153,7 @@
 > BEGIN STRING
 活躍の甲斐ありギルド存続の危機をも乗り越えさらには
 > CONTEXT COMMONEVENT:283/99/SetString < UNTRANSLATED
-活跃的有意义的工会存续危机也能成功跨越
+活跃着的的、有意义的工会的存续危机也能成功跨越
 > END STRING
 
 > BEGIN STRING
@@ -327,13 +327,13 @@
 > BEGIN STRING
 夜毎に
 > CONTEXT COMMONEVENT:283/237/SetString < UNTRANSLATED
-每夜
+每天夜里
 > END STRING
 
 > BEGIN STRING
 夜な夜な
 > CONTEXT COMMONEVENT:283/240/SetString < UNTRANSLATED
-夜半
+每天夜里
 > END STRING
 
 > BEGIN STRING
@@ -357,25 +357,25 @@
 > BEGIN STRING
 未熟ながらも
 > CONTEXT COMMONEVENT:283/254/SetString < UNTRANSLATED
-虽然还不成熟
+虽然还不成熟，但
 > END STRING
 
 > BEGIN STRING
 アナルも堪能する
 > CONTEXT COMMONEVENT:283/259/SetString < UNTRANSLATED
-肛门耶心满意足
+连肛门也能满足、
 > END STRING
 
 > BEGIN STRING
 尻穴まで開発する
 > CONTEXT COMMONEVENT:283/262/SetString < UNTRANSLATED
-连肛门耶开发了
+连肛门也开发了、
 > END STRING
 
 > BEGIN STRING
 いつもどうりの
 > CONTEXT COMMONEVENT:283/265/SetString < UNTRANSLATED
-一如既往的
+和往常一样
 > END STRING
 
 > BEGIN STRING
@@ -387,19 +387,19 @@
 > BEGIN STRING
 充実した毎日だ。
 > CONTEXT COMMONEVENT:283/273/SetString < UNTRANSLATED
-充实的每一天。
+过着充实的每一天。
 > END STRING
 
 > BEGIN STRING
 欲に塗れた毎日だ。
 > CONTEXT COMMONEVENT:283/278/SetString < UNTRANSLATED
-充满欲望的每一天。
+过着充满欲望的每一天。
 > END STRING
 
 > BEGIN STRING
 毎日だ。
 > CONTEXT COMMONEVENT:283/281/SetString < UNTRANSLATED
-每一天。
+过着每一天。
 > END STRING
 
 > BEGIN STRING

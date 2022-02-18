@@ -9,7 +9,7 @@
 > BEGIN STRING
 \\c[2]\\f[14]負傷中
 > CONTEXT COMMONEVENT:216/27/Picture
-\\c[2]\\f[14]负伤
+\\c[2]\\f[14]负伤中
 > END STRING
 
 > BEGIN STRING
@@ -27,7 +27,7 @@
 > BEGIN STRING
 \\f[14]精力 \\v[16]/\\v[15]
 > CONTEXT COMMONEVENT:216/38/Picture < UNTRANSLATED
-\\f[14]精力\\v[16]/\\v[15]
+
 > END STRING
 
 > BEGIN STRING
@@ -45,7 +45,7 @@
 > BEGIN STRING
 \\f[14]所持金
 > CONTEXT COMMONEVENT:216/178/Picture
-\\f[14]金钱
+
 > END STRING
 
 > BEGIN STRING

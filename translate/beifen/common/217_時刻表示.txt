@@ -3,13 +3,13 @@
 > BEGIN STRING
 \\f[18]？\\f[14]日目
 > CONTEXT COMMONEVENT:217/4/Picture < UNTRANSLATED
-第\\f[18]？\\f[14]日
+\\f[18]？ \\f[14]日
 > END STRING
 
 > BEGIN STRING
 \\f[18]\\v[160]\\f[14]日目
 > CONTEXT COMMONEVENT:217/7/Picture < UNTRANSLATED
-第\\f[18]\\v[160]\\f[14]日
+\\f[18]\\v[160] \\f[14]日
 > END STRING
 
 > BEGIN STRING
@@ -19,7 +19,7 @@
 > END STRING
 
 > BEGIN STRING
-\\f[24]\\v[4]:0\\v[5]\n
+\\f[24]\\v[4]:0\\v[5]\n 
 > CONTEXT COMMONEVENT:217/33/Picture < UNTRANSLATED
 
 > END STRING
@@ -33,41 +33,41 @@
 > BEGIN STRING
 \\c[0]\\f[18]月
 > CONTEXT COMMONEVENT:217/42/Picture < UNTRANSLATED
-\\c[0]\\f[18]周一
+\\c[0]\\f[18]一
 > END STRING
 
 > BEGIN STRING
 \\f[18]火
 > CONTEXT COMMONEVENT:217/45/Picture < UNTRANSLATED
-\\f[18]周二
+\\f[18]二
 > END STRING
 
 > BEGIN STRING
 \\f[18]水
 > CONTEXT COMMONEVENT:217/48/Picture < UNTRANSLATED
-\\f[18]周三
+\\f[18]三
 > END STRING
 
 > BEGIN STRING
 \\f[18]木
 > CONTEXT COMMONEVENT:217/53/Picture < UNTRANSLATED
-\\f[18]周四
+\\f[18]四
 > END STRING
 
 > BEGIN STRING
 \\f[18]金
 > CONTEXT COMMONEVENT:217/57/Picture < UNTRANSLATED
-\\f[18]周五
+\\f[18]五
 > END STRING
 
 > BEGIN STRING
 \\c[1]\\f[18]土
 > CONTEXT COMMONEVENT:217/62/Picture < UNTRANSLATED
-\\c[1]\\f[18]周六
+\\c[1]\\f[18]六
 > END STRING
 
 > BEGIN STRING
 \\c[2]\\f[18]日
 > CONTEXT COMMONEVENT:217/65/Picture < UNTRANSLATED
-\\c[2]\\f[18]周日
+\\c[2]\\f[18]日
 > END STRING

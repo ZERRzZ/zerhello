@@ -21,13 +21,13 @@
 > BEGIN STRING
 \\c[15]\\f[14]不便もあるが\\cself[5]と二人で暮らす。
 > CONTEXT COMMONEVENT:282/15/Picture < UNTRANSLATED
-\\c[15]\\f[14]虽然不便\\cself[5]，但还是两人一起生活。
+\\c[15]\\f[14]虽有不便之处，但和\\cself[5]一起生活着。
 > END STRING
 
 > BEGIN STRING
 大冒険の末に期限付きだが一時的に健康を取り戻した。
 > CONTEXT COMMONEVENT:282/18/SetString < UNTRANSLATED
-大冒险的最后有期限但是取得了暂时的健康。
+虽然有期限，但是大冒险的最后取得了暂时的健康。
 > END STRING
 
 > BEGIN STRING
@@ -45,7 +45,7 @@
 > BEGIN STRING
 生まれつき身体が弱く、寝込むこともしばしばある。
 > CONTEXT COMMONEVENT:282/27/SetString < UNTRANSLATED
-天生身体弱，经常卧床不起。
+天生体弱多病、经常卧床不起。
 > END STRING
 
 > BEGIN STRING
@@ -58,31 +58,31 @@
 > BEGIN STRING
 えっちへの興味は旺盛
 > CONTEXT COMMONEVENT:282/33/SetString < UNTRANSLATED
-色色都性趣旺盛
+色色的性趣旺盛
 > END STRING
 
 > BEGIN STRING
 で
 > CONTEXT COMMONEVENT:282/36/SetString < UNTRANSLATED
-で（de）
+并且
 > END STRING
 
 > BEGIN STRING
 だが
 > CONTEXT COMMONEVENT:282/39/SetString < UNTRANSLATED
-だが（但是）
+但是
 > END STRING
 
 > BEGIN STRING
 性については覚えたてで
 > CONTEXT COMMONEVENT:282/44/SetString < UNTRANSLATED
-关于性才刚刚记住
+关于性的事才刚刚记住
 > END STRING
 
 > BEGIN STRING
 性が芽生えてきた年頃で
 > CONTEXT COMMONEVENT:282/47/SetString < UNTRANSLATED
-在性萌芽的年龄
+还在性萌芽的年龄
 > END STRING
 
 > BEGIN STRING
@@ -118,25 +118,25 @@
 > BEGIN STRING
 初めてを兄に捧げ
 > CONTEXT COMMONEVENT:282/69/SetString < UNTRANSLATED
-把第一次献给欧尼酱
+把第一次献给欧尼酱并且
 > END STRING
 
 > BEGIN STRING
 睡眠中に処女を失い
 > CONTEXT COMMONEVENT:282/77/SetString < UNTRANSLATED
-睡眠中的处女丧失
+在睡眠中丧失处女并且
 > END STRING
 
 > BEGIN STRING
 処女の身ではあるものの
 > CONTEXT COMMONEVENT:282/86/SetString < UNTRANSLATED
-虽然身为处女
+虽然身为处女但是
 > END STRING
 
 > BEGIN STRING
 とうぜん処女であり
 > CONTEXT COMMONEVENT:282/89/SetString < UNTRANSLATED
-完全是处女
+完全是处女但是
 > END STRING
 
 > BEGIN STRING
@@ -154,31 +154,31 @@
 > BEGIN STRING
 夜は何も知らぬまま
 > CONTEXT COMMONEVENT:282/102/SetString < UNTRANSLATED
-夜晚什么都不知道时
+在夜晚什么都不知道时
 > END STRING
 
 > BEGIN STRING
 肛門まで開発され
 > CONTEXT COMMONEVENT:282/107/SetString < UNTRANSLATED
-肛门都被开发了
+连肛门都被开发了。
 > END STRING
 
 > BEGIN STRING
 肛門を開発され
 > CONTEXT COMMONEVENT:282/110/SetString < UNTRANSLATED
-肛门被开发
+肛门被开发。
 > END STRING
 
 > BEGIN STRING
 眠りにつき平穏に
 > CONTEXT COMMONEVENT:282/115/SetString < UNTRANSLATED
-入睡后平静的
+平静的入睡。
 > END STRING
 
 > BEGIN STRING
 身体を重ねあい
 > CONTEXT COMMONEVENT:282/120/SetString < UNTRANSLATED
-（身体を重ねあい）用身体
+用身体重叠。
 > END STRING
 
 > BEGIN STRING
@@ -190,19 +190,19 @@
 > BEGIN STRING
 盛大に潮を吹きイキ狂い
 > CONTEXT COMMONEVENT:282/133/SetString < UNTRANSLATED
-经历过疯狂盛大的潮吹
+经历过疯狂盛大的潮吹之后
 > END STRING
 
 > BEGIN STRING
 お互いを求め合いながら
 > CONTEXT COMMONEVENT:282/136/SetString < UNTRANSLATED
-相互间互相寻求中
+在相互间寻求中
 > END STRING
 
 > BEGIN STRING
 少しづつ快楽を覚えさせられて
 > CONTEXT COMMONEVENT:282/139/SetString < UNTRANSLATED
-记住了一点点的快乐
+记住了一点点快乐的同时
 > END STRING
 
 > BEGIN STRING

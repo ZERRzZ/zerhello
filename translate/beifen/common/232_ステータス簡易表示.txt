@@ -87,19 +87,19 @@
 > BEGIN STRING
 \\E\\f[16]夏休み！
 > CONTEXT COMMONEVENT:232/92/Picture < UNTRANSLATED
-\\E\\f[16]暑假
+\\E\\f[16]暑假！
 > END STRING
 
 > BEGIN STRING
 \\E\\f[16]合宿期間！\n
 > CONTEXT COMMONEVENT:232/97/Picture < UNTRANSLATED
-\\E\\f[16]合宿期间\n
+\\E\\f[16]合宿期间！\n
 > END STRING
 
 > BEGIN STRING
 \\E\\f[16]シスタートラベル\n
 > CONTEXT COMMONEVENT:232/100/Picture
-\\E\\f[16]修女旅行\n
+\\E\\f[16]妹妹旅行\n
 > END STRING
 
 > BEGIN STRING

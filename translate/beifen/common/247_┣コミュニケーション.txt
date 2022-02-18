@@ -187,7 +187,7 @@
 > BEGIN STRING
 冒険の書　　 \\f[12]所持(\\v[275])\\f[20]
 > CONTEXT COMMONEVENT:247/292/Choices < UNTRANSLATED
-冒险的书　　 \\f[12]所持(\\v[275])\\f[20]
+冒险书　　　 \\f[12]所持(\\v[275])\\f[20]
 > END STRING
 
 > BEGIN STRING
@@ -535,13 +535,13 @@
 > BEGIN STRING
 \\E…まさかついてきて欲しいのか。
 > CONTEXT COMMONEVENT:247/1034/Message < UNTRANSLATED
-\\E……难道你想跟我来吗。
+\\E……难道你想我陪你一起去吗。
 > END STRING
 
 > BEGIN STRING
 \\Eだって怖い話するから…。
 > CONTEXT COMMONEVENT:247/1037/Message < UNTRANSLATED
-\\E但是你说了恐怖的话……
+\\E因为你说了恐怖的话……
 > END STRING
 
 > BEGIN STRING
