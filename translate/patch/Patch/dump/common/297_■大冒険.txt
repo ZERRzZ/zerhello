@@ -180,350 +180,376 @@
 \\E他人同士でなら難しい秘術でも
 兄妹であれば比較的に容易い。
 > CONTEXT COMMONEVENT:297/157/Message < UNTRANSLATED
-
+\\E即使是其他人之间很难成功的秘术
+但如果是兄妹的话比较容易。
 > END STRING
 
 > BEGIN STRING
 \\Eなにより君は魔力の開放…
 爆破の力を使うことができる。
 > CONTEXT COMMONEVENT:297/158/Message < UNTRANSLATED
-
+\\E最重要的是你的魔力的开放性……
+可以使用爆炸的力量。
 > END STRING
 
 > BEGIN STRING
 \\E魔力？開放…？
 身に覚えがないんですけど…。
 > CONTEXT COMMONEVENT:297/161/Message < UNTRANSLATED
-
+\\E魔力？开放……？
+但是身上并没有感觉到什么……
 > END STRING
 
 > BEGIN STRING
 \\E普通の人は剣戟で爆発を起こすなんて真似はできないのさ。
 ま、つまり適度に発散できるんで暴走の可能性が少ないんだ。
 > CONTEXT COMMONEVENT:297/164/Message < UNTRANSLATED
-
+\\E普通人在刀、剑的战斗中会引发爆炸什么的，这是无法做到的。
+嘛，也就是说能够适度发泄，所以暴走的可能性很小。
 > END STRING
 
 > BEGIN STRING
 \\Eそれじゃあ…未来と引き換えにってのは？
 > CONTEXT COMMONEVENT:297/167/Message < UNTRANSLATED
-
+\\E那么……和未来交换的是什么？
 > END STRING
 
 > BEGIN STRING
 \\E子を成す能力、つまり君の未来。
 > CONTEXT COMMONEVENT:297/170/Message < UNTRANSLATED
-
+\\E孕育孩子的能力、也就是你的未来。
 > END STRING
 
 > BEGIN STRING
 \\E魔力と生命力は表裏一体、その魔力の流れが変わるわけだ。
 残念だけどそういう事が起こりうる。
 > CONTEXT COMMONEVENT:297/171/Message < UNTRANSLATED
-
+\\E魔力和生命力是表里一致的，因为魔力的流动生命力肯定会改变。
+很遗憾，那样的事也可能发生。
 > END STRING
 
 > BEGIN STRING
 \\E爆発の可能性を抱えつつ新たな魔石を持ち歩くか。
 君の未来と引き換えに妹を救うか。
 > CONTEXT COMMONEVENT:297/172/Message < UNTRANSLATED
-
+\\E是一边抱着爆炸的可能性一边携带新的魔石。
+还是以你的未来为代价拯救妹妹。
 > END STRING
 
 > BEGIN STRING
 \\E大事なことだからね、ゆっくり考えるといい。
 > CONTEXT COMMONEVENT:297/174/Message < UNTRANSLATED
-
+\\E因为是很重要的事情，所以慢慢考虑就好。
 > END STRING
 
 > BEGIN STRING
 \\Eそんなもの…
 > CONTEXT COMMONEVENT:297/181/Message < UNTRANSLATED
-
+\\E这样的事……
 > END STRING
 
 > BEGIN STRING
 \\E悩むまでもない！
 > CONTEXT COMMONEVENT:297/182/Message < UNTRANSLATED
-
+\\E用不着烦恼！
 > END STRING
 
 > BEGIN STRING
 \\Eさて、一つ言うことがある。
 > CONTEXT COMMONEVENT:297/189/Message < UNTRANSLATED
-
+\\E那么，有一件事要说。
 > END STRING
 
 > BEGIN STRING
 \\E…くると思ってました。
 今度はなんですか。
 > CONTEXT COMMONEVENT:297/191/Message < UNTRANSLATED
-
+\\E……我就知道会来……
+这次是什么。
 > END STRING
 
 > BEGIN STRING
 \\E君たちに施した秘術の効果は長くても10年ほどだ。
 > CONTEXT COMMONEVENT:297/193/Message < UNTRANSLATED
-
+\\E施给你们的秘术效果最长也就十年左右。
 > END STRING
 
 > BEGIN STRING
 \\E10年…。
 > CONTEXT COMMONEVENT:297/196/Message < UNTRANSLATED
-
+\\E10年……
 > END STRING
 
 > BEGIN STRING
 \\Eなに、そう悲観することでもないさ。
 > CONTEXT COMMONEVENT:297/198/Message < UNTRANSLATED
-
+\\E没什么，不要那么悲观。
 > END STRING
 
 > BEGIN STRING
 \\Eこの世界は広く、未知で溢れている。
 その中に君と妹の生きていく術もきっと存在するだろう。
 > CONTEXT COMMONEVENT:297/206/Message < UNTRANSLATED
-
+\\E这个世界宽广，充满着未知。
+你和妹妹的生存之道也一定存在在其中吧。
 > END STRING
 
 > BEGIN STRING
 \\Eある意味で君は未来と引き換えに力を得たとも言える。
 その力で自分たちの未来を掴み取るといい。
 > CONTEXT COMMONEVENT:297/207/Message < UNTRANSLATED
-
+\\E从某种意义上说，你获得了与未来交换的力量。
+用那个力量抓住自己的未来就好了。
 > END STRING
 
 > BEGIN STRING
 \\E期待しているよ。
 > CONTEXT COMMONEVENT:297/208/Message < UNTRANSLATED
-
+\\E我期待着哦。
 > END STRING
 
 > BEGIN STRING
 \\f[24]\\E世界樹
 > CONTEXT COMMONEVENT:297/221/Picture < UNTRANSLATED
-
+\\f[24]\\E世界树
 > END STRING
 
 > BEGIN STRING
 \\f[24]\\E北の荒れ地
 > CONTEXT COMMONEVENT:297/225/Picture < UNTRANSLATED
-
+\\f[24]\\E北方的荒地
 > END STRING
 
 > BEGIN STRING
 \\Eアザラシー！
 > CONTEXT COMMONEVENT:297/233/Message < UNTRANSLATED
-
+\\Eアザラシー！
 > END STRING
 
 > BEGIN STRING
 \\Eはぁはぁ…遂にここまで来たな。
 しかし野党だ山賊だと色々物騒にも程があるぞ…
 > CONTEXT COMMONEVENT:297/258/Message < UNTRANSLATED
-
+\\E哈哈……终于来到了这里。
+怎么说野党啊、山贼啊，各种各样的骚动也要有个限度啊……
 > END STRING
 
 > BEGIN STRING
 \\Eここが世界樹の森…？
 こんな遠くまで始めてきたよ、お兄ちゃん。
 > CONTEXT COMMONEVENT:297/261/Message < UNTRANSLATED
-
+\\E这就是世界树之森……？
+从开始到现在都这么远了呢、欧尼酱。
 > END STRING
 
 > BEGIN STRING
 \\Eまだ歩けるか？
 お兄ちゃんがおぶろうか？
 > CONTEXT COMMONEVENT:297/263/Message < UNTRANSLATED
-
+\\E还能走吗？
+欧尼酱 おぶろうか ？（累？）
 > END STRING
 
 > BEGIN STRING
 \\Eうん、ありがとう大丈夫。
 …あの大きい木のところまでいくんだよね？
 > CONTEXT COMMONEVENT:297/266/Message < UNTRANSLATED
-
+\\E嗯、谢谢、没关系。
+……是要去那棵大树的地方吧？
 > END STRING
 
 > BEGIN STRING
 \\Eそうだな。
 着いたところで何があるかはわからないけど。
 > CONTEXT COMMONEVENT:297/268/Message < UNTRANSLATED
-
+\\E是啊。
+到了也不知道有什么。
 > END STRING
 
 > BEGIN STRING
 \\Eでも、行くしかないよね。
 暗くなる前に急ごう、お兄ちゃん。
 > CONTEXT COMMONEVENT:297/271/Message < UNTRANSLATED
-
+\\E但是，也只能去了吧。
+天黑之前快点吧，欧尼酱。
 > END STRING
 
 > BEGIN STRING
 \\Eよし、先を急ごう。
 > CONTEXT COMMONEVENT:297/274/Message < UNTRANSLATED
-
+\\E好、我们快走吧。
 > END STRING
 
 > BEGIN STRING
 \\Eおっと、この先はアタイ達の領土だよ！
 > CONTEXT COMMONEVENT:297/299/Message < UNTRANSLATED
-
+\\E喂、这前面可是我们的领土！
 > END STRING
 
 > BEGIN STRING
 \\Eあ、それと─
 > CONTEXT COMMONEVENT:297/327/Message < UNTRANSLATED
-
+\\E啊、还有……
 > END STRING
 
 > BEGIN STRING
 \\E…まだ何かあるんですか？
 > CONTEXT COMMONEVENT:297/329/Message < UNTRANSLATED
-
+\\E……还有什么吗？
 > END STRING
 
 > BEGIN STRING
 \\E世界樹って知ってる？
 > CONTEXT COMMONEVENT:297/331/Message < UNTRANSLATED
-
+\\E世界树……你知道吗？
 > END STRING
 
 > BEGIN STRING
 \\Eそりゃ知ってますよ、
 このあたりどこからでも見えますし。
 > CONTEXT COMMONEVENT:297/333/Message < UNTRANSLATED
-
+\\E这我当然知道、
+在这儿附近哪里都可以看到。
 > END STRING
 
 > BEGIN STRING
 \\Eうんうん、ならよかった。
 じゃとりあえず3年後に世界樹を訪れてちょうだいね。
 > CONTEXT COMMONEVENT:297/336/Message < UNTRANSLATED
-
+\\E嗯，那就太好了。
+那暂且3年后去世界树看看吧。
 > END STRING
 
 > BEGIN STRING
 \\E…いやいや、北の樹海の奥ですよ？
 それになんだってそんなところに…
 > CONTEXT COMMONEVENT:297/339/Message < UNTRANSLATED
-
+\\E……不不，在北边的树海深处哦？
+而且为什么在那种地方也不知道……
 > END STRING
 
 > BEGIN STRING
 \\Eあら、知らない？
 > CONTEXT COMMONEVENT:297/342/Message < UNTRANSLATED
-
+\\E哎呀、不知道吗？
 > END STRING
 
 > BEGIN STRING
 \\E世界樹の祝福を得たもの
 あらゆる病魔を退け幸運に恵まれるって。
 > CONTEXT COMMONEVENT:297/344/Message < UNTRANSLATED
-
+\\E获得世界树祝福的东西，
+能击退一切病魔，获得幸运。
 > END STRING
 
 > BEGIN STRING
 \\Eそれは知ってますけど…。
 > CONTEXT COMMONEVENT:297/346/Message < UNTRANSLATED
-
+\\E那种事我倒是知道……
 > END STRING
 
 > BEGIN STRING
 \\Eじゃあ話は早いじゃない、そういう事よ。
 > CONTEXT COMMONEVENT:297/348/Message < UNTRANSLATED
-
+\\E那就好说了，就是这么回事。
 > END STRING
 
 > BEGIN STRING
 \\Eそれで病気が治るならこの国の人は苦労してない…
 > CONTEXT COMMONEVENT:297/351/Message < UNTRANSLATED
-
+\\E如果这样就能治好病的话，这个国家的人就不辛苦了……
 > END STRING
 
 > BEGIN STRING
 \\E魔石も無限に魔力を供給できるわけじゃないのよね。
 定期的にマナを充填する必要があるの。
 > CONTEXT COMMONEVENT:297/353/Message < UNTRANSLATED
-
+\\E魔石也不可能无限供给魔力吧。
+需要定期填充魔力。
 > END STRING
 
 > BEGIN STRING
 \\Eでこの辺の龍脈…まあマナの吹き出口ね。
 そこが世界樹なの。
 > CONTEXT COMMONEVENT:297/354/Message < UNTRANSLATED
-
+\\E\E这一带的龙脉……嘛，是魔力的出口。
+那里就是世界树。
 > END STRING
 
 > BEGIN STRING
 \\E魔石の魔力がなくなる前に魔力を補給しようって話。
 ね、何も変な話じゃないでしょ？
 > CONTEXT COMMONEVENT:297/355/Message < UNTRANSLATED
-
+\\E在魔石的魔力消失之前补充魔力的话。
+喂，这可不是什么奇怪的话吧？
 > END STRING
 
 > BEGIN STRING
 \\Eなんとなく筋は通ってるように聞こえるけど…。
 > CONTEXT COMMONEVENT:297/357/Message < UNTRANSLATED
-
+\\E总觉的听起来有点道理……
 > END STRING
 
 > BEGIN STRING
 \\Eまあ信じる信じないは君次第だけど。
 わたしが嘘でこんな話をする意味、ある？
 > CONTEXT COMMONEVENT:297/360/Message < UNTRANSLATED
-
+\\E嘛，相不相信不相信就看你了。
+我撒谎说这样的话有意义吗？
 > END STRING
 
 > BEGIN STRING
 \\Eそれは…確かに…。
 > CONTEXT COMMONEVENT:297/362/Message < UNTRANSLATED
-
+\\E那……确实是这样……
 > END STRING
 
 > BEGIN STRING
 \\E3年、あっという間よ。
 あなた達二人で世界樹までこれるかな？
 > CONTEXT COMMONEVENT:297/364/Message < UNTRANSLATED
-
+\\E3年，一转眼就过去了。
+你们两个人能来世界树吗？
 > END STRING
 
 > BEGIN STRING
 \\Eさあ腕を磨き、大いに学びなさい。
 3年後、また会える日を楽しみにしているよ。
 > CONTEXT COMMONEVENT:297/369/Message < UNTRANSLATED
-
+\\E来吧，磨练本领，好好学习吧。
+我期待着3年后再次见面的日子。
 > END STRING
 
 > BEGIN STRING
 \\Eここを通りたかったら相応の物を置いていきな！
 > CONTEXT COMMONEVENT:297/404/Message < UNTRANSLATED
-
+\\E想经过这里的话，就把相应的东西放在这里吧！
 > END STRING
 
 > BEGIN STRING
 \\Eえっと…次の買い物は…こっちか。
 > CONTEXT COMMONEVENT:297/431/Message < UNTRANSLATED
-
+\\E嗯……下一次买的东西……在这边吗。
 > END STRING
 
 > BEGIN STRING
 \\Eおにーちゃーん、早く早く！
 > CONTEXT COMMONEVENT:297/434/Message < UNTRANSLATED
-
+\\E欧尼酱、快点快点！
 > END STRING
 
 > BEGIN STRING
 \\E久しぶりに街までこられたからな、
 妹も喜んでいるみたいだぞ…。
 > CONTEXT COMMONEVENT:297/437/Message < UNTRANSLATED
-
+\\E因为很久没来街上了、
+妹妹好像也很高兴啊……
 > END STRING
 
 > BEGIN STRING
 \\Eねぇそこの君。
 > CONTEXT COMMONEVENT:297/440/Message < UNTRANSLATED
-
+\\E喂、站带那里的你。
 > END STRING
 
 > BEGIN STRING
@@ -537,7 +563,7 @@
 > BEGIN STRING
 \\E君だよ、君。
 > CONTEXT COMMONEVENT:297/445/Message < UNTRANSLATED
-
+\\E就是你哦。
 > END STRING
 
 > BEGIN STRING
@@ -549,33 +575,35 @@
 > BEGIN STRING
 \\Eそ。
 > CONTEXT COMMONEVENT:297/449/Message < UNTRANSLATED
-
+\\E对。
 > END STRING
 
 > BEGIN STRING
 \\Eええとその子、妹さん？
 > CONTEXT COMMONEVENT:297/452/Message < UNTRANSLATED
-
+\\E那个小女孩、是你的妹妹吗？
 > END STRING
 
 > BEGIN STRING
 \\Eあー…私は単なる占い師みたいなもんさ。
 珍しい雰囲気だったんでね、よかったら視させてよ。
 > CONTEXT COMMONEVENT:297/455/Message < UNTRANSLATED
-
+\\E啊……我只是个占卜师而已。
+很少见的气氛呢、可以的话让我看看吧。
 > END STRING
 
 > BEGIN STRING
 \\Eさ、座って座って。
 > CONTEXT COMMONEVENT:297/456/Message < UNTRANSLATED
-
+\\E来、坐下坐下。
 > END STRING
 
 > BEGIN STRING
 \\Eふうん…ふんふん…妹さん、身体に流れるマナの流れ…
 て小難しいことを言ってもしょうがないか。
 > CONTEXT COMMONEVENT:297/461/Message < UNTRANSLATED
-
+\\E\\嗯……哼哼哼……妹妹，身体里流淌着魔力的小溪……
+说这么难懂的话也是没有办法的。
 > END STRING
 
 > BEGIN STRING
