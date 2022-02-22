@@ -118,13 +118,13 @@
 > BEGIN STRING
 初めてを兄に捧げ
 > CONTEXT COMMONEVENT:282/69/SetString < UNTRANSLATED
-把第一次献给欧尼酱并且
+把第一次献给了欧尼酱、
 > END STRING
 
 > BEGIN STRING
 睡眠中に処女を失い
 > CONTEXT COMMONEVENT:282/77/SetString < UNTRANSLATED
-在睡眠中丧失处女并且
+在睡眠中丧失处女、
 > END STRING
 
 > BEGIN STRING
@@ -136,7 +136,7 @@
 > BEGIN STRING
 とうぜん処女であり
 > CONTEXT COMMONEVENT:282/89/SetString < UNTRANSLATED
-完全是处女但是
+完全是处女、
 > END STRING
 
 > BEGIN STRING
@@ -148,7 +148,7 @@
 > BEGIN STRING
 深夜に度々
 > CONTEXT COMMONEVENT:282/99/SetString < UNTRANSLATED
-经常在深夜
+经常在深夜时
 > END STRING
 
 > BEGIN STRING
@@ -208,5 +208,5 @@
 > BEGIN STRING
 \\c[15]\\f[14]\\cself[5]朝を迎える日々を過ごす。
 > CONTEXT COMMONEVENT:282/145/Picture < UNTRANSLATED
-\\c[15]\\f[14]\\cself[5]度过迎接早晨的日子。
+\\c[15]\\f[14]\\cself[5]迎接早晨并开始新的一天。
 > END STRING

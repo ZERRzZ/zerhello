@@ -111,25 +111,25 @@
 > BEGIN STRING
 妹の脱ぎたてパンツに情熱を注ぐ
 > CONTEXT COMMONEVENT:283/76/SetString < UNTRANSLATED
-对妹妹脱下来的胖次倾注热情
+对妹妹脱下来的胖次倾注热情、
 > END STRING
 
 > BEGIN STRING
 一心不乱にパンツを収集する
 > CONTEXT COMMONEVENT:283/79/SetString < UNTRANSLATED
-聚精会神地收集胖次
+聚精会神地收集胖次、
 > END STRING
 
 > BEGIN STRING
 どちらかというとパンツが気になる
 > CONTEXT COMMONEVENT:283/82/SetString < UNTRANSLATED
-不管怎么说都很在意胖次
+不管怎么说都很在意胖次、
 > END STRING
 
 > BEGIN STRING
 意に介さず鍛錬に励む
 > CONTEXT COMMONEVENT:283/85/SetString < UNTRANSLATED
-不介意地努力锻炼
+不介意地努力锻炼、
 > END STRING
 
 > BEGIN STRING
@@ -141,7 +141,7 @@
 > BEGIN STRING
 未来ある若者だ。
 > CONTEXT COMMONEVENT:283/93/SetString < UNTRANSLATED
-未来的年轻人。
+是有未来的年轻人。
 > END STRING
 
 > BEGIN STRING
@@ -153,31 +153,31 @@
 > BEGIN STRING
 活躍の甲斐ありギルド存続の危機をも乗り越えさらには
 > CONTEXT COMMONEVENT:283/99/SetString < UNTRANSLATED
-活跃着的的、有意义的工会的存续危机也能成功跨越
+活跃着的、有意义的工会的存续危机也能成功跨越。
 > END STRING
 
 > BEGIN STRING
 当面の危機を新メニュー作戦で乗り越えたお兄ちゃんは
 > CONTEXT COMMONEVENT:283/102/SetString < UNTRANSLATED
-面临危机用新菜单作战来度过的欧尼酱
+面临危机用新菜单作战来度过的欧尼酱。
 > END STRING
 
 > BEGIN STRING
 合併の危機を乗り越えるため新メニュー開発に取り組む中
 > CONTEXT COMMONEVENT:283/107/SetString < UNTRANSLATED
-为了克服合并危机，正在努力开发新菜单
+为了克服合并危机，正在努力开发新菜单。
 > END STRING
 
 > BEGIN STRING
 入浴姿や
 > CONTEXT COMMONEVENT:283/118/SetString < UNTRANSLATED
-洗澡的样子
+洗澡的姿势啊、
 > END STRING
 
 > BEGIN STRING
 風呂や
 > CONTEXT COMMONEVENT:283/121/SetString < UNTRANSLATED
-洗澡
+洗澡啊、
 > END STRING
 
 > BEGIN STRING
@@ -189,7 +189,7 @@
 > BEGIN STRING
 排泄姿までも
 > CONTEXT COMMONEVENT:283/129/SetString < UNTRANSLATED
-就连排泄的样子也
+排泄的姿势也
 > END STRING
 
 > BEGIN STRING
@@ -201,7 +201,7 @@
 > BEGIN STRING
 下着姿も
 > CONTEXT COMMONEVENT:283/137/SetString < UNTRANSLATED
-内衣的样子
+内衣的样子也
 > END STRING
 
 > BEGIN STRING
@@ -214,7 +214,7 @@
 培った技術を駆使し
 > CONTEXT COMMONEVENT:283/147/SetString < UNTRANSLATED
 使用培养出的技术
-> END STRING
+> END STRING  
 
 > BEGIN STRING
 時々失敗もしながら
@@ -225,19 +225,19 @@
 > BEGIN STRING
 堪能する。
 > CONTEXT COMMONEVENT:283/156/SetString < UNTRANSLATED
-心满意足
+熟练使用。
 > END STRING
 
 > BEGIN STRING
 楽しんだ。
 > CONTEXT COMMONEVENT:283/159/SetString < UNTRANSLATED
-玩的很开心
+玩的很开心。
 > END STRING
 
 > BEGIN STRING
 取り組んだ。
 > CONTEXT COMMONEVENT:283/162/SetString < UNTRANSLATED
-努力了
+努力了。
 > END STRING
 
 > BEGIN STRING
@@ -315,7 +315,7 @@
 > BEGIN STRING
 黒い霧、謎の影、街を襲った突然の怪異の中でも
 > CONTEXT COMMONEVENT:283/217/SetString < UNTRANSLATED
-黑色的雾、神秘的影子、在突然袭击街道的怪异中
+黑色的雾、神秘的影子、街道的袭击、在突然到来的怪异之中
 > END STRING
 
 > BEGIN STRING
@@ -363,19 +363,19 @@
 > BEGIN STRING
 アナルも堪能する
 > CONTEXT COMMONEVENT:283/259/SetString < UNTRANSLATED
-连肛门也能满足、
+肛门也能熟练使用、
 > END STRING
 
 > BEGIN STRING
 尻穴まで開発する
 > CONTEXT COMMONEVENT:283/262/SetString < UNTRANSLATED
-连肛门也开发了、
+到肛门为止都开发了、
 > END STRING
 
 > BEGIN STRING
 いつもどうりの
 > CONTEXT COMMONEVENT:283/265/SetString < UNTRANSLATED
-和往常一样
+和平时一样
 > END STRING
 
 > BEGIN STRING

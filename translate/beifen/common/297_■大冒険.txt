@@ -472,7 +472,7 @@
 \\Eでこの辺の龍脈…まあマナの吹き出口ね。
 そこが世界樹なの。
 > CONTEXT COMMONEVENT:297/354/Message < UNTRANSLATED
-\\E\E这一带的龙脉……嘛，是魔力的出口。
+\\E这一带的龙脉……嘛，是魔力的出口。
 那里就是世界树。
 > END STRING
 
