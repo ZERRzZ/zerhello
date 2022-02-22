@@ -602,7 +602,7 @@
 \\Eふうん…ふんふん…妹さん、身体に流れるマナの流れ…
 て小難しいことを言ってもしょうがないか。
 > CONTEXT COMMONEVENT:297/461/Message < UNTRANSLATED
-\\E\\嗯……哼哼哼……妹妹，身体里流淌着魔力的小溪……
+\\E\\嗯……哼哼哼……妹妹，身体里流淌的魔力的流动……
 说这么难懂的话也是没有办法的。
 > END STRING
 
@@ -610,165 +610,180 @@
 \\E通常あるべき魔力が体にほぼ残っていないね。
 つまり妹さんは常に魔力切れのような状態…といってわかる？
 > CONTEXT COMMONEVENT:297/462/Message < UNTRANSLATED
-
+\\E通常应该有的魔力在身体上几乎没有残留。
+也就是说，妹妹经常处于魔力用尽的状态……你知道吗？
 > END STRING
 
 > BEGIN STRING
 \\Eめまいや吐き気、ふらつき、発熱…昏睡。
 髪が白髪化してしまったりすることもあるのさ。
 > CONTEXT COMMONEVENT:297/464/Message < UNTRANSLATED
-
+\\E头晕、恶心、头晕、发烧……昏迷。
+头发有时会变成白发的时候啊。
 > END STRING
 
 > BEGIN STRING
 \\E思い当たる節、あるでしょ？
 > CONTEXT COMMONEVENT:297/466/Message < UNTRANSLATED
-
+\\E应该有想到的时候吧？
 > END STRING
 
 > BEGIN STRING
 \\E…まぁ、はい。
 > CONTEXT COMMONEVENT:297/469/Message < UNTRANSLATED
-
+\\E……嗯、有。
 > END STRING
 
 > BEGIN STRING
 \\E生きていく上で必要なモノが
 別のところに流れているといえばいいかな。
 > CONTEXT COMMONEVENT:297/472/Message < UNTRANSLATED
-
+\\E生存所必需的东西
+可以说是流到了别的地方。
 > END STRING
 
 > BEGIN STRING
 \\E例えるなら穴の開いた桶。
 水を注いでも底から抜けていってしまう。
 > CONTEXT COMMONEVENT:297/474/Message < UNTRANSLATED
-
+\\E就比喻说是开了洞的桶。
+倒水也会从底下掉下来。
 > END STRING
 
 > BEGIN STRING
 \\E…その穴はどうやったら塞げるんですか？
 > CONTEXT COMMONEVENT:297/477/Message < UNTRANSLATED
-
+\\E……那个洞要怎么堵住呢？
 > END STRING
 
 > BEGIN STRING
 \\E何人もの癒術師を雇って何日も儀式をすれば…
 王族貴族でもなければその線は諦めた方がいいわね。
 > CONTEXT COMMONEVENT:297/480/Message < UNTRANSLATED
-
+\\E雇佣几个治愈师进行几天的仪式的话……
+如果不是王族贵族的话，放弃这条路线比较好。
 > END STRING
 
 > BEGIN STRING
 \\Eそこでやり方を変えるの。
 > CONTEXT COMMONEVENT:297/487/Message < UNTRANSLATED
-
+\\E在那里就改变做法。
 > END STRING
 
 > BEGIN STRING
 \\Eやり方…？
 > CONTEXT COMMONEVENT:297/489/Message < UNTRANSLATED
-
+\\E做法……？
 > END STRING
 
 > BEGIN STRING
 \\Eこの魔石を身に着けるのよ。
 出ていくものは仕方ないから配給量を増やすってワケ！
 > CONTEXT COMMONEVENT:297/492/Message < UNTRANSLATED
-
+\\E这个魔石要带在身上哦。
+因为流出来的魔力没有办法，所以就增加魔力来解决！
 > END STRING
 
 > BEGIN STRING
 \\Eこの特製の魔石なんと今ならたった3000G！はいお買い得。
 > CONTEXT COMMONEVENT:297/495/Message < UNTRANSLATED
-
+\\E这个特制的魔石现在只有3000G！是的、很划算。
 > END STRING
 
 > BEGIN STRING
 \\Eまあまあ、そんな顔をしない。
 > CONTEXT COMMONEVENT:297/500/Message < UNTRANSLATED
-
+\\E哎呀哎呀、这种表情就不要了。
 > END STRING
 
 > BEGIN STRING
 \\E身体が弱ったら栄養の付くものを食べたりするでしょ？
 これもそれと同じこと。
 > CONTEXT COMMONEVENT:297/503/Message < UNTRANSLATED
-
+\\E身体虚弱的话会吃有营养的东西吧？
+这个也和那个一样。
 > END STRING
 
 > BEGIN STRING
 \\E私も商売だからそりゃあお金は取る。
 生きていくためにお金は必要な物だからね。
 > CONTEXT COMMONEVENT:297/504/Message < UNTRANSLATED
-
+\\E我也是做生意的，所以要收钱。
+为了生存，钱是必要的东西。
 > END STRING
 
 > BEGIN STRING
 \\Eそしてこの子にはこの魔石が、生きていくために、必要。
 嘘は言ってないよ。
 > CONTEXT COMMONEVENT:297/505/Message < UNTRANSLATED
-
+\\E而且这个孩子为了活下去，需要这个魔石。
+我没有撒谎哦。
 > END STRING
 
 > BEGIN STRING
 \\E結局、当時なけなしのお金をはたいて買ったその魔石は
 今も大事に妹が持ち歩いている。
 > CONTEXT COMMONEVENT:297/513/Message < UNTRANSLATED
-
+\\E结果，花了当时仅有的钱买来的那个魔石
+现在妹妹也很小心地随身携带着。
 > END STRING
 
 > BEGIN STRING
 \\Eようやく街道か。
 > CONTEXT COMMONEVENT:297/561/Message < UNTRANSLATED
-
+\\E终于到街道了。
 > END STRING
 
 > BEGIN STRING
 \\E結構来たねー、お兄ちゃん。
 > CONTEXT COMMONEVENT:297/564/Message < UNTRANSLATED
-
+\\E终于到了呢、欧尼酱。
 > END STRING
 
 > BEGIN STRING
 \\Eしかしまだ先は長いからな…大丈夫か？
 > CONTEXT COMMONEVENT:297/566/Message < UNTRANSLATED
-
+\\E但是前面的路还很长啊……没关系吗？
 > END STRING
 
 > BEGIN STRING
 \\E…妹は身体が弱い。
 少し外を歩いただけで熱を出し寝込むこともしばしばだ。
 > CONTEXT COMMONEVENT:297/574/Message < UNTRANSLATED
-
+\\E……妹妹身体弱。
+只是在外面走了一会儿就发烧睡着的情况也屡见不鲜。
 > END STRING
 
 > BEGIN STRING
 \\E冒険者の親父は旅先で怪しげな薬品や滋養にいいらしい薬草、
 果てには護符の類まで何か見つけては送り付けてくる。
 > CONTEXT COMMONEVENT:297/575/Message < UNTRANSLATED
-
+\\E身为冒险者的父亲在旅途中对可疑药品和有营养的药草、
+甚至连护符之类的东西开到了就都送过来。
 > END STRING
 
 > BEGIN STRING
 \\Eその甲斐があったのかどうか、怪しげな護符がよかったのか、
 とりあえず昔よりは少しはマシにはなった。
 > CONTEXT COMMONEVENT:297/576/Message < UNTRANSLATED
-
+\\E是否有那个效果呢，总之比起那可疑的护符、
+现在的情况要好多了。
 > END STRING
 
 > BEGIN STRING
 \\Eそれでもやっぱり妹は身体が弱い。
 馬車を使わず村を出るなんて夢のまた夢─
 > CONTEXT COMMONEVENT:297/577/Message < UNTRANSLATED
-
+\\E尽管如此，妹妹还是身体弱。
+不坐马车就出村什么的只能是梦了。
 > END STRING
 
 > BEGIN STRING
 \\E…だからこそ俺達は冒険に憧れ、
 この広い世界を旅したいと強く願う。
 > CONTEXT COMMONEVENT:297/578/Message < UNTRANSLATED
-
+\\E……正因为如此我们才憧憬着冒险、
+强烈希望者能去这个广阔的世界旅行。
 > END STRING
 
 > BEGIN STRING
@@ -780,5 +795,5 @@
 > BEGIN STRING
 \\E中出ししても妊娠しなくなった！
 > CONTEXT COMMONEVENT:297/820/Message < UNTRANSLATED
-
+\\E即使中出了也不会怀孕！
 > END STRING
