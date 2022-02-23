@@ -53,857 +53,892 @@
 \\E（うーん、カナは真面目というか
 強くなることにまっすぐだな…）
 > CONTEXT COMMONEVENT:301/172/Message < UNTRANSLATED
-
+\\E（嗯、“カナ”是认真的吗
+真是只知道变强啊……）
 > END STRING
 
 > BEGIN STRING
 オレでいいなら付き合うよ
 > CONTEXT COMMONEVENT:301/174/Choices < UNTRANSLATED
-
+可以的话就让我陪你吧。
 > END STRING
 
 > BEGIN STRING
 今日は疲れてるからまた…
 > CONTEXT COMMONEVENT:301/174/Choices < UNTRANSLATED
-
+今天已经很累了所以下次……
 > END STRING
 
 > BEGIN STRING
 \\E手伝いたいが怪我を治す方が先だな…。
 > CONTEXT COMMONEVENT:301/179/Message < UNTRANSLATED
-
+\\E虽然想帮忙但还是先把伤治好吧……。
 > END STRING
 
 > BEGIN STRING
 \\Eほんと？やった！
 > CONTEXT COMMONEVENT:301/186/Message < UNTRANSLATED
-
+\\E真的吗？好耶！
 > END STRING
 
 > BEGIN STRING
 \\Eカナと日が落ちるまで特訓した。
 > CONTEXT COMMONEVENT:301/191/Message < UNTRANSLATED
-
+\\E在日落之前和“カナ”一起进行了特训。
 > END STRING
 
 > BEGIN STRING
 \\Eカナのつよさが上がった！
 > CONTEXT COMMONEVENT:301/193/Message < UNTRANSLATED
-
+\\E“カナ”变得更强了！
 > END STRING
 
 > BEGIN STRING
 \\Eうん、わかったー。
 また明日ねお兄ちゃん。
 > CONTEXT COMMONEVENT:301/209/Message < UNTRANSLATED
-
+\\E嗯，知道了。
+那就明天见，欧尼酱。
 > END STRING
 
 > BEGIN STRING
 \\Eあ、お兄ちゃん…
 > CONTEXT COMMONEVENT:301/223/Message < UNTRANSLATED
-
+\\E啊、欧尼酱……
 > END STRING
 
 > BEGIN STRING
 \\E今日もカナの特訓に付き合うのか？
 > CONTEXT COMMONEVENT:301/225/Message < UNTRANSLATED
-
+\\E今天也要陪“カナ”一起特训吗？
 > END STRING
 
 > BEGIN STRING
 特訓に付き合う
 > CONTEXT COMMONEVENT:301/226/Choices < UNTRANSLATED
-
+陪她一起特训
 > END STRING
 
 > BEGIN STRING
 今日は帰る
 > CONTEXT COMMONEVENT:301/226/Choices < UNTRANSLATED
-
+今天就回家吧
 > END STRING
 
 > BEGIN STRING
 \\Eお兄ちゃんありがとうー！
 よーし今日は…
 > CONTEXT COMMONEVENT:301/237/Message < UNTRANSLATED
-
+\\E欧尼酱阿里嘎多！
+好、今天就……
 > END STRING
 
 > BEGIN STRING
 \\Eあ、お兄ちゃんちょっといい？
 > CONTEXT COMMONEVENT:301/323/Message < UNTRANSLATED
-
+\\E啊，哥哥，可以过来一下吗？
 > END STRING
 
 > BEGIN STRING
 \\E例の技の話なんだけど…
 練習でいい動きはできてるしあとは実践ってだけなんだけど…。
 > CONTEXT COMMONEVENT:301/324/Message < UNTRANSLATED
-
+\\E是关于那个招数的事……
+练习中有很好的动作，之后就只有实践了……
 > END STRING
 
 > BEGIN STRING
 \\E…でもその怪我じゃまだ無理だよね…。
 > CONTEXT COMMONEVENT:301/329/Message < UNTRANSLATED
-
+\\E……但是那个受了伤果然还是不行呢……
 > END STRING
 
 > BEGIN STRING
 　まさか新技の標的に？　
 > CONTEXT COMMONEVENT:301/335/Choices < UNTRANSLATED
-
+　难道是新的招式的靶子？
 > END STRING
 
 > BEGIN STRING
 \\Eまさかー、それにお兄ちゃんが相手じゃ
 実践というかいつもの練習と同じだよ…。
 > CONTEXT COMMONEVENT:301/340/Message < UNTRANSLATED
-
+\\E怎么会，而是欧尼酱作为对手，
+与其说是实践，不如说和平时的练习是一样的……
 > END STRING
 
 > BEGIN STRING
 \\Eあのね森にね、最近黒いうりぼうが出現するんだって。
 だからお兄ちゃん…。
 > CONTEXT COMMONEVENT:301/342/Message < UNTRANSLATED
-
+\\E听说那个森林里最近出现了“黒いうりぼう”
+所以欧尼酱……
 > END STRING
 
 > BEGIN STRING
 　仕方ないな…　
 > CONTEXT COMMONEVENT:301/343/Choices < UNTRANSLATED
-
+　真是没办法啊……
 > END STRING
 
 > BEGIN STRING
 \\Eわ、わたしも手伝います…！
 > CONTEXT COMMONEVENT:301/350/Message < UNTRANSLATED
-
+\\E我也来帮忙……
 > END STRING
 
 > BEGIN STRING
 \\E最近2人でなにかしてるなって思ったから…
 カナちゃんもお兄ちゃんも妙に擦り傷とか増えてるし…。
 > CONTEXT COMMONEVENT:301/352/Message < UNTRANSLATED
-
+\\E最近总觉得两个人在做什么……
+“カナ”酱和欧尼酱都莫名地擦伤了……
 > END STRING
 
 > BEGIN STRING
 \\Eそれに…
 ふ、2人だけじゃ…あ、あぶない…。
 > CONTEXT COMMONEVENT:301/354/Message < UNTRANSLATED
-
+\\E而且……
+呼，只有两个人的话……有，有点危险……
 > END STRING
 
 > BEGIN STRING
 \\E…ありがとうユイちゃん。
 隠してるみたいになってごめんね。
 > CONTEXT COMMONEVENT:301/357/Message < UNTRANSLATED
-
+\\E……谢谢你，“ユイ”酱。
+隐瞒着你真是对不起啊。
 > END STRING
 
 > BEGIN STRING
 　それじゃ行こうか！　
 > CONTEXT COMMONEVENT:301/358/Choices < UNTRANSLATED
-
+　那就出发吧！
 > END STRING
 
 > BEGIN STRING
 \\Eい、いました…
 黒いうりぼう…上位種です。
 > CONTEXT COMMONEVENT:301/373/Message < UNTRANSLATED
-
+\\E出、出现了……
+“黒いうりぼう”……在前面。
 > END STRING
 
 > BEGIN STRING
 \\Eあとは実戦で使えるかどうか…
 この\\c[1]戦いに勝てたら\\c[0]モノになりそうな気がするよ。
 > CONTEXT COMMONEVENT:301/377/Message < UNTRANSLATED
-
+\\E之后能否在实战中使用……
+这场\\c[1]战斗中胜利的话\\c[0]就感觉会掌握这个。
 > END STRING
 
 > BEGIN STRING
 \\Eよし！いくよ！
 > CONTEXT COMMONEVENT:301/378/Message < UNTRANSLATED
-
+\\E好！要上了！
 > END STRING
 
 > BEGIN STRING
 \\Eや、やった！できた…！
 > CONTEXT COMMONEVENT:301/389/Message < UNTRANSLATED
-
+\\E太、太好了！做到了……！
 > END STRING
 
 > BEGIN STRING
 \\Eおめでとうございます！カナちゃん！
 > CONTEXT COMMONEVENT:301/392/Message < UNTRANSLATED
-
+\\E恭喜你！“カナ”酱！
 > END STRING
 
 > BEGIN STRING
 \\Eユイちゃんありがとうー！
 お兄ちゃんもありがとう！
 > CONTEXT COMMONEVENT:301/395/Message < UNTRANSLATED
-
+\\E“ユイ”酱，阿里嘎多！
+欧尼酱，阿里嘎多！
 > END STRING
 
 > BEGIN STRING
 \\Eみんなでカナの特訓に付き合った！
 > CONTEXT COMMONEVENT:301/400/Message < UNTRANSLATED
-
+\\E大家一起接受了“カナ”的特训！
 > END STRING
 
 > BEGIN STRING
 \\Eカナのつよさが上がった！
 カナの好感度が上がった！
 > CONTEXT COMMONEVENT:301/402/Message < UNTRANSLATED
-
+\\E“カナ”变得更强了！
+“カナ”的好感度上升了！
 > END STRING
 
 > BEGIN STRING
 \\Eユイのつよさが上がった！
 > CONTEXT COMMONEVENT:301/403/Message < UNTRANSLATED
-
+\\E“ユイ”变得更强了！
 > END STRING
 
 > BEGIN STRING
 \\Eカナが\\c[1]ファストスラッシュ\\c[0]を習得した！
 > CONTEXT COMMONEVENT:301/405/Message < UNTRANSLATED
-
+\\E“カナ”学会了\\c[1]ファストスラッシュ（快速……）\\c[0]！
 > END STRING
 
 > BEGIN STRING
 \\Eスキル\\c[1]連携攻撃\\c[0]のヒントを得た！
 > CONTEXT COMMONEVENT:301/407/Message < UNTRANSLATED
-
+\\E技能\\c[1]連携攻撃\\c[0]的提示得到了！
 > END STRING
 
 > BEGIN STRING
 \\Eごめん、だめだったね…。
 > CONTEXT COMMONEVENT:301/427/Message < UNTRANSLATED
-
+\\E对不起、不行啊……
 > END STRING
 
 > BEGIN STRING
 \\E諦めないでまた挑戦しましょう…。
 か、カナちゃんならきっとできます！
 > CONTEXT COMMONEVENT:301/430/Message < UNTRANSLATED
-
+\\E不要放弃，再挑战吧……
+“カナ”酱的话一定能做到！
 > END STRING
 
 > BEGIN STRING
 \\Eうん。
 ありがとう。
 > CONTEXT COMMONEVENT:301/433/Message < UNTRANSLATED
-
+\\E嗯。
+谢谢。
 > END STRING
 
 > BEGIN STRING
 \\E今回は新技をモノにできなかった…。
 > CONTEXT COMMONEVENT:301/438/Message < UNTRANSLATED
-
+\\E这次没能掌握新的技能……
 > END STRING
 
 > BEGIN STRING
 \\Eうーん、お腹が空いたぞ…。
 夕食にはまだ時間があるし…。
 > CONTEXT COMMONEVENT:301/472/Message < UNTRANSLATED
-
+\\E呃、肚子饿了……
+离晚饭还有一段时间……
 > END STRING
 
 > BEGIN STRING
 \\Eん…なにかすごくいい匂いがする…。
 > CONTEXT COMMONEVENT:301/474/Message < UNTRANSLATED
-
+\\E嗯……有种很好闻的味道……
 > END STRING
 
 > BEGIN STRING
 つまみぐいしちゃう
 > CONTEXT COMMONEVENT:301/492/Choices < UNTRANSLATED
-
+偷偷吃了吧
 > END STRING
 
 > BEGIN STRING
 我慢する
 > CONTEXT COMMONEVENT:301/492/Choices < UNTRANSLATED
-
+忍耐
 > END STRING
 
 > BEGIN STRING
 \\Eユカリさんもいないし今なら…！
 > CONTEXT COMMONEVENT:301/496/Message < UNTRANSLATED
-
+\\E“ユカリ”酱现在又不在……！
 > END STRING
 
 > BEGIN STRING
 \\E………パクっ。
 > CONTEXT COMMONEVENT:301/500/Message < UNTRANSLATED
-
+\\E………パクっ。
 > END STRING
 
 > BEGIN STRING
 \\E\\f[72]う…うまぁい！！！
 > CONTEXT COMMONEVENT:301/501/Message < UNTRANSLATED
-
+\\E\\f[72]好……好吃！！！
 > END STRING
 
 > BEGIN STRING
 \\E美味しいシチューをつまみ食いした。
 > CONTEXT COMMONEVENT:301/504/Message < UNTRANSLATED
-
+\\E吃了美味的炖菜。
 > END STRING
 
 > BEGIN STRING
 \\Eスキル\\c[1]隠密行動\\c[0]を習得した！
 > CONTEXT COMMONEVENT:301/509/Message < UNTRANSLATED
-
+\\E技能\\c[1]隠密行動\\c[0]学会了！
 > END STRING
 
 > BEGIN STRING
 \\Eふうん…何をやっているのかなー？
 > CONTEXT COMMONEVENT:301/519/Message < UNTRANSLATED
-
+\\E嗯……在干什么呢？
 > END STRING
 
 > BEGIN STRING
 \\Eやー、盗み食いとはよくないねー。
 ねえお兄ちゃん？
 > CONTEXT COMMONEVENT:301/521/Message < UNTRANSLATED
-
+\\E哎呀，偷吃可不好啊。
+欧尼酱？
 > END STRING
 
 > BEGIN STRING
 　はい…　
 > CONTEXT COMMONEVENT:301/523/Choices < UNTRANSLATED
-
+　是……　
 > END STRING
 
 > BEGIN STRING
 \\E罰としてギルドハウスの掃除とあとは…
 そうね、訓練器具のお手入れもお願いしようかしら。
 > CONTEXT COMMONEVENT:301/528/Message < UNTRANSLATED
-
+\\E作为惩罚，就罚你打扫工会和之后……
+对哦，训练器具的保养也拜托你了吧。
 > END STRING
 
 > BEGIN STRING
 \\Eギルドハウスの掃除をやらされた…。
 > CONTEXT COMMONEVENT:301/533/Message < UNTRANSLATED
-
+\\E打扫了工会……
 > END STRING
 
 > BEGIN STRING
 \\Eあら、お兄ちゃんちょうどよかった。
 > CONTEXT COMMONEVENT:301/546/Message < UNTRANSLATED
-
+\\E哎呀、欧尼酱正好。
 > END STRING
 
 > BEGIN STRING
 \\Eシチューたくさん作ったから帰りに持っていってね。
 > CONTEXT COMMONEVENT:301/548/Message < UNTRANSLATED
-
+\\E做了很多炖菜，回去的时候拿去吧。
 > END STRING
 
 > BEGIN STRING
 　え、いいんですか？　
 > CONTEXT COMMONEVENT:301/550/Choices < UNTRANSLATED
-
+　诶、可以吗？
 > END STRING
 
 > BEGIN STRING
 \\Eいいわよ、妹さんと2人だけだと何かと大変でしょ。
 > CONTEXT COMMONEVENT:301/554/Message < UNTRANSLATED
-
+\\E当然可以哦，只和妹妹两个人的话，会很辛苦的吧。
 > END STRING
 
 > BEGIN STRING
 \\Eギルドマスターからシチューの差し入れを頂いた！
 > CONTEXT COMMONEVENT:301/558/Message < UNTRANSLATED
-
+\\E从工会Master那里得到了慰问品炖菜！
 > END STRING
 
 > BEGIN STRING
 \\E（…つまみ食いしなくてよかった。）
 > CONTEXT COMMONEVENT:301/559/Message < UNTRANSLATED
-
+\\E（……幸亏没偷吃东西。）
 > END STRING
 
 > BEGIN STRING
 \\Eあ、お兄ちゃん！
 > CONTEXT COMMONEVENT:301/579/Message < UNTRANSLATED
-
+\\E啊、欧尼酱！
 > END STRING
 
 > BEGIN STRING
 \\Eむ？
 > CONTEXT COMMONEVENT:301/581/Message < UNTRANSLATED
-
+\\E嗯？
 > END STRING
 
 > BEGIN STRING
 \\Eこっちに来る用事があったからちょっと寄ってみたんだよー。
 今日はまだ掛かりそう？
 > CONTEXT COMMONEVENT:301/584/Message < UNTRANSLATED
-
+\\E到这边来有点事，所以顺便去靠近去看了看哦。
+今天还有在做的事儿吗？
 > END STRING
 
 > BEGIN STRING
 \\Eこれから帰るところだったかな。
 > CONTEXT COMMONEVENT:301/586/Message < UNTRANSLATED
-
+\\E我正要回去呢。
 > END STRING
 
 > BEGIN STRING
 \\Eじゃあ一緒に帰ろうー。
 > CONTEXT COMMONEVENT:301/589/Message < UNTRANSLATED
-
+\\E那么一起回去吧。
 > END STRING
 
 > BEGIN STRING
 \\E今日は妹と一緒に帰路についた。
 > CONTEXT COMMONEVENT:301/595/Message < UNTRANSLATED
-
+\\E今天和妹妹一起回家了。
 > END STRING
 
 > BEGIN STRING
 \\Eタッタッタ…
 > CONTEXT COMMONEVENT:301/616/Message < UNTRANSLATED
-
+\\E踏、踏、踏……
 > END STRING
 
 > BEGIN STRING
 \\Eはぁはぁ…ふぅふぅ…
 > CONTEXT COMMONEVENT:301/627/Message < UNTRANSLATED
-
+\\E哈、哈……呼、呼……
 > END STRING
 
 > BEGIN STRING
 \\Eあ、お兄ちゃん…ふぅふぅ…
 > CONTEXT COMMONEVENT:301/629/Message < UNTRANSLATED
-
+\\E啊、欧尼酱……呼、呼……
 > END STRING
 
 > BEGIN STRING
 　ええと…走り込み？　
 > CONTEXT COMMONEVENT:301/631/Choices < UNTRANSLATED
-
+　诶……跑步锻炼？
 > END STRING
 
 > BEGIN STRING
 \\Eす、少しでも…体力…はぁはぁ…
 つけて…おこうと…はぁはぁ…思って…
 > CONTEXT COMMONEVENT:301/635/Message < UNTRANSLATED
-
+\\E\\哪、哪怕只有一点点……体力……哈哈……
+加上……我是……哈哈……这样想的……
 > END STRING
 
 > BEGIN STRING
 　ユイは別にそんな鍛えなくても…　
 > CONTEXT COMMONEVENT:301/637/Choices < UNTRANSLATED
-
+　“ユイ”你不必那么锻炼也……
 > END STRING
 
 > BEGIN STRING
 \\Eい、今はいいですけどいつか遠出する時がきたときに
 みんなに迷惑かけたくないですし…。
 > CONTEXT COMMONEVENT:301/642/Message < UNTRANSLATED
-
+\\E不，现在虽然没有关系，但是总有一天要远行的时候
+我不想给大家添麻烦……
 > END STRING
 
 > BEGIN STRING
 \\Eわたし、ただでさえ体力ないですから…。
 > CONTEXT COMMONEVENT:301/643/Message < UNTRANSLATED
-
+\\E我本来就没有什么体力……
 > END STRING
 
 > BEGIN STRING
 付き合うよ
 > CONTEXT COMMONEVENT:301/645/Choices < UNTRANSLATED
-
+我陪你一起吧
 > END STRING
 
 > BEGIN STRING
 頑張って
 > CONTEXT COMMONEVENT:301/645/Choices < UNTRANSLATED
-
+加油
 > END STRING
 
 > BEGIN STRING
 \\E！
 あ、ありがとう…ございます。
 > CONTEXT COMMONEVENT:301/657/Message < UNTRANSLATED
-
+\\E！
+谢、谢谢你。
 > END STRING
 
 > BEGIN STRING
 \\Eユイの体力つくりに付き合った。
 > CONTEXT COMMONEVENT:301/662/Message < UNTRANSLATED
-
+\\E陪“ユイ”锻炼了体力。
 > END STRING
 
 > BEGIN STRING
 \\Eはいっ！がんばります…！
 > CONTEXT COMMONEVENT:301/676/Message < UNTRANSLATED
-
+\\E是！我会加油的……
 > END STRING
 
 > BEGIN STRING
 \\Eはぁはぁ…あ、お兄ちゃん。
 > CONTEXT COMMONEVENT:301/690/Message < UNTRANSLATED
-
+\\E哈、哈、哈、欧尼酱。
 > END STRING
 
 > BEGIN STRING
 \\E今日もユイの体力つくりに付き合うのか？
 > CONTEXT COMMONEVENT:301/692/Message < UNTRANSLATED
-
+\\E今天也要陪“ユイ”锻炼体力吗？
 > END STRING
 
 > BEGIN STRING
 付き合う
 > CONTEXT COMMONEVENT:301/693/Choices < UNTRANSLATED
-
+陪她一起
 > END STRING
 
 > BEGIN STRING
 頑張ってね
 > CONTEXT COMMONEVENT:301/693/Choices < UNTRANSLATED
-
+加油吧
 > END STRING
 
 > BEGIN STRING
 \\Eあ、ありがとうございます。
 > CONTEXT COMMONEVENT:301/704/Message < UNTRANSLATED
-
+\\E啊、谢谢。
 > END STRING
 
 > BEGIN STRING
 \\Eユイちゃん、そっちいったよ！
 > CONTEXT COMMONEVENT:301/747/Message < UNTRANSLATED
-
+\E“ユイ”酱、我在那里哦！
 > END STRING
 
 > BEGIN STRING
 \\Eえ？きゃっ…！
 > CONTEXT COMMONEVENT:301/750/Message < UNTRANSLATED
-
+\\E诶？啊……！
 > END STRING
 
 > BEGIN STRING
 \\Eごめんなさい、足を引っ張ってしまいました…。
 > CONTEXT COMMONEVENT:301/758/Message < UNTRANSLATED
-
+\\E对不起、我拖了你的后腿……
 > END STRING
 
 > BEGIN STRING
 　怪我はなかったか？　
 > CONTEXT COMMONEVENT:301/760/Choices < UNTRANSLATED
-
+　有没有受伤啊？　
 > END STRING
 
 > BEGIN STRING
 \\Eはい…あたし、もっと体力をつけないとダメですね…。
 肝心なときに足が止まっちゃって…。
 > CONTEXT COMMONEVENT:301/766/Message < UNTRANSLATED
-
+\\E是的，我必须更加增强体力啊……
+但重要的时候脚步却停了……
 > END STRING
 
 > BEGIN STRING
 \\Eユイちゃんはメディックだし無理しなくていいよー。
 突破されたのはあたしたちが悪いんだし…ごめんね。
 > CONTEXT COMMONEVENT:301/769/Message < UNTRANSLATED
-
+\\E“ユイ”酱是医疗，所以不用勉强的。
+被突破是我们的错……对不起。
 > END STRING
 
 > BEGIN STRING
 \\Eでも…。
 > CONTEXT COMMONEVENT:301/771/Message < UNTRANSLATED
-
+\\E但是……
 > END STRING
 
 > BEGIN STRING
 \\E（ユイは体力の無さを気にしてるみたいだ…
 うーん、なんとかならないかな…？）
 > CONTEXT COMMONEVENT:301/773/Message < UNTRANSLATED
-
+\\E（“ユイ”好像很在意体力的不足啊……
+嗯、能不能想想办法啊……？）
 > END STRING
 
 > BEGIN STRING
 \\E（ユイは体力の無さを気にしてるようだ…
 うーん、正直いえば体を鍛えるよりもっと…）
 > CONTEXT COMMONEVENT:301/803/Message < UNTRANSLATED
-
+\\E（“ユイ”好像很在意体力的不足……
+嗯、说实话、比起锻炼身体更……）
 > END STRING
 
 > BEGIN STRING
 　大丈夫？　
 > CONTEXT COMMONEVENT:301/813/Choices < UNTRANSLATED
-
+　没关系吗？　
 > END STRING
 
 > BEGIN STRING
 \\Eは、はい…平気です…少しつまづいただけです。
 …痛っ。
 > CONTEXT COMMONEVENT:301/819/Message < UNTRANSLATED
-
+\\E没、没关系……只是稍微碰了一下。
+……痛。
 > END STRING
 
 > BEGIN STRING
 \\Eこれは…ちょっと捻ったみたいだな。
 > CONTEXT COMMONEVENT:301/821/Message < UNTRANSLATED
-
+\\E这是……好像有点扭到了。
 > END STRING
 
 > BEGIN STRING
 \\E…ほら、掴まって…診療所までおぶって行くよ。
 > CONTEXT COMMONEVENT:301/822/Message < UNTRANSLATED
-
+\\E……快来，抓紧我……我带你去诊疗所。
 > END STRING
 
 > BEGIN STRING
 \\E…すみません…。
 > CONTEXT COMMONEVENT:301/826/Message < UNTRANSLATED
-
+\\E……对不起……
 > END STRING
 
 > BEGIN STRING
 \\E（うーん、背中にユイの感触…）
 > CONTEXT COMMONEVENT:301/829/Message < UNTRANSLATED
-
+\\E（嗯、背上“ユイ”的触感……）
 > END STRING
 
 > BEGIN STRING
 \\E（ってまてよ…おんぶ…運ぶ…疲れない…）
 > CONTEXT COMMONEVENT:301/830/Message < UNTRANSLATED
-
+\\E（话说回来……背着……搬运……不累……）
 > END STRING
 
 > BEGIN STRING
 　これだ！！！　
 > CONTEXT COMMONEVENT:301/833/Choices < UNTRANSLATED
-
+　就是这个！！！　
 > END STRING
 
 > BEGIN STRING
 \\Eこれだ！！
 > CONTEXT COMMONEVENT:301/837/Message < UNTRANSLATED
-
+\\E就是这个！！
 > END STRING
 
 > BEGIN STRING
 \\Eきゃっ！？
 な、なんです…急に…？
 > CONTEXT COMMONEVENT:301/840/Message < UNTRANSLATED
-
+\\E呀！？
+什、什么啊……这么急……？
 > END STRING
 
 > BEGIN STRING
 \\Eいや、これだよ。
 体力がないならオレがもっと体力を付ければいいんだ。
 > CONTEXT COMMONEVENT:301/842/Message < UNTRANSLATED
-
+\\E不，就是这个啊。
+如果没有体力的话，我再增加点体力就好了。
 > END STRING
 
 > BEGIN STRING
 \\Eえ、え、でもなんで…？
 > CONTEXT COMMONEVENT:301/845/Message < UNTRANSLATED
-
+\\E诶、诶、但是为什么……？
 > END STRING
 
 > BEGIN STRING
 \\Eこうしてオレがおぶってたら疲れないだろ？
 ユイはユイにしかできないことを頑張ればいいと思うんだ。
 > CONTEXT COMMONEVENT:301/847/Message < UNTRANSLATED
-
+\\E我这样背着你的话就不累了吧？
+“ユイ”只需要努力做只有“ユイ”能做到的事就好了。
 > END STRING
 
 > BEGIN STRING
 \\Eわたしにしか、できない…？
 > CONTEXT COMMONEVENT:301/849/Message < UNTRANSLATED
-
+\\E只有我才能做到……？
 > END STRING
 
 > BEGIN STRING
 \\Eオレは戦うことはできても癒やすことはできないし…。
 傷ついた身体を癒やしたり、元気づけてくれたり。
 > CONTEXT COMMONEVENT:301/851/Message < UNTRANSLATED
-
+\\E我即使能够战斗但也不会医疗……
+治愈受伤的身体，给人以元气。
 > END STRING
 
 > BEGIN STRING
 \\Eそういう役割を活かしていった方がきっといいと思う。
 > CONTEXT COMMONEVENT:301/852/Message < UNTRANSLATED
-
+\\E我觉得发挥那样的作用活下去会更好。
 > END STRING
 
 > BEGIN STRING
 \\E私の役割…癒やし…
 > CONTEXT COMMONEVENT:301/855/Message < UNTRANSLATED
-
+\\E我的作用……治愈……
 > END STRING
 
 > BEGIN STRING
 \\Eそう、そうですよね…わかりました。
 …わたし、何をすればいいのかわかった気がします。
 > CONTEXT COMMONEVENT:301/857/Message < UNTRANSLATED
-
+\\E是、是啊……我知道了。
+……我觉得我知道应该做什么了。
 > END STRING
 
 > BEGIN STRING
 \\Eわたし無い物ねだりしてたんですね…。
 お兄ちゃん、ありがとうございます。
 > CONTEXT COMMONEVENT:301/859/Message < UNTRANSLATED
-
+\\E我一直在追求没有的东西呢……
+欧尼酱、谢谢你。
 > END STRING
 
 > BEGIN STRING
 \\Eユイの特訓に付き合った。
 > CONTEXT COMMONEVENT:301/863/Message < UNTRANSLATED
-
+\\E陪“ユイ”一起特训了。
 > END STRING
 
 > BEGIN STRING
 \\Eユイのつよさが上がった！
 ユイの好感度が上がった！
 > CONTEXT COMMONEVENT:301/865/Message < UNTRANSLATED
-
+\\E“ユイ”变得更强了！
+“ユイ”的好感度上升！
 > END STRING
 
 > BEGIN STRING
 \\Eユイがスキル\\c[1]おうえん\\c[0]を習得した！
 > CONTEXT COMMONEVENT:301/867/Message < UNTRANSLATED
-
+\\E“ユイ”学会了技能\\c[1]おうえん（支援）\\c[0]！
 > END STRING
 
 > BEGIN STRING
 \\Eスキル\\c[1]リーダーシップ\\c[0]のヒントを得た！
 > CONTEXT COMMONEVENT:301/869/Message < UNTRANSLATED
-
+\\E得到了技能\\c[1]リーダーシップ（领导能力）\\c[0]的提示！
 > END STRING
 
 > BEGIN STRING
 \\Eふぅ…今日も疲れたな…。
 > CONTEXT COMMONEVENT:301/900/Message < UNTRANSLATED
-
+\\E呼……今天也很累了啊……
 > END STRING
 
 > BEGIN STRING
 \\Eあいたっ！
 …ったくなんでこんなところに木剣が…。
 > CONTEXT COMMONEVENT:301/902/Message < UNTRANSLATED
-
+\\E疼！
+为什么在这种地方会有木剑……
 > END STRING
 
 > BEGIN STRING
 \\Eうーん、よく見るとギルドハウスもだいぶ散らかってるな…
 > CONTEXT COMMONEVENT:301/903/Message < UNTRANSLATED
-
+\\E嗯、仔细一看、工会里也是相当的乱啊……
 > END STRING
 
 > BEGIN STRING
 片付けする
 > CONTEXT COMMONEVENT:301/904/Choices < UNTRANSLATED
-
+收拾一下
 > END STRING
 
 > BEGIN STRING
 無視する
 > CONTEXT COMMONEVENT:301/904/Choices < UNTRANSLATED
-
+无视掉
 > END STRING
 
 > BEGIN STRING
 \\Eよし…やるか…
 > CONTEXT COMMONEVENT:301/906/Message < UNTRANSLATED
-
+\\E好……开始吧……
 > END STRING
 
 > BEGIN STRING
 \\Eふぅ…だいぶ片付いたな。
 > CONTEXT COMMONEVENT:301/911/Message < UNTRANSLATED
-
+\\E呼……差不多收拾好了。
 > END STRING
 
 > BEGIN STRING
 \\Eお、感心感心。
 > CONTEXT COMMONEVENT:301/918/Message < UNTRANSLATED
-
+\\E哦、佩服佩服。
 > END STRING
 
 > BEGIN STRING
 \\E勤勉なお兄ちゃんにはご褒美にいいものあげよう。
 > CONTEXT COMMONEVENT:301/919/Message < UNTRANSLATED
-
+\\E给勤奋的欧尼酱一个好东西作为奖赏吧。
 > END STRING
 
 > BEGIN STRING
 \\Eギルドマスターからお菓子を貰った。
 > CONTEXT COMMONEVENT:301/923/Message < UNTRANSLATED
-
+\\E从工会Master那里得到了零食。
 > END STRING
 
 > BEGIN STRING
 \\Eギルドハウスの片付けをした。
 > CONTEXT COMMONEVENT:301/937/Message < UNTRANSLATED
-
+\\E收拾了工会的房子。
 > END STRING
 
 > BEGIN STRING
 \\Eでも面倒だし…まあ別にいっか。
 > CONTEXT COMMONEVENT:301/950/Message < UNTRANSLATED
-
+\\E但是很麻烦啊……算了吧。
 > END STRING
 
 > BEGIN STRING
 \\Eふぅ…今日も疲れたな。
 > CONTEXT COMMONEVENT:301/965/Message < UNTRANSLATED
-
+\\E呼……今天也很累了啊。
 > END STRING
 
 > BEGIN STRING
 \\Eただいまー…っと。
 > CONTEXT COMMONEVENT:301/968/Message < UNTRANSLATED
-
+\\E我回来了……哦。
 > END STRING
 
 > BEGIN STRING
 \\Eきゃっ…お、お兄ちゃん！？
 > CONTEXT COMMONEVENT:301/974/Message < UNTRANSLATED
-
+\\E啊……欧、欧尼酱！？
 > END STRING
 
 > BEGIN STRING
 \\E…んもー、お兄ちゃんのえっち。
 > CONTEXT COMMONEVENT:301/982/Message < UNTRANSLATED
-
+\\E……FUCK！欧尼酱你个老色批。
 > END STRING
 
 > BEGIN STRING
 \\E…なんでじっと見てるのよ…お兄ちゃんのすけべ！
 > CONTEXT COMMONEVENT:301/989/Message < UNTRANSLATED
-
+\\E……为什么老是盯着我看哦……欧尼酱你个老色批！
 > END STRING
 
 > BEGIN STRING
 \\E妹の着替えに遭遇してしまった…。
 > CONTEXT COMMONEVENT:301/1002/Message < UNTRANSLATED
-
+\\E遭遇到了妹妹换衣服的时候……
 > END STRING
 
 > BEGIN STRING
 \\E…ん？んん？
 > CONTEXT COMMONEVENT:301/1017/Message < UNTRANSLATED
-
+\\E……？……？？
 > END STRING
 
 > BEGIN STRING
 \\E小銭を拾った！ラッキー
 > CONTEXT COMMONEVENT:301/1019/Message < UNTRANSLATED
-
+\\E捡到了零钱！幸运！
 > END STRING
 
 > BEGIN STRING
 \\Eうーん、今日は何となくもう少し訓練していこうかな…？
 > CONTEXT COMMONEVENT:301/1046/Message < UNTRANSLATED
-
+\\E嗯，今天不知怎么的想再稍微锻炼一下吧……？
 > END STRING
 
 > BEGIN STRING
