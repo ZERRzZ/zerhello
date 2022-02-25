@@ -1462,490 +1462,511 @@
 \\Eあー、お兄ちゃんが旅に出るなら
 きっと妹ちゃんもついてくるね。
 > CONTEXT COMMONEVENT:301/1513/Message < UNTRANSLATED
-
+\\E啊、欧尼酱要去旅行的话
+一抹脱也一定会跟着来的吧。
 > END STRING
 
 > BEGIN STRING
 　そうかな？　
 > CONTEXT COMMONEVENT:301/1514/Choices < UNTRANSLATED
-
+　会是这样吗？　
 > END STRING
 
 > BEGIN STRING
 \\Eそりゃそうだよ。
 だって妹ちゃんはお兄ちゃん大好きじゃん。
 > CONTEXT COMMONEVENT:301/1519/Message < UNTRANSLATED
-
+\\E那是当然的。
+因为一抹脱酱可是最喜欢欧尼酱了。
 > END STRING
 
 > BEGIN STRING
 \\Eそれにお兄ちゃん妹ちゃんのこと一人にしないでしょー。
 いい加減見てればわかるって。
 > CONTEXT COMMONEVENT:301/1521/Message < UNTRANSLATED
-
+\\E而且欧尼酱和一抹脱酱如果一个人的话也做不了什么吧。
+稍微看一看就知道了。
 > END STRING
 
 > BEGIN STRING
 \\E\\f[12]もし…あたしもお兄ちゃんの妹だったら…
 > CONTEXT COMMONEVENT:301/1524/Message < UNTRANSLATED
-
+\\E\\f[12]如果……我也是欧尼酱的一抹脱的话……
 > END STRING
 
 > BEGIN STRING
 　ん？　
 > CONTEXT COMMONEVENT:301/1526/Choices < UNTRANSLATED
 > CONTEXT COMMONEVENT:305/806/Choices < UNTRANSLATED
-
+　什么？
 > END STRING
 
 > BEGIN STRING
 \\Eん－んー、なんでもなーい！
 > CONTEXT COMMONEVENT:301/1531/Message < UNTRANSLATED
-
+\\E嗯～嗯～、没什么！
 > END STRING
 
 > BEGIN STRING
 \\Eだからー
 > CONTEXT COMMONEVENT:301/1533/Message < UNTRANSLATED
-
+\\E所以说～
 > END STRING
 
 > BEGIN STRING
 \\Eまあこれからもよろしくねってこと！
 > CONTEXT COMMONEVENT:301/1535/Message < UNTRANSLATED
-
+\\E嘛，今后也请多关照了这样！
 > END STRING
 
 > BEGIN STRING
 \\Eスキル以心伝心を取得した！
 > CONTEXT COMMONEVENT:301/1541/Message < UNTRANSLATED
-
+\\E学会技能 以心伝心 了！
 > END STRING
 
 > BEGIN STRING
 \\Eよいしょ…よいしょ…
 > CONTEXT COMMONEVENT:301/1571/Message < UNTRANSLATED
-
+\\E嗨哟……嗨哟……
 > END STRING
 
 > BEGIN STRING
 \\Eあれ、ユイだ。
 > CONTEXT COMMONEVENT:301/1573/Message < UNTRANSLATED
-
+\\E诶、是“ユイ”。
 > END STRING
 
 > BEGIN STRING
 \\Eあ…お兄ちゃん、お疲れさま。
 > CONTEXT COMMONEVENT:301/1576/Message < UNTRANSLATED
-
+\\E啊……欧尼酱、幸苦了。
 > END STRING
 
 > BEGIN STRING
 　どこかいくの？　
 > CONTEXT COMMONEVENT:301/1577/Choices < UNTRANSLATED
-
+　是要去哪里吗？　
 > END STRING
 
 > BEGIN STRING
 \\E児童学校です。
 > CONTEXT COMMONEVENT:301/1583/Message < UNTRANSLATED
-
+\\E儿童学校。
 > END STRING
 
 > BEGIN STRING
 \\E…あ、えっと。
 遊びまわって擦り傷とか作っちゃう子多いですから、それで。
 > CONTEXT COMMONEVENT:301/1585/Message < UNTRANSLATED
-
+\\E……啊，那个。
+因为有很多孩子玩的时候会擦伤，所以。
 > END STRING
 
 > BEGIN STRING
 \\Eそれからお店のおばあちゃんにお薬を届けて。
 あと裏のおじいちゃんのとこは足が悪くて…
 > CONTEXT COMMONEVENT:301/1586/Message < UNTRANSLATED
-
+\\E然后把药送到店里的奶奶那里。
+再然后那后面的爷爷那里脚不好……
 > END STRING
 
 > BEGIN STRING
 \\E（ユイは本当に誰かの為に働くのが好きなんだな…。
 > CONTEXT COMMONEVENT:301/1588/Message < UNTRANSLATED
-
+\\E（“ユイ”真的很喜欢为了谁而工作啊……
 > END STRING
 
 > BEGIN STRING
 手伝うよ
 > CONTEXT COMMONEVENT:301/1589/Choices < UNTRANSLATED
-
+我来帮你
 > END STRING
 
 > BEGIN STRING
 \\Eありがとうございます。
 でもお兄ちゃんはまず自分の怪我を治してくださいね。
 > CONTEXT COMMONEVENT:301/1595/Message < UNTRANSLATED
-
+\\E谢谢你。
+但是欧尼酱请先把自己的伤治好吧。
 > END STRING
 
 > BEGIN STRING
 \\E手伝いたいんだけど今日はもう疲れてるな…。
 > CONTEXT COMMONEVENT:301/1604/Message < UNTRANSLATED
-
+\\E想去帮忙，可是今天已经很累了……
 > END STRING
 
 > BEGIN STRING
 \\E手伝うよ！
 > CONTEXT COMMONEVENT:301/1609/Message < UNTRANSLATED
-
+\\E我来帮你！
 > END STRING
 
 > BEGIN STRING
 \\Eいいの？
 ありがとうお兄ちゃん。
 > CONTEXT COMMONEVENT:301/1612/Message < UNTRANSLATED
-
+\\E可以吗？
+谢谢你欧尼酱。
 > END STRING
 
 > BEGIN STRING
 \\Eほら、荷物オレが持つよ…とと思ったより重いんだな。
 > CONTEXT COMMONEVENT:301/1614/Message < UNTRANSLATED
-
+\\E喂，行李比我想的要重……重重重啊。
 > END STRING
 
 > BEGIN STRING
 \\Eユイと村中を訪問してまわったぞ…。
 > CONTEXT COMMONEVENT:301/1618/Message < UNTRANSLATED
-
+\\E和“ユイ”一起去村里拜访了……
 > END STRING
 
 > BEGIN STRING
 \\E頑張ってね。
 > CONTEXT COMMONEVENT:301/1635/Message < UNTRANSLATED
-
+\\E加油啊。
 > END STRING
 
 > BEGIN STRING
 \\Eはい、ありがとうございます。
 お兄ちゃんも何かあったら言ってくださいね。
 > CONTEXT COMMONEVENT:301/1638/Message < UNTRANSLATED
-
+\\E好的，谢谢。
+欧尼酱有什么事的话也请告诉我吧。
 > END STRING
 
 > BEGIN STRING
 \\Eよいしょ…よいしょ…。
 > CONTEXT COMMONEVENT:301/1640/Message < UNTRANSLATED
-
+\\E嗨哟……嗨哟……
 > END STRING
 
 > BEGIN STRING
 \\Eユイは行ってしまったな…。
 > CONTEXT COMMONEVENT:301/1643/Message < UNTRANSLATED
-
+\\E“ユイ”已经走了啊……
 > END STRING
 
 > BEGIN STRING
 \\Eんしょ…んしょ…。
 > CONTEXT COMMONEVENT:301/1655/Message < UNTRANSLATED
-
+\\E嘿咻……嘿咻……
 > END STRING
 
 > BEGIN STRING
 \\Eユイは今日も頑張ってるな…
 > CONTEXT COMMONEVENT:301/1657/Message < UNTRANSLATED
-
+\\E“ユイ”今天也很努力啊…
 > END STRING
 
 > BEGIN STRING
 \\Eユイ！
 > CONTEXT COMMONEVENT:301/1672/Message < UNTRANSLATED
-
+\\E“ユイ”！
 > END STRING
 
 > BEGIN STRING
 \\Eオレも付き合うよ、荷物持ちは任せて。
 > CONTEXT COMMONEVENT:301/1677/Message < UNTRANSLATED
-
+\\E我也来陪你吧，行李就交给我吧。
 > END STRING
 
 > BEGIN STRING
 \\Eありがとうございます。
 じゃあ、お言葉に甘えちゃいます。
 > CONTEXT COMMONEVENT:301/1680/Message < UNTRANSLATED
-
+\\E谢谢你。
+那我就不客气了。
 > END STRING
 
 > BEGIN STRING
 \\E今日はちょっと都合が悪いな…
 > CONTEXT COMMONEVENT:301/1708/Message < UNTRANSLATED
-
+\\E今天有点不方便啊……
 > END STRING
 
 > BEGIN STRING
 \\Eユイは行ってしまった。
 > CONTEXT COMMONEVENT:301/1710/Message < UNTRANSLATED
-
+\\E“ユイ”走掉了。
 > END STRING
 
 > BEGIN STRING
 \\Eはい、これ今週のお薬です。
 あまり無理はしないでくださいね。
 > CONTEXT COMMONEVENT:301/1739/Message < UNTRANSLATED
-
+\\E好的，这是这周的药。
+请不要太勉强了。
 > END STRING
 
 > BEGIN STRING
 \\Eほんと、いつもありがとうね…。
 > CONTEXT COMMONEVENT:301/1741/Message < UNTRANSLATED
-
+\\E真的、一直以来谢谢你了……
 > END STRING
 
 > BEGIN STRING
 \\Eいえいえ、いいんですよ。
 また来ますね。
 > CONTEXT COMMONEVENT:301/1744/Message < UNTRANSLATED
-
+\\E不不、没关系。
+我会再来的。
 > END STRING
 
 > BEGIN STRING
 \\Eふー、今日もユイと村中を回ってきたぞ…
 > CONTEXT COMMONEVENT:301/1748/Message < UNTRANSLATED
-
+\\E呼、今天也和“ユイ”一起在村子里跑来跑去了……
 > END STRING
 
 > BEGIN STRING
 \\E今日はこれで最後の一軒です。
 いつもありがとう、お兄ちゃん。
 > CONTEXT COMMONEVENT:301/1751/Message < UNTRANSLATED
-
+\\E这是今天的最后一家了。
+一直以来谢谢你、欧尼酱。
 > END STRING
 
 > BEGIN STRING
 　どういたしまして　
 > CONTEXT COMMONEVENT:301/1752/Choices < UNTRANSLATED
-
+　不客气
 > END STRING
 
 > BEGIN STRING
 \\Eふふ、じゃあ帰りましょうか。
 > CONTEXT COMMONEVENT:301/1757/Message < UNTRANSLATED
-
+\\E呼呼、那我们回去吧。
 > END STRING
 
 > BEGIN STRING
 \\Eわあ…夕日が真っ赤…。
 急がないと暗くなっちゃいますね。
 > CONTEXT COMMONEVENT:301/1767/Message < UNTRANSLATED
-
+\\E哇……夕阳红彤彤的……
+不快点的话天会暗下来的呢。
 > END STRING
 
 > BEGIN STRING
 \\Eどうかしましたか？
 > CONTEXT COMMONEVENT:301/1774/Message < UNTRANSLATED
-
+\\E怎么了？
 > END STRING
 
 > BEGIN STRING
 　ユイはなんで冒険者になろうと思ったの？　
 > CONTEXT COMMONEVENT:301/1776/Choices < UNTRANSLATED
-
+　“ユイ”为什么想成为冒险者呢？
 > END STRING
 
 > BEGIN STRING
 \\Eん－、なんででしょう。
 > CONTEXT COMMONEVENT:301/1782/Message < UNTRANSLATED
-
+\\E嗯、为什么呢。
 > END STRING
 
 > BEGIN STRING
 \\E危ないこともありますけどね…
 わたし、ギルドの活動は楽しいって思ってるんです。
 > CONTEXT COMMONEVENT:301/1784/Message < UNTRANSLATED
-
+\\E虽然也有危险的事……
+但我觉得工会的活动很开心。
 > END STRING
 
 > BEGIN STRING
 \\Eもちろんうまく行かないときもありますけど
 人の役に立てたりするのはやっぱり嬉しいです。
 > CONTEXT COMMONEVENT:301/1786/Message < UNTRANSLATED
-
+\\E当然也有不顺利的时候
+但能帮上别人的忙果然很开心。
 > END STRING
 
 > BEGIN STRING
 \\Eでも一番の理由は…ううん、これはダメですね。
 > CONTEXT COMMONEVENT:301/1790/Message < UNTRANSLATED
-
+\\E但是最大的理由是……不，这个不行的呢。
 > END STRING
 
 > BEGIN STRING
 \\Eお兄ちゃんはたぶん、
 いつか村を出て本当の冒険に出るんだと思います。
 > CONTEXT COMMONEVENT:301/1794/Message < UNTRANSLATED
-
+\\E欧尼酱大概、
+我想总有一天会走出村子去进行真正的冒险。
 > END STRING
 
 > BEGIN STRING
 \\Eわたしは…
 やっぱり村の人達のことがありますからね。
 > CONTEXT COMMONEVENT:301/1796/Message < UNTRANSLATED
-
+\\E我……
+果然还是因为村里的人啊。
 > END STRING
 
 > BEGIN STRING
 \\Eだから私はいっぱいいろんな世界をみて、回って―
 大冒険をしたお兄ちゃんが帰ってこられる場所になれたら…
 > CONTEXT COMMONEVENT:301/1798/Message < UNTRANSLATED
-
+\\E所以我要多看看各种各样的世界、多去走走
+如果完成大冒险的哥哥能够回到这个地方的话……
 > END STRING
 
 > BEGIN STRING
 \\Eなんて。
 > CONTEXT COMMONEVENT:301/1800/Message < UNTRANSLATED
-
+\\E什么。
 > END STRING
 
 > BEGIN STRING
 \\Eでもそれでいろんな話を聞かせてくれたら嬉しいです。
 > CONTEXT COMMONEVENT:301/1802/Message < UNTRANSLATED
-
+\\E但是，如果能听到各种各样的话，我会很高兴的。
 > END STRING
 
 > BEGIN STRING
 　約束するよ！　
 > CONTEXT COMMONEVENT:301/1803/Choices < UNTRANSLATED
-
+　那就约定好了哦！　
 > END STRING
 
 > BEGIN STRING
 \\Eふふ、期待してますね。
 > CONTEXT COMMONEVENT:301/1808/Message < UNTRANSLATED
-
+\\E哈哈、期待着呢。
 > END STRING
 
 > BEGIN STRING
 \\Eスキル献身を取得した！
 > CONTEXT COMMONEVENT:301/1814/Message < UNTRANSLATED
-
+\\E学会技能 献身 了！
 > END STRING
 
 > BEGIN STRING
 \\Eふぅ、今日もいい汗かいたぞ…。
 さ、家に帰るか。
 > CONTEXT COMMONEVENT:301/1845/Message < UNTRANSLATED
-
+\\E呼、今天也流了很多汗呢……
+那么回家吧。
 > END STRING
 
 > BEGIN STRING
 \\Eはっ、そんなものか。
 > CONTEXT COMMONEVENT:301/1847/Message < UNTRANSLATED
-
+\\E啊、原来是那样啊。
 > END STRING
 
 > BEGIN STRING
 \\Eその声は…
 > CONTEXT COMMONEVENT:301/1849/Message < UNTRANSLATED
-
+\\E这个声音……
 > END STRING
 
 > BEGIN STRING
 \\Eアカツキ！
 > CONTEXT COMMONEVENT:301/1851/Message < UNTRANSLATED
-
+\\E“アカツキ”！
 > END STRING
 
 > BEGIN STRING
 \\Eその程度の鍛錬で音を上げるとは…とんだ見込み違いだ。
 > CONTEXT COMMONEVENT:301/1853/Message < UNTRANSLATED
-
+\\E那种程度的锻炼竟然也会叫苦连天啊……真是预料之外啊。
 > END STRING
 
 > BEGIN STRING
 \\Eなんだとっ！
 > CONTEXT COMMONEVENT:301/1855/Message < UNTRANSLATED
-
+\\E你说什么！
 > END STRING
 
 > BEGIN STRING
 張り合う
 > CONTEXT COMMONEVENT:301/1856/Choices < UNTRANSLATED
-
+張り合う
 > END STRING
-
+揍她（竞争）
 > BEGIN STRING
 家に帰る
 > CONTEXT COMMONEVENT:301/1856/Choices < UNTRANSLATED
-
+回家（看谁点！）
 > END STRING
 
 > BEGIN STRING
 \\Eそこまで言われて…！
 なら走り込みで勝負だ！
 > CONTEXT COMMONEVENT:301/1858/Message < UNTRANSLATED
-
+\\E竟然那样说……！
+那就跑步分胜负吧！
 > END STRING
 
 > BEGIN STRING
 \\Eはっ…望むところだ！！
 ついてこれるものなら付いてくるがいい！
 > CONTEXT COMMONEVENT:301/1860/Message < UNTRANSLATED
-
+\\E哈……我求之不得！！
+能跟上的话就跟上来吧！
 > END STRING
 
 > BEGIN STRING
 \\Eうおおお…！
 > CONTEXT COMMONEVENT:301/1867/Message < UNTRANSLATED
-
+\\E唔噢噢噢……！
 > END STRING
 
 > BEGIN STRING
 \\Eはっ！まだまだぁ！
 > CONTEXT COMMONEVENT:301/1878/Message < UNTRANSLATED
-
+\\E哈！还没完呢！
 > END STRING
 
 > BEGIN STRING
 まだ張り合う
 > CONTEXT COMMONEVENT:301/1879/Choices < UNTRANSLATED
-
+まだ張り合う
 > END STRING
-
+还要比拼
 > BEGIN STRING
 このくらいにしておく
 > CONTEXT COMMONEVENT:301/1879/Choices < UNTRANSLATED
-
+就到这吧
 > END STRING
 
 > BEGIN STRING
 \\Eうおおおお…！！
 > CONTEXT COMMONEVENT:301/1882/Message < UNTRANSLATED
-
+\\E唔噢噢噢哦……！！
 > END STRING
 
 > BEGIN STRING
 \\Eはぁっはぁっ…この程度…！
 > CONTEXT COMMONEVENT:301/1898/Message < UNTRANSLATED
-
+\\E哈……哈……这种程度……！
 > END STRING
 
 > BEGIN STRING
 まだまだ張り合う
 > CONTEXT COMMONEVENT:301/1899/Choices < UNTRANSLATED
-
+还要还要比拼
 > END STRING
 
 > BEGIN STRING
 \\Eぐ…もう…体力の…げん、かい…。
 > CONTEXT COMMONEVENT:301/1915/Message < UNTRANSLATED
-
+\\E咕……已经……体力的……极、极限了……
 > END STRING
 
 > BEGIN STRING
 \\Eバタン
 > CONTEXT COMMONEVENT:301/1918/Message < UNTRANSLATED
-
+\\E倒地！
 > END STRING
 
 > BEGIN STRING
 \\Eアカツキは振り返らずそのまま走り去っていった…。
 > CONTEXT COMMONEVENT:301/1919/Message < UNTRANSLATED
-
+\\E“アカツキ”没有回头就那样跑走了……
 > END STRING
 
 > BEGIN STRING
