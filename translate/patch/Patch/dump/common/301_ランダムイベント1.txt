@@ -1972,71 +1972,75 @@
 > BEGIN STRING
 \\Eくっそぉ…。
 > CONTEXT COMMONEVENT:301/1921/Message < UNTRANSLATED
-
+\\E可恶……
 > END STRING
 
 > BEGIN STRING
 \\Eも、もう…げん…かいだ…。
 > CONTEXT COMMONEVENT:301/1930/Message < UNTRANSLATED
-
+\\E已、已经……极限……了……
 > END STRING
 
 > BEGIN STRING
 \\Eぜぇっぜぇっ…
 はっ…な、なかなか…やるじゃないか…。
 > CONTEXT COMMONEVENT:301/1935/Message < UNTRANSLATED
-
+\\E嘿咻……嘿咻……
+哈……相、相当能干啊……
 > END STRING
 
 > BEGIN STRING
 \\Eスキル\\c[1]自動回復\\c[0]のヒントを得た！
 > CONTEXT COMMONEVENT:301/1947/Message < UNTRANSLATED
-
+\\E得到技能 \\c[1]自動回復 \\c[0]的提示l！
 > END STRING
 
 > BEGIN STRING
 \\Eはんっ…やはりこの程度か…。
 > CONTEXT COMMONEVENT:301/1961/Message < UNTRANSLATED
-
+\\E哈……果然就只有这个程度吗……
 > END STRING
 
 > BEGIN STRING
 \\Eいやオレ家で妹が待ってるから…。
 > CONTEXT COMMONEVENT:301/1990/Message < UNTRANSLATED
-
+\\E不，妹妹在家等着我呢……
 > END STRING
 
 > BEGIN STRING
 \\E…ふんっ。
 > CONTEXT COMMONEVENT:301/1993/Message < UNTRANSLATED
-
+\\E……呼嗯。
 > END STRING
 
 > BEGIN STRING
 \\E（…こいつもしかしてヒマなのか…？
 > CONTEXT COMMONEVENT:301/1996/Message < UNTRANSLATED
-
+\\E（……这家伙难道很闲吗……？
 > END STRING
 
 > BEGIN STRING
 \\Eその程度の鍛錬で音を上げるとは…とんだ見込み違いだ。
 僕ならその程度で音を上げたりしない！
 > CONTEXT COMMONEVENT:301/2014/Message < UNTRANSLATED
-
+\\E那种程度的锻炼竟然会叫苦连天……真是预料之外啊。
+如果是我的话就不会发出那样的声音！
 > END STRING
 
 > BEGIN STRING
 \\Eん？なんだこの行列は…
 なになに…「麺屋サブロー」？
 > CONTEXT COMMONEVENT:301/2040/Message < UNTRANSLATED
-
+\\E嗯？这条队伍怎么回事……
+什么……“麺屋サブロー”？
 > END STRING
 
 > BEGIN STRING
 \\E新しくできたラーメン店か…
 せっかく街まできたんだし食べてみるか。
 > CONTEXT COMMONEVENT:301/2041/Message < UNTRANSLATED
-
+\\E新开的拉面店吗……
+好不容易来到街上，尝一尝吧。
 > END STRING
 
 > BEGIN STRING
@@ -2054,64 +2058,67 @@
 > BEGIN STRING
 \\Eおまっーせしぁしたっ！！！
 > CONTEXT COMMONEVENT:301/2050/Message < UNTRANSLATED
-
+\\E久等了！！！
 > END STRING
 
 > BEGIN STRING
 \\E（麺が見えない程の…野菜の山！！！
 　これは…ラーメンなのか…！？
 > CONTEXT COMMONEVENT:301/2054/Message < UNTRANSLATED
-
+\\E（看不到面的程度……蔬菜之山！！！
+这是……拉面吗……！？
 > END STRING
 
 > BEGIN STRING
 \\Eありぁっしたぁーーーっ！！！
 > CONTEXT COMMONEVENT:301/2058/Message < UNTRANSLATED
-
+\\E有了！！！
 > END STRING
 
 > BEGIN STRING
 \\Eうっぷ…げふ…
 も、もうしばらくラーメンはいいや…。
 > CONTEXT COMMONEVENT:301/2060/Message < UNTRANSLATED
-
+\\E呼……呼……
+不过，再稍微吃点拉面就好了……
 > END STRING
 
 > BEGIN STRING
 \\Eついまた来てしまった…。
 > CONTEXT COMMONEVENT:301/2078/Message < UNTRANSLATED
-
+\\E不知不觉又来了……
 > END STRING
 
 > BEGIN STRING
 \\Eざーめんおまっーせしぁしたっ！！！
 > CONTEXT COMMONEVENT:301/2083/Message < UNTRANSLATED
-
+\\E真是对不起，让你久等了————！！！
 > END STRING
 
 > BEGIN STRING
 \\E（…こいつらワザと言ってないか…？
 > CONTEXT COMMONEVENT:301/2085/Message < UNTRANSLATED
-
+\\E（……这群家伙难道不是故意的吗……？
 > END STRING
 
 > BEGIN STRING
 \\E（ぐっ…しかし相変わらずすごい量だ…！
 > CONTEXT COMMONEVENT:301/2086/Message < UNTRANSLATED
-
+\\E（唔……可是量还是那么大啊……！
 > END STRING
 
 > BEGIN STRING
 \\E引き寄せられるようにまた来てしまった…。
 > CONTEXT COMMONEVENT:301/2119/Message < UNTRANSLATED
-
+\\E像是被吸引似地又来了……
 > END STRING
 
 > BEGIN STRING
 \\Eおや…君は…？
 …………ふっ。
 > CONTEXT COMMONEVENT:301/2122/Message < UNTRANSLATED
-
+\\E哦呀……你是……？
+……呼。
 > END STRING
 
 > BEGIN STRING
@@ -2125,175 +2132,182 @@
 \\E（オオブタヤサイ…馬鹿な…！？
 　そんなもん食べきれないに決まってる…！
 > CONTEXT COMMONEVENT:301/2125/Message < UNTRANSLATED
-
+\\E（オオブタヤサイ……真傻啊……！？
+那种东西肯定吃不完啊……！
 > END STRING
 
 > BEGIN STRING
 \\Eさあ君の注文の番だ…なにを頼むんだい？
 …まさか小なんて事はないよね？
 > CONTEXT COMMONEVENT:301/2127/Message < UNTRANSLATED
-
+\\E现在轮到你点的菜了……你要什么？
+……难道没有小的事情吗？
 > END STRING
 
 > BEGIN STRING
 \\Eなんだと！
 > CONTEXT COMMONEVENT:301/2129/Message < UNTRANSLATED
-
+\\E你说什么！
 > END STRING
 
 > BEGIN STRING
 　こっちもオオブタヤサイニンニクアブラマシマシだ！　
 > CONTEXT COMMONEVENT:301/2130/Choices < UNTRANSLATED
-
+　这也是 オオブタヤサイニンニクアブラマシマシ 啊！　
 > END STRING
 
 > BEGIN STRING
 \\Eロット乱しは最大のギルティ…
 負けたほうがここの支払いを持つ、でいいかな？
 > CONTEXT COMMONEVENT:301/2135/Message < UNTRANSLATED
-
+\\Eロット乱し 是最大的工会……
+输了的话就得承担这里的支付，可以吗？
 > END STRING
 
 > BEGIN STRING
 　望むところだ！　
 > CONTEXT COMMONEVENT:301/2136/Choices < UNTRANSLATED
-
+　求之不得！　
 > END STRING
 
 > BEGIN STRING
 \\Eざーめんおまっーせしぁしたーーーっ！！！
 > CONTEXT COMMONEVENT:301/2145/Message < UNTRANSLATED
-
+\\E真是对不起，让你久等了————！！！
 > END STRING
 
 > BEGIN STRING
 \\E（な、何だこれは…
 　これが本当に人間の食い物なのか…！？
 > CONTEXT COMMONEVENT:301/2147/Message < UNTRANSLATED
-
+\\E（什么，这是什么……
+这真的是人类的食物吗……！？
 > END STRING
 
 > BEGIN STRING
 \\Eく、食ったぞ…げふ…。
 > CONTEXT COMMONEVENT:301/2160/Message < UNTRANSLATED
-
+\\E唔、要吃完了……
 > END STRING
 
 > BEGIN STRING
 \\Eな、なんだと…うっ！
 > CONTEXT COMMONEVENT:301/2162/Message < UNTRANSLATED
-
+\\E什、什么……呃！！
 > END STRING
 
 > BEGIN STRING
 \\E…勝負あったようだな…うぷ。
 > CONTEXT COMMONEVENT:301/2164/Message < UNTRANSLATED
-
+\\E……好像已经分出胜负了呢……呼。
 > END STRING
 
 > BEGIN STRING
 \\Eロットバトルに勝利した！
 > CONTEXT COMMONEVENT:301/2171/Message < UNTRANSLATED
-
+\\Eロット 战斗胜利了！
 > END STRING
 
 > BEGIN STRING
 \\Eスキル\\c[1]短期決戦\\c[0]のヒントを得た！
 > CONTEXT COMMONEVENT:301/2179/Message < UNTRANSLATED
-
+\\E得到技能 \\c[1]短期決戦 \\c[0]的提示了！
 > END STRING
 
 > BEGIN STRING
 \\Eう、うぷっ…
 も、もう…だめだ……。
 > CONTEXT COMMONEVENT:301/2192/Message < UNTRANSLATED
-
+\\E嗯，噗……
+已经……不行了……
 > END STRING
 
 > BEGIN STRING
 \\Eふ、勝負あったようだね…うっぷ…。
 > CONTEXT COMMONEVENT:301/2197/Message < UNTRANSLATED
-
+\\E呼、好像已经分出胜负了呢……呼。
 > END STRING
 
 > BEGIN STRING
 \\Eロットバトルに負けてしまった…。
 > CONTEXT COMMONEVENT:301/2204/Message < UNTRANSLATED
-
+\\Eロット 战斗输掉了！
 > END STRING
 
 > BEGIN STRING
 \\Eだ、だれかー！ひったくりよ―！
 > CONTEXT COMMONEVENT:301/2242/Message < UNTRANSLATED
-
+\\E谁、是谁！抢劫啊！
 > END STRING
 
 > BEGIN STRING
 \\Eなにっ！？
 > CONTEXT COMMONEVENT:301/2244/Message < UNTRANSLATED
-
+\\E什么！？
 > END STRING
 
 > BEGIN STRING
 \\Eへっ！！
 ボケっと歩いてるほうが悪ぃんだよ！！
 > CONTEXT COMMONEVENT:301/2246/Message < UNTRANSLATED
-
+\\E诶！！
+装傻地离开是不对的！！
 > END STRING
 
 > BEGIN STRING
 \\E…あいつか！待てー！
 > CONTEXT COMMONEVENT:301/2248/Message < UNTRANSLATED
-
+\\E………是那家伙啊！等一下！
 > END STRING
 
 > BEGIN STRING
 \\E待てと言われて…
 > CONTEXT COMMONEVENT:301/2250/Message < UNTRANSLATED
-
+\\E虽然说了站住……
 > END STRING
 
 > BEGIN STRING
 \\Eくそ…こいつ意外とやる…普段から鍛えてる足だ…！
 > CONTEXT COMMONEVENT:301/2255/Message < UNTRANSLATED
-
+\\E可恶……这家伙意外的能跑……这是平时锻炼过的脚……！
 > END STRING
 
 > BEGIN STRING
 \\Eうおおおおお！…ガシッ！
 > CONTEXT COMMONEVENT:301/2260/Message < UNTRANSLATED
-
+\\E唔噢噢噢哦哦！……抓住！
 > END STRING
 
 > BEGIN STRING
 \\Eくそっ…離せっ！
 > CONTEXT COMMONEVENT:301/2262/Message < UNTRANSLATED
-
+\\E可恶……放开！
 > END STRING
 
 > BEGIN STRING
 \\E本当にありがとう。
 せめてお礼にこれを持っていっておくれ。
 > CONTEXT COMMONEVENT:301/2271/Message < UNTRANSLATED
-
+\\E真的是谢谢你。
+至少把这个拿去作为回礼吧。
 > END STRING
 
 > BEGIN STRING
 \\Eおばちゃんからお礼のお菓子をもらった！
 > CONTEXT COMMONEVENT:301/2273/Message < UNTRANSLATED
-
+\\E从婆婆那里得到了感谢的零食！
 > END STRING
 
 > BEGIN STRING
 \\E（…ぜ、全然追いつけない…。
 > CONTEXT COMMONEVENT:301/2314/Message < UNTRANSLATED
-
+\\E（……啊，完全追不上……
 > END STRING
 
 > BEGIN STRING
 \\Eふんっ
 > CONTEXT COMMONEVENT:301/2318/Message < UNTRANSLATED
-
+\\E哼
 > END STRING
 
 > BEGIN STRING
