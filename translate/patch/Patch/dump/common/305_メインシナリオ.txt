@@ -4,7 +4,7 @@
 \\Eおはよう、お兄ちゃん。
 > CONTEXT COMMONEVENT:251/28/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:305/272/Message < UNTRANSLATED
-
+\\E早上好、欧尼酱。
 > END STRING
 
 > BEGIN STRING
@@ -12,60 +12,64 @@
 > CONTEXT COMMONEVENT:253/70/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:278/788/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:305/3067/Message < UNTRANSLATED
-
+\\E好的。
 > END STRING
 
 > BEGIN STRING
 \\Eえぇっ！？
 > CONTEXT COMMONEVENT:277/226/Message < UNTRANSLATED
 > CONTEXT COMMONEVENT:305/531/Message < UNTRANSLATED
-
+\\E诶！？
 > END STRING
 
 > BEGIN STRING
 \\Eそういえばお兄ちゃんは明日はどうするの？
 > CONTEXT COMMONEVENT:305/14/Message < UNTRANSLATED
-
+\\E这么说来哥哥明天要怎么办？？
 > END STRING
 
 > BEGIN STRING
 　明日って？　
 > CONTEXT COMMONEVENT:305/15/Choices < UNTRANSLATED
-
+　明天……？　
 > END STRING
 
 > BEGIN STRING
 \\Eほら、お兄ちゃんとこの妹ちゃん
 週末は学校も休みでしょ？
 > CONTEXT COMMONEVENT:305/19/Message < UNTRANSLATED
-
+\\E你看、欧尼酱和一抹脱酱，
+周末学校也休息吧？
 > END STRING
 
 > BEGIN STRING
 \\E（そういえばそうだな…
 普段できない事をした方がいいのかな…）
 > CONTEXT COMMONEVENT:305/22/Message < UNTRANSLATED
-
+\\E（这么说来也是啊……
+做平时不会做的事情比较好吧……）
 > END STRING
 
 > BEGIN STRING
 \\Eねーマスター。
 いつになったらちゃんとした依頼がくるのかな？
 > CONTEXT COMMONEVENT:305/25/Message < UNTRANSLATED
-
+\\E喂，Master。
+什么时候会有可靠的委托来呢？
 > END STRING
 
 > BEGIN STRING
 \\Eそうねえー
 活動の評判が広まってくれたらきちんとした依頼がくる…
 > CONTEXT COMMONEVENT:305/28/Message < UNTRANSLATED
-
+\\E是啊，
+如果活动的名声传开的话，就会有正式的委托来……
 > END STRING
 
 > BEGIN STRING
 \\E…かも知れないわね。
 > CONTEXT COMMONEVENT:305/29/Message < UNTRANSLATED
-
+\\E……也许吧。
 > END STRING
 
 > BEGIN STRING
