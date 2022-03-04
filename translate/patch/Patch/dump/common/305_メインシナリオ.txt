@@ -76,1034 +76,1108 @@
 \\Eいずれウチは小さなギルドだから、
 小さいことからコツコツ積み重ねていかないと。
 > CONTEXT COMMONEVENT:305/30/Message < UNTRANSLATED
-
+\\E反正我们家是个小工会、
+必须从小事开始孜孜不倦地积累。
 > END STRING
 
 > BEGIN STRING
 \\E実績に評判か…。
 > CONTEXT COMMONEVENT:305/33/Message < UNTRANSLATED
-
+\\E对实绩的评判吗……
 > END STRING
 
 > BEGIN STRING
 \\E…というわけでギルド交流戦を行うわよ。
 > CONTEXT COMMONEVENT:305/47/Message < UNTRANSLATED
-
+\\E……所以说要进行工会交流战了哦。
 > END STRING
 
 > BEGIN STRING
 　交流戦？　
 > CONTEXT COMMONEVENT:305/50/Choices < UNTRANSLATED
-
+　交流战？　
 > END STRING
 
 > BEGIN STRING
 \\Eギルド間の親睦と互いに切磋琢磨することでの技術向上…
 まー力試しというかそんな感じね。
 > CONTEXT COMMONEVENT:305/58/Message < UNTRANSLATED
-
+\\E通过和工会之间的和睦的互相切磋来提高技术……
+是不是说是力量试验那样的感觉。
 > END STRING
 
 > BEGIN STRING
 \\E八会も近いしねー。
 > CONTEXT COMMONEVENT:305/63/Message < UNTRANSLATED
-
+\\E八会也越来越近了呢。
 > END STRING
 
 > BEGIN STRING
 八…なんだっけ？
 > CONTEXT COMMONEVENT:305/66/Choices < UNTRANSLATED
-
+八……什么来着？
 > END STRING
 
 > BEGIN STRING
 そういえばそうだった
 > CONTEXT COMMONEVENT:305/66/Choices < UNTRANSLATED
-
+那么说来也是啊
 > END STRING
 
 > BEGIN STRING
 \\E八王子武闘会だよ、お兄ちゃん。
 > CONTEXT COMMONEVENT:305/72/Message < UNTRANSLATED
-
+\\E是八王子武斗会哦、欧尼酱。
 > END STRING
 
 > BEGIN STRING
 \\E昔このあたりの地域は偉大な王を頂点として
 それぞれの地区を8人の王子が分割して収めていた。
 > CONTEXT COMMONEVENT:305/77/Message < UNTRANSLATED
-
+\\E过去这一带以一个伟大的国王为中心
+各个地区被分封给八个王子来管理。
 > END STRING
 
 > BEGIN STRING
 \\Eしかし王亡き後に誰を世継ぎとするかで大いに揉めた。
 そこで後継者を決めるために開かれたのが…
 > CONTEXT COMMONEVENT:305/78/Message < UNTRANSLATED
-
+\\E但是王死后，为了继承权而大闹了一场。
+于是为了决定出继承人而召开了……
 > END STRING
 
 > BEGIN STRING
 \\Eその八王子武闘会なんですね。
 > CONTEXT COMMONEVENT:305/83/Message < UNTRANSLATED
-
+\\E就是那个八王子武斗会吧。
 > END STRING
 
 > BEGIN STRING
 \\Eで、後の世になんでか毎年開かれるようになって
 ギルド同士の腕を競い合う大会となったってわけ。
 > CONTEXT COMMONEVENT:305/88/Message < UNTRANSLATED
-
+\\E不知道为什么，在后世每年都会举办
+这是一个工会之间的较量本领的大会。
 > END STRING
 
 > BEGIN STRING
 \\Eもし地区の代表になって優勝すればものすごく栄誉なの。
 評判を聞いて人も増える、依頼も増える、村もギルドも潤う。
 > CONTEXT COMMONEVENT:305/89/Message < UNTRANSLATED
-
+\\E如果能成为地区代表获得冠军，那就太光荣了。
+听到评价人也增加了，委托也增加了，村子和工会也滋润了。
 > END STRING
 
 > BEGIN STRING
 \\Eとにかくこの国で冒険者をやるなら\\c[1]最大の目的\\c[0]と言ってもいいわ。
 そして50年以上優勝と縁のないここメクア地方の悲願でもあるの。
 > CONTEXT COMMONEVENT:305/90/Message < UNTRANSLATED
-
+\\E总之要在这个国家做冒险者的话，这可以说是 \\c[1]最大的目的 \\c[0]了。
+而且这也是50年以上与冠军无缘的“メクア”地区的悲愿。
 > END STRING
 
 > BEGIN STRING
 \\Eそういえばそうだった…！
 オレ達の力で深紅の大優勝旗をメクアに持ち帰るんだ！
 > CONTEXT COMMONEVENT:305/92/Message < UNTRANSLATED
-
+\\E这么说来也是……！
+用我们的力量把深红的大优胜旗带回“メクア”！
 > END STRING
 
 > BEGIN STRING
 \\E3日後の\\c[1]木曜日\\c[0]に交流戦の予定だからそれまでみんな励んでね。
 > CONTEXT COMMONEVENT:305/101/Message < UNTRANSLATED
-
+\\E3日后的\\c[1]星期四\\c[0]有交流战的预定，在那之前大家要加油哦。
 > END STRING
 
 > BEGIN STRING
 \\Eギルド交流戦か…がんばろう。
 やる気が上がった。
 > CONTEXT COMMONEVENT:305/105/Message < UNTRANSLATED
-
+\\E工会交流战啊…加油吧。
+干劲儿上升了。
 > END STRING
 
 > BEGIN STRING
 \\E交流戦
 <R\>\\f[18]あと3日
 > CONTEXT COMMONEVENT:305/106/Picture < UNTRANSLATED
-
+\\E交流战
+<R\>\\f[18]还有3日
 > END STRING
 
 > BEGIN STRING
 \\Eおはよう、みんな用意はいい？
 > CONTEXT COMMONEVENT:305/121/Message < UNTRANSLATED
-
+\\E早上好、大家准备好了吗？
 > END STRING
 
 > BEGIN STRING
 \\E今日の交流戦の相手は「美食倶楽部」よ。
 なんでも世の中の美食の探求の為に冒険しているらしいわ。
 > CONTEXT COMMONEVENT:305/122/Message < UNTRANSLATED
-
+\\E今天的交流战的对手是“美食俱乐部”哦。
+好像是为了探索世间的美食而冒险呢。
 > END STRING
 
 > BEGIN STRING
 \\Eあなた達が今日の対戦相手ね！なんだかやべぇっすね！
 > CONTEXT COMMONEVENT:305/130/Message < UNTRANSLATED
-
+\\E你们就是今天的对战对手啊！总觉得很糟糕呢！
 > END STRING
 
 > BEGIN STRING
 \\E本日はどうぞお手柔らかによろしくおねがいします。
 > CONTEXT COMMONEVENT:305/132/Message < UNTRANSLATED
-
+\\E今天的比试还请手下留情。
 > END STRING
 
 > BEGIN STRING
 \\Eシャーッ！！
 > CONTEXT COMMONEVENT:305/134/Message < UNTRANSLATED
-
+\\Exia------！！
 > END STRING
 
 > BEGIN STRING
 \\Eあうあうあーー
 > CONTEXT COMMONEVENT:305/136/Message < UNTRANSLATED
-
+\\E啊呜啊呜啊呜--
 > END STRING
 
 > BEGIN STRING
 \\E（何だこいつら…やば…）
 > CONTEXT COMMONEVENT:305/138/Message < UNTRANSLATED
-
+\\E（这帮家伙是什么啊……不好……）
 > END STRING
 
 > BEGIN STRING
 \\E本日はありがとうございました。
 > CONTEXT COMMONEVENT:305/143/Message < UNTRANSLATED
-
+\\E今天的比试多谢了。
 > END STRING
 
 > BEGIN STRING
 \\Eさあ主さま、帰りましょう。
 > CONTEXT COMMONEVENT:305/147/Message < UNTRANSLATED
-
+\\E那么主人，我们回去吧。
 > END STRING
 
 > BEGIN STRING
 \\Eお疲れさま、初めての交流戦はどうだった？
 > CONTEXT COMMONEVENT:305/160/Message < UNTRANSLATED
-
+\\E辛苦了、第一次的交流战怎么样？
 > END STRING
 
 > BEGIN STRING
 \\Eむー…あっちのギルドのが人数多いし不公平だよ…
 > CONTEXT COMMONEVENT:305/165/Message < UNTRANSLATED
-
+\\E唔（撇嘴）……那边工会的人数比我们多不公平哒得摆哟……
 > END STRING
 
 > BEGIN STRING
 \\Eあら、冒険に出たら魔物や野獣は公平になんか襲ってこないわよ。
 > CONTEXT COMMONEVENT:305/170/Message < UNTRANSLATED
-
+\\E是吗、出去冒险的话，魔物和野兽是不会公平的袭击哟。
 > END STRING
 
 > BEGIN STRING
 \\E多勢に無勢、不意打ち、地形差…
 ルールの中で戦えるだけギルド戦はまだ公平じゃないかな？
 > CONTEXT COMMONEVENT:305/171/Message < UNTRANSLATED
-
+\\E寡不敌众，突然袭击，地形差……
+只要在规则中战斗，工会战还是公平的吧？
 > END STRING
 
 > BEGIN STRING
 \\Eほらほら、そんな顔しないの。
 これから経験を積んでいけばいいんだから。
 > CONTEXT COMMONEVENT:305/180/Message < UNTRANSLATED
-
+\\E好了好了、不要再露出那种表情了。
+今后积累经验就好了。
 > END STRING
 
 > BEGIN STRING
 \\Eまた明日からがんばりましょ、今日はみんなお疲れさま。
 > CONTEXT COMMONEVENT:305/181/Message < UNTRANSLATED
-
+\\E明天开始再努力吧、今天大家辛苦了。
 > END STRING
 
 > BEGIN STRING
 \\Eはーい…
 > CONTEXT COMMONEVENT:305/191/Message < UNTRANSLATED
-
+\\E是……
 > END STRING
 
 > BEGIN STRING
 \\E交流戦で負けてしまった…。
 > CONTEXT COMMONEVENT:305/195/Message < UNTRANSLATED
-
+\\E在交流战中输掉了……
 > END STRING
 
 > BEGIN STRING
 \\Eやっぱ悔しいよねー。
 > CONTEXT COMMONEVENT:305/227/Message < UNTRANSLATED
-
+\\E果然很不甘心啊。
 > END STRING
 
 > BEGIN STRING
 　うん？　
 > CONTEXT COMMONEVENT:305/230/Choices < UNTRANSLATED
-
+　嗯？　
 > END STRING
 
 > BEGIN STRING
 \\Eいや、昨日の交流戦。
 ウチがまだまだ弱いのはわかってるけど…どうにかならないかな？
 > CONTEXT COMMONEVENT:305/239/Message < UNTRANSLATED
-
+\\E这个呢、昨天的交流战。
+虽然我知道我们工会还很弱……但总有办法吧？
 > END STRING
 
 > BEGIN STRING
 \\Eうーん…
 > CONTEXT COMMONEVENT:305/242/Message < UNTRANSLATED
-
+\\E嗯……
 > END STRING
 
 > BEGIN STRING
 \\E…どうにかしようとして
 どうにかなるものなんでしょうか？
 > CONTEXT COMMONEVENT:305/248/Message < UNTRANSLATED
-
+\\E……不管怎么想
+总会有办法的吧？
 > END STRING
 
 > BEGIN STRING
 \\Eまーね…
 > CONTEXT COMMONEVENT:305/253/Message < UNTRANSLATED
-
+\\E也对……
 > END STRING
 
 > BEGIN STRING
 \\Eうーん、地道に訓練…しかないのかな？
 > CONTEXT COMMONEVENT:305/257/Message < UNTRANSLATED
-
+\\E嗯、只有踏实地训练吗？
 > END STRING
 
 > BEGIN STRING
 \\Eあ、きたきた。
 > CONTEXT COMMONEVENT:305/268/Message < UNTRANSLATED
-
+\\E啊、来了来了。
 > END STRING
 
 > BEGIN STRING
 \\Eおはようございます。
 > CONTEXT COMMONEVENT:305/276/Message < UNTRANSLATED
-
+\\E早上好。
 > END STRING
 
 > BEGIN STRING
 　みんな揃ってどうしたの？　
 > CONTEXT COMMONEVENT:305/279/Choices < UNTRANSLATED
-
+　大家聚在一起怎么了？　
 > END STRING
 
 > BEGIN STRING
 \\E朗報よ、依頼が入ったわ。
 農園を荒らす害獣の駆除、対応期限はなるべく急ぎで。
 > CONTEXT COMMONEVENT:305/287/Message < UNTRANSLATED
-
+\\E好消息啊、来委托了。
+为了驱除破坏农场的害兽，有对应的期限所以要尽快。
 > END STRING
 
 > BEGIN STRING
 \\E今回は大丈夫だと思って請けたから
 今日はそっちの対応よろしくね。
 > CONTEXT COMMONEVENT:305/288/Message < UNTRANSLATED
-
+\\E我觉得这次没问题就答应了
+今天那边的应对就请多关照了。
 > END STRING
 
 > BEGIN STRING
 \\f[14]\\E<C\>Tips　討伐依頼
 > CONTEXT COMMONEVENT:305/296/Message < UNTRANSLATED
-
+\\f[14]\\E<C\>Tips　讨伐委托
 > END STRING
 
 > BEGIN STRING
 \\f[14]\\E今後ときどき\\c[1]討伐依頼\\c[0]が発生する事があります。
 依頼には期限があり期限を過ぎると消えてしまいます。
 > CONTEXT COMMONEVENT:305/297/Message < UNTRANSLATED
-
+\\f[14]\\E今后有时可能会发生\\c[1]讨伐委托\\c[0]的时候。
+委托有期限，过了期限就会消失。
 > END STRING
 
 > BEGIN STRING
 \\f[14]\\E\\c[1]討伐依頼\\c[0]では地域貢献よりも報酬評価と経験を得られますが
 通常より\\c[2]強い\\c[0]敵が出現します。
 > CONTEXT COMMONEVENT:305/298/Message < UNTRANSLATED
-
+\\f[14]\\E在\\c[1]讨伐委托\\c[0]中，比起地区贡献，还可以得到报酬评价和经验
+通常来说会出现\\c[2]强大的\\c[0]敌人。
 > END STRING
 
 > BEGIN STRING
 \\Eおはよう、お兄ちゃん。
 今日はいよいよ八会の\\c[1]地区予選\\c[0]よ。
 > CONTEXT COMMONEVENT:305/306/Message < UNTRANSLATED
-
+\\E早上好，欧尼酱。
+今天终于要到八会的\\c[1]地区预选\\c[0了。
 > END STRING
 
 > BEGIN STRING
 \\E今日の対戦ギルドは…
 > CONTEXT COMMONEVENT:305/307/Message < UNTRANSLATED
-
+\\E今天的对战工会是……
 > END STRING
 
 > BEGIN STRING
 \\Eランニング根菜愛好会よ。
 > CONTEXT COMMONEVENT:305/311/Message < UNTRANSLATED
-
+\\E“ランニング根菜愛好会”哦。（跑步根菜爱好者会）
 > END STRING
 
 > BEGIN STRING
 \\E愛好会ってこれも冒険者ギルドなのかしら…。
 まあいいわ、とにかく気を抜かないでね。
 > CONTEXT COMMONEVENT:305/312/Message < UNTRANSLATED
-
+\\E爱好会也是冒险者工会吗……
+不管了，总之不要轻敌啊。
 > END STRING
 
 > BEGIN STRING
 　戦闘開始！　
 > CONTEXT COMMONEVENT:305/317/Choices < UNTRANSLATED
-
+　战斗开始！　
 > END STRING
 
 > BEGIN STRING
 \\E隣村のノーソン支部ね。
 > CONTEXT COMMONEVENT:305/324/Message < UNTRANSLATED
-
+\\E隔壁村的“ノーソン支部”啊。（诺森支部）
 > END STRING
 
 > BEGIN STRING
 \\E普段は農民としてクワを振るっているらしいわ。
 農業で鍛えた腕力は侮れないわよ。
 > CONTEXT COMMONEVENT:305/325/Message < UNTRANSLATED
-
+\\E平时好像是作为农民挥舞着锄头呢。
+农业锻炼出来的腕力可不能小看哦。
 > END STRING
 
 > BEGIN STRING
 \\Eやったー！
 ユカリさーん勝ったー…って誰かいるぞ？
 > CONTEXT COMMONEVENT:305/347/Message < UNTRANSLATED
-
+\\E太好了！
+“ユカリ”桑赢了……有谁在吗？
 > END STRING
 
 > BEGIN STRING
 \\Eユカリ先生…お久しぶりです。
 …彼らが以前お話してた冒険者達ですか？
 > CONTEXT COMMONEVENT:305/349/Message < UNTRANSLATED
-
+\\E“ユカリ”老师……好久不见。
+……他们就是之前说过的冒险者们吗？
 > END STRING
 
 > BEGIN STRING
 \\Eそうよー。
 > CONTEXT COMMONEVENT:305/352/Message < UNTRANSLATED
-
+\\E是的哦。
 > END STRING
 
 > BEGIN STRING
 \\E…先程の戦いも見せていただきましたが、
 失礼ながら…まるで素人だ。
 > CONTEXT COMMONEVENT:305/355/Message < UNTRANSLATED
-
+\\E……刚才的战斗我也看了、但是
+恕我冒昧……简直就像是个外行。
 > END STRING
 
 > BEGIN STRING
 \\E何っ！？
 > CONTEXT COMMONEVENT:305/357/Message < UNTRANSLATED
-
+\\E什么！？
 > END STRING
 
 > BEGIN STRING
 \\E君、悪いことは言わない。
 剣を置き、畑でも耕していたほうがいい。
 > CONTEXT COMMONEVENT:305/359/Message < UNTRANSLATED
-
+\\E你、不要再说坏话了。
+放下剑、在田地里继续耕地比较好。（别bb，回家养猪吧）
 > END STRING
 
 > BEGIN STRING
 \\E…外の世界は君たちが思うほど甘くない。
 そうでしょうユカリ先生。
 > CONTEXT COMMONEVENT:305/361/Message < UNTRANSLATED
-
+\\E外面的世界没有你们想象的那么天真。
+是吧“ユカリ”老师。
 > END STRING
 
 > BEGIN STRING
 \\Eまあ嘘だと思うなら試してみるといい。
 君たちの腕が通用するのか。
 > CONTEXT COMMONEVENT:305/365/Message < UNTRANSLATED
-
+\\E如果你觉得是骗人的，不妨试一试。
+你们的本事通用吗。
 > END STRING
 
 > BEGIN STRING
 　なんだと…！　
 > CONTEXT COMMONEVENT:305/366/Choices < UNTRANSLATED
-
+　你说什么……！　
 > END STRING
 
 > BEGIN STRING
 \\Eさあ遠慮はいらない、きたまえ。
 > CONTEXT COMMONEVENT:305/371/Message < UNTRANSLATED
-
+\\E来吧，不用客气，来吧。
 > END STRING
 
 > BEGIN STRING
 \\Eま、まるで歯が立たない…。
 > CONTEXT COMMONEVENT:305/378/Message < UNTRANSLATED
-
+\\E简、简直敌不过……
 > END STRING
 
 > BEGIN STRING
 \\Eふんっ…これでわかっただろう？
 命を落とす前に冒険者ごっこはやめるべきだ。
 > CONTEXT COMMONEVENT:305/380/Message < UNTRANSLATED
-
+\\E哼……这样就明白了吧？
+在丧命之前应该停止冒险家游戏。
 > END STRING
 
 > BEGIN STRING
 \\E先生はこんなところにいるべき人じゃない。
 …また来ます。
 > CONTEXT COMMONEVENT:305/381/Message < UNTRANSLATED
-
+\\E老师不是应该呆在这里的人。
+……我还会再来的。
 > END STRING
 
 > BEGIN STRING
 \\E（くっ…まだ腕がしびれて…あいつ…）
 > CONTEXT COMMONEVENT:305/387/Message < UNTRANSLATED
-
+\\E（呃……手臂还麻痹着……那家伙……）
 > END STRING
 
 > BEGIN STRING
 　アイツは一体…？　
 > CONTEXT COMMONEVENT:305/392/Choices < UNTRANSLATED
-
+　那家伙到底是……？　
 > END STRING
 
 > BEGIN STRING
 \\E彼はアカツキ、冒険者協会タウン支部のエースよ。
 > CONTEXT COMMONEVENT:305/398/Message < UNTRANSLATED
-
+\\E他是“アカツキ”、冒险者协会城镇支部的王牌。
 > END STRING
 
 > BEGIN STRING
 \\E現役時代の後輩…いや教え子かしらね。
 いやあ、時が経つのは早いわねー。
 > CONTEXT COMMONEVENT:305/400/Message < UNTRANSLATED
-
+\\E现役时代的后辈……不、应该是学生吧。
+哎呀、时间过得真快啊。
 > END STRING
 
 > BEGIN STRING
 \\E…アカツキか…。
 > CONTEXT COMMONEVENT:305/402/Message < UNTRANSLATED
-
+\\E……“アカツキ”吗……
 > END STRING
 
 > BEGIN STRING
 \\Eタウン支部のアカツキと出会った。
 > CONTEXT COMMONEVENT:305/406/Message < UNTRANSLATED
-
+\\E遇到了城镇支部的“アカツキ”。
 > END STRING
 
 > BEGIN STRING
 \\Eメクア支部は地区予選一回戦で敗退してしまった…。
 > CONTEXT COMMONEVENT:305/419/Message < UNTRANSLATED
-
+\\E“メクア”支部在地区预选赛第一场比赛中败退了……
 > END STRING
 
 > BEGIN STRING
 \\E結局、その後も何かを成すでもなく。
 細々と冒険生活を続けていくもやがてギルドは解散。
 > CONTEXT COMMONEVENT:305/422/Message < UNTRANSLATED
-
+\\E结果、在那之后也没有做成什么。
+继续着细微的冒险生活，不久之后工会就解散了。
 > END STRING
 
 > BEGIN STRING
 \\E剣をクワに持ち替え農場で大地を相手に汗を流す…。
 そんな日々が続いてゆく…。
 > CONTEXT COMMONEVENT:305/423/Message < UNTRANSLATED
-
+\\E把剑换成锄头，在农场里把大地作为对手来挥洒汗水……
+那样的日子一直持续着……
 > END STRING
 
 > BEGIN STRING
 \\E農民END
 必殺技スキルを取得してみよう。
 > CONTEXT COMMONEVENT:305/424/Message < UNTRANSLATED
-
+\\E农民END
+试着取得必杀技能吧。
 > END STRING
 
 > BEGIN STRING
 \\Eユカリ先生…お久しぶりです。
 …彼らが今の教え子ですか？
 > CONTEXT COMMONEVENT:305/451/Message < UNTRANSLATED
-
+\\E“ユカリ”老师……好久不见。
+……他们就是现在的学生吗？
 > END STRING
 
 > BEGIN STRING
 \\E…なるほど。
 > CONTEXT COMMONEVENT:305/457/Message < UNTRANSLATED
-
+\\E……原来如此。
 > END STRING
 
 > BEGIN STRING
 \\E先日の地区予選、見せていただきましたが…
 失礼ながら…まるで話にならない。
 > CONTEXT COMMONEVENT:305/458/Message < UNTRANSLATED
-
+\\E前几天的地区预选，让我看了一下……
+虽然很失礼……但是完全不像话。
 > END STRING
 
 > BEGIN STRING
 \\E大変大変！ギルドがなくなっちゃう！
 > CONTEXT COMMONEVENT:305/527/Message < UNTRANSLATED
-
+\\E不得了了！工会要消失了！
 > END STRING
 
 > BEGIN STRING
 \\Eど、どうして…？
 > CONTEXT COMMONEVENT:305/534/Message < UNTRANSLATED
-
+\\E为、为什么……？
 > END STRING
 
 > BEGIN STRING
 \\Eこないだ街に行ったときに偶然マスターを見かけて…
 知らない人と話してて…
 > CONTEXT COMMONEVENT:305/538/Message < UNTRANSLATED
-
+\\E前些日子去街上的时候偶然看到 Master ……
+和陌生人说话……
 > END STRING
 
 > BEGIN STRING
 \\Eなんかギルドの合併とか…
 統合だとか…そんな話をしてた。
 > CONTEXT COMMONEVENT:305/539/Message < UNTRANSLATED
-
+\\E像工会的合并之类的……
+整合之类的……说了那样的话。
 > END STRING
 
 > BEGIN STRING
 \\Eそんな…せっかくみんなで頑張ってきたのに…。
 > CONTEXT COMMONEVENT:305/543/Message < UNTRANSLATED
-
+\\E怎么这样……好不容易大家一起努力了的……
 > END STRING
 
 > BEGIN STRING
 \\Eうん…お宅のギルドは実績も利用者も少ないしって…
 確かにそうなんだけどさー、なんかショック。
 > CONTEXT COMMONEVENT:305/547/Message < UNTRANSLATED
-
+\\E嗯……听说行工会实际成果和有作为的人都很少……
+确实是这样，但是总觉得很震惊。
 > END STRING
 
 > BEGIN STRING
 \\Eですね…。
 > CONTEXT COMMONEVENT:305/551/Message < UNTRANSLATED
-
+\\E是吧……
 > END STRING
 
 > BEGIN STRING
 \\Eギルド合併…本当だろうか…。
 やる気が下がった。
 > CONTEXT COMMONEVENT:305/554/Message < UNTRANSLATED
-
+\\E工会合并……是真的吗……
+干劲下降了。
 > END STRING
 
 > BEGIN STRING
 \\E…あ、お兄ちゃんおつかれ。
 > CONTEXT COMMONEVENT:305/569/Message < UNTRANSLATED
-
+\\E……啊、欧尼酱、辛苦了。
 > END STRING
 
 > BEGIN STRING
 　なんだか元気ないな？　
 > CONTEXT COMMONEVENT:305/571/Choices < UNTRANSLATED
-
+　总觉得没有精神啊？　
 > END STRING
 
 > BEGIN STRING
 \\Eそりゃ元気もなくなるよー
 確かにうちはマスター入れて4人しかいないし…
 > CONTEXT COMMONEVENT:305/577/Message < UNTRANSLATED
-
+\\E那确实没有精神了
+确实我们算上 Master 已经有四个人了……
 > END STRING
 
 > BEGIN STRING
 \\E実績って言えるほどの実績もないですしね…
 > CONTEXT COMMONEVENT:305/581/Message < UNTRANSLATED
-
+\\E也没有可以说是实际成绩的实绩……
 > END STRING
 
 > BEGIN STRING
 \\E正直街までそう遠くないし…
 わざわざ支部がこの村にあるって必要も…。
 > CONTEXT COMMONEVENT:305/585/Message < UNTRANSLATED
-
+\\E说实话离街道也不远……
+特意在这个村子里设立支部的必要也……
 > END STRING
 
 > BEGIN STRING
 \\E…
 > CONTEXT COMMONEVENT:305/589/Message < UNTRANSLATED
-
+\\E……
 > END STRING
 
 > BEGIN STRING
 \\Eうーん、
 どんよりと沈んだ空気が漂っているな…。
 > CONTEXT COMMONEVENT:305/593/Message < UNTRANSLATED
-
+\\E嗯、
+漂浮着沉甸甸的空气啊……
 > END STRING
 
 > BEGIN STRING
 　みんなを励ます　
 > CONTEXT COMMONEVENT:305/594/Choices < UNTRANSLATED
-
+　鼓励大家　
 > END STRING
 
 > BEGIN STRING
 \\Eん…やれることをやってくしかないんだよね…。
 ごめんね、どうしてもなんか考えちゃって…。
 > CONTEXT COMMONEVENT:305/600/Message < UNTRANSLATED
-
+\\E嗯……只能做自己能做的事了吧……
+对不起、我无论如何都要想出些什么……
 > END STRING
 
 > BEGIN STRING
 \\Eんじゃ今日は帰るね、ありがとうお兄ちゃん。
 > CONTEXT COMMONEVENT:305/601/Message < UNTRANSLATED
-
+\\E那么今天就回去吧、谢谢你、欧尼酱。
 > END STRING
 
 > BEGIN STRING
 \\Eじゃああたしも…また明日。
 > CONTEXT COMMONEVENT:305/605/Message < UNTRANSLATED
-
+\\E那么我也……明天见。
 > END STRING
 
 > BEGIN STRING
 \\Eどうしても雰囲気が暗いな…どうしたものか…
 > CONTEXT COMMONEVENT:305/608/Message < UNTRANSLATED
-
+\\E不管怎么说气氛都很低下啊……怎么说呢……
 > END STRING
 
 > BEGIN STRING
 \\Eあら、おかえりなさいお兄ちゃん。
 今日はひとり？
 > CONTEXT COMMONEVENT:305/623/Message < UNTRANSLATED
-
+\\E哎呀、你回来了、哥哥。
+今天一个人？
 > END STRING
 
 > BEGIN STRING
 　ユカリさんに相談する　
 > CONTEXT COMMONEVENT:305/625/Choices < UNTRANSLATED
-
+　和“ユカリ”商量　
 > END STRING
 
 > BEGIN STRING
 \\Eマスター…実は…。
 > CONTEXT COMMONEVENT:305/630/Message < UNTRANSLATED
-
+\\E Master……其实……
 > END STRING
 
 > BEGIN STRING
 \\Eあー、知ってたの？
 > CONTEXT COMMONEVENT:305/633/Message < UNTRANSLATED
-
+\\E啊、你知道了吗？
 > END STRING
 
 > BEGIN STRING
 \\Eじゃあ合併って噂は…
 > CONTEXT COMMONEVENT:305/636/Message < UNTRANSLATED
-
+\\E那么合并的传闻是……
 > END STRING
 
 > BEGIN STRING
 \\Eそうね、まーそういう話が出ているのは本当の話よ。
 > CONTEXT COMMONEVENT:305/639/Message < UNTRANSLATED
-
+\\E是啊、说这话是真的。
 > END STRING
 
 > BEGIN STRING
 \\Eでもそういうのは大人の世界のお話だからねー
 お姉さんに任せておけばいいのよ。
 > CONTEXT COMMONEVENT:305/640/Message < UNTRANSLATED
-
+\\E但是这是大人世界的事啊
+交给姐姐我就行了。
 > END STRING
 
 > BEGIN STRING
 \\Eワタシ的にはキミ達がどうしたいか、
 そこが一番大事よ？
 > CONTEXT COMMONEVENT:305/641/Message < UNTRANSLATED
-
+\\E比起我来说，你们想怎么做呢
+那才是最重要的？
 > END STRING
 
 > BEGIN STRING
 \\Eね、だから心配しすぎないこと。
 > CONTEXT COMMONEVENT:305/643/Message < UNTRANSLATED
-
+\\E是啊、所以不要太担心了。
 > END STRING
 
 > BEGIN STRING
 \\Eでも相談してくれてありがとうね。
 みんなにも私から話しておくわ。
 > CONTEXT COMMONEVENT:305/649/Message < UNTRANSLATED
-
+\\E但是谢谢你和我商量。
+我也会和大家说的。
 > END STRING
 
 > BEGIN STRING
 \\E自分たちがどうしたいか、か…。
 > CONTEXT COMMONEVENT:305/652/Message < UNTRANSLATED
-
+\\E自己想怎么做呢……
 > END STRING
 
 > BEGIN STRING
 \\Eうーん…まいったわね。
 > CONTEXT COMMONEVENT:305/667/Message < UNTRANSLATED
-
+\\E嗯……真糟糕啊。
 > END STRING
 
 > BEGIN STRING
 \\Eあれユカリさん、どうしたんですか。
 > CONTEXT COMMONEVENT:305/669/Message < UNTRANSLATED
-
+\\E那个“ユカリ”桑，怎么了。
 > END STRING
 
 > BEGIN STRING
 \\Eいやね、例の併合の話なんだけど…。
 ま、大きくわけてお金の問題と実績の問題よ。
 > CONTEXT COMMONEVENT:305/673/Message < UNTRANSLATED
-
+\\E没什么、就是上次合并的事……
+嘛、大致分为钱的问题和实绩的问题。
 > END STRING
 
 > BEGIN STRING
 \\Eなるべく早めに…
 \\c[1]一週間以内\\c[0]には対策案か返事を聞かせてくれだって。
 > CONTEXT COMMONEVENT:305/674/Message < UNTRANSLATED
-
+\\E尽量早点儿……
+说是要在\\c[1]一周以内\\c[0]让我们想出对策方案或者回复。
 > END STRING
 
 > BEGIN STRING
 \\E一週間以内…来週中にはなにか案を…
 実績とお金…
 > CONTEXT COMMONEVENT:305/677/Message < UNTRANSLATED
-
+\\E一周内……下周内有什么方案吗……
+实际成绩和金钱……
 > END STRING
 
 > BEGIN STRING
 \\E実績はお兄ちゃん達に期待するとして…まずはお金よねー。
 夜の営業時間も伸ばしたほうがいいかしら…
 > CONTEXT COMMONEVENT:305/680/Message < UNTRANSLATED
-
+\\E实绩就期待欧尼酱你们了……首先是钱。
+晚上的营业时间也延长一下比较好吧……
 > END STRING
 
 > BEGIN STRING
 \\E（実績とお金か…
 オレたちでなにかできることはないかな…？
 > CONTEXT COMMONEVENT:305/683/Message < UNTRANSLATED
-
+\\E（实绩和金钱吗……
+我们有什么能做的吗……？
 > END STRING
 
 > BEGIN STRING
 \\Eお兄ちゃーん！
 > CONTEXT COMMONEVENT:305/698/Message < UNTRANSLATED
-
+\\E欧尼酱！
 > END STRING
 
 > BEGIN STRING
 \\Eおお、さっそくやる気だな…！
 よし！やってみるか！
 > CONTEXT COMMONEVENT:305/700/Message < UNTRANSLATED
-
+\\E哦、马上就有干劲了……！
+好！试试看吧！
 > END STRING
 
 > BEGIN STRING
 \\Eなるほど…
 新メニューとはなかなか考えたわね。
 > CONTEXT COMMONEVENT:305/709/Message < UNTRANSLATED
-
+\\E原来如此……
+新菜单真是让人费解啊。
 > END STRING
 
 > BEGIN STRING
 \\E確かにお客さんを呼べるような名物メニューがあれば
 慢性的な赤字…お金の問題の対策になりそうね。
 > CONTEXT COMMONEVENT:305/710/Message < UNTRANSLATED
-
+\\E确实如果有客人能叫出的有名得菜单的话
+慢性赤字……金钱问题，可能会成为的解决的一个对策。
 > END STRING
 
 > BEGIN STRING
 \\E噂になるくらいの名物があればきっと…！
 > CONTEXT COMMONEVENT:305/713/Message < UNTRANSLATED
-
+\\E如果有能成为传说的名菜的话……！
 > END STRING
 
 > BEGIN STRING
 \\Eとにかくやってみましょう。
 > CONTEXT COMMONEVENT:305/716/Message < UNTRANSLATED
-
+\\E总之就做做看吧。
 > END STRING
 
 > BEGIN STRING
 \\E…ふぅ、あともう一歩ね。
 今日はもう遅いからこのくらいにしましょうか。
 > CONTEXT COMMONEVENT:305/736/Message < UNTRANSLATED
-
+\\E……呼、还有一步呢。
+今天已经很晚了、就这样吧。
 > END STRING
 
 > BEGIN STRING
 \\Eはい、では明日もまたきますね。
 > CONTEXT COMMONEVENT:305/739/Message < UNTRANSLATED
-
+\\E好的、那明天也要来哦。
 > END STRING
 
 > BEGIN STRING
 \\E新メニューの開発は順調だ…！
 > CONTEXT COMMONEVENT:305/744/Message < UNTRANSLATED
-
+\\E新菜单的开发很顺利……！
 > END STRING
 
 > BEGIN STRING
 \\Eおお、さっそくやる気だな！
 よし！今日もやるか！
 > CONTEXT COMMONEVENT:305/763/Message < UNTRANSLATED
-
+\\E哦、马上就有干劲了！
+好！今天也干吧！
 > END STRING
 
 > BEGIN STRING
 \\E…できたわ！
 このメニューならきっと…！
 > CONTEXT COMMONEVENT:305/787/Message < UNTRANSLATED
-
+\\E……做好了！
+这个菜单的话一定……！
 > END STRING
 
 > BEGIN STRING
 \\Eうんうん、すごく美味しいよ！
 > CONTEXT COMMONEVENT:305/789/Message < UNTRANSLATED
-
+\\E嗯嗯、非常好吃哦！
 > END STRING
 
 > BEGIN STRING
 \\Eこの料理ならきっと新しいメクアの名物になるわ。
 お兄ちゃんも妹さんもありがとうね。
 > CONTEXT COMMONEVENT:305/791/Message < UNTRANSLATED
-
+\\E这道菜一定会成为新的“メクア”的名产的。
+真的很谢谢欧尼酱和一抹脱酱。
 > END STRING
 
 > BEGIN STRING
 \\E新メニューの開発に成功した！
 ギルドの評判があがった！
 > CONTEXT COMMONEVENT:305/793/Message < UNTRANSLATED
-
+\\E新菜单的开发成功了！
+工会的评价提高了！
 > END STRING
 
 > BEGIN STRING
 \\Eねー、お兄ちゃんお兄ちゃん。
 > CONTEXT COMMONEVENT:305/805/Message < UNTRANSLATED
-
+\\E喂、欧尼酱欧尼酱。
 > END STRING
 
 > BEGIN STRING
 \\Eお兄ちゃんの役に立ててよかったよー。
 ふふ
 > CONTEXT COMMONEVENT:305/811/Message < UNTRANSLATED
-
+\\E能帮到欧尼酱真的是太好了。
+呼呼
 > END STRING
 
 > BEGIN STRING
 \\Eおうち帰ろっか。
 > CONTEXT COMMONEVENT:305/813/Message < UNTRANSLATED
-
+\\E回家吧。
 > END STRING
 
 > BEGIN STRING
 \\E…ダメね、まだ何かが足りない…まだ…
 今日はもう遅いからこのくらいにしましょうか。
 > CONTEXT COMMONEVENT:305/822/Message < UNTRANSLATED
-
+\\E……不行啊，还有什么不足的地方……
+今天已经很晚了，就这样吧。
 > END STRING
 
 > BEGIN STRING
 \\E新メニューの開発は難航している…
 くそっ…オレが妹と同じくらい\\c[2]料理上手\\c[0]だったら…
 > CONTEXT COMMONEVENT:305/831/Message < UNTRANSLATED
-
+\\E新菜单的开发进展很困难……
+可恶……如果我和妹妹一样\\c[2]料理上手\\c[0]的话……
 > END STRING
 
 > BEGIN STRING
 \\E合併の話で朝からユカリさんは街に行っているぞ。
 新メニュー作戦がうまく行けばいいんだけど…。
 > CONTEXT COMMONEVENT:305/845/Message < UNTRANSLATED
-
+\\E说是合并的事，“ユカリ”从早上开始就去街上来。
+如果新菜单作战顺利就好了……
 > END STRING
 
 > BEGIN STRING
 \\E…………うーん、遅いな…。
 > CONTEXT COMMONEVENT:305/855/Message < UNTRANSLATED
-
+\\E…………唔嗯、好慢啊……
 > END STRING
 
 > BEGIN STRING
 \\Eあ、ユカリさん。
 …どうでした？
 > CONTEXT COMMONEVENT:305/861/Message < UNTRANSLATED
-
+\\E啊，“ユカリ”桑。
+……怎么样？
 > END STRING
 
 > BEGIN STRING
 \\Eとりあえずは様子見ということで延命できたわよ。
 新メニューで赤字をどれだけ解消できるかが課題ね。
 > CONTEXT COMMONEVENT:305/869/Message < UNTRANSLATED
-
+\\E总之先是看看情况的样子，稍微可以延长些寿命了。
+新菜单能解决多少赤字的问题，这才是个课题啊。
 > END STRING
 
 > BEGIN STRING
 \\Eただ、それでも根本的な解決にはなってないの。
 今後を考えると本部を黙らせるくらいの実績が必要よ。
 > CONTEXT COMMONEVENT:305/871/Message < UNTRANSLATED
-
+\\E只是\即使那样也没有得到根本的解决。
+考虑到今后，需要拿出让本部保持沉默的实绩才行。
 > END STRING
 
 > BEGIN STRING
 \\E実績…。
 > CONTEXT COMMONEVENT:305/873/Message < UNTRANSLATED
-
+\\E实绩……
 > END STRING
 
 > BEGIN STRING
 \\Eそこで…
 > CONTEXT COMMONEVENT:305/876/Message < UNTRANSLATED
-
+\\E于是……
 > END STRING
 
 > BEGIN STRING
 \\E本気で八会優勝を狙うわよ！
 > CONTEXT COMMONEVENT:305/881/Message < UNTRANSLATED
-
+\\E认真的以八会优胜为目标吧！
 > END STRING
 
 > BEGIN STRING
 \\Eやっぱり！
 > CONTEXT COMMONEVENT:305/883/Message < UNTRANSLATED
-
+\\E果然！
 > END STRING
 
 > BEGIN STRING
 \\Eギルド存続の為にはなにが何でもやるしかないわ。
 金勘定ばかり得意な本部の連中のハナをあかすわよー。
 > CONTEXT COMMONEVENT:305/886/Message < UNTRANSLATED
-
+\\E为了工会的存续，无论是什么都只能做了。
+让只会理财的本部的人看看顶点是怎么样的。
 > END STRING
 
 > BEGIN STRING
 \\Eだから今まで以上に…
 がんばってね、お兄ちゃん。
 > CONTEXT COMMONEVENT:305/888/Message < UNTRANSLATED
-
+\\E所以说要比以前更……
+加油哦，欧尼酱。
 > END STRING
 
 > BEGIN STRING
 \\E新メニュー作戦が評価された！
 > CONTEXT COMMONEVENT:305/890/Message < UNTRANSLATED
-
+\\E新菜单作战获得好评！
 > END STRING
 
 > BEGIN STRING
 \\E八会で優勝を目指すことになった！
 > CONTEXT COMMONEVENT:305/891/Message < UNTRANSLATED
-
+\\E决定在八会上取得优胜！
 > END STRING
 
 > BEGIN STRING
 \\Eやる気が出た！
 > CONTEXT COMMONEVENT:305/892/Message < UNTRANSLATED
-
+\\E干劲上升了！
 > END STRING
 
 > BEGIN STRING
 \\E合併の話で朝からユカリさんは街に行っているぞ。
 残念ながら特に何もいい案は浮かばなかったけど…。
 > CONTEXT COMMONEVENT:305/906/Message < UNTRANSLATED
-
+\\E说是合并的事，“ユカリ”从早上开始就上街道去了。
+很遗憾，没能想出什么特别好的方案……
 > END STRING
 
 > BEGIN STRING
 \\E結局、ギルドは他ギルドと統合することになった。
 オレ達にとってはいろいろ問題もあって実質的に解散。
 > CONTEXT COMMONEVENT:305/926/Message < UNTRANSLATED
-
+\\E结果、工会和其他工会合并了。
+对我们来说有很多问题、所以实质上是解散了。
 > END STRING
 
 > BEGIN STRING
 \\E平日の半分は農場でクワを振るう。
 そんな日々が続いてゆく…。
 > CONTEXT COMMONEVENT:305/927/Message < UNTRANSLATED
-
+\\E工作日的一半在农场挥舞锄头。
+那样的日子持续着……
 > END STRING
 
 > BEGIN STRING
 \\E農民END
 > CONTEXT COMMONEVENT:305/929/Message < UNTRANSLATED
-
+\\E农民END
 > END STRING
 
 > BEGIN STRING
 \\E妹の手料理を食べよう！
 期限までにお兄ちゃんの料理スキルを取得してみよう。
 > CONTEXT COMMONEVENT:305/931/Message < UNTRANSLATED
-
+\\E吃妹妹亲手做的菜吧！
+在期限之前试着取得欧尼酱的料理技能吧。
 > END STRING
 
 > BEGIN STRING
