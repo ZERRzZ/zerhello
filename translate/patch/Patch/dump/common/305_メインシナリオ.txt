@@ -2365,92 +2365,99 @@ BL（浓厚）本啊！
 > BEGIN STRING
 \\E一回戦に勝った！
 > CONTEXT COMMONEVENT:305/1783/Message < UNTRANSLATED
-
+\\E第一轮比赛赢了！
 > END STRING
 
 > BEGIN STRING
 \\Eその後、大会は前回に続いて
 アカツキ率いるタウン支部のチームが優勝。
 > CONTEXT COMMONEVENT:305/1809/Message < UNTRANSLATED
-
+\\E之后、大会继续进行着
+アカツキ率领的镇支部队伍获胜。
 > END STRING
 
 > BEGIN STRING
 \\Eギルドは負けてしまったものの
 本戦出場の実績を認められ合併は見送りとなった。
 > CONTEXT COMMONEVENT:305/1810/Message < UNTRANSLATED
-
+\\E虽然公会输掉了
+但承认了在本战出场的实绩，取消了合并。
 > END STRING
 
 > BEGIN STRING
 \\Eオレたちは次回大会での優勝を目指し
 鍛錬と冒険の日々を重ねていく…。
 > CONTEXT COMMONEVENT:305/1811/Message < UNTRANSLATED
-
+\\E我们以在下次大会上获得优胜为目标
+锻炼和冒险的日子重叠在一起……
 > END STRING
 
 > BEGIN STRING
 \\E今日は八会の準決勝…これに勝てば決勝だ！
 > CONTEXT COMMONEVENT:305/1849/Message < UNTRANSLATED
-
+\\E今天是八会半决赛……赢了这个就是决赛了！
 > END STRING
 
 > BEGIN STRING
 \\Eまさかここまでこれるなんてねー
 > CONTEXT COMMONEVENT:305/1864/Message < UNTRANSLATED
-
+\\E真没想到会走到这一步
 > END STRING
 
 > BEGIN STRING
 \\E…少し順調すぎて怖いですね。
 > CONTEXT COMMONEVENT:305/1866/Message < UNTRANSLATED
-
+\\E……有点太顺利了，好怕怕啊。
 > END STRING
 
 > BEGIN STRING
 \\Eしかしなんだ…
 前にもましてなんだか今日はやけに人が多いな？
 > CONTEXT COMMONEVENT:305/1872/Message < UNTRANSLATED
-
+\\E但是怎么……
+总觉得今天人比以前多了？
 > END STRING
 
 > BEGIN STRING
 \\Eそれに…
 すごく女性の方が多いような…
 > CONTEXT COMMONEVENT:305/1875/Message < UNTRANSLATED
-
+\\E而且……
+好像有很多女性……
 > END STRING
 
 > BEGIN STRING
 \\E今日の相手はナナホシ事務所だからきっとそれ目当てね。
 > CONTEXT COMMONEVENT:305/1881/Message < UNTRANSLATED
-
+\\E因为今天的对手是“NANAHOSHI事务所”，原因肯定是这个。
 > END STRING
 
 > BEGIN STRING
 \\Eナナホシ…？
 > CONTEXT COMMONEVENT:305/1884/Message < UNTRANSLATED
-
+\\ENANAHOSHI……？
 > END STRING
 
 > BEGIN STRING
 \\E男子の…
 それもイケメンばかりを集めたギルドよ。
 > CONTEXT COMMONEVENT:305/1887/Message < UNTRANSLATED
-
+\\E男生的……
+而且是聚集了很多帅哥的公会哦。
 > END STRING
 
 > BEGIN STRING
 \\E女性からの支持は圧倒的で
 狂信的に崇めているファンもいるほどよ。
 > CONTEXT COMMONEVENT:305/1888/Message < UNTRANSLATED
-
+\\E女性的支持是压倒性的
+甚至有狂热崇拜的粉丝。
 > END STRING
 
 > BEGIN STRING
 \\Eなるほど…
 > CONTEXT COMMONEVENT:305/1891/Message < UNTRANSLATED
-
+\\E原来如此……
 > END STRING
 
 > BEGIN STRING
