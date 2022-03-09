@@ -2435,7 +2435,7 @@ BL（浓厚）本啊！
 > BEGIN STRING
 \\Eナナホシ…？
 > CONTEXT COMMONEVENT:305/1884/Message < UNTRANSLATED
-\\ENANAHOSHI……？
+\\E“NANAHOSHI”……？
 > END STRING
 
 > BEGIN STRING
@@ -2450,7 +2450,7 @@ BL（浓厚）本啊！
 \\E女性からの支持は圧倒的で
 狂信的に崇めているファンもいるほどよ。
 > CONTEXT COMMONEVENT:305/1888/Message < UNTRANSLATED
-\\E女性的支持是压倒性的
+\\E来自女性的支持是压倒性的
 甚至有狂热崇拜的粉丝。
 > END STRING
 
@@ -2463,254 +2463,267 @@ BL（浓厚）本啊！
 > BEGIN STRING
 \\Eき、今日の相手はナナホシ事務所ですのでそのせいかと。
 > CONTEXT COMMONEVENT:305/1896/Message < UNTRANSLATED
-
+\\E唔、今天的对手是“NANAHOSHI事务所”，可能是这个原因吧。
 > END STRING
 
 > BEGIN STRING
 \\E男子の…
 それもイケメンばかりを集めたギルドです。
 > CONTEXT COMMONEVENT:305/1902/Message < UNTRANSLATED
-
+\\E男生的……
+而且是聚集了很多帅哥的公会。
 > END STRING
 
 > BEGIN STRING
 \\E女性からの支持は圧倒的で
 狂信的に崇めているファンもいるほどです。
 > CONTEXT COMMONEVENT:305/1903/Message < UNTRANSLATED
-
+\\E来自女性的支持是压倒性的
+甚至有狂热崇拜的粉丝。
 > END STRING
 
 > BEGIN STRING
 \\Eわたしは生モノにはあまり興味がないのですが
 BL界でも一定の人気があるんですよ。
 > CONTEXT COMMONEVENT:305/1905/Message < UNTRANSLATED
-
+\\E我对三次元的东西不太感兴趣
+但他们在BL界也有一定的人气哦。
 > END STRING
 
 > BEGIN STRING
 \\E生モノ…
 あまり聞き慣れない単語が出てきたな…
 > CONTEXT COMMONEVENT:305/1908/Message < UNTRANSLATED
-
+\\E三次元……
+出现了不太熟悉的单词啊……
 > END STRING
 
 > BEGIN STRING
 \\Eキャーーーーーーッ！！！！！
 > CONTEXT COMMONEVENT:305/1912/Message < UNTRANSLATED
-
+\\E呀——————————————！！！！！
 > END STRING
 
 > BEGIN STRING
 \\Eな、なんだ！？
 > CONTEXT COMMONEVENT:305/1914/Message < UNTRANSLATED
-
+\\E怎、怎么了！？
 > END STRING
 
 > BEGIN STRING
 \\Eカズヤ様ーーっ！キャーーーーー！！
 > CONTEXT COMMONEVENT:305/1916/Message < UNTRANSLATED
-
+\\Eカズヤ大人～！呀——————————！！
 > END STRING
 
 > BEGIN STRING
 \\Eカズヤ…さま？
 > CONTEXT COMMONEVENT:305/1918/Message < UNTRANSLATED
-
+\\Eカズヤ……大人？
 > END STRING
 
 > BEGIN STRING
 \\Eどうやら出てきたようね。
 > CONTEXT COMMONEVENT:305/1923/Message < UNTRANSLATED
-
+\\E看来他们好像出场了。
 > END STRING
 
 > BEGIN STRING
 \\Eどうやら出てきたようですね。
 > CONTEXT COMMONEVENT:305/1929/Message < UNTRANSLATED
-
+\\E看来他们好像出场了。
 > END STRING
 
 > BEGIN STRING
 \\E子猫ちゃん達が今日の相手かい？
 > CONTEXT COMMONEVENT:305/1938/Message < UNTRANSLATED
-
+\\E小猫们就是今天的对手吗？
 > END STRING
 
 > BEGIN STRING
 　子猫ちゃん…？　
 > CONTEXT COMMONEVENT:305/1939/Choices < UNTRANSLATED
-
+　小猫……？　
 > END STRING
 
 > BEGIN STRING
 \\E女性相手に剣を振るうのは本意ではないんだけど…
 これもお仕事だからごめんね。
 > CONTEXT COMMONEVENT:305/1944/Message < UNTRANSLATED
-
+\\E向女性对手挥舞剑并不是本意……
+这也是工作，对不起。
 > END STRING
 
 > BEGIN STRING
 \\Eは、はあ…。
 > CONTEXT COMMONEVENT:305/1947/Message < UNTRANSLATED
-
+\\E哦、哦……
 > END STRING
 
 > BEGIN STRING
 \\Eなによあのブス！
 カズヤ様と会話するなんて許せない…
 > CONTEXT COMMONEVENT:305/1950/Message < UNTRANSLATED
-
+\\E什么啊那个丑八怪！
+不能允许和カズヤ大人说话…
 > END STRING
 
 > BEGIN STRING
 \\Eふぅん…
 君は汚れのないきれいな手をしているね。
 > CONTEXT COMMONEVENT:305/1952/Message < UNTRANSLATED
-
+\\E呼……
+可真是一点儿污渍都没有很漂亮的手啊。
 > END STRING
 
 > BEGIN STRING
 \\Eな、なんですか…
 > CONTEXT COMMONEVENT:305/1955/Message < UNTRANSLATED
-
+\\E怎、怎么了吗……
 > END STRING
 
 > BEGIN STRING
 \\E試合が終わったら3番ゲート前で待ってて。
 かわいがってあげるよ、子猫ちゃん。
 > CONTEXT COMMONEVENT:305/1957/Message < UNTRANSLATED
-
+\\E比赛结束后请在3号门前等候。
+我会好好疼爱你的、小猫们❤️。
 > END STRING
 
 > BEGIN STRING
 \\Eちゅっ
 > CONTEXT COMMONEVENT:305/1968/Message < UNTRANSLATED
-
+\\E啵❤️～
 > END STRING
 
 > BEGIN STRING
 \\Eじゃまたね。
 > CONTEXT COMMONEVENT:305/1970/Message < UNTRANSLATED
-
+\\E拜拜。
 > END STRING
 
 > BEGIN STRING
 \\Eギャーーーーーッ！！！
 カズヤさまの…許せない…許せないっ！
 > CONTEXT COMMONEVENT:305/1973/Message < UNTRANSLATED
-
+\\E呀————————————！！！
+卡兹亚大人的……不能原谅……不能原谅！
 > END STRING
 
 > BEGIN STRING
 　…よし！事故を装ってアイツ殺そう。　
 > CONTEXT COMMONEVENT:305/1975/Choices < UNTRANSLATED
-
+　……好吧！假装事故来把那家伙给杀了吧。　
 > END STRING
 
 > BEGIN STRING
 \\Eもう…手にキスされたくらいの事で
 人を殺めちゃダメですからね…
 > CONTEXT COMMONEVENT:305/1981/Message < UNTRANSLATED
-
+\\E真的是……只是手被亲吻了而已
+不能杀人啊……
 > END STRING
 
 > BEGIN STRING
 \\Eオラァ！！！
 > CONTEXT COMMONEVENT:305/2011/Message < UNTRANSLATED
-
+\\E哦啦！！！
 > END STRING
 
 > BEGIN STRING
 \\Eば、ばかな…！？
 > CONTEXT COMMONEVENT:305/2013/Message < UNTRANSLATED
-
+\\E真、真笨啊……！？
 > END STRING
 
 > BEGIN STRING
 \\Eギャーーーー！
 カズヤーーー！！！
 > CONTEXT COMMONEVENT:305/2015/Message < UNTRANSLATED
-
+\\E呀————————！
+カズヤ——————！！！
 > END STRING
 
 > BEGIN STRING
 \\E…負けた…のか…俺たちが…？
 > CONTEXT COMMONEVENT:305/2017/Message < UNTRANSLATED
-
+\\E……输了吗……我们……？
 > END STRING
 
 > BEGIN STRING
 \\E…うぅそんな…ぐす…
 > CONTEXT COMMONEVENT:305/2019/Message < UNTRANSLATED
-
+\\E……呜呜、怎么会这样……（抽泣）……
 > END STRING
 
 > BEGIN STRING
 \\Eカズヤかわいそう…
 > CONTEXT COMMONEVENT:305/2020/Message < UNTRANSLATED
-
+\\Eカズヤ、好可怜……
 > END STRING
 
 > BEGIN STRING
 \\Eみんな…
 今日はがっかりさせてごめんね…
 > CONTEXT COMMONEVENT:305/2023/Message < UNTRANSLATED
-
+\\E大家……
+对不起，今天让你们失望了……
 > END STRING
 
 > BEGIN STRING
 \\E何だこいつ…急になんか言い出したぞ。
 > CONTEXT COMMONEVENT:305/2036/Message < UNTRANSLATED
-
+\\E怎么回事啊这家伙……突然就说出来了。
 > END STRING
 
 > BEGIN STRING
 \\Eガズヤ"ァ"ァ"ァ"ア"ァ"！
 > CONTEXT COMMONEVENT:305/2038/Message < UNTRANSLATED
-
+\\Eガズヤ“啊！啊！啊！啊！啊”！
 > END STRING
 
 > BEGIN STRING
 \\E感動をありがとー
 > CONTEXT COMMONEVENT:305/2039/Message < UNTRANSLATED
-
+\\E谢谢你们，我很感动
 > END STRING
 
 > BEGIN STRING
 \\Eこんな…こんなに弱い俺たちだけど…
 まだ応援してくれるのかい…？
 > CONTEXT COMMONEVENT:305/2041/Message < UNTRANSLATED
-
+\\E这样的……这样软弱的我们……
+还支持我吗……？
 > END STRING
 
 > BEGIN STRING
 \\E一生ついていくーーー！！
 > CONTEXT COMMONEVENT:305/2043/Message < UNTRANSLATED
-
+\\E一生追随你——————！！
 > END STRING
 
 > BEGIN STRING
 \\E受精させてーーーー！
 > CONTEXT COMMONEVENT:305/2044/Message < UNTRANSLATED
-
+\\E让我受精吧——————！！
 > END STRING
 
 > BEGIN STRING
 \\Eみんな…ありがとう…。
 > CONTEXT COMMONEVENT:305/2046/Message < UNTRANSLATED
-
+\\E大家……谢谢你们……
 > END STRING
 
 > BEGIN STRING
 \\Eその声に応えるために…俺たちはきっと戻ってくる…！
 > CONTEXT COMMONEVENT:305/2047/Message < UNTRANSLATED
-
+\\E为了回应那个声音……我们一定会回来的……！
 > END STRING
 
 > BEGIN STRING
 \\Eその日まで…さようならだ！！
 > CONTEXT COMMONEVENT:305/2048/Message < UNTRANSLATED
-
+\\E到那天为止……再见了！！
 > END STRING
 
 > BEGIN STRING
@@ -2722,247 +2735,259 @@ BL界でも一定の人気があるんですよ。
 > BEGIN STRING
 \\Eなんなのこれ…。
 > CONTEXT COMMONEVENT:305/2054/Message < UNTRANSLATED
-
+\\E这是什么啊……
 > END STRING
 
 > BEGIN STRING
 \\E準決勝に勝った！
 > CONTEXT COMMONEVENT:305/2059/Message < UNTRANSLATED
-
+\\E半决赛赢了！
 > END STRING
 
 > BEGIN STRING
 \\Eおめでとうー！
 ここまで来たからにはあと一勝ね！
 > CONTEXT COMMONEVENT:305/2062/Message < UNTRANSLATED
-
+\\E恭喜！
+既然都来到了这里了那就再赢一场吧！
 > END STRING
 
 > BEGIN STRING
 \\E優勝…もらっていくわよ！
 > CONTEXT COMMONEVENT:305/2063/Message < UNTRANSLATED
-
+\\E优胜……要取得喽！！
 > END STRING
 
 > BEGIN STRING
 \\E「「「おー！」」」
 > CONTEXT COMMONEVENT:305/2065/Message < UNTRANSLATED
-
+\\E“哦——！”
 > END STRING
 
 > BEGIN STRING
 \\Eギルドは負けてしまったものの
 準決勝進出の実績を認められ合併は見送りとなった。
 > CONTEXT COMMONEVENT:305/2092/Message < UNTRANSLATED
-
+\\E虽然公会输掉了
+但他们承认了进入半决赛的实绩，取消了合并。
 > END STRING
 
 > BEGIN STRING
 \\Eみんなお疲れさま。
 日曜日はいよいよ決勝戦よ。
 > CONTEXT COMMONEVENT:305/2130/Message < UNTRANSLATED
-
+\\E大家辛苦了。
+星期天终于是决赛了。
 > END STRING
 
 > BEGIN STRING
 \\Eやり残しがないように
 準備は土曜のうちに済ませておいてね。
 > CONTEXT COMMONEVENT:305/2131/Message < UNTRANSLATED
-
+\\E为了不留下遗憾
+请在星期六之前做好准备。
 > END STRING
 
 > BEGIN STRING
 \\E\\c[2]ちゃんと記録もつけておくのよ。\\c[0]
 > CONTEXT COMMONEVENT:305/2132/Message < UNTRANSLATED
-
+\\E\\c[2]要好好记录哦。\\c[0]
 > END STRING
 
 > BEGIN STRING
 \\Eガヤガヤ…
 　ガヤガヤ…
 > CONTEXT COMMONEVENT:305/2148/Message < UNTRANSLATED
-
+\\E咔擦咔擦……
+　咔擦咔擦……
 > END STRING
 
 > BEGIN STRING
 \\Eみんな、いよいよ決勝よ。
 > CONTEXT COMMONEVENT:305/2151/Message < UNTRANSLATED
-
+\\E大家、终于到决赛了哦。
 > END STRING
 
 > BEGIN STRING
 \\E相手は冒険者協会タウン支部。
 ここ10年負けなしの強豪よ。
 > CONTEXT COMMONEVENT:305/2152/Message < UNTRANSLATED
-
+\\E对方是冒险者协会城镇支部。
+这十年来都没有输过的豪强哦。
 > END STRING
 
 > BEGIN STRING
 \\E簡単に勝てるような相手ではないけど…頑張って！
 > CONTEXT COMMONEVENT:305/2153/Message < UNTRANSLATED
-
+\\E虽然不是能轻易取胜的对手……但请加油吧！
 > END STRING
 
 > BEGIN STRING
 \\E「「「はい！」」」
 > CONTEXT COMMONEVENT:305/2156/Message < UNTRANSLATED
-
+\\E“是！”
 > END STRING
 
 > BEGIN STRING
 \\Eがんばってー！
 > CONTEXT COMMONEVENT:305/2161/Message < UNTRANSLATED
-
+\\E加油吧——！
 > END STRING
 
 > BEGIN STRING
 \\Eまさか君たちと決勝で当たることになるとはね。
 > CONTEXT COMMONEVENT:305/2167/Message < UNTRANSLATED
-
+\\E没想到会和你们一起进入到决赛啊。
 > END STRING
 
 > BEGIN STRING
 　今度は負けない！　
 > CONTEXT COMMONEVENT:305/2169/Choices < UNTRANSLATED
-
+  这次可不回再输了！
 > END STRING
 
 > BEGIN STRING
 \\Eふん。
 いいだろう…
 > CONTEXT COMMONEVENT:305/2174/Message < UNTRANSLATED
-
+\\E哼。
+那就看看吧……
 > END STRING
 
 > BEGIN STRING
 \\Eだが僕たちが勝ったら…先生を返してもらう！
 > CONTEXT COMMONEVENT:305/2175/Message < UNTRANSLATED
-
+\\E但是我们赢了的话……就把老师还给我们！
 > END STRING
 
 > BEGIN STRING
 \\E（いつからそんな話になったんだ…
 > CONTEXT COMMONEVENT:305/2177/Message < UNTRANSLATED
-
+\\E（什么时候开始说那种话的……）
 > END STRING
 
 > BEGIN STRING
 \\Eいいな！？
 > CONTEXT COMMONEVENT:305/2179/Message < UNTRANSLATED
-
+\\E可以吗！？
 > END STRING
 
 > BEGIN STRING
 　いや、良くないが。　
 > CONTEXT COMMONEVENT:305/2180/Choices < UNTRANSLATED
-
+　不、不好。　
 > END STRING
 
 > BEGIN STRING
 \\Eえっ
 > CONTEXT COMMONEVENT:305/2185/Message < UNTRANSLATED
-
+\\E额
 > END STRING
 
 > BEGIN STRING
 \\Eえ？
 > CONTEXT COMMONEVENT:305/2187/Message < UNTRANSLATED
-
+\\E额？
 > END STRING
 
 > BEGIN STRING
 \\Eとにかくお遊びもここで終わりだ！
 > CONTEXT COMMONEVENT:305/2192/Message < UNTRANSLATED
-
+\\E总之游戏也到此结束了！
 > END STRING
 
 > BEGIN STRING
 \\Eいくぞ！
 > CONTEXT COMMONEVENT:305/2193/Message < UNTRANSLATED
-
+\\E要上了！
 > END STRING
 
 > BEGIN STRING
 \\Eな、なんだ…？
 こいつら一体どこから湧いてきた？
 > CONTEXT COMMONEVENT:305/2207/Message < UNTRANSLATED
-
+\\E什、什么……？
+这些家伙到底是从哪里涌出来的？
 > END STRING
 
 > BEGIN STRING
 \\Eくそ…！襲い掛かってくるぞ！
 > CONTEXT COMMONEVENT:305/2208/Message < UNTRANSLATED
-
+\\E可恶……！会袭击过来的！
 > END STRING
 
 > BEGIN STRING
 \\E…消えた…？
 > CONTEXT COMMONEVENT:305/2228/Message < UNTRANSLATED
-
+\\E……消失了……？
 > END STRING
 
 > BEGIN STRING
 \\E今のは…
 > CONTEXT COMMONEVENT:305/2231/Message < UNTRANSLATED
-
+\\E今天的……
 > END STRING
 
 > BEGIN STRING
 \\Eほ、報告します！
 > CONTEXT COMMONEVENT:305/2235/Message < UNTRANSLATED
-
+\\E好\报告一下！
 > END STRING
 
 > BEGIN STRING
 \\E報告によると近くの遺跡から得体の知れない
 黒い霧のようなものが溢れ出したという事よ。
 > CONTEXT COMMONEVENT:305/2246/Message < UNTRANSLATED
-
+\\E根据报告来看,从附近的遗迹里有来历不明
+像黑雾一样的东西开始溢出来了。
 > END STRING
 
 > BEGIN STRING
 \\E霧に紛れて見たこともない異形を目撃…
 これはさっきの影の様な奴らかしらね。
 > CONTEXT COMMONEVENT:305/2247/Message < UNTRANSLATED
-
+\\E在雾中目击到了从未见过的异形……
+这就是刚才那个影子一样的家伙吧。
 > END STRING
 
 > BEGIN STRING
 \\E黒い霧は遺跡から広がりつつあり
 このタウンにも迫ってきている。
 > CONTEXT COMMONEVENT:305/2248/Message < UNTRANSLATED
-
+\\E黑雾从遗迹开始蔓延
+离这个城市也越来越近了。
 > END STRING
 
 > BEGIN STRING
 \\E…と、まとめるとこんな感じかしら。
 > CONTEXT COMMONEVENT:305/2249/Message < UNTRANSLATED
-
+\\E……总结起来就是这种感觉吧。
 > END STRING
 
 > BEGIN STRING
 \\Eええと…じゃあ大会は…
 > CONTEXT COMMONEVENT:305/2252/Message < UNTRANSLATED
-
+\\E那个……那大会呢……
 > END STRING
 
 > BEGIN STRING
 \\Eんー、さすがにこの状況だと
 試合どころではないでしょうね。
 > CONTEXT COMMONEVENT:305/2255/Message < UNTRANSLATED
-
+\\E嗯，再怎么说这种状况
+根本谈不上比赛吧。
 > END STRING
 
 > BEGIN STRING
 \\Eお、おい…聞いたか…？
 > CONTEXT COMMONEVENT:305/2258/Message < UNTRANSLATED
-
+\\E喂、喂……听说了吗……？
 > END STRING
 
 > BEGIN STRING
 \\Eなんかやばいんじゃね―か？
 > CONTEXT COMMONEVENT:305/2259/Message < UNTRANSLATED
-
+\\E不是很糟糕吗？
 > END STRING
 
 > BEGIN STRING
@@ -2975,40 +3000,44 @@ BL界でも一定の人気があるんですよ。
 \\E落ち着いて対処すれば、この影はそこまで強くはない。
 …君達の方がまだ幾分かマシだ。
 > CONTEXT COMMONEVENT:305/2296/Message < UNTRANSLATED
-
+\\E冷静处理的话，这个影子就没那么强了。
+……你们再坚持几分钟就好了。
 > END STRING
 
 > BEGIN STRING
 \\Eす、すまんアカツキ…助かった。
 > CONTEXT COMMONEVENT:305/2298/Message < UNTRANSLATED
-
+\\E对、对不起アカツキ……帮大忙了。
 > END STRING
 
 > BEGIN STRING
 \\Eしかし…これは…。
 > CONTEXT COMMONEVENT:305/2300/Message < UNTRANSLATED
-
+\\E但是……这到底是……
 > END STRING
 
 > BEGIN STRING
 \\Eオレたちのギルドは惜しくも決勝で破れ、
 前回に続きタウン支部のチームが優勝。
 > CONTEXT COMMONEVENT:305/2356/Message < UNTRANSLATED
-
+\\E我们的公会很可惜在决赛中失败了
+和上次一样，镇支部的队伍获得了冠军。
 > END STRING
 
 > BEGIN STRING
 \\Eギルドは負けてしまったものの
 決勝進出の実績を認められ合併は見送りとなった。
 > CONTEXT COMMONEVENT:305/2357/Message < UNTRANSLATED
-
+\\E虽然公会输了
+但他们承认了进入决赛的实绩，取消了合并。
 > END STRING
 
 > BEGIN STRING
 \\Eあれ、ユカリさん？ご無沙汰です。
 どうしたんですか顔色変えて？
 > CONTEXT COMMONEVENT:305/2391/Message < UNTRANSLATED
-
+\\E咦、ユカリ桑？好久不见。
+怎么了？这种脸色？
 > END STRING
 
 > BEGIN STRING
