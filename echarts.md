@@ -118,3 +118,35 @@ option = {
 ```
 
 ## 直接样式设置
+
+纵观 ECharts 的 option 中，很多地方可以设置 `itemStyle、lineStyle、areaStyle、label` 等等。
+
+这些的地方可以直接设置图形元素的颜色、线宽、点的大小、标签的文字、标签的样式等等。
+
+## 高亮的样式
+
+鼠标悬浮时会出现高亮，可以通过 `emphasis` 自定义
+
+```js
+option = {
+  series: {
+    type: 'scatter',
+
+    // 普通样式
+    itemStyle: { color: 'red' }, // 点的颜色
+    label: { show: true, formatter: 'This is a normal label.' } // 标签的文字
+
+    // 高亮样式
+    emphasis: { 
+      itemStyle: { color: 'blue' }, // 高亮时点的颜色
+      label: { show: true, formatter: 'This is a emphasis label.' } // 高亮时标签的文字
+    }
+  }
+}
+```
+
+# 数据集
+
+数据集 `dataset` 是专门用来管理数据的组件。
+
+虽然每个系列都可以在 `series.data` 中设置数据，但是从 ECharts4 支持数据集开始，更推荐使用数据集来管理数据。
