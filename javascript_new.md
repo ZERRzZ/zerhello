@@ -568,3 +568,186 @@ for (var i in obj) {
   console.log(i + '\t' + obj[i]) // a 1 b 2 c 3
 }
 ```
+
+## 函数
+
+有三种函数声明方式，分别是 `function` 命令，函数表达式，`Function` 构造函数。
+
+```js
+function print(s) { console.log(s) } // funciton 命令
+
+var print = function(s) { console.log(s) } // 函数表达式
+// 不用匿名函数也可以，但函数名 x 只在该函数体内部生效，代指函数本身
+var print = function x() { console.log(x) } 
+
+var foo = new Function('a', 'b', 'return a + b') // 不直观
+```
+
+调用函数时要用到圆括号运算符，在圆括号中加入函数的参数。
+
+```js
+function add(x, y) { return x + y }
+add(1, 2) // 3
+```
+
+当遇到函数体内的 `retrun` 语句时，就直接返回 `return` 后面那个表达式的值，然后中止函数，没有 `return` 语句的话就会返回 `undefined`。`return` 语句可以返回函数自己，形成**递归**。 
+
+```js
+// 计算斐波那契数列
+function fib(num) {
+  if (num === 0) return 0
+  if (num === 1) return 1
+  return fib(num - 2) + fib(num - 1)
+}
+fib(6) // 8
+```
+
+函数名同变量名一样，采用 `function` 命令声明函数，也会有提升的现象。
+
+```js
+var f = function() { console.log(1) }
+funciton f() { console.log(2) }
+f() // 1
+```
+
+函数的 `length` 属性返回函数预期传入的参数个数，即定义之中的参数个数。
+
+```js
+function f(a, b) {}
+f.length // 2
+```
+
+函数的 `toString()` 方法返回一个字符串，内容是函数的源码。如果是原生函数就返回 `function() {[native code]}`。函数内部的注释也能返回，以此来实现多行字符串。
+
+```js
+Math.sqrt.toString() // "function sqrt() { [native code] }"
+function f() {/*
+  这是一个
+  多行注释
+*/}
+
+f.toString() // 去掉首位即可
+//function f() {/*
+//   这是一个
+//   多行注释
+// */}
+```
+
+JS 中有两种作用域，一种是全局作用域，变量在程序中一直存来，所有地方都可以读取；另一种是函数作用域，变量值只存在在函数内部。（ES6 新增块级作用域）
+
+  1. 全局变量可以在函数内部读取到，但局部变量在外部无法读取
+
+```js
+var v = 1
+function f() {
+  var u = 2
+  console.log(v)
+}
+f() // 1
+u // ReferenceError: v is not defined
+```
+
+  2. 函数内部定义的变量会在该作用域内覆盖同名的全局变量。
+
+```js
+var v = 1
+function f() {
+  var v = 2
+  console.log(v)
+}
+f() // 2
+v // 1
+```
+
+  3. 函数内部的变量提升和函数声明提升同全局作用域
+
+```js
+function f() {
+  console.log(a) // undefined
+  var a = 1
+}
+```
+
+  4. 函数执行时所在的作用域，是取决于定义时的作用域，而不是调用时所在的作用域。
+
+```js
+// 函数 x 定义在全局
+var a = 1
+var x = function () { console.log(a) }
+function f() {
+  var a = 2
+  x() // 1
+}
+
+// 函数 x 定义在局部，闭包
+function f() {
+  var a = 1
+  function x() { console.log(a) }
+  return x
+}
+var a = 2
+f()() // 1
+```
+
+有时函数需要依靠外部数据而得到不同的结果，外部数据即参数。参数可以省略，也可以提供多于定义的个数。
+
+```js
+function f(a, b) { return a }
+f() // undefined
+f(1) // 1
+f(1, 2) // 1
+f(1, 2, 3) // 1
+```
+
+函数参数如果是原始类型的值，传递方式是值传递，如果是复合类型的值，则传递方式是地址传递，即传入的是原始值的地址。
+
+```js
+var a = 1
+var obj = { b: 2 }
+var obj2 = { c: 3 }
+function f(x, y, z) {
+  x = 5
+  y.b = 5
+  z = { d: 4 }
+}
+f(a, obj, obj2)
+a // 1
+obj // { b: 5 }
+// 直接替换整个参数不会影响到原始值，因为形参 z 存储的是 obj2 的地址，重新赋值只是导致 z 指向另一个地址
+obj2 // { c: 3 }
+```
+
+函数中 `argument` 对象包含了函数运行时的所有参数。它是一个类数组但并不是数组，如可以用 `argument[0]` 取第一个参数，而没有 `slice` 方法。用 `length` 属性判断函数调用时到底带了几个参数。
+
+```js
+var f = function(a, b) {
+  argument[0] = 3
+  argument[1] = 2
+  console.log(argument.length)
+  return a + b
+}
+f(1, 1) // 5, 2
+```
+
+闭包是依靠着链式作用域的结构，使函数外部可以看到函数内部的参数的桥梁。产生条件是两层函数，每次执行外层函数都会形成一个新的闭包，内存消耗量大。
+
+```js
+function inc(n) {
+  return function() {
+    return n++
+  }
+}
+var inc2 = inc(5)
+inc2() // 5
+inc2() // 6
+inc2() // 7
+```
+
+立即执行函数 `IIFE`，在定义函数后立马调用函数。
+
+```js
+(function() { /* code */ }()); 
+```
+
+## 数组
+
