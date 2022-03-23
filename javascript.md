@@ -70,21 +70,6 @@ JS 事件是处理发生在 HTML 上的事情, 属于 DOM 的范围
 
 ## JS 字符串
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Javascript 字符串
 
   字符串是一串字符, 可使用单引号或双引号, 空的字符串变量既有值又有类型
@@ -168,57 +153,6 @@ JavaScript 运算符
     ^  异或
 
   !!运算符优先级
->
-
-JavaScript 条件语句
-
-  三种形式:
-    if (条件表达式) {语句...}
-    if (条件表达式) {语句...} else {语句...}
-    if (条件表达式) {语句...} else if (条件表达式) {语句...} else {语句...}
-  else if 形式中只会执行一个代码块, 应注意条件表达式的书写
-
-  条件分支:
-    switch(条件表达式) {
-      case 表达式:
-        代码块
-        break;
-      default: 如都不匹配时运行的代码块
-    }
-  把条件表达式的值与每个 case 的值进行对比, switch 使用严格的比较 ===
-  如匹配则从当前位置处开始执行, 除非有 break
-  有时需要不同 case 来使用相同的代码块
-
-  break 关键词: 遇到此词时, 会跳出 switch 代码块, 节省大量时间
-  default 关键词: 规定不存在 case 匹配时所运行的代码
-  如果 default 不是 switch 代码块中最后一个 case，请记得用加上 break
-
-  条件表达式可以为 true, 这样 case 中表达式可以写比较判断，这样就不是比较了
->
-
-JavaScript 循环语句
-
-  while 语句:
-    while (条件表达式) {语句...}
-    do {语句..} while (条件表达式)
-    do...while...: 在检查条件是否为真之前，这种循环会保证执行一次代码块
-
-  for 语句:
-    for (1; 2; 3) {语句...}
-      1 在循环开始之前执行, 初始化表达式
-      2 在循环开始之前执行, 条件表达式
-      3 会在循环每次被执行后执行, 更新表达式
-
-  for/in  遍历属性: for (key in 对象名) 遍历下标
-  for/of 遍历值： for (value of xxx)
-
-  循环的嵌套: 常用外循环控制列, 用内循环控制行
-
-  break 与 continue:
-    break 语句跳出循环, continue 语句跳过单次循环, 用提高代码性能的作用
-    break 可配合 JS 标签可跳过一段代码块, continue 不能
-    labelname: {... ...}   break labelname;
-    break 与 continue 可配合 JS 标签跳过指定循环
 >
 
 JavaScript Object
