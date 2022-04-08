@@ -50,8 +50,8 @@ yz: `http://192.168.1.253:8001/repository/groupnpm/ chengzs/agms1234`
 
 **查看**
 
-命令: `npm list [-g] [<pkg>]`  
-查看包: `npm view <pkg>`  
+查看包列表: `npm list [-g] [<pkg>] [--depth 0]`
+查看具体包: `npm view <pkg>`  
 
 ## package.json
 
