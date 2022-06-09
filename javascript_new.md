@@ -1026,3 +1026,19 @@ var value = (console.log('hi!'), true)
 
 ## **类型转换**
 
+**强制转换**
+
+强制转换主要使用 `Number()`, `String()`, `Boolean()` 三个函数
+
+**Number()**
+
+字符串如果整体可以被转成数值就转换为相应数值, 但只要有一个字符不行就转为 `NaN`, 空字符串转换为 `0`
+
+布尔值 `true` 转成 `1`, `false` 转成 `0`
+
+`undefined` 转成 `NaN`, `null` 转成 `0`
+
+对象返回 `NaN`, 除了单个数值的数组 (先调用 `obj.valueOf`, 不是原始值则继续调用 `obj.toString`, 之后不再化解直接转换)
+
+**String()**
+
