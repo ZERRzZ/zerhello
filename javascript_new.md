@@ -1020,8 +1020,6 @@ var value = (console.log('hi!'), true)
 
 ## **类型转换**
 
-**强制转换**
-
 强制转换主要使用 `Number()`, `String()`, `Boolean()` 三个函数
 
 **Number()**
@@ -1036,3 +1034,130 @@ var value = (console.log('hi!'), true)
 
 **String()**
 
+数值, 布尔值, undefined, null 都转为相应的字符串
+
+对象返回一个类型字符串("[object Object]"), 数组则返回该数组的字符串形式
+
+**Boolean()**
+
+除 `undefined`, `null`, `0`, `NaN`, `''` 这五个值转换为 `false`, 其他值都为 `true`
+
+布尔对象也为 `true` (new Boolean(false) == true), 所有对象都是 `true` 是为了保证性能
+
+**自动转换**
+
+当预期为布尔值的地方如 `if`, `?:`, `!!` 等会自动调用 `Boolean()` 方法转换成布尔值
+
+当预期为字符串的地方, 一般是字符串的加法运算时, 会自动调用 `String()` 方法转换成字符串
+
+当预期为数值的地方, 除了上面 `+` 运算符可能会自动转成字符串外, 其他算术运算符都会把运算子自动转成数值, 包括正负运算符
+
+## **错误处理机制**
+
+**Error 构造函数**
+
+js 原生提供了一个 `Error` 构造函数, 可接收一个参数表示错误信息
+
+```js
+var err = new Error('error')
+err.message // 'error', message 是必有的属性, 表示错误信息
+```
+
+对于大多数 js 引擎来说, `Error` 还有 `name` 和 `stack` 这两个属性, 表示错误名称和错误堆栈
+
+```js
+function throwit() { throw new Error('err name') }
+  function catchit() { 
+    try { throwit() } 
+    catch(e) { console.log(e.stack) }
+  }
+catchit()
+// Error: err name // e.stack 中就包括 e.name, e.message
+//     at throwit (<anonymous>:1:28) // 最内层
+//     at catchit (<anonymous>:1:28)
+//     at <anonymous>:1:1 // 运行环境
+```
+
+**错误类型**
+
+基于 `Error` 实例对象, js 还定义了其他六种错误类型:
+
+  - SyntaxError: 解析代码时发生的语法错误
+  - ReferenceError: 引用一个不存在的变量时发生的错误
+  - RangeError: 一个值超出有效返回时发生的错误
+  - TypeError: 变量或参数不是预期类型时发生的错误
+  - URIError: URI 相关函数的参数不正确时抛出的错误
+  - EvalError: 函数没有被正确执行时的错误
+
+这些都是构造函数, 可用同 `Error` 一样去使用它们
+
+**自定义错误**
+
+```js
+function UserError(message) {
+  this.message = message || '默认信息'
+  this.name = 'UserError'
+}
+// 继承 Error
+UserError.prototype = new Error()
+UserError.prototype.constructor = UserError
+// 这样就自定义了一个错误对象
+```
+
+**throw 语句**
+
+作用是手动中断程序执行, 并抛出一个值给 js 引擎, 这个值一般是错误实例, 但也可以是其他值
+
+```js
+if (x <= 0) { throw new Error('x 必须为正数') } // Uncaught Error: x 必须为正数
+throw 'Error!' // Uncaught Error!
+throw 42 // Uncaught 42
+```
+
+**try...catch 语句**
+
+在 try 代码块中如果抛出异常, 就会将代码的执行转到 catch 代码块, 或者说错误被 catch 捕获了
+
+catch 代码块会接收一个值, 就是 try 中抛出的值
+
+catch 代码块捕获错误之后, 程序不会中断, 会按照正常流程继续执行下去
+
+```js
+try {
+  throw new Error('err msg')
+} catch(e) { // catch 代码块会接收一个值, 就是 try 中抛出的值
+  console.log(e.stack)
+}
+console.log('111') // 会执行
+```
+
+**finally 代码块**
+
+可以添加在 `try...catch` 结构之后, 表示不无论否出现错误, 都必须在最后运行的语句
+
+```js
+try {
+  console.log(0)
+  throw new Error('err msg')
+  console.log('不执行')
+} catch(e) {
+  console.log(1)
+  return 2 // 原本会延迟到 finally 代码块结束再执行, 但被 finally 中的 return 语句覆盖
+} finally {
+  cosole.log(3)
+  return 4 // 覆盖前面 return
+}
+// 0, 1, 3 返回 4
+```
+
+```js
+function f() {
+  try { throw 'err' }
+  catch(e) {
+    console.log('err')
+    throw e // 原本会等到 finally 结束再执行
+  } finally { reurn false } // 直接返回
+}
+try { f() } catch(e) { console.log(e) } // 打印不会执行, 因为 f 里 catch 中的 throw 没有执行
+// err
+```
