@@ -1,0 +1,38 @@
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+form h3 {
+  background-color: gray;
+}
+
+form p {
+  margin: 0;
+  padding: 0;
+  background-color: hotpink;
+}
+
+form p input[type='text'] {
+  background-color: hotpink;
+  border: 0;
+  border-bottom: 1px black solid;
+}
+form p input[type='text']:focus {
+  outline: 0;
+}
+
+form p input[type='submit'] {
+  margin-top: 10px;
+  border: 1px black solid;
+  background-color: hotpink;
+  width: 50px;
+  height: 25px;
+}
+form p input[type='submit']:focus {
+  outline: 0;
+}
+form p input[type='submit']:hover {
+  background-color: pink;
+  cursor: pointer;
+}

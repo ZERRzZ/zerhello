@@ -1,9 +1,0 @@
-> WOLF TRANS PATCH FILE VERSION 1.0
-
-> BEGIN STRING
-\\\>「X[移]ｱｲﾃﾑ使用効果処理」エラー
-「-1」番以下のアイテムコードが指定されました。
-> CONTEXT COMMONEVENT:118/16/Message < UNTRANSLATED
-\\\>「X[移]项目使用效果处理」错误
-指定了“-1”下方的项目代码
-> END STRING

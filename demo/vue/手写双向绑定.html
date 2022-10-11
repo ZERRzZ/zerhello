@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>手写双向绑定</title>
+</head>
+
+<body>
+  <input id="text" type="text">
+  <div id="div"></div>
+</body>
+
+<script>
+  const text = document.getElementById('text')
+  const div = document.getElementById('div')
+  // vue2
+  // let data = { text: '' }
+  // Object.defineProperty(data, 'text', {
+  //   get: () => data['text'],
+  //   set: (v) => {
+  //     div.innerHTML = v
+  //     text.value = v
+  //   }
+  // })
+  // text.addEventListener('input', (e) => data.text = e.target.value)
+  // vue3
+  let data = { text: '' }
+  const proxy = new Proxy(data, {
+    get(obj, key) {
+      return obj[key]
+    },
+    set(obj, key, v) {
+      obj[key] = v
+      text.value = v
+      div.innerHTML = v
+    }
+  })
+  text.addEventListener('input', (e) => proxy.text = e.target.value)
+  /**
+   * 响应式数据的关键是拦截对象属性的设置和读取操作
+   * vue2: 当把一个普通的对象传入 Vue 实例作为 data 选项时, Vue 将遍历此对象所有的属性, 并使用 Object.defineProperty 把这些属性全部转为 getter/setter
+   * vue3: 当从一个组件的 data 函数中返回一个对象时, Vue 会将该对象包裹在一个带有 get 和 set 处理程序的 Proxy 中
+   * 优缺点: vue2 中当直接改变对象或数组时不会触发双向绑定, 因为 vue2 中绑定的是数据的属性, 而 vue3 中绑定的是对象本身
+  */
+</script>
+
+</html>

@@ -1,0 +1,11 @@
+h1 {
+  width: 50%;
+  background-color: gray;
+}
+
+p {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  background-color: goldenrod;
+}

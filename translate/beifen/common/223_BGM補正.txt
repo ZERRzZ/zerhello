@@ -1,9 +1,0 @@
-> WOLF TRANS PATCH FILE VERSION 1.0
-
-> BEGIN STRING
-save/system.sav
-> CONTEXT COMMONEVENT:223/59/SetString < UNTRANSLATED
-> CONTEXT MPS:SampleMapA/events/35/pages/1/33/SetString < UNTRANSLATED
-> CONTEXT MPS:TitleMap/events/2/pages/1/29/SetString < UNTRANSLATED
-
-> END STRING

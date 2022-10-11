@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>mouse wheel</title>
+  <style>
+  #div01 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  }
+  </style>
+</head>
+<body style="height: 2000px">
+  <div id="div01"></div>
+
+  <script>
+  var div01 = document.getElementById("div01");
+
+  div01.onmousewheel = function(event) {
+    console.log(event.wheelDelta);
+    // 注意兼容火狐
+    if (event.wheelDelta > 0 || event.detail < 0) {
+      div01.style.height = div01.clientHeight - 10 + "px";
+    } else if (event.wheelDelta < 0 || event.detail) {
+      div01.style.height = div01.clientHeight + 10 + "px";
+    }
+    // 取消默认行为，ie 8 不支持 preventDefault
+    event.preventDefault && event.preventDefault();
+    return false;
+  }
+  // 为了兼容火狐
+  div01.addEventListener("DOMMouseScroll", div01.onmousewheel, false);
+  </script>
+</body>
+
+</html>

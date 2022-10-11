@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>onkeydown or up</title>
+  <style>
+  #div01 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+  }
+  </style>
+</head>
+<body>
+  <div id="div01"></div>
+  <input type="text" name="text01" id="text01">
+
+  <script>
+  var div01 = document.getElementById("div01");
+  var text01 = document.getElementById("text01");
+  var dir;
+  var speed = 10;
+
+  document.onkeydown = function(event) {
+    console.log(event.keyCode);
+    dir = event.keyCode;
+    if (event.ctrlKey) {
+      speed = 100;
+    } else {
+      speed = 10;
+    }
+  };
+  var timer = setInterval(function(){
+    switch (dir) {
+      case 37:
+        div01.style.left = div01.offsetLeft - speed + "px";
+        break;
+      case 38:
+        div01.style.top = div01.offsetTop - speed + "px";
+        break;
+      case 39:
+        div01.style.left = div01.offsetLeft + speed + "px";
+        break;
+      case 40:
+        div01.style.top = div01.offsetTop + speed + "px";
+        break;
+    }
+  }, 30);
+
+  document.onkeyup = function(event) {
+    dir = 0;
+  }
+  </script>
+</body>
+</html>
