@@ -1,15 +1,4 @@
-# **Vue.js安装**
-- CND导入  
-```html
-<!-- 开发环境版本，包含了有帮助的命令行注释 -->
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<!-- 生产环境版本，优化了尺寸和速度 -->
-<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-``` 
-- 直接下载到本地
-- NPM安装：`npm install vue`
-
-# Vue基础结构
+# Vue 基础结构
 - 编程范式：Vue是声明范式，而原生JS是命名范式
 ```js
 // <div id='app'>{{message}}</div>
