@@ -1,9 +1,11 @@
-# Vue 基础结构
-- 编程范式：Vue是声明范式，而原生JS是命名范式
+# **Vue 基础结构**
+
+编程范式：Vue 是声明范式, 而原生 JS 是命名范式
+
 ```js
-// <div id='app'>{{message}}</div>
+<div id='app'>{{message}}</div>
 // 创建一个 Vue 实例， 传入对象，固定的属性名对应固定的功能
-cosnt app = new Vue({
+new Vue({
   el: '#app', // 挂载要管理的元素
   data: {  // 定义数据
     message: 'Hello Vue'
@@ -11,64 +13,88 @@ cosnt app = new Vue({
 })
 ```
 
-# Vue中的MVVM
+# **Data 与 el 的两种方式**
 
-- MVVM即：Moudle-View-ViewMoudle
-- Moudle即数据，View即DOM，View-Moudle即Vue
-- [vue中的MVVM](./img/Vue中MVVM.png)
+el: 在 `new Vue` 时配置 el 属性; 或者先创建 Vue 实例, 后通过 `vm.$mount` 指定 el 的值
 
-# Vue实例的参数
+data: 分为对象式和函数式, 在组件里开发时只能用函数式, 而且不能用箭头函数
 
-- el: 数据类型：string/HTMLElement 决定Vue实例要挂载的DOM
-- data: 数据类型：Object/Function Vue实例对应的数据对象
-- methods: {[key: string]: function} 定义Vue方法
-
-# 模板语法
-
-- Mustache语法：{{}}，不仅可以写变量，还可以写表达式
-
-# 简单指令-插值操作
-- 一般指令名作为元素的属性放在开始标签里
-- 有的指令有值则类似属性值的写法
-
-- v-once: {{}} 中的值并不会随着变量的改变而改变，无值
-- v-html: {{}} 中的值通过 html 来解析，有值，值为要解析的数据
-- v-text: 类似于 {{}}， 但会覆盖标签原有的内容，值为要展示的数据
-- v-pre: 将标签内容原封不动的展示出来，无值
-- v-cloak: 斗篷，无值，当vue加载完成后，会将这个属性删除
-```html
-<!-- 一般配合css使用，将未用vue渲染的文本隐藏 -->
-<style>
-  [v-cloak]: {disply: none}
-</style>
-<div id='app' v-cloak></div>
-```
-
-# 简单指令-绑定属性
-- v-bind: 动态绑定属性，缩写：：，格式：`v-bind:href="变量"`
-```html
-<div id="app">
-  <!-- 根据 urls 中值创建多个 img -->
-  <img v-bind:src="url" v-for="url in urls">
-  <!-- 语法糖 -->
-  <!-- <img :src="url" v-for="url in url1"> -->
-</div>
-<script>
-  const app = new Vue({
-    el: '#app',
-    data: {
-      urls: ['./test.jpg', '../img/包相关命令.png']
+```js
+cosnt vm = new Vue({
+  // el: '#app', // 挂载要管理的元素
+  // data: {  // 定义数据
+  //   message: 'Hello Vue'
+  // }
+  data() {
+    return {
+      message: 'Hello Vue'vm
     }
-  })
-</script>
+  }
+})
+vm.$mount('#app')
 ```
-- v-bind 的值可以为一个对象，属性值为boolean，当为真时，显示该属性，为假时不显示
-- 绑定 class 时：`:class='{key: value, 类名：boolean值}'`
+
+# **MVVM 模型**
+
+MVVM即：Moudle(模型) - View(视图) - ViewMoudle(视图模型)
+
+在 Vue 里就是 data 数据 - 模板 - Vue 实例对象
+
+[vue中的MVVM](./img/Vue中MVVM.png)
+
+# **Vue 数据代理与响应式设计**
+
+通过一个对象代理对另一个对象中属性的操作
+
+Vue 实例化时将 data 对象先放到 `Vue._Data` 中, 这里做了一次数据劫持, 做响应式设计
+
+然后再通过数据代理, 将 `_Data` 中的属性直接放到 Vue 实例中, 这是为了方便书写
+
+## **原理**
+
+Vue 将遍历 data 所有的属性, 并使用 Object.defineProperty 把这些属性全部转为 getter/setter
+
+```js
+let obj = {
+  name: '张三',
+  sex: '男'
+}
+Object.defineProperty(obj, 'age', {
+  value: 18, // 属性值
+  enumerable: true, // 控制属性是否可枚举, 默认值是 false
+  writable: true, // 控制属性是否可以被修改, 默认值是 false
+  configurable: true // 控制属性是否可以被删除, 默认值是 false
+  // getter|setter 特殊配置项
+  get() {
+    retrun obj.age
+  },
+  set(value) {
+    obj.age = value
+  }
+})
+```
+
+# **模板语法**
+
+## **插值语法**
+
+Mustache语法：`{{}}` 不仅可以写变量, 还可以写表达式
+
+## **v-bind**
+
+动态绑定属性 `:`, 格式：`v-bind:href="表达式"`
+
+v-bind 的值可以为一个对象, 属性值为 boolean，当为真时, 显示该属性, 为假时不显示
+
+绑定 class 时：`:class='{key: value, 类名：boolean值}'`
+
 ```html
 <!-- 点击那个 li， 该 li 里的文字边红 -->
-<style>.red {color: red;}</style>
+<style>
+  .red {color: red;}
+</style>
 <div id="app">
-  <ul><li v-for='i in bangumi' :class="{red: init === i}" @click="addRed(i)">{{i}}</li></ul>
+  <div v-for='i in bangumi' :class="{red: init === i}" @click="addRed(i)">{{i}}</div>
 </div>
 <script>
   const app = new Vue({
@@ -81,36 +107,72 @@ cosnt app = new Vue({
   })
 </script>
 ```
-- v-bind 也可以绑定 style 属性，`:style='{key: value, css属性名：css属性值}'`
-- 属性名用小驼峰命名发
+v-bind 也可以绑定 style 属性，`:style='{key: value, css属性名：css属性值}'`
 
-# 计算属性computed
-- 原理上是一个属性，属性值有 set(), ge() 方法，一般只写 get(),故而简写
-- 在多次调用时，计算属性会缓存，实际上只调用一次，从而提高性能
-- 使用时不用 () 来执行函数，实际上调用的是属性的 get/set方法
-```js
-// 完整的计算属性写法
-// 由于一般情况下不会使用set方法，所以可以简写
-computed: {
-  // func 是属性，值是一个对象
-  func: {
-    set() { ... },
-    get() {
-      console.log('使用了get方法')
-    }
-  }
-}
-// 简写
-computed: {
-  func() { console.log('使用了get方法')}
-}
+## **v-model**
+
+与 `v-bind` 不同的是, `v-model` 是双向绑定, 改变页面的同时会影响数据本身, 只用于表单元素
+
+```html
+<input type="text" v-model:value='name'>
+<!-- 可以简写成 `v-model = 'name'`, 因为默认收集的就是 `value` 值 -->
+<input type="text" v-model='name'>
+```
+配合 radio 使用, 默认绑定 `name` 值
+
+```html
+<label><input type="radio" value="male" v-model="gender">男</label>
+<label><input type="radio" value="female" v-model="gender">女</label>
+```
+配合 checkbox 使用, 当作为单选框是 v-model 绑定的值时布尔值，选中为true，未选中为false
+
+```html
+<div id="app">
+  <input type="checkbox" v-model="check">{{check}}同意协议
+  <input type="button" value="同意方可下一步" :disabled="!check">
+</div>
+<script>
+  const app = new Vue({
+    el: '#app',
+    data: { check: false }
+  })
+</script>
 ```
 
-# 事件监听v-on
-- v-on：绑定事件监听器，缩写：@，参数可以是事件函数或表达式 `v-on:click='func'`
+当作为多选框使用时，v-model 绑定的值是数组类型，与 value 对应
+
 ```html
-<!-- v-on:click 不能有空格，注意格式 -->
-<!-- 语法糖：@click -->
+<div id="app">
+  <!-- 动态从数组中获得，注意要包起来 -->
+  <label v-for="item in orignCheck">
+    <input type="checkbox" v-model="check" :value="item">
+    <span>{{item}}</span>
+  </label>
+</div>
+<script>
+  const app = new Vue({
+    el: '#app',
+    data: {
+      check:[],
+      orignCheck: ['H2', 'TOUCH', 'CROSS GAME', 'MIX'] }})
+</script>
+```
+
+v-model 配合 select 使用，v-model 绑定在 select 标签上，不常用
+
+v-model 的修饰符：
+
+- `.lazy`: 默认会同步数据与输入框的内容，lazy 可以让数据在失去焦点或回车时才会更新
+- `.number`: 将类型转化为数字类型
+- `.trim`: 去除两边的空格
+
+## **v-on**
+
+绑定事件监听函数 `@`, 参数可以是事件函数或表达式 `v-on:click='func'`
+
+绑定事件监听的函数一般写在 `methods` 里, 因为不需要代理和劫持
+
+```html
 <div id="app">
   <h3>当前数字：{{count}}</h3>
   <input type="button" value="+" @click="add()">
@@ -128,20 +190,132 @@ computed: {
     }
   })
 </script>
+
 ```
-- 事件参数 event，当只需要该参数时，可以在调用时不加小括号，而定义时使用该参数
-- 当既需要事件参数 event，又需要其他参数时，用 `$event` 来表示事件参数
+
+事件参数 event，当只需要该参数时，可以在调用时不加小括号，而定义时使用该参数
+
+当既需要事件参数 event，又需要其他参数时，用 `$event` 来表示事件参数
+
 ```js
 // 以下两种方法都可以把event参数传过去
 <input type="button" value="点击" v-on:click="showMessage">
 <input type="button" value="点击" v-on:click="showMessage($event)">
 ```
-- [v-on修饰符](./img/v-on修饰符.png)：.stop, .prevent, .keyCode/keyAlias, .native, .once
+
+v-on 修饰符
+
 - `@click.stop='func'` 阻止了事件的冒泡，即调用 `event.stopPropagation()`
 - `@click.prevent='func'` 阻止默认行为，即调用 `event.preventDefault()`
 - `@keyup.enter='func'` 监听了键盘上的 enter 键
 - `.native` 监听了组件根元素的原生事件
-- `.once` 只能触发一次时间函数
+- `.once` 只能触发一次
+- `.capture`: 使用事件的捕获模式, 即在捕获阶段就执行
+- `.self`: 只有 event.target 是当前操作的元素时才触发事件
+- `.passive`: 事件的默认行为立即执行, 无需等待事件回调执行完毕
+
+键盘事件, 一般用 `@keyup` 事件, tab 较特殊, 会切走光标, 所以用 `keydown`
+
+常见别名: `enter`, `delete`, `esc`, `space`, `tab`, `up`, `down`, `left`, `right`, 未提供别名的按键可以使用按键原始值取绑定
+
+系统修饰键 `ctrl`, `alt`, `shift`, `meta` 也特殊
+
+# **计算属性 computed**
+
+从 data 中的属性里计算出的一个新的属性, 写在 `computed` 配置项里, 计算属性最终会是一个属性挂载到 vm 上
+
+属性值有 set(), ge() 方法, 调用时不用 () 来执行函数, 实际上调用的是属性的 gettter
+
+计算属性会在第一次读取时缓存, 之后如果所依赖数据没有发生改变, 则会直接从缓存里取, 从而提高性能
+
+```js
+// 完整的计算属性写法
+// 由于一般情况下不会使用set方法，所以可以简写
+computed: {add
+  // func 是属性，值是一个对象
+  add: {
+    get() {
+      console.log('使用了get方法')
+    },
+    set(value) {
+      console.log('使用set方法')
+    }
+  }
+}
+// 简写
+computed: {
+  func() { console.log('使用了get方法')}
+}
+```
+
+# **监视属性 watch**
+
+写在 `watch` 配置项里, 监视数据的变化, 不仅能监测 data 里的属性, 也能监测计算属性
+
+```js
+data: {
+  isHot: true,
+  numbers: {
+    a: 1
+  }
+}
+watch: {
+  isHot: {
+    immediate: true, // 初始化时调用 handler
+    // 当 isHot 发生改变时调用
+    handler(newValue, oldValue) {
+      console.log(newValue, oldValue)
+    }
+  },
+  'numbers.a': { ... } // 监测多级结构中的属性变化
+}
+```
+
+也可以使用 vm 的 `$watch` 方法来监视
+
+```js
+vm.$watch('isHot', { /* 与配置项里一致 */ })
+```
+
+## **深度监视**
+
+Vue 自身可以检测对象内部值的变化, 但 Vue 提供的 `watch` 默认不可以
+
+watch 配置里的 `deep` 实现滚设置为 true 即可监测
+
+```js
+watch: {
+ isHot: {
+    deep: true,
+    handler()
+ }
+}
+```
+
+当只有 `handler` 配置时, 即可使用简写形式
+
+```js
+watch: {
+  isHot(newValue, oldValue) { ... }
+}
+
+vm.$watch('isHot', function(newValue, oldValue) { ... })
+```
+
+## **计算属性与监视属性区别**
+
+computed 能完成的功能 watch 都可以完成, 反之则不是, 例如: 计算属性不能开启异步任务, 而监视属性可以
+
+tip: 所有被 Vue 管理的函数最好写成普通函数, 这样 this 的指向才是 vm 或组件实例对象, 而不被 Vue 管理的, 最好写成箭头函数
+
+
+
+
+
+
+
+
+
 
 # 条件判断v-if
 - v-if,v-else,v-else-if 类似于逻辑语句，当比较复杂时，不建议写在标签里
@@ -188,71 +362,7 @@ const app = new Vue({
 - 也是一个函数，类似于计算属性。
 - 定义时有参数，调用时格式 `{{参数|函数名}}`, 即默认把 | 前的值当作函数参数
 
-# v-model绑定表单
-- 基础用法：`<input type="text" v-model='name'>` name 为变量，在 vue 实例中定义
-- 双向绑定：修改 name 的值会改变 value 值，反之，修改 value 的值也会改变 name 值
-- 双向绑定本质：v-bind 绑定 value 属性赋值为 name ，v-on 绑定 input 事件，时间函数：name = e.target.value
-```html
-<div id="app">
-  <input type="text" :value="name" @keyup="change">
-  <div>{{name}}</div>
-</div>
-<script>
-  const app = new Vue({
-    el: '#app',
-    data: {
-      name: 'sadanya'
-    },
-    methods: {
-      change(e) { 
-        this.name = e.target.value
-      }
-    }
-  })
-</script>
-```
-- v-model 配合 radio 使用, 有 v-model 也可以二选一，name 属性就可以不要了
-```html
-<label><input type="radio" value="male" v-model="gender">男</label>
-<label><input type="radio" value="female" v-model="gender">女</label>
-```
-- v-model 配合 checkbox 使用
-- 当作为单选框是 v-model 绑定的值时布尔值，选中为true，未选中为false
-```html
-<div id="app">
-  <input type="checkbox" v-model="check">{{check}}同意协议
-  <input type="button" value="同意方可下一步" :disabled="!check">
-</div>
-<script>
-  const app = new Vue({
-    el: '#app',
-    data: { check: false }
-  })
-</script>
-```
-- 当作为多选框使用时，v-model 绑定的值是数组类型，与 value 对应
-- 值绑定：表单标签的 value 值可能从后端动态获取，所以用上值绑定
-```html
-<div id="app">
-  <!-- 动态从数组中获得，注意要包起来 -->
-  <label v-for="item in orignCheck">
-    <input type="checkbox" v-model="check" :value="item">
-    <span>{{item}}</span>
-  </label>
-</div>
-<script>
-  const app = new Vue({
-    el: '#app',
-    data: {
-      check:[],
-      orignCheck: ['H2', 'TOUCH', 'CROSS GAME', 'MIX'] }})
-</script>
-```
-- v-model 配合 select 使用，v-model 绑定在 select 标签上，不常用
-- v-model 的修饰符：
-- `.lazy`: 默认会同步数据与输入框的内容，lazy 可以让数据在失去焦点或回车时才会更新
-- `.number`: 将类型转化为数字类型
-- `.trim`: 去除两边的空格
+
 
 # Vue 组件化
 - 注册组件步骤：创建组件构造器 - 注册组件 - 使用组件

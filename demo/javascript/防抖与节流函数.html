@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>防抖与节流函数</title>
+</head>
+
+<body>
+  <input id="text" type="text">
+</body>
+
+<script>
+  let text = document.getElementById('text')
+  text.addEventListener('keyup', (e) => debounce(() => console.log(text.value), 1000))
+  // 防抖函数
+  const debounce = (function () {
+    let timer
+    return function (func, delay) {
+      clearTimeout(timer)
+      timer = setTimeout(() => func(), delay)
+    }
+  })()
+</script>
+
+</html>
+
+<!-- 
+  防抖函数: 
+  当频繁触发某事件时, 
+  只有在某一段时间内没有再次触发该事件, 
+  事件处理函数才会执行一次, 
+  如果设定时间到来之前有一次触发事件, 
+  则重新开始延迟
+  实际应用: 搜索业务时往往会使用到
+ -->
