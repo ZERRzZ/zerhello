@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 </script>
@@ -44,4 +44,19 @@ header {
     flex-wrap: wrap;
   }
 }
+</style> -->
+
+<style>
 </style>
+
+<template>
+
+</template>
+
+<script lang="ts">
+  export default {
+    arr: []
+    
+  }
+
+</script>

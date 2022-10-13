@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vue响应式设计模拟</title>
+</head>
+
+<body>
+  <input id="text" type="text">
+  <div id="div"></div>
+</body>
+
+<script>
+  const text = document.getElementById('text')
+  const div = document.getElementById('div')
+  // vue2
+  // 原始数据, 相当于 new Vue 时的 data 对象
+  let data = {
+    text: '',
+    size: {
+      height: 0,
+      width: 0
+    }
+  }
+  // 内部数据劫持函数, 将 data 的属性都设置好 getter/setter 并放到自身身上
+  function Observer(obj) {
+    const keys = Object.keys(obj)
+    keys.forEach(v => {
+      Object.defineProperty(this, v, {
+        get() {
+          return obj[v]
+        },
+        set(val) {
+          obj[v] = val
+          div.innerHTML = val
+        }
+      })
+    })
+
+  }
+  // 创建 vm 实例对象
+  let vm = {}
+  vm._data = new Observer(data)
+  // 数据改变则 dom 改变
+  text.addEventListener('input', (e) => {
+    vm._data.text = e.target.value
+  })
+  /**
+   * 响应式数据的关键是拦截对象属性的设置和读取操作
+   * vue2: 当把一个普通的对象传入 Vue 实例作为 data 选项时, Vue 将遍历此对象所有的属性, 并使用 Object.defineProperty 把这些属性全部转为 getter/setter
+   * vue3: 当从一个组件的 data 函数中返回一个对象时, Vue 会将该对象包裹在一个带有 get 和 set 处理程序的 Proxy 中
+   * 优缺点: vue2 中当直接改变对象或数组时不会触发双向绑定, 因为 vue2 中绑定的是数据的属性, 而 vue3 中绑定的是对象本身
+  */
+
+  let arr = []
+  Object.defineProperty(arr, '0', {
+    value: 'hello'
+  })
+  console.log(arr)
+
+</script>
+
+</html>

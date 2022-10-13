@@ -59,7 +59,9 @@ let obj = {
   name: '张三',
   sex: '男'
 }
-Object.defineProperty(obj, 'age', {
+let _obj = { }
+// 这样读写 _obj 实际上是读 obj, 做了代理
+Object.defineProperty(_obj, 'age', {
   value: 18, // 属性值
   enumerable: true, // 控制属性是否可枚举, 默认值是 false
   writable: true, // 控制属性是否可以被修改, 默认值是 false
@@ -74,6 +76,28 @@ Object.defineProperty(obj, 'age', {
 })
 ```
 
+## **Vue.set() 与 vm.$set()**
+
+一开始 `new Set()` 时没有设置 data, 而后来想添加新的数据时, 直接添加不会有响应式, 需使用 `set` 与 `$set`
+
+接收三个参数, `(target, propertyName/index, value)`, target 为响应式对象, 也可以为数组添加响应式元素
+
+```js
+// 只能在 data 对象的子对象里添加, 不能直接添加到 data 上
+Vue.set(vm.xxx, 'xxxx', 'xxx')
+vm.set(vm, 'xx', 'xxx') // error
+```
+
+## **数组的响应式**
+
+对象的每一项甚至嵌套对象, Vue 都会劫持设置 getter/setter, 所以都是响应式的
+
+而 Vue 不会给数组的每一项添加 getter/setter, 所以直接操作数组的每一项的操作不是响应式, 如下标修改
+
+数组响应式函数：push, pop, shift, unshift, splice, sort, reverse, Vue 将这些方法包装了一下, 让它们可以响应式变化
+
+为什么不给数组的每一项添加响应式设计: 理论上可以, 但作者说时性能问题
+ 
 # **模板语法**
 
 ## **插值语法**
@@ -231,7 +255,7 @@ v-on 修饰符
 ```js
 // 完整的计算属性写法
 // 由于一般情况下不会使用set方法，所以可以简写
-computed: {add
+computed: {
   // func 是属性，值是一个对象
   add: {
     get() {
@@ -308,55 +332,92 @@ computed 能完成的功能 watch 都可以完成, 反之则不是, 例如: 计�
 
 tip: 所有被 Vue 管理的函数最好写成普通函数, 这样 this 的指向才是 vm 或组件实例对象, 而不被 Vue 管理的, 最好写成箭头函数
 
+# **条件渲染** 
 
+## **v-if**
 
+v-if, v-else, v-else-if 类似于逻辑语句, 当比较复杂时, 不建议写在标签里
 
+当条件为false时, 包含 v-if 指令的元素根本不会出现在 DOM 中
 
-
-
-
-
-
-# 条件判断v-if
-- v-if,v-else,v-else-if 类似于逻辑语句，当比较复杂时，不建议写在标签里
 ```js
-<div v-if="true">true</div>
+<div v-if="n === 1">1</div>
+<div v-else-if="n === 2">2</div>
+<div v-else>3</div>
 ```
-- 条件判断时可能会出现元素的复用问题，这时只需指定 key 值的不同即可
-- Vue 在底层会为相同的元素创建一份虚拟 DOM，而 key 值不同元素就不同
 
-# v-show
-- 决定一个元素是否显示
-- v-show 只是加了一个行内样式 "display: none"
-- v-if 则当条件为false时，包含v-if指令的元素根本不会出现在DOM中
+v-if 可以与 `template` 搭配使用, 在不影响页面结构的情况下批量判断
 
-# 遍历循环v-for
-- v-for：循环，有值，类似于 for .. in .. 语法
+注意 `template` 只能与 `v-if` 搭配不能与 `v-show` 搭配
+
+```js
+<template v-if='n === 1'>
+  <h2>你好</h2>
+  <h2>Vue</h2>
+  <h2>hello</h2>
+</template>
+``` 
+
+## **v-show**
+
+决定一个元素是否显示, 只是加了一个行内样式 "display: none"
+
+tip: 当一个标签频繁的切换时, 建议使用 `v-show`, 这样就不用担心 html 节点的频繁删减
+
+# **列表渲染**
+
+v-for 循环, 类似于 for...in... 语法
+
+v-for 可以遍历数组, 遍历对象, 遍历字符串甚至遍历指定次数
+
+在使用 v-for 时, 推荐给对应元素或组件添加上一个 `key` 值, 作用是高效的更新虚拟 DOM
+
 ```html
-<!-- view 代码 -->
 <div id="app">
-  <div v-for='i in nums'>{{i}}</div>
+  <div v-for='(n, index) in nums' :key='index'>{{i}}</div>
 </div>
 ```
 ```js
-// <!-- module，view-module代码 -->
-const app = new Vue({
+new Vue({
   el: '#app',
   data: {
     nums: [1, 2, 3, 4]
   }
 })
 ```
-- 循环数组：`v-for="item in array"` 或 `v-for="(item, index) in array"` 表示值和索引
-- 遍历对象：`v-for="value in obj"` 只有一个参数时表示对象的属性值
-- `v-for="(value, key) in obj"` 可以获取属性值，属性名
-- 在使用 v-for 时，推荐给对应元素或组件添加上一个 key 值，作用是高效的更新虚拟DOM
 
-# 数组的响应式
-- 并非所有的数组方法都是响应式的
-- 数组响应式函数：push, pop, shift, unshift, splice, sort, reverse
-- 数组非响应操作：通过索引值来修改数组的值
-- Vue.set 方法： `Vue.set(要修改的对象，索引值，修改后的值)` 通过静态方法来实现响应式修改数组
+循环数组：`v-for="item in array"` 或 `v-for="(item, index) in array"` 表示值和索引
+
+遍历对象：`v-for="value in obj"` 或 `v-for="(value, key) in obj"` 只有一个参数时表示对象的属性值
+
+**key的作用与原理**
+
+key 是虚拟 DOM 对象的标识, 当数据发生变化时, Vue 会根据新数据生成新的虚拟 DOM, 随后 Vue 会进行新虚拟 DOM 与旧虚拟 DOM 的差异比较: 
+
+- 旧虚拟 DOM 中找到与新虚拟 DOM 相同的 key：当虚拟 DOM 中内容没变, 直接使用之前的真实 DOM, 当虚拟 DOM 中内容变了, 则生成新的真实 DOM
+- 旧虚拟 DOM 中找不到与新虚拟 DOM 相同的 key: 创建新的真实 DOM 并渲染
+
+当 `key` 使用 index 时, 如果对数据进行改变顺序的操作, 会产生没有必要的真实 DOM 的更新(效率低下), 而如果有输入类 DOM 的时候, 会造成输入类 DOM 错位的情况
+
+一般开发中建议使用数据的唯一标识作为 `key`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
 
 # 过滤器filters
 - 也是一个函数，类似于计算属性。
