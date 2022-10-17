@@ -170,7 +170,7 @@ Base64.decode(str)
 - 带有src属性的标签也可以跨域加载
 
 ```js
-// 使用CROS实现跨域访问
+// 使用CORS实现跨域访问
 // 加一个响应头即可
 res.append('Access-Control-Allow-Origin', '*')
 ```
@@ -183,6 +183,7 @@ res.jsonp({name: 'xxx'})
 // 默认的JSONP回调函数名称是 callback,想改变名字可以在路径上带参数
 // 前端，在 scripit 标签里发送请求，并定义 callback 函数来接收
 <script src="https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd= "></script>
+// 核心思想：网页通过添加一个<script>元素，向服务器请求 JSON 数据，服务器收到请求后，将数据放在一个指定名字的回调函数的参数位置传回来。
 ```
 
 # 图片格式

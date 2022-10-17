@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>自定义指令</title>
+</head>
+
+<body>
+<div id="root">
+  <div v-big="n"></div>
+  <input type="text" v-fbind:value="n">
+  <input type="button" value="点击" @click="n++">
+</div>
+
+<script src="./vue.js"></script>
+<script>
+  // 定义全局指令
+  // Vue.directives('a', { } 或 function)
+  new Vue({
+    el: '#root',
+    data() {
+      return {
+        n: 1
+      }
+    },
+    directives: {
+      // 直接以函数的形式简写时
+      // 1.只会在指令与元素绑定时(刚开始)和指令所在模板重新解析时(改变)被调用
+      // 2.而指令与元素绑定完之后, 插入到页面时, 并不会监听到
+      big(element, binding) {
+        console.log(element, binding)
+        element.innerHTML = binding.value * 10
+      },
+      // 完整写法, 写成对象, 其中有钩子函数
+      fbind: {
+        // 指令与元素成功绑定时被调用
+        bind(element, binding) {
+          console.log(element, binding)
+          element[binding.arg] = binding.value
+        },
+        // 指令所在元素被插入页面是调用
+        inserted(element, binding) {
+          console.log(element, binding)
+          element.focus()
+        },
+        // 指令所在模版结构被重新解析时调用
+        update(element, binding) {
+          console.log(element, binding)
+          element[binding.arg] = binding.value
+        }
+      }
+    }
+  })
+</script>
+</body>
+
+</html>
