@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>获取表单数据</title>
+  <style>
+    .form {
+      display: flex;
+      flex-flow: column;
+      gap: 20px;
+    }
+
+    .form>div {
+      display: flex;
+      gap: 20px;
+    }
+
+    .form label {
+      display: flex;
+      gap: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <form id="form" class="form" @submit.prevent="submit">
+    <div>
+      <span>帐号</span>
+      <!-- trim 用于去掉前后空格 -->
+      <input type="text" v-model.trim="account">
+    </div>
+    <div>
+      <span>密码</span>
+      <input type="password" v-model.trim="password">
+    </div>
+    <div>
+      <span>年龄</span>
+      <!-- number 配合 input:number 使用用于只收集数值类型数据 -->
+      <input type="number" v-model.number="age">
+    </div>
+    <div>
+      <span>性别</span>
+      <label>男<input type="radio" value="male" name="sex" v-model="sex"></label>
+      <label>女<input type="radio" value="female" name="sex" v-model="sex"></label>
+    </div>
+    <div>
+      <span>爱好</span>
+      <label>学习<input type="checkbox" value="study" v-model="hobby"></label>
+      <label>打游戏<input type="checkbox" value="game" v-model="hobby"></label>
+      <label>吃饭<input type="checkbox" value="eat" v-model="hobby"></label>
+    </div>
+    <div>
+      <span>所属校区</span>
+      <select v-model="city">
+        <option value="">--请选择校区--</option>
+        <option value="bj">北京</option>
+        <option value="sh">上海</option>
+        <option value="sz">深圳</option>
+        <option value="wh">武汉</option>
+      </select>
+    </div>
+    <div>
+      <span>其他信息</span>
+      <!-- lazy 修饰符会在失去光标焦点时触发数据收集 -->
+      <textarea cols="30" rows="10" v-model.layz="other"></textarea>
+    </div>
+    <div>
+      <input type="checkbox" v-model="agree">
+      <span>阅读并接受</span>
+    </div>
+    <div>用户协议</div>
+    <input type="submit" value="提交">
+  </form>
+</body>
+
+<script src="./vue.js"></script>
+<script>
+  new Vue({
+    el: '#form',
+    data() {
+      return {
+        account: '',
+        password: '',
+        age: '',
+        sex: 'male',
+        hobby: ['study'],
+        city: '',
+        other: '',
+        agree: false
+      }
+    },
+    methods: {
+      submit() {
+        console.log(this._data)
+      }
+    }
+  })
+</script>
+
+</html>

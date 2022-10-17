@@ -401,120 +401,330 @@ key 是虚拟 DOM 对象的标识, 当数据发生变化时, Vue 会根据新数
 
 一般开发中建议使用数据的唯一标识作为 `key`
 
+# **过滤器 filters**
 
+类似于 angular 里的管道, 使用管道符 `|` 来使用 `{{params | filters}}`, 过滤器之间可以串联
 
+filters 函数会默认使用 `|` 之前的参数 `params`, 也可以在 `()` 添加新参数 `{{params | filters(p2)}}`
 
+在配置项里的过滤器是局部过滤器, 也可以配置全局过滤器 `Vue.filter('mySlice', func)`
 
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-# 过滤器filters
-- 也是一个函数，类似于计算属性。
-- 定义时有参数，调用时格式 `{{参数|函数名}}`, 即默认把 | 前的值当作函数参数
-
-
-
-# Vue 组件化
-- 注册组件步骤：创建组件构造器 - 注册组件 - 使用组件
-```html
-<div id="app">
-  <!-- 在挂载了的vue元素里使用 -->
-  <mytest></mytest>
-</div>
-<script>
-  // 创建组件构造器
-  const test = Vue.extend({
-    // template ：定义自定义的模板
-    template: `<div>hello vue</div>`
-  })
-  // 全局注册组件
-  // 参数为注册后组件的标签名，组件构造器，相当于实例化
-  Vue.component('mytest', test)
-  // 使用组件
-  // 组件必须挂载在某个Vue时立下，否则她不会生效
-  const app = new Vue({
-    el: '#app'
-  })
-</script>
-```
-- 全局组件与局部组件
-- 全局组件直接用 Vue.component 注册，局部组件写在实例里面
-- 全局组件所有 Vue 实例都能用，局部组件只有该实例能用
-```html
-<div id="app"><mytest></mytest></div>
-<script src="./node_modules/vue/dist/vue.js"></script>
-<script>
-  const test = Vue.extend({ template: `<q>这是一个引用</q>` })
-  const app = new Vue({
-    el: '#app',
-    // Vue 实例化传入的对象有一个属性 components, 用来注册组件
-    // 值也是一个对象，其中属性名为组件标签名，属性值为组件构建器
-    components: { mytest: test }})
-</script>
-```
-- 父组件与子组件
-- 即在某个组件里注册另一个组件，new Vue() 可以看作跟组件
-```html
-<div id="app"><mytest></mytest></div>
-<script>
-  const child = Vue.extend({ template: `<q>我是一个孩子</q>` })
-  const test = Vue.extend({
-    template: 
-    // 模板的内容必须包裹在一个根标签下
-    // 使用组件
-    `<div><q>这是一个父亲</q><mychild></mychild></div>`,
-    // 注册局部组件
-    components: { mychild: child }
-  })
-  const app = new Vue({
-    el: '#app',
-    components: { mytest: test }
-  })
-</script>
-```
-- 组件语法糖
 ```js
-// 全局注册组件
-Vue.component('mytest', { 
-  template: '<div><q>组件的</q><q>语法糖</q></div>'
+new Vue({
+  filters: {
+    timeFomatter(params, p2) {
+      return xxx
+    }
+  }
 })
-// 局部注册组件
-components: {
-  mytest: {
-    template: '<div><q>组件的</q><q>语法糖</q></div>' }}
 ```
-- 组件模板分离
-- template 中定义模板会显得会杂乱，可以把模板给抽离出来
+
+# **其他内置指令**
+
+## **v-text**
+
+向绑定节点里渲染文本内容, 他会替换掉节点原来的内容, 其他则与 `{{}}` 一致
+
+## **v-html**
+
+与 `v-text` 不同, `v-html` 会解析 html 结构
+
+`v-html` 有安全性问题, 动态渲染 HTML 非常危险, 容易导致 `XSS` 攻击
+
+tips: `XSS` 攻击, a 标签的 `href` 中可以写 js 代码, 这样如果在里面获取 cookies 等信息时就能被解析, 从而造成信息泄露
+
+## **v-cloak**
+
+配合 css 使用, 将未经解析的模板隐藏, 等解析完成后再显示
+
 ```html
-<!-- 1. 在 script 标签里写模板，指定 type 值 -->
-<script type="text/x-template" id="test">
-  <div><q>hello</q><q>Vue</q></div>
-</script>
-<!-- 2. 在 template 标签里写模板 -->
-<template id="test">
-  <div><q>hello</q><q>Vue</q></div>
-</template>
-<!-- 使用 -->
+<style>
+  [v-cloak] { display: none }
+</style>
+<body>
+  <div v-cloak>{{xxx}}</div>
+</body>
+```
+
+## **v-once**
+
+所在节点在初次动态渲染后就视为静态内容了, 不会再引起响应式变化
+
+## **v-pre**
+
+让 Vue 跳过其所在节点的编译过程, 可利用它跳过没有使用指令或插值语法的节点, 加快编译
+
+# **自定义指令**
+
+**定义**
+
+使用 `Vue.directive(指令名, 配置对象)` 或 `Vue.directive(指令名, 回调函数)` 来定义全局指令
+
+使用 `new Vue()`, 在配置项里设置 `directives(指令名, 配置对象/回调函数)` 来定义
+
+**指令的钩子函数**
+
+`bind` 指令与元素成功绑定时调用
+
+`inserted` 指令所在元素被插入页面时调用
+
+`update` 指令所在模板结构被重新解析时调用
+
+当使用回调函数时, 是简写形式, 只有 bind 和 update 两个时间节点
+
+钩子函数接收两个参数 `(element, binding)` 表示绑定的元素和绑定对象
+
+**注意事项**
+
+指令定义时不加 `v-`, 使用时加上 `v-`
+
+指令名如果是多个单词, 需使用 `kebab-case` 命名方式1, 不用 `camelCase` 命名方式
+
+指令的钩子函数中 `this` 指向的是 `window`
+
+# **生命周期函数**
+
+在 vue 运行过程中, 会经历某些关键时刻, 在这些时刻会调用某些函数, 即生命周期函数
+
+```js
+new Vue({
+  ...,
+  mounted() { 
+    ...
+  }
+})
+```
+
+`beforeCreate` 数据检测, 数据代理创建前, 此时 vm 中无法反访问到 data 与 methods 中方法
+
+`created` 数据响应式设计创建完成后, 此时可以访问数据方法
+
+`beforeMount` 挂载前, Vue 解析好模板, 生成好虚拟 DOM, 但页面上还是未编译的内容
+
+`mounted` 挂载后, 完成模板解析并把初始的真实 DOM 元素放入页面后调用, 此时可以说是 Vue 初始化完成
+
+`beforeUpdate` 页面更新前, 此时数据更新了, 但页面是旧的
+
+`updated` 更新完成后, 数据和页面保持同步
+
+`beforeDestory` 销毁前, 此时所有功能都处于正常状态, 一般在此关闭定时器, 取消订阅等操作
+
+`destoryed` 销毁后
+
+# **Vue 组件化**
+
+组件的定义: 实现应用中局部功能的代码和资源的集合
+
+## **创建组件(非单文件)**
+
+创建 vue 实例使用 `new Vue`, 而创建组件用 `Vue.extend()`, 返回的是组件本身
+
+创建组件的配置里 data 用函数式表示, 也不能用 `el` 指定模板, 而用 `template` 指定模板
+
+```js
+// 创建组件
+// 这里的 demo 只是一个组件变量
+const demo = Vue.extend({
+  name: '', // 指定组件名称, 指定在开发者工具中的名字
+  // el: '#root' // 错误写法, 组件中指定模板不用 el, el 属于 vm
+  // template 只能有一个根节点
+  template: `
+    <div>
+      ...
+    </div>
+  `,
+  // data 需用函数形式, 因为对象是引用类型, 在组件复用时每个组件的 data 都指向同一地址, 造成混乱
+  // 写成函数式, 每次都返回一个新对象
+  data() { 
+    return {
+      ...
+    }
+  }
+})
+
+// 简写 
+const demo = { } // 在注册是, 如果传入的组件是一个对象, Vue 会自动调用 extend
+```
+
+## **注册组件**
+
+局部注册: 在 `new Vue()` 中用配置项 `components` 来注册
+
+```js
+new Vue({
+  components: {
+    'xxx': demo // 'xxx' 组件的标签名
+  }
+})
+```
+
+全局注册: 使用 `Vue.component(标签名, 组件)` 方法
+
+```js
+Vue.component('xxx', demo)
+```
+
+## **使用组件**
+
+```html
+<body>
+  <!-- // 用标签名写 -->
+  <xxx></xxx>
+</body>
+```
+
+## **VueComponent**
+
+组件本质是一个 `VueComponent` 的构造函数, 是调用 `Vue.extend()` 生成的
+
+当解析组件标签时, 会创建 `VueComponent` 的实例对象 `new VueComponent(option)`
+
+每一次调用 `Vue.extend` 返回的都是一个新的 `VueComponent`
+
+在组件中, 相关 Vue 函数的 `this` 为 `VueComponent` 实例对象
+
+[Vue 原型链](./img/vue%E5%8E%9F%E5%9E%8B%E9%93%BE.png)
+
+```
+vm.__proto__ --> Vue.prototype -> Object.prototype
+vc.__proto__ --> VueComponent.prototype --> Vue.prototype --> Object.prototype：Vue 手动实现
+vue 手动将组件构造函数的原型对象指向 Vue 构造函数的原型对象, 让组件实例对象可以访问到 Vue 原型上的属性
+```
+
+## **单文件组件**
+
+用 `.vue` 后缀结尾的, 一个文件即代表一个组件
+
+```html
+<style>组件样式</style>
+<template>组件模板</template>
+<script>组件脚本</script>
+```
+
+script 中利用 es6 模块化导出, 直接导出对象是因为注册组件时, 当接受的是对象将自动调用创建组件的 api
+
+```html
 <script>
-  const app = new Vue({
-    el: '#app',
-    components: {
-      mytest: {
-        // 通过 id 来绑定相应的模板
-        template: '#test'}}})
+  export default {
+    name: 'demo', // 指定组件名称, 指定在开发者工具中的名字
+    data() {
+      return {
+        xxx
+      }
+    }
+  }
 </script>
 ```
+
+# **Vue 脚手架**
+
+安装 `@vue/cli` 包 `npm i @vue/cli -g`, 装完即可识别 vue 命令
+
+创建项目 `vue create xxx`
+
+**render 函数**
+
+默认使用 es6 引入 `import Vue from 'vue'` 的 vue 是 `vue.runtime.esm.js` 版本, 缺少模板编译器
+
+模板编译完成后, 就不需要编译器了, 不需要再打包到项目文件里, 节省空间
+
+```js
+import Vue from 'vue'
+new Vue({
+  // 使用 template 配置项不会生效，因为没有模板解析器
+  // template: `<h2>hello</h2>`, 
+  // 使用 render 函数接收到的 createElement 函数去指定具体内容
+  render: () => createElement => createElement('h2', 'hello')
+}).$mount('#app')
+```
+
+**更改配置**
+
+使用 `vue inspect > output.js` 可查看 Vue 脚手架的默认配置
+
+可在 package.json 同级目录下使用 `vue.config.js` 文件修改配置
+
+# **组件交互**
+
+## **ref 属性**
+
+用来给元素或子组件注册引用信息, 应用在标准标签上是真实 DOM 元素, 而在组件上是组件的实例对象, 以此来直接操作子组件或 DOM
+
+可使用 `vc.$refs` 来获取所有 ref 或 `vc.$refs.xxx` 来获取某个 ref
+
+```js
+<ChildComponent ref='childComponent' />
+<div ref='div'></div>
+
+new Vue({
+  methods: {
+    getDom() {
+      console.log(this.$refs)
+    }
+  }
+})
+```
+
+## **props 配置项**
+
+令组件接收外部传入的数据
+
+`props` 有三种方式, 数组形式, 对象简写, 和完整对象形式
+
+```html
+<!-- // 父组件 -->
+<Demo name='xxx' />
+```
+```js
+// <!-- 子组件 -->
+export default {
+  props: [ 'name' ] // 数组形式，只用于接收
+  props: {
+    name: Number // 对象简写，限制数据类型
+  }
+  props: {
+    name: {
+      type: String, // 类型
+      default: 'xx', // 默认值
+      required: true // 是否必传
+    }
+  }
+}
+```
+
+tips: props 是只读的, 如果修改了会发出警告, 如果业务中确实需要修改, 可复制到 data 中来处理
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# discard
 
 # Vue父子组件的传值
 - 组件中的 data 属性不能为一个对象，应该是一个函数且返回一个对象
