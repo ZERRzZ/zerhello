@@ -475,6 +475,7 @@ tips: `XSS` 攻击, a 标签的 `href` 中可以写 js 代码, 这样如果在�
 钩子函数接收两个参数 `(element, binding)` 表示绑定的元素和绑定对象
 
 **注意事项**
+<<<<<<< HEAD
 
 指令定义时不加 `v-`, 使用时加上 `v-`
 
@@ -561,6 +562,50 @@ new Vue({
 
 ## **创建组件(非单文件)**
 
+=======
+
+指令定义时不加 `v-`, 使用时加上 `v-`
+
+指令名如果是多个单词, 需使用 `kebab-case` 命名方式1, 不用 `camelCase` 命名方式
+
+指令的钩子函数中 `this` 指向的是 `window`
+
+# **生命周期函数**
+
+在 vue 运行过程中, 会经历某些关键时刻, 在这些时刻会调用某些函数, 即生命周期函数
+
+```js
+new Vue({
+  ...,
+  mounted() { 
+    ...
+  }
+})
+```
+
+`beforeCreate` 数据检测, 数据代理创建前, 此时 vm 中无法反访问到 data 与 methods 中方法
+
+`created` 数据响应式设计创建完成后, 此时可以访问数据方法
+
+`beforeMount` 挂载前, Vue 解析好模板, 生成好虚拟 DOM, 但页面上还是未编译的内容
+
+`mounted` 挂载后, 完成模板解析并把初始的真实 DOM 元素放入页面后调用, 此时可以说是 Vue 初始化完成
+
+`beforeUpdate` 页面更新前, 此时数据更新了, 但页面是旧的
+
+`updated` 更新完成后, 数据和页面保持同步
+
+`beforeDestory` 销毁前, 此时所有功能都处于正常状态, 一般在此关闭定时器, 取消订阅等操作
+
+`destoryed` 销毁后
+
+# **Vue 组件化**
+
+组件的定义: 实现应用中局部功能的代码和资源的集合
+
+## **创建组件(非单文件)**
+
+>>>>>>> 7148c8a2f73c59b628711be74ee901ecc252a264
 创建 vue 实例使用 `new Vue`, 而创建组件用 `Vue.extend()`, 返回的是组件本身
 
 创建组件的配置里 data 用函数式表示, 也不能用 `el` 指定模板, 而用 `template` 指定模板
@@ -666,12 +711,17 @@ script 中利用 es6 模块化导出, 直接导出对象是因为注册组件时
 
 创建项目 `vue create xxx`
 
+<<<<<<< HEAD
 ## **render 函数**
+=======
+**render 函数**
+>>>>>>> 7148c8a2f73c59b628711be74ee901ecc252a264
 
 默认使用 es6 引入 `import Vue from 'vue'` 的 vue 是 `vue.runtime.esm.js` 版本, 缺少模板编译器
 
 模板编译完成后, 就不需要编译器了, 不需要再打包到项目文件里, 节省空间
 
+<<<<<<< HEAD
 ```js
 import Vue from 'vue'
 new Vue({
@@ -707,6 +757,33 @@ new Vue({
 可使用 `vc.$refs` 来获取所有 ref 或 `vc.$refs.xxx` 来获取某个 ref
 
 ```js
+=======
+```js
+import Vue from 'vue'
+new Vue({
+  // 使用 template 配置项不会生效，因为没有模板解析器
+  // template: `<h2>hello</h2>`, 
+  // 使用 render 函数接收到的 createElement 函数去指定具体内容
+  render: () => createElement => createElement('h2', 'hello')
+}).$mount('#app')
+```
+
+**更改配置**
+
+使用 `vue inspect > output.js` 可查看 Vue 脚手架的默认配置
+
+可在 package.json 同级目录下使用 `vue.config.js` 文件修改配置
+
+# **组件交互**
+
+## **ref 属性**
+
+用来给元素或子组件注册引用信息, 应用在标准标签上是真实 DOM 元素, 而在组件上是组件的实例对象, 以此来直接操作子组件或 DOM
+
+可使用 `vc.$refs` 来获取所有 ref 或 `vc.$refs.xxx` 来获取某个 ref
+
+```js
+>>>>>>> 7148c8a2f73c59b628711be74ee901ecc252a264
 <ChildComponent ref='childComponent' />
 <div ref='div'></div>
 
@@ -776,6 +853,11 @@ tips: props 是只读的, 如果修改了会发出警告, 如果业务中确实�
 
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 7148c8a2f73c59b628711be74ee901ecc252a264
 # discard
 
 # Vue父子组件的传值
