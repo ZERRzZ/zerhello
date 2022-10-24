@@ -841,6 +841,14 @@ this.$nextTick(回调函数)
 
 适用于更新数据后, 要基于更新后的新 DOM 进行 DOM 操作时, 要在 `nextTick` 所指定的回调函数中执行
 
+## **父子组件直接访问**
+
+父组件直接访问子组件：`$children` 或 `$refs`, `this.$children` 是一个数组, 包含了当前父组件下所有的子组件对象
+
+子组件访问父组件: `this.$parent`, 默认就是父组件对象, 可直接调用父组件属性
+
+`this.$root` 直接访问 Vue 实例，跟组件
+
 # **过渡与动画**
 
 用固定的类型定义动画, 再将所需要的动画的元素用 `<transition>` 标签包裹
@@ -889,71 +897,51 @@ this.$nextTick(回调函数)
 }
 ```
 
+# **发送请求**
 
+## **常见方式**
 
+- `xhr` 鼻祖
+- `jQuery` 封装 DOM 和 xhr
+- `axios` 基于 promise 的异步请求方式
+- `fetch` 原生 js 就有的, 基于 promise 的异步请求方式
 
+## **跨域**
 
+- `jsonp` 利用 script 标签, 需要前后端配合
+- `CORS` 服务器在返回的响应头上设置一个特殊的响应头
+- 代理服务器方式 `nginx` 或 `vue-cli`
 
+## **脚手架代理服务器**
 
+在 `vue.config.js` 中配置, 前端 -> 代理服务器 -> 服务器
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# discard
-
-
-# 父子组件的访问
-- 父组件直接访问子组件：`$children` 或 `$refs` 
-- `this.$children` 是一个数组，包含了当前父组件下所有的子组件对象
-- `this.$refs` 默认是一个空对象，只有在子组件上绑定属性：`ref='name'`，才可以获得相关子组件对象：`this.$refs.name`
-```html
-<div id="app">
-  <!-- 两个子组件，一个绑定了 ref 属性，一个没有 -->
-  <test></test>
-  <test ref="two"></test>
-  <input type="button" value="按钮" @click="showchildren">
-</div>
-<template id="test"><div>test</div></template>
-<script>
-  const app = new Vue({
-    el: '#app',
-    data: {
-      name: 'TEST PARENT' // 父组件中的 name 值
-    },
-    methods: {
-      showchildren() {
-        console.log(this.$children) // 将两个子组件都打印出来
-        console.log(this.$refs); // 只打印绑定了 ref 属性的组件
-      }
-    },
-    components: {
-      test: {
-        template: '#test',
-        data() {
-          return { cname: 'test children'}}}}}) // 子组件中 cname 值
-</script>
+```js
+// 开启代理服务器
+// 简单配置会优先请求前端已存在的资源
+devServer: {
+  proxy: 'http://localhost:8000'
+}
 ```
-- 子组件访问父组件: `this.$parent`
-- 默认就是父组件对象，可直接调用父组件属性
-- 不推荐使用，会降低组件的独立性
-- `this.$root` 直接访问 Vue 实例，跟组件
+```js
+devServer: {
+  proxy: {
+    '/api': { // 请求前缀, 当前缀有 '/api' 时, 就启用代理
+      target: 'http://localhost:8000', // 代理目标的 host
+      pathRewrite: { '^/api': '' }, // 路径重写, 用来清掉请求前缀
+      ws: true, // 用于支持 websocket, 默认 true
+      changeOrigin: true // 开启时, 服务器收到的请求头中 host 为服务器地址, 默认开启
+    }
+  }
+}
+```
 
-# 插槽slot
-- 为原有的组件增加更强的扩展性
-- 方式一：直接载组件模板里预留 <slot></slot> 标签，使用时在组件标签里写入想要显示的内容即可
+# **插槽**
+
+为原有的组件增加更强的扩展性
+
+方式一: 在组件模板里预留 `<slot></slot>` 标签, 使用时在组件标签里写入想要显示的内容
+
 ```html
 <!-- 使用时分别在标签里写入不同内容 -->
 <test><div>one</div></test>
@@ -966,17 +954,24 @@ this.$nextTick(回调函数)
   </div>
 </template>
 ```
-- 方式二：可以直接在 slot 标签里写入默认内容
-- 方式三：具名插槽，当一个组件中有多个插槽时，可以设置 name 属性来区分， 使用时则表明 slot 属性，两属性值相等即可
+
+方式二: 具名插槽, 当一个组件中有多个插槽时, 可以用 `name` 属性来区分, 使用时则用`slot` 属性, 两属性值相等即可
+
 ```html
 <!-- 组件中 -->
 <slot name='aaa'></slot>
+<slot name='bbb'></slot>
 <!-- 使用时 -->
-<div slot='aaa'>
-  ...
-</div>
+<div slot='aaa'></div>
+<div slot='bbb'></div>
+<!-- 新: 使用 template 标签可用 v-slot:xxx 来指定 -->
+<template v-slot:aaa></template>
 ```
-- 方式四：作用域插槽，替换插槽的时候，数据由子组件来提供
+
+方式三: 作用域插槽, 替换插槽的时候, 数据由子组件来提供
+
+插槽定义时 `:name='name'` 使用时 `slot-scope` `scope` `v-slot:xxx='name'`
+
 ```html
 <template id="test">
   <div>
@@ -992,3 +987,9 @@ this.$nextTick(回调函数)
   <div slot-scope='test'>{{test}}</div>
 </test>
 ```
+
+# **vuex**
+
+## **概念**
+
+专门在 Vue 中实现集中式数据管理的插件
