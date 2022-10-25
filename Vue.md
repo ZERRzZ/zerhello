@@ -993,3 +993,128 @@ devServer: {
 ## **概念**
 
 专门在 Vue 中实现集中式数据管理的插件
+
+## **快速上手**
+
+组件中读取 vuex 的数据: `$store.state.sum`
+
+组件中修改 vuex 的数据: `$store.dispatch('actions方法名', 数据)` 或 `$store.commit('mutations中方法名', 数据)`
+
+一般情况下: `state -> actions -> mutations`, 但如果没有其他业务逻辑, 可以越过 `actions`
+
+```js
+// npm i vuex 安装
+import Vuex from 'vuex' // 导入
+Vue.use(Vuex) // 使用插件
+new Vue({
+  store: store // 再 new Vue 中配置
+})
+```
+```js
+// 定义 store, 以及其中的 state, actions, mutations
+export default new Vuex.Store({
+  state: { }, // 准备 state 用于存储数据
+  actions: { }, // 准备 actions 用于响应组件中的动作
+  mutations: { } // 准备 mutations 用于操作数据
+})
+```
+
+## **上下文对象**
+
+在 `actions` 中存在, 包括了 `dispatch` `commit` `state` 等, 方便做一些处理
+
+## **getters**
+
+相当于 store 的计算属性, 可以在全局复用的计算属性
+
+```js
+export default new Vuex.Store({
+  getters: {
+    xxx() {
+      return xxx
+    }
+  }
+})
+```
+
+## **mapState 与 mapGetters**
+ 
+`vuex` 中提供的映射 `state` 与 `getters` 中数据的方式, 方便在组件中的应用
+
+`mapState` 和 `mapGetters` 中会返回一个对象, 做一个映射
+
+```js
+computed: {
+  ...mapState({ xxx: 'xxx', ... }) // 对象写法
+  ...mapState({ xxx: 'xxx', ... }) // 对象写法
+  ...mapState(['xxx', '...']) // 数组写法
+}
+```
+
+## **mapActions 与 mapMutations**
+
+类似上面, 可以简写 `actions` 和 `mutations` 的 `dispatch` 和 `commit`
+
+```js
+<input type='button' value='click me' @click='test(n)'>
+methods: {
+  ...mapActions({
+    test: 'test' // 'test' 为 actions 中的方法
+  })
+  ...mapMutations({
+    test: 'TEST' // 'TEST' 为 mutations 中的方法
+  })
+}
+```
+
+## **modules 模块化**
+
+允许将 store 分割成模块，相当于一层一层的
+
+```js
+// 定义不同的 store 模块
+const s1 = { actions: ..., mutations: ..., state: ..., getters: ... }
+cosnt s2 = { ... }
+// 导出
+export default new Vuex.Store({
+  modules: {
+    s1,
+    s2
+  }
+})
+```
+
+模块化之后, 数据都分别存在 s1, s2 中, 比如 `$store.state.s1.xxx`, 需要分别去拿
+
+也可以使用 `namespaced: true` 配置来配置命名空间
+
+```js
+// 使用命名空间来区别
+...mapState('s1', { xxx: 'xxx', ... }) // 对象写法
+...mapState('s2', { xxx: 'xxx', ... }) // 对象写法
+```
+
+在使用了 `namespaced: true` 之后, 但不用 map 类方法
+
+```js
+// commit
+this.$store.commit('s1/TEST', xxx)
+```
+
+# **路由**
+
+`npm i vue-router` 安装
+
+通过检测地址栏 url 的变化, 根据配置好的路由组件来进行组件间的切换, 这种切换并不会刷新页面。
+
+## **SPA 应用**
+
+单页面应用, 只有一个页面, 跳转不会刷新页面
+
+## **前后端路由**
+
+路由一般是 `key-value` 形式
+
+前端: `key` 匹配路径, `value` 是组件, 根据路径展示不同组件
+
+后端: `key` 匹配路径, `value` 是处理函数, 根据路径匹配不同处理函数
