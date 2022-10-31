@@ -3,14 +3,15 @@
 编程范式：Vue 是声明范式, 而原生 JS 是命名范式
 
 ```js
-<div id='app'>{{message}}</div>
+<div id="app">{{ message }}</div>;
 // 创建一个 Vue 实例， 传入对象，固定的属性名对应固定的功能
 new Vue({
-  el: '#app', // 挂载要管理的元素
-  data: {  // 定义数据
-    message: 'Hello Vue'
-  }
-})
+  el: "#app", // 挂载要管理的元素
+  data: {
+    // 定义数据
+    message: "Hello Vue",
+  },
+});
 ```
 
 # **Data 与 el 的两种方式**
@@ -36,11 +37,11 @@ vm.$mount('#app')
 
 # **MVVM 模型**
 
-MVVM即：Moudle(模型) - View(视图) - ViewMoudle(视图模型)
+MVVM 即：Moudle(模型) - View(视图) - ViewMoudle(视图模型)
 
 在 Vue 里就是 data 数据 - 模板 - Vue 实例对象
 
-[vue中的MVVM](./img/Vue中MVVM.png)
+[vue 中的 MVVM](./img/Vue中MVVM.png)
 
 # **Vue 数据代理与响应式设计**
 
@@ -84,8 +85,8 @@ Object.defineProperty(_obj, 'age', {
 
 ```js
 // 只能在 data 对象的子对象里添加, 不能直接添加到 data 上
-Vue.set(vm.xxx, 'xxxx', 'xxx')
-vm.set(vm, 'xx', 'xxx') // error
+Vue.set(vm.xxx, "xxxx", "xxx");
+vm.set(vm, "xx", "xxx"); // error
 ```
 
 ## **数组的响应式**
@@ -97,12 +98,12 @@ vm.set(vm, 'xx', 'xxx') // error
 数组响应式函数：push, pop, shift, unshift, splice, sort, reverse, Vue 将这些方法包装了一下, 让它们可以响应式变化
 
 为什么不给数组的每一项添加响应式设计: 理论上可以, 但作者说时性能问题
- 
+
 # **模板语法**
 
 ## **插值语法**
 
-Mustache语法：`{{}}` 不仅可以写变量, 还可以写表达式
+Mustache 语法：`{{}}` 不仅可以写变量, 还可以写表达式
 
 ## **v-bind**
 
@@ -115,22 +116,31 @@ v-bind 的值可以为一个对象, 属性值为 boolean，当为真时, 显示�
 ```html
 <!-- 点击那个 li， 该 li 里的文字边红 -->
 <style>
-  .red {color: red;}
+  .red {
+    color: red;
+  }
 </style>
 <div id="app">
-  <div v-for='i in bangumi' :class="{red: init === i}" @click="addRed(i)">{{i}}</div>
+  <div v-for="i in bangumi" :class="{red: init === i}" @click="addRed(i)">
+    {{i}}
+  </div>
 </div>
 <script>
   const app = new Vue({
-    el: '#app',
+    el: "#app",
     data: {
-      bangumi: ['TOUCH', 'H2', 'CORSS GAME', 'MIX'],
-      init: ''
+      bangumi: ["TOUCH", "H2", "CORSS GAME", "MIX"],
+      init: "",
     },
-    methods: { addRed(i) { this.init = i } }
-  })
+    methods: {
+      addRed(i) {
+        this.init = i;
+      },
+    },
+  });
 </script>
 ```
+
 v-bind 也可以绑定 style 属性，`:style='{key: value, css属性名：css属性值}'`
 
 ## **v-model**
@@ -138,28 +148,30 @@ v-bind 也可以绑定 style 属性，`:style='{key: value, css属性名：css�
 与 `v-bind` 不同的是, `v-model` 是双向绑定, 改变页面的同时会影响数据本身, 只用于表单元素
 
 ```html
-<input type="text" v-model:value='name'>
+<input type="text" v-model:value="name" />
 <!-- 可以简写成 `v-model = 'name'`, 因为默认收集的就是 `value` 值 -->
-<input type="text" v-model='name'>
+<input type="text" v-model="name" />
 ```
+
 配合 radio 使用, 默认绑定 `name` 值
 
 ```html
-<label><input type="radio" value="male" v-model="gender">男</label>
-<label><input type="radio" value="female" v-model="gender">女</label>
+<label><input type="radio" value="male" v-model="gender" />男</label>
+<label><input type="radio" value="female" v-model="gender" />女</label>
 ```
-配合 checkbox 使用, 当作为单选框是 v-model 绑定的值时布尔值, 选中为true，未选中为false
+
+配合 checkbox 使用, 当作为单选框是 v-model 绑定的值时布尔值, 选中为 true，未选中为 false
 
 ```html
 <div id="app">
-  <input type="checkbox" v-model="check">{{check}}同意协议
-  <input type="button" value="同意方可下一步" :disabled="!check">
+  <input type="checkbox" v-model="check" />{{check}}同意协议
+  <input type="button" value="同意方可下一步" :disabled="!check" />
 </div>
 <script>
   const app = new Vue({
-    el: '#app',
-    data: { check: false }
-  })
+    el: "#app",
+    data: { check: false },
+  });
 </script>
 ```
 
@@ -169,16 +181,18 @@ v-bind 也可以绑定 style 属性，`:style='{key: value, css属性名：css�
 <div id="app">
   <!-- 动态从数组中获得，注意要包起来 -->
   <label v-for="item in orignCheck">
-    <input type="checkbox" v-model="check" :value="item">
+    <input type="checkbox" v-model="check" :value="item" />
     <span>{{item}}</span>
   </label>
 </div>
 <script>
   const app = new Vue({
-    el: '#app',
+    el: "#app",
     data: {
-      check:[],
-      orignCheck: ['H2', 'TOUCH', 'CROSS GAME', 'MIX'] }})
+      check: [],
+      orignCheck: ["H2", "TOUCH", "CROSS GAME", "MIX"],
+    },
+  });
 </script>
 ```
 
@@ -199,22 +213,25 @@ v-model 的修饰符：
 ```html
 <div id="app">
   <h3>当前数字：{{count}}</h3>
-  <input type="button" value="+" @click="add()">
-  <input type="button" value="-" v-on:click="sub()">
+  <input type="button" value="+" @click="add()" />
+  <input type="button" value="-" v-on:click="sub()" />
 </div>
 <script>
   const app = new Vue({
-    el: '#app',
+    el: "#app",
     data: {
-      count: 0
+      count: 0,
     },
     methods: {
-      add() { this.count++},
-      sub() { this.count--}
-    }
-  })
+      add() {
+        this.count++;
+      },
+      sub() {
+        this.count--;
+      },
+    },
+  });
 </script>
-
 ```
 
 事件参数 event，当只需要该参数时，可以在调用时不加小括号，而定义时使用该参数
@@ -298,7 +315,9 @@ watch: {
 也可以使用 vm 的 `$watch` 方法来监视
 
 ```js
-vm.$watch('isHot', { /* 与配置项里一致 */ })
+vm.$watch("isHot", {
+  /* 与配置项里一致 */
+});
 ```
 
 ## **深度监视**
@@ -309,10 +328,9 @@ watch 配置里的 `deep` 实现滚设置为 true 即可监测
 
 ```js
 watch: {
- isHot: {
-    deep: true,
-    handler()
- }
+  isHot: {
+    deep: true, handler();
+  }
 }
 ```
 
@@ -332,13 +350,13 @@ computed 能完成的功能 watch 都可以完成, 反之则不是, 例如: 计�
 
 tip: 所有被 Vue 管理的函数最好写成普通函数, 这样 this 的指向才是 vm 或组件实例对象, 而不被 Vue 管理的, 最好写成箭头函数
 
-# **条件渲染** 
+# **条件渲染**
 
 ## **v-if**
 
 v-if, v-else, v-else-if 类似于逻辑语句, 当比较复杂时, 不建议写在标签里
 
-当条件为false时, 包含 v-if 指令的元素根本不会出现在 DOM 中
+当条件为 false 时, 包含 v-if 指令的元素根本不会出现在 DOM 中
 
 ```js
 <div v-if="n === 1">1</div>
@@ -351,12 +369,12 @@ v-if 可以与 `template` 搭配使用, 在不影响页面结构的情况下批�
 注意 `template` 只能与 `v-if` 搭配不能与 `v-show` 搭配
 
 ```js
-<template v-if='n === 1'>
+<template v-if="n === 1">
   <h2>你好</h2>
   <h2>Vue</h2>
   <h2>hello</h2>
 </template>
-``` 
+```
 
 ## **v-show**
 
@@ -374,25 +392,26 @@ v-for 可以遍历数组, 遍历对象, 遍历字符串甚至遍历指定次数
 
 ```html
 <div id="app">
-  <div v-for='(n, index) in nums' :key='index'>{{i}}</div>
+  <div v-for="(n, index) in nums" :key="index">{{i}}</div>
 </div>
 ```
+
 ```js
 new Vue({
-  el: '#app',
+  el: "#app",
   data: {
-    nums: [1, 2, 3, 4]
-  }
-})
+    nums: [1, 2, 3, 4],
+  },
+});
 ```
 
 循环数组：`v-for="item in array"` 或 `v-for="(item, index) in array"` 表示值和索引
 
 遍历对象：`v-for="value in obj"` 或 `v-for="(value, key) in obj"` 只有一个参数时表示对象的属性值
 
-**key的作用与原理**
+**key 的作用与原理**
 
-key 是虚拟 DOM 对象的标识, 当数据发生变化时, Vue 会根据新数据生成新的虚拟 DOM, 随后 Vue 会进行新虚拟 DOM 与旧虚拟 DOM 的差异比较: 
+key 是虚拟 DOM 对象的标识, 当数据发生变化时, Vue 会根据新数据生成新的虚拟 DOM, 随后 Vue 会进行新虚拟 DOM 与旧虚拟 DOM 的差异比较:
 
 - 旧虚拟 DOM 中找到与新虚拟 DOM 相同的 key：当虚拟 DOM 中内容没变, 直接使用之前的真实 DOM, 当虚拟 DOM 中内容变了, 则生成新的真实 DOM
 - 旧虚拟 DOM 中找不到与新虚拟 DOM 相同的 key: 创建新的真实 DOM 并渲染
@@ -413,10 +432,10 @@ filters 函数会默认使用 `|` 之前的参数 `params`, 也可以在 `()` �
 new Vue({
   filters: {
     timeFomatter(params, p2) {
-      return xxx
-    }
-  }
-})
+      return xxx;
+    },
+  },
+});
 ```
 
 # **其他内置指令**
@@ -439,7 +458,9 @@ tips: `XSS` 攻击, a 标签的 `href` 中可以写 js 代码, 这样如果在�
 
 ```html
 <style>
-  [v-cloak] { display: none }
+  [v-cloak] {
+    display: none;
+  }
 </style>
 <body>
   <div v-cloak>{{xxx}}</div>
@@ -478,7 +499,7 @@ tips: `XSS` 攻击, a 标签的 `href` 中可以写 js 代码, 这样如果在�
 
 指令定义时不加 `v-`, 使用时加上 `v-`
 
-指令名如果是多个单词, 需使用 `kebab-case` 命名方式1, 不用 `camelCase` 命名方式
+指令名如果是多个单词, 需使用 `kebab-case` 命名方式 1, 不用 `camelCase` 命名方式
 
 指令的钩子函数中 `this` 指向的是 `window`
 
@@ -495,11 +516,12 @@ tips: `XSS` 攻击, a 标签的 `href` 中可以写 js 代码, 这样如果在�
 export const mix = {
   data() {
     return {
-      x: 1
-    }
-  }
-}
+      x: 1,
+    };
+  },
+};
 ```
+
 ```js
 import { mix } from './xxx'
 export default VueComponent {
@@ -533,7 +555,7 @@ export const plug = {
 ```js
 new Vue({
   ...,
-  mounted() { 
+  mounted() {
     ...
   }
 })
@@ -579,14 +601,14 @@ const demo = Vue.extend({
   `,
   // data 需用函数形式, 因为对象是引用类型, 在组件复用时每个组件的 data 都指向同一地址, 造成混乱
   // 写成函数式, 每次都返回一个新对象
-  data() { 
+  data() {
     return {
       ...
     }
   }
 })
 
-// 简写 
+// 简写
 const demo = { } // 在注册是, 如果传入的组件是一个对象, Vue 会自动调用 extend
 ```
 
@@ -597,15 +619,15 @@ const demo = { } // 在注册是, 如果传入的组件是一个对象, Vue 会�
 ```js
 new Vue({
   components: {
-    'xxx': demo // 'xxx' 组件的标签名
-  }
-})
+    xxx: demo, // 'xxx' 组件的标签名
+  },
+});
 ```
 
 全局注册: 使用 `Vue.component(标签名, 组件)` 方法
 
 ```js
-Vue.component('xxx', demo)
+Vue.component("xxx", demo);
 ```
 
 ## **使用组件**
@@ -640,9 +662,13 @@ vue 手动将组件构造函数的原型对象指向 Vue 构造函数的原型�
 用 `.vue` 后缀结尾的, 一个文件即代表一个组件
 
 ```html
-<style>组件样式</style>
+<style>
+  组件样式
+</style>
 <template>组件模板</template>
-<script>组件脚本</script>
+<script>
+  组件脚本;
+</script>
 ```
 
 script 中利用 es6 模块化导出, 直接导出对象是因为注册组件时, 当接受的是对象将自动调用创建组件的 api
@@ -650,13 +676,13 @@ script 中利用 es6 模块化导出, 直接导出对象是因为注册组件时
 ```html
 <script>
   export default {
-    name: 'demo', // 指定组件名称, 指定在开发者工具中的名字
+    name: "demo", // 指定组件名称, 指定在开发者工具中的名字
     data() {
       return {
-        xxx
-      }
-    }
-  }
+        xxx,
+      };
+    },
+  };
 </script>
 ```
 
@@ -673,13 +699,13 @@ script 中利用 es6 模块化导出, 直接导出对象是因为注册组件时
 模板编译完成后, 就不需要编译器了, 不需要再打包到项目文件里, 节省空间
 
 ```js
-import Vue from 'vue'
+import Vue from "vue";
 new Vue({
   // 使用 template 配置项不会生效，因为没有模板解析器
-  // template: `<h2>hello</h2>`, 
+  // template: `<h2>hello</h2>`,
   // 使用 render 函数接收到的 createElement 函数去指定具体内容
-  render: () => createElement => createElement('h2', 'hello')
-}).$mount('#app')
+  render: () => (createElement) => createElement("h2", "hello"),
+}).$mount("#app");
 ```
 
 ## **更改配置**
@@ -707,13 +733,13 @@ new Vue({
 可使用 `vc.$refs` 来获取所有 ref 或 `vc.$refs.xxx` 来获取某个 ref
 
 ```js
-import Vue from 'vue'
+import Vue from "vue";
 new Vue({
   // 使用 template 配置项不会生效，因为没有模板解析器
-  // template: `<h2>hello</h2>`, 
+  // template: `<h2>hello</h2>`,
   // 使用 render 函数接收到的 createElement 函数去指定具体内容
-  render: () => createElement => createElement('h2', 'hello')
-}).$mount('#app')
+  render: () => (createElement) => createElement("h2", "hello"),
+}).$mount("#app");
 ```
 
 **更改配置**
@@ -751,8 +777,9 @@ new Vue({
 
 ```html
 <!-- // 父组件 -->
-<Demo name='xxx' />
+<Demo name="xxx" />
 ```
+
 ```js
 // <!-- 子组件 -->
 export default {
@@ -783,11 +810,13 @@ tips: props 是只读的, 如果修改了会发出警告, 如果业务中确实�
 <!-- // 或者 -->
 <Children ref="children" />
 ```
+
 ```js
 // 子组件, 可以传入多个参数
 this.$emit('myEvent', 1, 2, 3 ...)
 this.$off('myEvent') // 解绑, 解绑多个使用数组来包裹
 ```
+
 ```js
 // 父组件
 sayHello(msg, ...other) { // 用 ...rest 接收
@@ -813,16 +842,17 @@ tips: 使用 `this.$refs.xxx.$on(事件, 回调)` 绑定自定义事件时, 回�
 ```js
 new Vue({
   beforeCreate() {
-    Vue.prototype.$bus = this // 安装全局事件总线
-  }
-})
+    Vue.prototype.$bus = this; // 安装全局事件总线
+  },
+});
 ```
+
 ```js
 // 发送数据
-this.$bus.$emit('xxx', 数据)
+this.$bus.$emit("xxx", 数据);
 // 最好在 beforeDestroy 钩子中用 $off 解绑当前组件所用到的事件
 // 接受数据
-this.$bus.$on('xxx', 回调)
+this.$bus.$on("xxx", 回调);
 ```
 
 ## **消息的订阅与发布**
@@ -836,7 +866,7 @@ api: `pubsub.subscribe(消息名, 回调)` `pubsub.publish(消息名, 数据)` `
 在下一次 DOM 更新结束后执行其指定的回调
 
 ```js
-this.$nextTick(回调函数)
+this.$nextTick(回调函数);
 ```
 
 适用于更新数据后, 要基于更新后的新 DOM 进行 DOM 操作时, 要在 `nextTick` 所指定的回调函数中执行
@@ -858,23 +888,22 @@ this.$nextTick(回调函数)
 `transition-group` 标签对多个元素指定动画, 但每个元素需要 key 值
 
 ```html
-<transition name='test' appear>
-  xxx
-</transition>
+<transition name="test" appear> xxx </transition>
 ```
 
 **动画实现**
 
 ```css
 /* 进入, 名称固定, 但前面 test 是 transition 的 name, 若没有则用 v 来表示 */
-.test-enter-active { 
-  animation: xxx .5s
+.test-enter-active {
+  animation: xxx 0.5s;
 }
 /* 离开 , 名称固定, 但前面 test 是 transition 的 name, 若没有则用 v 来表示*/
-.test-leave-active { 
-  animation: xxx .5s reverse
+.test-leave-active {
+  animation: xxx 0.5s reverse;
 }
-@keyframes xxx { }
+@keyframes xxx {
+}
 ```
 
 **过渡实现**
@@ -883,17 +912,17 @@ this.$nextTick(回调函数)
 /* 进入起点, 离开终点 */
 .test-enter,
 .test-leave-to {
-  transform: translateX(-100%)
+  transform: translateX(-100%);
 }
 /* 进入的过程, 离开的过程 */
 .test-enter-active,
 .test-leave-active {
-  transition: .5s
+  transition: 0.5s;
 }
 /* 进入终点, 离开起点 */
 .test-enter-to,
 .test-leave {
-  transform: translateX(0)
+  transform: translateX(0);
 }
 ```
 
@@ -920,9 +949,10 @@ this.$nextTick(回调函数)
 // 开启代理服务器
 // 简单配置会优先请求前端已存在的资源
 devServer: {
-  proxy: 'http://localhost:8000'
+  proxy: "http://localhost:8000";
 }
 ```
+
 ```js
 devServer: {
   proxy: {
@@ -959,11 +989,11 @@ devServer: {
 
 ```html
 <!-- 组件中 -->
-<slot name='aaa'></slot>
-<slot name='bbb'></slot>
+<slot name="aaa"></slot>
+<slot name="bbb"></slot>
 <!-- 使用时 -->
-<div slot='aaa'></div>
-<div slot='bbb'></div>
+<div slot="aaa"></div>
+<div slot="bbb"></div>
 <!-- 新: 使用 template 标签可用 v-slot:xxx 来指定 -->
 <template v-slot:aaa></template>
 ```
@@ -977,14 +1007,14 @@ devServer: {
   <div>
     <h2>I am a default content</h2>
     <!-- 定义时，绑定自定义变量，将需要传递的值赋给该变量 -->
-    <slot :sname='name'></slot>
+    <slot :sname="name"></slot>
   </div>
 </template>
 <!-- 使用时，在 template 标签里使用，绑定属性 slot-scope ，属性值即为 slot 对象 -->
 <!-- 也可以不在 template 标签上使用 -->
 <test>
-  <template slot-scope='test'>{{test.sname}}</template>
-  <div slot-scope='test'>{{test}}</div>
+  <template slot-scope="test">{{test.sname}}</template>
+  <div slot-scope="test">{{test}}</div>
 </test>
 ```
 
@@ -1004,19 +1034,20 @@ devServer: {
 
 ```js
 // npm i vuex 安装
-import Vuex from 'vuex' // 导入
-Vue.use(Vuex) // 使用插件
+import Vuex from "vuex"; // 导入
+Vue.use(Vuex); // 使用插件
 new Vue({
-  store: store // 再 new Vue 中配置
-})
+  store: store, // 再 new Vue 中配置
+});
 ```
+
 ```js
 // 定义 store, 以及其中的 state, actions, mutations
 export default new Vuex.Store({
-  state: { }, // 准备 state 用于存储数据
-  actions: { }, // 准备 actions 用于响应组件中的动作
-  mutations: { } // 准备 mutations 用于操作数据
-})
+  state: {}, // 准备 state 用于存储数据
+  actions: {}, // 准备 actions 用于响应组件中的动作
+  mutations: {}, // 准备 mutations 用于操作数据
+});
 ```
 
 ## **上下文对象**
@@ -1031,14 +1062,14 @@ export default new Vuex.Store({
 export default new Vuex.Store({
   getters: {
     xxx() {
-      return xxx
-    }
-  }
-})
+      return xxx;
+    },
+  },
+});
 ```
 
 ## **mapState 与 mapGetters**
- 
+
 `vuex` 中提供的映射 `state` 与 `getters` 中数据的方式, 方便在组件中的应用
 
 `mapState` 和 `mapGetters` 中会返回一个对象, 做一个映射
@@ -1098,7 +1129,7 @@ export default new Vuex.Store({
 
 ```js
 // commit
-this.$store.commit('s1/TEST', xxx)
+this.$store.commit("s1/TEST", xxx);
 ```
 
 # **路由**
@@ -1106,6 +1137,8 @@ this.$store.commit('s1/TEST', xxx)
 `npm i vue-router` 安装
 
 通过检测地址栏 url 的变化, 根据配置好的路由组件来进行组件间的切换, 这种切换并不会刷新页面。
+
+组件的切换会销毁组件和重新挂载组件
 
 ## **SPA 应用**
 
@@ -1118,3 +1151,218 @@ this.$store.commit('s1/TEST', xxx)
 前端: `key` 匹配路径, `value` 是组件, 根据路径展示不同组件
 
 后端: `key` 匹配路径, `value` 是处理函数, 根据路径匹配不同处理函数
+
+## **基本路由使用**
+
+在 js 里配置好路由, 在页面上用 `<router-link>` 来指定跳转的链接, `<router-view>` 指定路由出口
+
+`<router-link>` 有两个属性 `to` 指定跳转 url, `active-class` 指定激活路由时的样式类名
+
+```js
+// 一级路由带有根路径 /
+const routes = [{ path: "/xxx", component: xxx }];
+// 页面上使用
+<router-link to='/xxx' active-class='active'><router-link>
+<router-view>
+```
+
+## **多级路由**
+
+在 `children` 配置项里配置, 同样有 `path` `component` 等属性, 但 `path` 不加 `/`
+
+```js
+routes = [
+  { path: '/xxx', component: xxx },
+  {
+    path: '/xxx',
+    component: xxx,
+    children: [
+      path: 'xxx', component: xxx
+    ]
+  }
+]
+```
+
+## **$route 或 $router**
+
+每个组件都有自己的 `$route` 属性, 存储着自己的路由信息
+
+整个应用只有一个 `$router`, 存储着路由相关方法
+
+## **路由参数**
+
+```js
+// 带 query 参数并跳转路由
+// 配置路由时不变
+<router-link :to="`/home/message/detail?id=${id}`"></router-link> // 字符串
+<router-link :to="{ path: '/home/message/detail', query: {id: id}}"></router-link> // 对象
+// 带 params 参数并跳转路由
+<router-link :to="`/home/message/detail/${id}`"></router-link> // 字符串
+<router-link :to="{ name: 'detail', params: {id: id}}"></router-link> // 对象, 不允许写 path, 只能用 name
+// 配置路由时
+{
+  name: 'detail'
+  path: 'detail/:id', // : 占位
+}
+```
+
+## **路由其他配置**
+
+**name**
+
+命名路由, 配置路由时可以加一个 name 参数, 使用时可以用 name 字段来指定路由, 而不用 path
+
+**props**
+
+在路由配置时可以配上 `props` 这样在组件中也可以用 `props` 接收, 同父传子
+
+```js
+{
+  path: '',
+  component: xxx,
+  // 对象形式, 该对象中所有 key-value 都会以 props 形式传递个 xxx 组件
+  // props: { a: 1, b: 2 }
+  // 布尔值, 为真时把该路由组件收到的所有 params 参数以 props 的形式传给 xxx 组件
+  // props: true
+  // 函数形式, 带有参数 $route 可拿到路由信息
+  props($route) {
+    return { id: $route.query.id, title: $route.query.title }
+  }
+}
+```
+
+## **路由历史记录**
+
+使用 `router-link` 默认是 `push` 模式, 他会生成新的历史记录而不会删除当前的
+
+可以使用 `<router-link replace>` 改变成 `replace` 模式, 会替换掉当前历史记录
+
+## **编程式导航**
+
+利用 `$rouer` 上的方法来实现, 而不借助 `<router-link>`
+
+```js
+// 历史记录跳转, number 为正数则往前跳几步, 为负则往后跳几步
+this.$router.go(number)
+// push 模式跳转
+this.$router.push({配置路劲参数等})
+// replace 模式跳转
+this.$router.replace({配置路劲参数等})
+// 前进
+this.$router.forward()
+// 后退
+this.$router.back()
+```
+
+## **缓存路由组件**
+
+使用 `<keep-alive></keep-alive>` 标签包裹路由出口标签, 可以使用 `include` 来指定需要缓存的组件
+
+可以缓存切走的路由组件, 而不销毁, 保存比如输入的内容等
+
+```js
+<keep-alive include='组件名'>
+  <router-view></router-view>
+</keep-alive>
+<keep-alive :include='[组件名, ...]'></keep-alive>
+```
+
+## **activated 和 deactivated**
+
+路由相关的生命周期, 路由组件激活时触发和路由组件失活时触发, 只适用于路由组件
+
+```js
+activated() {
+  this.timer = setInterval(() => console.log(1), 16)
+}
+deactivated() {
+  clearInterval(this.timer)
+}
+```
+
+## **路由守卫**
+
+**全局前置路由守卫**
+
+在路由切换之前调用守卫函数从而达到保护路由的目的
+
+`router.beforeEach((to, from, next) => { })` 通过此函数来在路由跳转前做一些验证
+
+```js
+// 全局放置路由守卫 - 初始化时被调用, 每次切换前被调用
+router.beforeEach((to, from, next) => {
+  console.log(to, from)
+  // 当跳转到 news 或 message 时判断本地缓存中学校名字
+  // 通过 to.path 来决定那些路径需要守卫
+  if (to.path === '/home/news' || to.path === '/home/message') {
+    if (localStorage.getItem('school') === 'xxx') {
+      next()
+    } else {
+      alert('无权限!')
+    }
+  } else {
+    next()
+  }
+})
+```
+
+可以通过路由配置的配置项 `meta: { }`, 一般在 `meta` 配置项里配置布尔属性来判断那些路径需要守卫
+
+```js
+{
+  name: '',
+  path: '',
+  component: xxx,
+  meta: { isAuth: true }
+}
+```
+```js
+router.beforeEach((to, from, next) => {
+  if (to.meta.isAuth) {
+    ...
+  }
+})
+```
+
+**全局后置路由守卫**
+
+`router.afterEach((to, from) => { })` 在路由跳转之后触发
+
+**独享路由守卫**
+
+在配置路由组件的地方配置 `beforeEnter` 表示前置路由守卫, 只对这个组件路由做守卫, 没有独自的后置路由守卫
+
+```js
+{
+  path: ...,
+  component: ...,
+  beforeEnter: (to, from, next) => {
+    ... // 逻辑于全局一致
+  }
+}
+```
+
+**组件内路由守卫**
+
+在组件内部实现路由守卫 `beforeRouteEnter` `beforeRouterLeave`
+
+```js
+new Vue({
+  // 通过路由规则进入该组件时被调用
+  beforeRouteEnter(to, from, next) {
+  
+  }
+  // 通过路由规则离开组件时被调用
+  beforeRouterLeave(to, from, next) {
+  
+  }
+})
+```
+
+## **history 模式和 hash 模式**
+
+在 `new VueRouter({ routes, mode})` 中通过 `mode` 来配置 `history/hash`
+
+区别1: hash 模式兼容性比 history 模式兼容性好
+
+区别2: 部署时使用 history 模式的话, 刷新页面会将路径上的内容发送给服务器, 会报 404 错误
