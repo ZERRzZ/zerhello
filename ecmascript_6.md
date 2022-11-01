@@ -262,25 +262,3 @@ import * as obj from 'xxx.js' // 导入所有，作为 obj 的属性
 
 # 未完待续
 # 类的定义，继承
-
-```js
-// 防抖
-function debounce(func, time) {
-  let timer
-  return function () {
-    clearTimeout(timer)
-    timer = setTimeout(func, time);
-  }
-}
-// 节流
-function throttle(func, time) {
-  let timer
-  return function () {
-    if (!timer)
-      timer = setTimeout(() => {
-        func()
-        timer = undefined
-      }, time)
-  }
-}
-```
