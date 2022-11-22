@@ -47,3 +47,33 @@
 虚拟 DOM 只有一个根标签
 
 标签名若以小写字母开头, 则转化为 html 同名标签; 若以大写字母开头, react 会渲染对应组件
+
+# **组件**
+
+可以直接使用函数来定义 '函数' 组件, 也可以使用 `ES6` 中的类来定义 'class' 组件
+
+使用函数定义时需保证入参 `props` 的只读性, react 不允许修改 `props`
+
+```html
+<div id="app1"></div>
+<div id="app2"></div>
+
+<script type="text/babel">
+  // 函数组件
+  function Welcome1(props) {
+    return <h1>hello, {props.name}</h1>
+  }
+  // class 组件
+  class Welcome2 extends React.Component {
+    render() {
+      return <h1>Hello, {this.props.name}</h1>
+    }
+  }
+  // 创建元素, 传入参数
+  const element1 = <Welcome1 name='sadanya' />
+  const element2 = <Welcome2 name='chengzs' />
+  // 渲染
+  ReactDOM.render(element1, document.getElementById('app1'))
+  ReactDOM.render(element2, document.getElementById('app2'))
+</script>
+```

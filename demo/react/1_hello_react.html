@@ -16,6 +16,7 @@
   <div id="app1"></div>
   <div id="app2"></div>
   <div id="app3"></div>
+  <div id="app4"></div>
 
   <!-- 引入 react 核心库 -->
   <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
@@ -24,7 +25,7 @@
 
   <script>
     // 创建虚拟 DOM
-    const VDOM1 = React.createElement('h1', { title: 'title' }, 'Hello, React') // 标签名, 标签属性, 标签内容
+    const VDOM1 = React.createElement('h1', { title: 'title' }, 'Hello React') // 标签名, 标签属性, 标签内容
     // 渲染虚拟 DOM 到页面
     ReactDOM.render(VDOM1, document.getElementById('app1'))
   </script>
@@ -34,7 +35,7 @@
 
   <script type="text/babel">
     // 使用 JSX 创建虚拟 DOM
-    const VDOM2 = <h1 title='title'>Hello, React</h1>
+    const VDOM2 = <h1 title='title'>Hello React</h1>
     // 渲染
     ReactDOM.render(VDOM2, document.getElementById('app2'))
     console.log(VDOM2)
@@ -48,12 +49,27 @@
         <h1>前端 js 框架</h1>
         <div>
           {
-            data.map((v, i) => <p key={i}>{v}</p>)
+            data.map((v, i) => <p key={i}>- {v}</p>)
           }
         </div>
       </div>
     )
     ReactDOM.render(VDOM3, document.getElementById('app3'))
+  </script>
+
+  <!-- React 只更新它需要更新的地方, 在浏览器检查元素工具查看 -->
+  <script type="text/babel">
+    function tick() {
+      // 官网上不叫虚拟 DOM , 而是 React 元素
+      const element1 = (
+        <div>
+          <h1>Tick Demo</h1>
+          <div>现在是 {new Date().toLocaleTimeString()}</div>
+        </div>
+      )
+      ReactDOM.render(element1, document.getElementById('app4'))
+    }
+    setInterval(() => tick(), 1000)
   </script>
 </body>
 

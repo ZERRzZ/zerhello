@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>component</title>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <div id="app1"></div>
+  <div id="app2"></div>
+
+  <!-- 引入 react 核心库 -->
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <!-- 引入 react-dom , 用于支持 react 操作 DOM -->
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <!-- 引入 babel , 用于将 jsx 转为 js -->
+  <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script type="text/babel">
+    // 函数组件
+    function Welcome1(props) {
+      return <h1>hello, {props.name}</h1>
+    }
+    // class 组件
+    class Welcome2 extends React.Component {
+      render() {
+        return <h1>Hello, {this.props.name}</h1>
+      }
+    }
+    // 创建元素
+    const element1 = <Welcome1 name='sadanya' />
+    const element2 = <Welcome2 name='chengzs' />
+    // 渲染
+    ReactDOM.render(element1, document.getElementById('app1'))
+    ReactDOM.render(element2, document.getElementById('app2'))
+  </script>
+</body>
+
+</html>
