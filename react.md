@@ -50,30 +50,96 @@
 
 # **组件**
 
+## **简单介绍**
+
+用来实现局部功能效果的代码和资源的集合, html , css , js , image 等
+
 可以直接使用函数来定义 '函数' 组件, 也可以使用 `ES6` 中的类来定义 'class' 组件
 
-使用函数定义时需保证入参 `props` 的只读性, react 不允许修改 `props`
+## **函数式组件**
 
 ```html
-<div id="app1"></div>
-<div id="app2"></div>
-
+<!-- 函数式组件 -->
 <script type="text/babel">
-  // 函数组件
-  function Welcome1(props) {
-    return <h1>hello, {props.name}</h1>
+  // 创建函数式组件 (大写)
+  function Demo1() {
+    console.log(this)
+    return <h1>我是函数式组件</h1>
   }
-  // class 组件
-  class Welcome2 extends React.Component {
+  // 渲染函数式组件
+  // react 会解析组件标签, 找到对应组件, 发现是函数式写法就调用函数, 将返回的虚拟 DOM 转成真实 DOM
+  // 此时 Demo1 函数的 this 为 undefined , 因为是严格模式, 所以不让指向 window
+  ReactDOM.render(<Demo1 />, document.getElementById('app3'))
+</script>
+```
+
+## **类式组件**
+
+```html
+<!-- 类式组件 -->
+<script type='text/babel'>
+  // 创建类式组件, 需继承 React.Component 这个类
+  class Demo2 extends React.Component {
+    // 必须有 render 方法, 且返回 react 元素
     render() {
-      return <h1>Hello, {this.props.name}</h1>
+      console.log(this)
+      return <h1>我是类式组件</h1>
     }
   }
-  // 创建元素, 传入参数
-  const element1 = <Welcome1 name='sadanya' />
-  const element2 = <Welcome2 name='chengzs' />
-  // 渲染
-  ReactDOM.render(element1, document.getElementById('app1'))
-  ReactDOM.render(element2, document.getElementById('app2'))
+  // 渲染类式组件
+  // react 解析组件标签, 找到对应组件, 发现是类式写法就 new 该类, 并调用实例原型上的 render 方法, 将返回的虚拟 DOM 转成 真实 DOM
+  ReactDOM.render(<Demo2 />, document.getElementById('app4'))
+</script>
+```
+
+## **组件实例的 state 属性**
+
+```html
+<script type="text/babel">
+  class Weather extends React.Component {
+    // 添加构造器放法并 super(props)
+    constructor(props) {
+      super(props)
+      // 修改实例对象上 state 的值
+      this.state = { isHot: false }
+    }
+    render() {
+      console.log(this)
+      // 使用 state 中的值
+      // react 中事件绑定, 命名基于原生但小驼峰, 函数不能加 () 否则就执行
+      // 使用 bind 来修改 this 指向, 否则 change 函数中 this 为 undefined
+      return <h1 onClick={this.change.bind(this)}>今天天气很{this.state.isHot ? '炎热' : '凉爽'}</h1>
+    }
+    change() {
+      // this 是 undefined , 丢失了
+      // change 方法不是用实例调用的, 而是赋值给 onClick 作为回调来调用, 所以理应是 window , 但类中的方法默认开启局部 'use strict' , 所以是 undefined
+      console.log(this)
+      // state 不可以直接更改, 应用 setState 来更改
+      this.setState({ isHot: !this.state.isHot })
+    }
+  }
+  ReactDOM.render(<Weather />, document.getElementById('app5'))
+</script>
+```
+
+setState 方法在 `React.Component` 的原型对象上, 接收修改的 state 对象, 会与原 state 对象合并而非覆盖
+
+绑定事件是需要用 bind 来修改 this , 否则会因为不是通过实例对象调用, 从而丢失 this 指向, 或者用箭头函数也可
+
+修改 state 后, 构造函数不会再调用, 而 render 方法只要页面更新就会再次调用
+
+```html
+<!-- 简写形式 -->
+<script type="text/babel">
+  class Weather extends React.Component {
+    // 状态
+    state = { ... }
+    // render
+    render() {
+      return ...
+    }
+    // 其他函数
+    change = () => ...
+  }
 </script>
 ```
