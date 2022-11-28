@@ -96,29 +96,31 @@
 
 ```html
 <script type="text/babel">
-  class Weather extends React.Component {
-    // 添加构造器放法并 super(props)
-    constructor(props) {
-      super(props)
-      // 修改实例对象上 state 的值
-      this.state = { isHot: false }
+  class Person1 extends React.Component {
+    // 类型限制
+    // 小写的 propTypes 在类上, 大写的 PropTypes 在包里 (16+)
+    static propTypes = {
+      // name: PropTypes.string.isRequired,
+      // speak: PropTypes.func
     }
+    // 默认值
+    static defaultProps = {}
     render() {
-      console.log(this)
-      // 使用 state 中的值
-      // react 中事件绑定, 命名基于原生但小驼峰, 函数不能加 () 否则就执行
-      // 使用 bind 来修改 this 指向, 否则 change 函数中 this 为 undefined
-      return <h1 onClick={this.change.bind(this)}>今天天气很{this.state.isHot ? '炎热' : '凉爽'}</h1>
-    }
-    change() {
-      // this 是 undefined , 丢失了
-      // change 方法不是用实例调用的, 而是赋值给 onClick 作为回调来调用, 所以理应是 window , 但类中的方法默认开启局部 'use strict' , 所以是 undefined
-      console.log(this)
-      // state 不可以直接更改, 应用 setState 来更改
-      this.setState({ isHot: !this.state.isHot })
+      // 直接用 this.props 来使用 props
+      // this.props.name = 'xxx' 错误, props 是只读的
+      return (
+        <ul>
+          <li>{this.props.name}</li>
+          <li>{this.props.age}</li>
+        </ul>
+      )
     }
   }
-  ReactDOM.render(<Weather />, document.getElementById('app5'))
+  // 调用时在标签上定义属性即可
+  // ReactDOM.render(<Person1 name='aa' age='bb' />, document.getElementById('app6'))
+  // 简写方式, 用展开运算符展开对象, 原生不能这样使用, 只在标签上可以
+  ReactDOM.render(<Person1 {...{ name: 'aaa1', age: 'bbb1' }} />, document.getElementById('app6'))
+  ReactDOM.render(<Person2 {...{ name: 'aaa2', age: 'bbb2' }} />, document.getElementById('app7'))
 </script>
 ```
 
@@ -140,6 +142,94 @@ setState 方法在 `React.Component` 的原型对象上, 接收修改的 state �
     }
     // 其他函数
     change = () => ...
+  }
+</script>
+```
+
+## **组件的 props 属性**
+
+```html
+<!-- 类中的 props -->
+<script type="text/babel">
+  class Person extends React.Component {
+    // 类型限制
+    // 小写的 propTypes 在类上, 大写的 PropTypes 在包里 (16+), 名称不可更改
+    static propTypes = {
+      name: PropTypes.string.isRequired,
+      speak: PropTypes.func
+    }
+    // 默认值
+    static defaultProps = {}
+    render() {
+      // this.props.name = 'xxx' 错误, props 是只读的
+      return (
+        <ul>
+          <li>{this.props.name}</li>
+          <li>{this.props.age}</li>
+        </ul>
+      )
+    }
+  }
+  // 一般方式
+  // ReactDOM.render(<Person name='aa' age='bb' />, document.getElementById('app6'))
+  // 简写方式, 用展开运算符展开对象, 原生不能这样使用, 且 react 中只在标签上可以直接展开对象
+  ReactDOM.render(<Person {...{ name: 'aaa', age: 'bbb' }} />, document.getElementById('app6'))
+</script>
+```
+
+React 中构造器只用于以下两个场景
+
+  - 通过 `this.state` 赋值对象来初始化 `state`
+  - 为事件处理函数绑定实例
+
+即非必要可以不使用 `construct` , 如果使用, 需要接收 `props` 并 `super(props)`
+
+```html
+<!-- 函数中的 props -->
+<script type="text/babel">
+// 通过参数 props 来获得 props
+function Person2(props) {
+  // 参数的类型限制和默认值通过 Person2.propTypes 或 .defaultProps 来实现
+  return (
+    <ul>
+      <li>{props.name}</li>
+      <li>{props.age}</li>
+    </ul>
+  )
+}
+</script>
+```
+
+## **组件实例的 refs 属性**
+
+react 中提供 `refs` 属性获取原生 HTML 元素或者 react 组件实例, 分为三种形式
+
+  - 字符串形式, 不推荐, 会被遗弃 `ref='xxx'` , 字符串就存在组件实例的 `refs` 上
+  - 回调函数形式, `ref={c => this.xxx = c}` , 回调中 c 即节点, 赋给组件上的属性
+  - 最新形式 `createRef()` , 该方法返回 ref 所在的节点, 事先用属性存储
+
+```html
+<!-- 组件实例的 refs 属性 -->
+<script type="text/babel">
+  class TextInput extends React.Component {
+    showMsg1 = () => alert(this.refs.input1.value)
+    showMsg2 = () => alert(this.input2.value)
+    setRef = c => this.input2 = c
+    showMsg3 = () => console.log(this)
+    render() {
+      return (
+        <div>
+          { /* 字符串形式, 不推荐, 会被遗弃 */}
+          <input ref='input1' type="text" placeholder="失去焦点提示" onBlur={this.showMsg1} /><br />
+          { /* 回调函数形式, 该回调会有一个参数表示当前节点, 再把该节点赋给实例的 input2 */}
+          { /* 使用内敛写法会在每次更新时, 函数被调用两次, 清空旧的设置新的, 避免重复调用可以定义成 class 绑定的函数 */}
+          { /* <input ref={c => this.input2 = c} type="text" placeholder="失去焦点提示" onBlur={this.showMsg2} /> */}
+          <input ref={this.setRef} type="text" placeholder="失去焦点提示" onBlur={this.showMsg2} /><br />
+          { /* 最新的 createRef() 形式, 该函数将 ref={} 所在节点返回, 缺点是一个对应一个 */}
+          <input ref={this.input3 = React.createRef()} type="text" placeholder="失去焦点提示" onBlur={this.showMsg3} />
+        </div>
+      )
+    }
   }
 </script>
 ```
