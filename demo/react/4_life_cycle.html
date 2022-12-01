@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Life Cycle</title>
+</head>
+
+<body>
+  <div id="app1"></div>
+
+  <!-- 引入 react 核心库 -->
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <!-- 引入 react-dom , 用于支持 react 操作 DOM -->
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <!-- 引入 babel , 用于将 jsx 转为 js -->
+  <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script type="text/babel">
+    class Life extends React.Component {
+      render() {
+        return (
+          <div>
+            <h1>React 学习中...</h1>
+            <input type="button" value="不学了!" onClick={this.destory} />
+          </div>
+        )
+      }
+      destory = () => ReactDOM.unmountComponentAtNode(document.getElementById('app1'))
+    }
+    ReactDOM.render(<Life />, document.getElementById('app1'))
+  </script>
+</body>
+
+</html>
