@@ -255,3 +255,85 @@ this.onXxx.bind(this, arguments)
 
 # **生命周期**
 
+## **概述**
+
+组件从创建到死亡会经历特定的阶段, react 会在这些阶段执行特定的回调函数
+
+## **旧生命周期**
+
+初始化时的顺序: constructor -> componentWillMount -> render -> componentDidMount
+
+```html
+<script type="text/babel">
+  // 生命周期回调函数
+  class Life extends React.Component {
+    // 构造器, 初始化调用
+    constructor(props) { console.log('constructor') }
+    // 组件将要挂载
+    componentWillMount() { console.log('componentWillMount') }
+    // 初始化渲染和状态更新后调用
+    render() { console.log('render') }
+    // 组件完成挂载后调用
+    componentDidMount() { console.log('componentDidMount') }
+    // 组件将要卸载时调用
+    componentWillUnmount() { console.log('componentWillUnmount') }
+  }
+</script>
+```
+
+更新时的顺序:
+
+  - setState() -> shouldComponentUpdate -> componentWillUpdate -> render -> componentDidUpdate
+  - forceUpdate() -> componentWillUpdate -> render -> componentDidUpdate
+  - 父组件 render() -> componentWillReceiveProps -> shouldComponentUpdate -> ...
+
+```html
+<script type="text/babel">
+  // 生命周期回调函数
+  class Life extends React.Component {
+    // 组件将要接收新的 props 时调用, 第一次不算, 适用于父子间组件传值
+    componentWillReceiveProps(props) { console.log('componentWillReceiveProps') }
+    // 组件是否应该被更新, 必须返回一个布尔值
+    shouldComponentUpdate() {
+      console.log('shouldComponentUpdate')
+      return true
+    }
+    // 组件将要更新
+    componentWillUpdate() { console.log('componentWillUpdate') }
+    // 初始化渲染和状态更新后调用
+    render() { console.log('render') }
+    // 组件完成更新
+    componentDidUpdate() { console.log('componentDidUpdate') }
+  }
+</script>
+```
+
+## **新生命周期**
+
+```js
+// 这三个需要加上 UNSAFE_ 前缀, 可以说废弃了
+UNSAFE_componentWillMount() { console.log('UNSAFE_componentWillMount') }
+UNSAFE_componentWillReceiveProps() { console.log('UNSAFE_componentWillReceiveProps') }
+UNSAFE_componentWillUpdate() { console.log('UNSAFE_componentWillUpdate') }
+```
+
+挂载顺序: constructor -> getDerivedStateFromProps -> render -> componentDidMount
+
+更新时: ... -> getDerivedStateFromProps -> ... -> getSnapshotBeforeUpdate -> componentDidUpdate
+
+```js
+// 从 props 得到派生状态, 需要写成静态方法, 且返回状态
+// 当 state 的值任何时候都取决于 props 时可以使用
+static getDerivedStateFromProps(props, state) {
+  console.log('getDerivedStateFromProps')
+  return null
+}
+// 更新前返回快照值, 需返回值
+getSnapshotBeforeUpdate() {
+  console.log('getSnapshotBeforeUpdate')
+  return 'snapshot'
+}
+componentDidUpdate(preProps, preState, snapshot) {
+  console.log('getSnapshotBeforeUpdate', preProps, preState, snapshot)
+}
+```

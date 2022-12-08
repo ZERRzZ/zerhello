@@ -10,6 +10,7 @@
 
 <body>
   <div id="app1"></div>
+  <div id="app2"></div>
 
   <!-- 引入 react 核心库 -->
   <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
@@ -19,18 +20,101 @@
   <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
   <script type="text/babel">
+    // 生命周期回调函数
     class Life extends React.Component {
+
+      // 构造器, 初始化调用
+      constructor(props) {
+        console.log('constructor')
+        super(props)
+        this.state = { opacity: 1 }
+      }
+
+      // 组件将要挂载
+      componentWillMount() { console.log('componentWillMount') }
+
+      // 初始化渲染和状态更新后调用
       render() {
+        console.log('render')
         return (
           <div>
-            <h1>React 学习中...</h1>
+            <h1 style={{ opacity: this.state.opacity }}>React 学习中...</h1>
             <input type="button" value="不学了!" onClick={this.destory} />
+            <input type="button" value="强制更新" onClick={this.update} />
           </div>
         )
       }
+
+      // 组件完成挂载后调用
+      componentDidMount() {
+        console.log('componentDidMount')
+        this.timer = setInterval(() => this.setState({ opacity: this.state.opacity > 0 ? this.state.opacity - 0.1 : 1 }), 10000)
+      }
+
+      // 组件将要卸载时调用
+      componentWillUnmount() {
+        console.log('componentWillUnmount')
+        clearInterval(this.timer)
+      }
+
       destory = () => ReactDOM.unmountComponentAtNode(document.getElementById('app1'))
+
+      update = () => this.forceUpdate()
+
+      // 组件将要接收新的 props 时调用, 第一次不算, 适用于父子间组件传值
+      componentWillReceiveProps() { console.log('componentWillReceiveProps') }
+
+      // 组件是否应该被更新, 必须返回一个布尔值
+      shouldComponentUpdate() {
+        console.log('shouldComponentUpdate')
+        return true
+      }
+
+      // 组件将要更新
+      componentWillUpdate() { console.log('componentWillUpdate') }
+
+      // 组件完成更新
+      componentDidUpdate() { console.log('componentDidUpdate') }
+
     }
     ReactDOM.render(<Life />, document.getElementById('app1'))
+  </script>
+
+  <script type="text/babel">
+    // 新生命周期
+    class NewLife extends React.Component {
+      state = { title: 'New Life' }
+      update = () => this.setState({ title: 'hello world' })
+      render() {
+        return (
+          <div>
+            <div>{this.state.title}</div>
+            <input type="button" value="更新" onClick={this.update} />
+          </div>
+        )
+      }
+
+      // 这三个需要加上 UNSAFE_ 前缀, 可以说废弃了
+      UNSAFE_componentWillMount() { console.log('UNSAFE_componentWillMount') }
+      UNSAFE_componentWillReceiveProps() { console.log('UNSAFE_componentWillReceiveProps') }
+      UNSAFE_componentWillUpdate() { console.log('UNSAFE_componentWillUpdate') }
+
+      // 从 props 得到派生状态, 需要写成静态方法, 且返回状态
+      // 当 state 的值任何时候都取决于 props 时可以使用
+      static getDerivedStateFromProps(props, state) {
+        console.log('getDerivedStateFromProps')
+        return null
+      }
+      // 更新前返回快照值, 需返回值
+      getSnapshotBeforeUpdate() {
+        console.log('getSnapshotBeforeUpdate')
+        return 'snapshot'
+      }
+      componentDidUpdate(preProps, preState, snapshot) {
+        console.log('getSnapshotBeforeUpdate', preProps, preState, snapshot)
+      }
+    }
+    ReactDOM.render(<NewLife />, document.getElementById('app2'))
   </script>
 </body>
 
