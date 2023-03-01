@@ -171,5 +171,30 @@ WEND
 
 `CLEARLINE` 删除在这条命令之前打印的, 指定行数的内容
 
-# **图像输出**
+## **图像输出**
 
+`PRINT_IMG` 打印指定图像, 需通过 `./resources` 目录下的 `*.csv` 文件加载对应图片
+
+`PRINT_RECT` 绘制矩形图像, 一个参数时为宽, 四个参数时为 `x, y, width, height`
+
+`PRINT_SPACE` 打印指定长度的空白
+
+# **输入**
+
+`INPUT` 系列命令捕获的输入都会自动保存到 `RESULT / RESULTS`
+
+  - `INPUT / INPUTS` 普通输入, 对应值和字符串, 可指定默认值, 当输入空值时视为默认值
+  - `TINPUT / TINPUTS` 有时间限制的输入, 四参数, 限时, 默认值, 是否显示剩余时间, 超时提示的信息
+  - `ONEINPUT / ONEINPUTS` 只接受一个字符的输入, 得到后立即执行
+  - `TONEINPUT / TONEINPUTS` 类似 `TINPUT / TINPUTS`
+  - `INPUTMOUSEKEY` 捕获鼠标或键盘输入的命令, 支持输入一个参数作为时间限制
+
+## **FORCEWAIT**
+
+按住鼠标右键不放, 可以快速跳过不需要判定具体输入的 `WAIT` 命令
+
+而 `FORCEWAIT` 是右键和宏命令都无法跳过的强制等待, 一般用于关键的主线选择
+
+## **TWAIT**
+
+带有延时的 `WAIT` 命令, 需要两个参数, 第一个为等待的时间, 第二个为是否强制等待
