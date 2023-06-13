@@ -1,3 +1,118 @@
+<!-- 笔记来源：React 官网 -->
+
+# **组件**
+
+## **概述**
+
+组件是 UI 的基础
+
+HTML 允许使用内置的标签集来创建丰富的结构化文档
+
+而 React 允许将标签、CSS 和 JavaScript 组合成自定义的组件，来绘制整个页面
+
+## **定义组件**
+
+```js
+// 1.导出组件
+// 2.定义函数，组件的名称必须以大写字母开头
+export default function Profile() {
+  // 3.添加标签，是 JavaScript 的 JSX 语法，非 HTML
+  return <img src="xxx.jpg" alt="xxx" />
+}
+```
+
+## **使用组件**
+
+```html
+<section>
+  <Profile />
+</section>
+```
+
+`<section>` 小写而 `<Profile />` 以大写开头，所以 React 能识别出谁是 HTML 标签，谁是自定义组件
+
+最终在浏览器中看到的是组件内部的基础标签，而非组件标签：
+
+```html
+<section>
+  <img src="xxx.jpg" alt="xxx" />
+</section>
+```
+
+组件内部可以渲染其他组件，但不应去定义其他组件
+
+## **导入导出组件**
+
+组件应当模块化：
+
+  1. 创建一个新的 JS 文件存放组件
+  2. 导出该文件中的组件，可使用默认导出和具名导出
+  3. 在使用组件的地方导入组件，根据导出方式导入
+
+默认导出与具名导出语法比较：
+
+语法 | 导出语句                               | 导入语句
+---  |---                                    |---
+默认 | `export default function Button() {}` | `import Button from './Button.js`
+具名 | `export function Button() {}`         | `import { Button } from './Button.js'`
+
+# **JSX**
+
+## **概述**
+
+JSX 允许在 JavaScript 中书写类似 HTML 的标签
+
+JSX 是 JavaScript 的一种语法扩展，而 React 则是一个 JavaScript 库，它们相互独立却通常一同使用
+
+## **规则**
+
+***只能返回一个根元素***
+
+一般使用 `<div>` 标签，但若不想增加一个额外的标签，可以使用空标签 `<></>`
+
+在底层一个 JSX 标签会被转化成一个 JavaScript 对象，而一个函数不能返回多个对象，需要用一个数组包裹
+
+***标签必须闭合***
+
+自闭合标签必须闭合 `<img />`，普通标签则必需开始标签和结束标签 `<div></div>`
+
+***使用驼峰式命名法给属性命名***
+
+JSX 中需用 `strokeWidth` 代替 `stroke-width` ，用 `className` 代替 `class`，同 DOM
+
+JSX 会转化成 JavaScript 对象，而 JavaScript 对变量的命名有限制，不能包含 `-` 符号和 `class` 关键字
+
+## **通过大括号使用 JavaScript**
+
+JSX 中只可在标签内的文本 `<p>{title}</p>` 和紧跟在 `=` 后的属性 `src={avatar}` 这两个地方使用 `{}`
+
+`{}` 中除了字符串，数字和表达式，也可以传递对象，这是可能会出现双大括号情况
+
+```html
+<p style={{ width: '100%' }} className='info'>我是 {name} </p>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # **CDN 引入**
 
 ```html
@@ -16,24 +131,10 @@
   const VDOM = <h1 title="title">Hello, React</h1>
   // 渲染
   ReactDOM.render(VDOM, document.getElementById('app'))
-  // 虚拟 DOM 本质式 js 对象
+  // 虚拟 DOM 本质是 js 对象
   console.log(VDOM)
 </script>
 ```
-
-# **JSX 语法**
-
-定义虚拟 DOM 时， 一般用 `()` 括起来
-
-虚拟 DOM 只有一个根标签，如不想产生多个标签可用 `<></>` 作根标签
-
-需要 JS 表达式的地方使用 `{}` 来包裹
-
-样式的类名指定不用 `class` 而是 `className`
-
-内联样式要用对象形式 `key: value` 形式来写
-
-标签名若以小写字母开头, 则转化为 html 同名标签; 若以大写字母开头, react 会渲染对应组件
 
 # **组件**
 
