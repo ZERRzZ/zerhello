@@ -56,7 +56,61 @@ export default function Profile() {
 默认 | `export default function Button() {}` | `import Button from './Button.js`
 具名 | `export function Button() {}`         | `import { Button } from './Button.js'`
 
-# **JSX**
+## **传递 Props 给组件**
+
+组件间可通过 Props 来通信，它可以是任意 JavaScript 值
+
+```js
+// 1.传递 props 给组件，方式类似 HTML 的属性
+<Avatar person={{ name: 'xxx' }} size={100} />
+// 2.在子组件中读取 props ，方式同函数参数， 一般使用解构语法 
+function Avatar({ person, size })
+// 如需默认值则同参数默认值，当不传值或值为 undefined 时生效
+function Avatar({ { person, size = 100 } })
+```
+
+JSX 提供一种展开语法，可以有效的预防重复代码
+
+```js
+// props 里可以有很多个属性
+<Avatar {...props} />
+```
+
+当将子组件嵌套在父组件的标签中时，父组件将在 `children` 的 props 中接收到值
+
+```js
+function Parent({ children }) {
+  return <div>{children}</div>
+}
+<Parent>
+  <Children />
+<Prarent>
+```
+
+props 是不可变的，当组件需要改变它的 props 时只能重新请求父组件传递一个新的 props
+
+## **条件渲染**
+
+大概分为三种方式：
+
+  1. 使用 `if`
+  2. 使用三目运算符 `? :`
+  3. 使用与运算符或或运算符 `&&` `||`
+
+## **列表渲染**
+
+一般通过 `map` 方法渲染组件列表，`filter` 方法筛选
+
+需要用 `key` 来保持列表的顺序
+
+## **保持组件纯粹**
+
+纯函数：
+
+  1. 只负责自己的任务，不会更改在该函数调用前就已存在的对象或变量
+  2. 输入相同，则输出相同，给定相同的输入，组件应该总是返回相同的 JSX
+
+# **JSX 拓展语法**
 
 ## **概述**
 
@@ -86,7 +140,7 @@ JSX 会转化成 JavaScript 对象，而 JavaScript 对变量的命名有限制�
 
 JSX 中只可在标签内的文本 `<p>{title}</p>` 和紧跟在 `=` 后的属性 `src={avatar}` 这两个地方使用 `{}`
 
-`{}` 中除了字符串，数字和表达式，也可以传递对象，这是可能会出现双大括号情况
+`{}` 中除了字符串，数字和表达式，也可以传递对象，这时可能会出现双大括号情况
 
 ```html
 <p style={{ width: '100%' }} className='info'>我是 {name} </p>
