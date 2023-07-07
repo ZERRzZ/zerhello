@@ -56,39 +56,6 @@ export default function Profile() {
 默认 | `export default function Button() {}` | `import Button from './Button.js`
 具名 | `export function Button() {}`         | `import { Button } from './Button.js'`
 
-## **传递 Props 给组件**
-
-组件间可通过 Props 来通信，它可以是任意 JavaScript 值
-
-```js
-// 1.传递 props 给组件，方式类似 HTML 的属性
-<Avatar person={{ name: 'xxx' }} size={100} />
-// 2.在子组件中读取 props ，方式同函数参数， 一般使用解构语法 
-function Avatar({ person, size })
-// 如需默认值则同参数默认值，当不传值或值为 undefined 时生效
-function Avatar({ { person, size = 100 } })
-```
-
-JSX 提供一种展开语法，可以有效的预防重复代码
-
-```js
-// props 里可以有很多个属性
-<Avatar {...props} />
-```
-
-当将子组件嵌套在父组件的标签中时，父组件将在 `children` 的 props 中接收到值
-
-```js
-function Parent({ children }) {
-  return <div>{children}</div>
-}
-<Parent>
-  <Children />
-<Prarent>
-```
-
-props 是不可变的，当组件需要改变它的 props 时只能重新请求父组件传递一个新的 props
-
 ## **条件渲染**
 
 大概分为三种方式：
@@ -146,6 +113,77 @@ JSX 中只可在标签内的文本 `<p>{title}</p>` 和紧跟在 `=` 后的属�
 <p style={{ width: '100%' }} className='info'>我是 {name} </p>
 ```
 
+# **组件交互**
+
+## **传递 Props 给组件**
+
+组件间可通过 Props 来通信，它可以是任意 JavaScript 值
+
+```js
+// 1.传递 props 给组件，方式类似 HTML 的属性
+<Avatar person={{ name: 'xxx' }} size={100} />
+// 2.在子组件中读取 props ，方式同函数参数， 一般使用解构语法 
+function Avatar({ person, size })
+// 如需默认值则同参数默认值，当不传值或值为 undefined 时生效
+function Avatar({ { person, size = 100 } })
+```
+
+JSX 提供一种展开语法，可以有效的预防重复代码
+
+```js
+// props 里可以有很多个属性
+<Avatar {...props} />
+```
+
+当将子组件嵌套在父组件的标签中时，父组件将在 `children` 的 props 中接收到值
+
+```js
+function Parent({ children }) {
+  return <div>{children}</div>
+}
+<Parent>
+  <Children />
+<Prarent>
+```
+
+props 是不可变的，当组件需要改变它的 props 时只能重新请求父组件传递一个新的 props
+
+## **响应事件**
+
+添加一个事件处理函数：
+
+  1. 定义一个函数，通常名称以 `handle` 开头，后跟事件名称
+  2. 作为一个 props 传入到合适的 JSX 标签中
+
+```js
+// 在外部事件处理函数
+function handleClick() { alert('hello world') } // 定义
+<button onClick={handleClick}>点击</button> // 传入
+// 以内联的方式定义事件处理函数
+<button onClick={() => alert('hello world')}>点击</button> 
+```
+
+注意：传递给事件处理函数的函数应当**直接传递**，而非**调用**
+
+高级：通常会在**父组件中定义子组件的事件处理函数**，以便在不同场合使用
+
+```js
+// 事件处理函数 prop 的命名一般按照惯例以 'on' 开头
+function Button({ onClick }) { 
+  return <button onClick={onClick}>点击</button>
+}
+function PlayButton() {
+  const handleClick = () => alert('父组件操作')
+  return <Button onClick={handleClick} />
+}
+```
+
+事件会沿着 DOM 树先向下捕获，再向上冒泡并以此执行
+
+事件处理函数接收一个事件对象 `e`，可以用此对象来读取有关事件的信息：
+
+  1. 取消冒泡：`e.stopPropagation()` 阻止事件到达父组件
+  2. 取消默认事件 `e.preventDefault()`
 
 
 
