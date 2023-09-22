@@ -185,6 +185,47 @@ function PlayButton() {
   1. 取消冒泡：`e.stopPropagation()` 阻止事件到达父组件
   2. 取消默认事件 `e.preventDefault()`
 
+# **组件的记忆 State**
+
+## **概述**
+
+组件通常需要根据交互更改屏幕上显示的内容
+
+而组件中普通的变量**无法在多次渲染中持久保存**，也**无法在改变时触发渲染**
+
+因此需要使用 `useState` Hook 来提供这两个功能
+
+```js
+// 导入 useState
+import { useState } from 'react'
+// 定义一个 state 变量
+// 惯例是将这对返回值命名为 const [thing, setThing]
+const [xxx, setXxx] = useState(initialValue) // 数组解构写法
+// 修改 state 变量
+setXxx(changedValue)
+```
+
+注意：**State 是隔离且私有的**，如果你渲染同一个组件两次，每个副本都会有完全隔离的 state
+
+## **渲染与提交**
+
+在一个 React 应用中一次屏幕更新都会发生以下三个步骤：
+
+  1. 触发（组件初次渲染，组件或其祖先之一的状态发生了改变）
+  2. 渲染（初次渲染时 React 会调用根组件，后续则调用内部状态更新触发了渲染的函数组件）
+  3. 提交（初次渲染会用 `appendChild` 挂载所有 DOM ，之后仅在渲染之间存在差异时才会更改 DOM 节点）
+
+如果渲染结果与上次一样，那么 React 将不会修改 DOM
+
+
+
+
+
+
+
+
+
+```
 
 
 
@@ -195,15 +236,7 @@ function PlayButton() {
 
 
 
-
-
-
-
-
-
-
-
-
+```
 
 # **CDN 引入**
 
