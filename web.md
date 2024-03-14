@@ -201,3 +201,11 @@ res.jsonp({name: 'xxx'})
 `SVG`: 无损, 矢量图, 放大不会失真, 非常适合绘制 logo, icon
 
 `WebP`: 支持有损和无损, 点阵图, 直接色, 体积小, 减少数据传输量, 适合 web 上使用
+
+# React 中 BrowserRouter 与 HashRouter 的区别
+
+底层原理：BrowserRouter 使用的是 H5 的 history API，不兼容 IE9 以下版本；HashRouter 使用的是 url 的哈希值
+
+url 表现形式：一个有 `#` 号一个没有
+
+页面刷新对 state 传值的影响：BrowserRouter 没有任何影响，因为 state 保存在 history 对象中；HashRouter 刷新后会导致参数的丢失
