@@ -59,10 +59,11 @@ HTTP 报文分为请求报文, 响应报文, 再次细分可分为请求行, 请
 	状态码与对应信息:
 	1xx: 提示信息, 2xx: 成功, 3xx: 重定向, 4xx: 客户端错误, 5xx: 服务端错误
 	200 OK: 成功
+	201 Created 已创建
 	302 Found: 重定向, 新的 url 在 response 中的 location 中返回, 浏览器重新发送请求
 	304 Not Modified: 文档已被缓存, 应从缓存中调用
 	400 Bad Request: 客户端请求错误
-	403 Forbidden: 服务器收到数据但是拒绝服务
+	401 Unauthorized 无权限
 	404 Not Found: 请求资源不存在
 	500 Internal Server Error: 服务器错误
 
