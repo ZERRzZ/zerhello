@@ -42,7 +42,31 @@ const selectionSort = arr => {
 
 }
 
-// 3.快速排序 O(n log n)
+// 3.插入排序 O(n ^ 2)
+
+const insertionSort = arr => {
+
+  const len = arr.length
+
+  let splitIndex = undefined
+
+  // 从 1 开始，因为 0 是有序区间
+  for (let i = 1; i < len; i++) {
+
+    splitIndex = i
+
+    // 将无序区间第一项放在有序区间的合适位置
+    for (let j = splitIndex; j >= 0; j--) {
+      if (arr[j] < arr[j - 1]) {
+        [arr[j - 1], arr[j]] = [arr[j], arr[j - 1]]
+      }
+    }
+
+  }
+
+}
+
+// 4.快速排序 O(n log n)
 
 const quickSort = (arr, begin, end) => {
 
@@ -73,12 +97,11 @@ const quickSort = (arr, begin, end) => {
 
 }
 
-// 3.
-
 const demoArr = [5, 1, 9, 4, 3, 7, 2, 8, 6]
 
 // bubbleSort(demoArr)
-selectionSort(demoArr)
+// selectionSort(demoArr)
+insertionSort(demoArr)
 // quickSort(demoArr, 0, demoArr.length - 1)
 
 console.log(demoArr)
