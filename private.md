@@ -1,8 +1,17 @@
 # vscode snippets
 
 ```json
-"vue2": {
-  "scope": "vue",
+"打印": {
+  "scope": "",
+  "prefix": "log",
+  "body": "console.log($1)",
+  "description": "打印"
+},
+```
+
+```json
+"vue2 组件": {
+  "scope": "",
   "prefix": "vue2",
   "body": [
     "<template>",
@@ -28,21 +37,24 @@
 ```
 
 ```json
-"react": {
-  "scope": "javascriptreact,typescriptreact",
+"React 函数组件": {
+  "scope": "",
   "prefix": "react",
   "body": [
     "import './index.css'",
     "",
-    "export default function $1() {",
+    "interface IProps {",
+    "",
+    "}",
+    "",
+    "export default function $1({ }: IProps) {",
     "",
     "  return (",
-    "    <>",
-    "      $2",
-    "    </>",
+    "    $2",
     "  )",
     "",
-    "}"
-  ]
-}
+    "}",
+  ],
+  "description": "React 函数组件"
+},
 ```
