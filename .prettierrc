@@ -1,0 +1,23 @@
+# 行长
+printWidth: 80
+
+# 缩进
+tabWidth: 2
+
+# 缩进类型
+useTabs: false
+
+# 分号
+semi: false
+
+# 单引号
+singleQuote: true
+
+# 尾随逗号
+trailingComma: none
+
+# 箭头函数括号
+arrowParens: avoid
+
+# HTML 空白敏感度
+htmlWhitespaceSensitivity: ignore
