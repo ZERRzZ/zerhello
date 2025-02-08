@@ -1,36 +1,4 @@
-# 简介
-
-ES 是与宿主环境相分离的一个描述, 描述了类型, 值, 对象, 属性, 函数和程序语言及语义, 其他语言可以实现 ES 来作为功能的基准
-
 # 基础
-
-## 语法
-
-区分大小写, 弱类型变量, 行末分号可不写, 注释, 括号表示代码块
-
-## 变量
-
-声明: 使用 var 声明变量, 一次可声明多个, 用逗号隔开, 不一定需要初始化
-
-命名: 不以数字开头的包含字母, 数字, 下划线或 $ 的区分大小写的一串字符
-
-规则: Camel 标记法, Pascal 标记法, 匈牙利类型标记法
-
-未声明变量: 遇到未声明过的标识符时, 解释程序会用该变量名创建一个全局变量, 并将其初始化为指定的值
-
-## 关键字
-
-根据规定, 关键字是保留的, 不能用作变量名或函数名
-
-关键字列表: break, case, catch, continue, default, delete, do, else, finally, for, function, if, in, instanceof, new, return, switch, this, throw, try, typeof, var, void, while, with
-
-错误提示: 把关键字用作变量名或函数名, 可能得到诸如 `Identifier Expected` 这样的错误消息
-
-## 保留字
-
-保留字是为将来的关键字而保留的单词, 不能被用作变量名或函数名
-
-保留字列表: abstract, boolean, byte, char, class, const, debugger, double, enum, export, extends, final, float, goto, implements, import, int, interface, long, native, package, private, protected, public, short, static, super, synchronized, throws, transient, volatile
 
 ## 值
 
@@ -376,19 +344,23 @@ var sayHi = new Function("sName", "sMessage", "alert(\"Hello \" + sName + sMessa
 原始方式: 直接全手动实现, 缺点是无法批量生产对象
 
 ```js
-var oCar = new Object
-oCar.color = "blue"
+var oCar = new Object()
+oCar.color = 'blue'
 ```
 
 工厂方式: 批量生产相同属性的对象, 缺点是引用类型属性会重复创建造成内存泄漏, 可以在工厂函数外定义对象的方法, 然后通过属性指向该方法
 
 ```js
-function showColor() { alert(this.color) }
-function createCar(sColor,iDoors) {
-  var oTempCar = new Object
+function showColor() {
+  alert(this.color)
+}
+function createCar(sColor, iDoors) {
+  var oTempCar = new Object()
   oTempCar.color = sColor
-  oTempCar.showColor1 = function() { alert(this.color) } // 重复创建
-	oTempCar.showColor2 = showColor() // 不会重复
+  oTempCar.showColor1 = function () {
+    alert(this.color)
+  } // 重复创建
+  oTempCar.showColor2 = showColor() // 不会重复
   return oTempCar
 }
 ```
@@ -396,22 +368,30 @@ function createCar(sColor,iDoors) {
 构造函数方式: 构造函数看起来很像工厂函数, 缺点也一样, 可以夹杂原型方式, 即把不需要重复创建的属性写在构造函数的原型上, 只是最常用的方式
 
 ```js
-function Car(sColor,iDoors) { // 一般第一个字符大写
+function Car(sColor, iDoors) {
+  // 一般第一个字符大写
   this.color = sColor
-  this.showColor = function() { alert(this.color) } // 重复创建
+  this.showColor = function () {
+    alert(this.color)
+  } // 重复创建
 }
-Car.prototype.showColor = function() { alert(this.color) } // 不会重复
+Car.prototype.showColor = function () {
+  alert(this.color)
+} // 不会重复
 ```
 
 动态原型方法: 为了语义上的和谐
 
 ```js
-function Car(sColor,iDoors) {
+function Car(sColor, iDoors) {
   this.color = sColor
-  this.drivers = new Array("Mike","John")
-  if (typeof Car._initialized == "undefined") { // 使用 _initialized 来保证执行一次
-    Car.prototype.showColor = function() { alert(this.color) }
-    Car._initialized = true;
+  this.drivers = new Array('Mike', 'John')
+  if (typeof Car._initialized == 'undefined') {
+    // 使用 _initialized 来保证执行一次
+    Car.prototype.showColor = function () {
+      alert(this.color)
+    }
+    Car._initialized = true
   }
 }
 ```
@@ -428,15 +408,19 @@ function Car(sColor,iDoors) {
 
 ```js
 function ClassA(sColor) {
-	this.color = sColor
-	this.sayColor = function () { alert(this.color) }
+  this.color = sColor
+  this.sayColor = function () {
+    alert(this.color)
+  }
 }
 function ClassB(sColor) {
-	this.newMethod = ClassA
-	this.newMethod(sColor)
-	delete this.newMethod
-	this.name = sName
-	this.sayName = function () { alert(this.name) }
+  this.newMethod = ClassA
+  this.newMethod(sColor)
+  delete this.newMethod
+  this.name = sName
+  this.sayName = function () {
+    alert(this.name)
+  }
 }
 ```
 
@@ -446,10 +430,12 @@ function ClassB(sColor) {
 
 ```js
 function ClassB(sColor, sName) {
-	ClassA.call(this, sColor) // call
-	ClassA.apply(this, new Array(sColor)) // apply
-	this.name = sName
-	this.sayName = function () { alert(this.name) }
+  ClassA.call(this, sColor) // call
+  ClassA.apply(this, new Array(sColor)) // apply
+  this.name = sName
+  this.sayName = function () {
+    alert(this.name)
+  }
 }
 ```
 
@@ -458,11 +444,15 @@ function ClassB(sColor, sName) {
 原理是 prototype 对象的任何属性和方法都被传递给那个类的所有实例, 以此来实现继承, 在原型链中, `instanceof` 运算符的运行方式也很独特
 
 ```js
-function ClassA() { }
-ClassA.prototype.color = "blue"
-ClassA.prototype.sayColor = function () { alert(this.color) }
-function ClassB() { }
+function ClassA() {}
+ClassA.prototype.color = 'blue'
+ClassA.prototype.sayColor = function () {
+  alert(this.color)
+}
+function ClassB() {}
 ClassB.prototype = new ClassA()
-ClassB.prototype.name = ""
-ClassB.prototype.sayName = function () { alert(this.name) }
+ClassB.prototype.name = ''
+ClassB.prototype.sayName = function () {
+  alert(this.name)
+}
 ```
