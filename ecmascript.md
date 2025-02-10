@@ -38,17 +38,6 @@ ifFinite(), 可对任何数使用, 判断该数是否无穷大
 NaN, 表示非数 Not a Number, 发生在类型转换失败时, 不能用于计算, 它与自身不相等, 推荐使用函数 isNaN()
 ```
 
-`String` 类型: 没有固定大小的原始类型, 用 `''` 或 `""` 声明, 字符串中每个字符都有特定的位置, 首字符从位置 0 开始, 依此类推
-
-```
-String 类型还包括几种字符字面量:
-
-\n 换行, \t 制表符, \b 空格, \r 回车, \f 换页符, \\ 反斜杠, \' 单引号, \" 双引号
-\0nnn 八进制代码 nnn 表示的字符, n 是 0 到 7 中的一个八进制数字
-\xnn 十六进制代码 nn 表示的字符, n 是 0 到 F 中的一个十六进制数字
-\unnnn 十六进制代码 nnnn 表示的 Unicode 字符, n 是 0 到 F 中的一个十六进制数字
-```
-
 ## 类型转换
 
 所有程序设计语言最重要的特征之一是具有进行类型转换的能力, ES 中的布尔值, 数字和字符串的原始值都是伪对象, 具有属性与方法
@@ -226,10 +215,6 @@ null == undefined, NaN != NaN, 对象的相等会判断它们的引用值, 如�
 
 # 语句
 
-## if 语句
-
-`if (condition) statement1 else statement2`, 条件可以是任何表达式, 语句可以是单行代码也可以是代码块
-
 ## 迭代 语句
 
 `do {statement} while (expression)`, 后测试循环, 即退出条件在执行循环内部的代码之后计算
@@ -253,18 +238,6 @@ break 与 continue 可以配合标签使用
 ## with 语句
 
 `with (expression) statement`, 用于设置代码在特定对象中的作用域
-
-## switch 语句
-
-```js
-switch (expression)
-  case value: statement;
-    break;
-  case value: statement;
-    break;
-	...
-  default: statement;
-```
 
 # 函数
 
