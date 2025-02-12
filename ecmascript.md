@@ -276,10 +276,6 @@ var sayHi = new Function("sName", "sMessage", "alert(\"Hello \" + sName + sMessa
 
 注意: 用类定义函数比用传统方式要慢得多, 不推荐使用, 但所有函数都应看作 Function 类的实例
 
-## 闭包
-
-**闭包，指的是词法表示包括不被计算的变量的函数，也就是说，函数可以使用函数之外定义的变量**
-
 # 对象
 
 ## 应用
