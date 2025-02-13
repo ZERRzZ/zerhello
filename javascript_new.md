@@ -96,16 +96,6 @@ JS 中数据类型有六种：
 - 数组（array）
 - 函数（function）
 
-## **typeof 运算符**
-
-判断一个值到底是什么类型
-
-数值、字符串、布尔值分别返回 `'number'`、`'string'`、`'boolean'`
-
-undefined 返回 `'undefined'`, null 返回 `'object'`, 历史遗留问题
-
-对象返回 `'object'`, 数组返回 `'object'`, typeof 不能区分对象和数组, 函数返回 `'function'`
-
 ## **null 和 undefined**
 
 相同: null 与 undefined 都表示没有, 在布尔判定中两者都会自动转为 `false`, 且相等运算符 `==` 会直接报告两者相等
