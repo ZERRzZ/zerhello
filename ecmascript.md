@@ -8,36 +8,6 @@
 
 引用值: 存储在堆 `heap` 中的对象, 存储在变量处的值是一个指针, 指向存储对象的内存处
 
-## 原始类型
-
-五种原始类型: Undefined, Null, Boolean, Number, String
-
-`typeof` 运算符: 该运算符的参数是要检查的变量, 返回值有 `undefined, boolean, number, string, object`, 注意 `null` 类型返回值是 `object`
-
-`Undefined` 类型: 只有一个值 `undefined`, 当声明的变量未初始化时或函数无明确返回值时, 默认值都是 `undefined`
-
-`Null` 类型: 只有一个值 `null`, 值 `undefined` 实际上是从值 `null` 派生来的, 即 `undefined == null`, 但两者意义不同, `null` 表示尚未存在的对象
-
-`Boolean` 类型: 两个值 `true` 和 `false`
-
-`Number` 类型: 既可以表示 32 位的整数, 也可以表示 64 位的浮点数, 直接输入的任何数字都被看做 `Number` 类型的字面量
-
-```
-八进制数和十六进制数: 八进制首数字须是 0, 十六进制首数字须是 0, 并且其后接 x, 例 070, 0x1b, 尽管所有整数都可以表示为八进制或十六进制的字面量, 但所有数学运算返回的都是十进制结果
-
-浮点数: 包括小数点和小数点后的一位数字, 例 1.0 而不是 1, 在进行计算前, 真正存储的是字符串
-
-科学计数法: 把一个数表示为数字加 e 或 E, 后面加乘以 10 的倍数, 例 5.1e3 = 5100
-
-特殊的 Number 值:
-
-Number.MAX_VALUE 和 Number.MIN_VALUE, 定义 Number 值集合的边界, 但计算生成的数值可以超出
-Number.POSITIVE_INFINITY 和 Number.NEGATIVE_INFINITY, 计算生成的数值超出范围后被赋予的值, 意味着不再有数字值
-Infinity 与 -Infinity, 专门表示无穷大的值, 是 Number.POSITIVE_INFINITY 与 Number.NEGATIVE_INFINITY 的值, 不能用与其他计算
-ifFinite(), 可对任何数使用, 判断该数是否无穷大
-NaN, 表示非数 Not a Number, 发生在类型转换失败时, 不能用于计算, 它与自身不相等, 推荐使用函数 isNaN()
-```
-
 ## 类型转换
 
 所有程序设计语言最重要的特征之一是具有进行类型转换的能力, ES 中的布尔值, 数字和字符串的原始值都是伪对象, 具有属性与方法
@@ -130,30 +100,6 @@ toLowerCase(), toUpperCase(), toLocaleLowerCase(), toLocaleUpperCase() 大小写
 
 # 运算符
 
-## 一元运算符
-
-`delete`: 删除自定义的对象属性或方法的引用, 意味着强制解除对它的引用, 将其设置为 undefined, `delete obj.name`
-
-`void`: 对任何值返回 undefined, 通常用于避免输出不应该输出的值
-
-`++/--`: 前增量和前减量, 后增量和后减量
-
-`+/-`: 一元加法与一元减法, 即数学上的正负号, 会把字符串转换为数值
-
-## 位运算符
-
-位运算符是在数字底层, 即表示数字的 32 个数位上进行操作的
-
-`~`: NOT, 把运算数转换成 32 位数字, 把二进制数转换成它的二进制反码, 把二进制数转换成浮点数
-
-`&`: AND, ...
-
-`|`: OR, ...
-
-`^`: XOR ...
-
-`<<` 左移, `>>` 右移, `>>>` 无符号右移
-
 ## 逻辑运算符
 
 `toBoolean` 操作: ES 规定的抽象操作
@@ -175,69 +121,9 @@ Object -> true
 
 `||`, 或, 存在逻辑短路, 返回的结果也不一定是 Boolean 值, 与 && 对立
 
-## 乘性运算符
-
-`*` 乘, `/` 除, `%` 取模, 运算数为数字时执行正常的数学运算, 特殊值运算如 NaN, Infinity, 0 视情况而定
-
-## 加性运算符
-
-`+` 加, `-` 减, 运算数为数字时执行正常的数学运算, 处理特殊值时视情况而定, 当运算数有字符串时 + 会用字符串形式来处理
-
-## 关系运算符
-
-关系运算符执行的是比较运算, 每个关系运算符都返回一个布尔值, 有 `>`, `<`, `>=`, `<=` 这几个关系运算符
-
-数值的比较与算术比较运算相同, 字符串的比较会依次比较对应位置上的字符的 unicode 码, 注意大写字母的码比小写字母小
-
-数值与字符串比较时, 会把字符串转换为数值, 注意任何包含 NaN 的关系运算符都要返回 false
-
-## 等性运算符
-
-`==` 等, `!=` 非等, 比较时会对运算数进行类型转换, 即不区分数据类型, 转换规则视情况而定
-
-`===` 全等, `!==` 非全等, 比较时不会对运算数进行类型转换, 即区分数据类型
-
-Boolean => Number, String/Number => Number, Object/String => String, Object/Number => Number
-
-null == undefined, NaN != NaN, 对象的相等会判断它们的引用值, 如果指向同一对象则相等
-
 ## 条件运算符
 
 `variable = boolean_expression ? true_value : false_value`
-
-## 赋值运算符
-
-`=` 一般赋值, `*=`, `/=`, `%=`, `+=`, `-=` 等
-
-## 逗号运算符
-
-`,` 可以在一条语句中执行多个运算, 常用变量声明中
-
-# 语句
-
-## 迭代 语句
-
-`do {statement} while (expression)`, 后测试循环, 即退出条件在执行循环内部的代码之后计算
-
-`while (expression) statement`, 前测试循环, 退出条件在执行循环内部代码之前计算
-
-`for (initialization; expression; post-loop-expression) statement`, 前测试循环, 而且在进入循环之前能够初始化变量并定义循环后要执行的代码
-
-`for (property in expression) statement`, 严格的迭代语句, 用于枚举对象的属性, PropertyIsEnumerable() 可用于说明属性是否可以用 for-in 迭代
-
-## 标签 语句
-
-`label: statement`, 可用下列语句给语句加标签, 以便以后调用
-
-## break 与 continue 语句
-
-break 可以立即退出循环而 continue 只是退出当前循环
-
-break 与 continue 可以配合标签使用
-
-## with 语句
-
-`with (expression) statement`, 用于设置代码在特定对象中的作用域
 
 # 函数
 
