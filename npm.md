@@ -83,6 +83,7 @@ CLI 创建: 使用命令 `npm init [-y]` 创建, `-y` 表示使用默认值
 
 发布: 可使用 `npm publish` 发布包, 可能需要注册 npm 账号 `npm adduser` 或登录 `npm login`  
 发布 scoped 包: `npm init --scope=<username>`, 即改变 name 字段值, 只是会给包增加了作用域, 防命名冲突
+添加 `--access public` 可发布公共的作用于包。
 
 **语义化版本**
 
