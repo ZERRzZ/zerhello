@@ -58,3 +58,28 @@
   "description": "React 函数组件"
 },
 ```
+
+```json
+"vue3 组件": {
+  "scope": "",
+  "prefix": "vue3",
+  "body": [
+    "<script setup lang='ts'>",
+    "interface IProps {",
+    "",
+    "}",
+    "",
+    "defineProps<IProps>()",
+    "</script>",
+    "",
+    "<template>",
+    "$1",
+    "</template>",
+    "",
+    "<style scoped>",
+    "",
+    "</style>",
+  ],
+  "description": "vue3 初始模板"
+}
+```
