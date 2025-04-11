@@ -1,9 +1,1 @@
-## **note-repository**
-
-noting and learning
-
-## **my naming conventions**
-
-the dir or filename are named aaa-bbb
-
-the function or variable are named aaaBbb
+先看后记，看懂再记，如不想记，也可不记
