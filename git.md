@@ -142,7 +142,7 @@ tag 实质是指向某个 commit 的指针, 跟分支类似, 但是分支可以�
 忽略文件: `.gitignore` 中设置要忽略追踪的文件
 
 配置别名: `git config --global alias.<name> <command>` 命令有多个单词用引号包裹
-眼花了: `git config --global alias.l "log --color --graph --abbrev-commit --pretty=format:'[%C(yellow)%h][%C(blue)%an][%C(green)%cr]%C(reset): %s%C(red)%d'"`
+眼花了: `git config --global alias.l "log --color --graph --abbrev-commit --pretty=format:'%C(yellow)[%h]%C(blue)[%an]%C(green)[%cr]%C(reset) %s%C(red)%d'"`
 
 当前仓库配置文件位置: `.git/config`  
 用户全局配置文件位置: `<用户目录下>/.gitconfig`
